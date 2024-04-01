@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/desert
-- monster/environment/grassland
-- monster/size/medium
-- monster/type/humanoid/thri-kreen
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/thri-kreen
 aliases: ["Thri-kreen"]
 ---
 # Thri-kreen
@@ -35,7 +35,7 @@ title: Thri-kreen
 
 ## Traits
 
-***Chameleon Carapace.*** The thri-kreen can change the color of its carapace to match the color and texture of its surroundings. As a result, it has advantage on Dexterity (Stealth) checks made to hide.
+***Chameleon Carapace.*** The thri-kreen can change the color of its carapace to match the color and texture of its surroundings. As a result, it has advantage on Dexterity ([Stealth](/compendium/rules/skills.md#Stealth)) checks made to hide.
 
 ***Standing Leap.*** The thri-kreen's long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
 
@@ -43,9 +43,9 @@ title: Thri-kreen
 
 ***Multiattack.*** The thri-kreen makes two attacks: one with its bite and one with its claws.
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d6 + 1`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. If the saving throw fails by 5 or more, the target is also paralyzed while poisoned in this way. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. If the saving throw fails by 5 or more, the target is also [paralyzed](/compendium/rules/conditions.md#paralyzed) while [poisoned](/compendium/rules/conditions.md#poisoned) in this way. The [poisoned](/compendium/rules/conditions.md#poisoned) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6 (`2d4 + 1`) slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 2d4 + 1|avg` (`2d4 + 1`) slashing damage.
 ```
 ^statblock
 

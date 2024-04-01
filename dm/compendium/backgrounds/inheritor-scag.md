@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Inheritor"]
 ---
 # Inheritor
 *Source: Sword Coast Adventurer's Guide p. 150*  
 
-- **Skill Proficiencies.** [Survival](rules/skills.md#Survival), plus one from among [Arcana](rules/skills.md#Arcana), [History](rules/skills.md#History), and [Religion](rules/skills.md#Religion)  
+- **Skill Proficiencies.** [Survival](/compendium/rules/skills.md#Survival), plus one from among [Arcana](/compendium/rules/skills.md#Arcana), [History](/compendium/rules/skills.md#History), and [Religion](/compendium/rules/skills.md#Religion)  
 - **Languages.** Any one of your choice  
 - **Tool Proficiencies.** Your choice of a gaming set or a musical instrument  
 - **Equipment.** Your inheritance, a set of [traveler's clothes](compendium/items/travelers-clothes.md), the tool you choose for this background's tool proficiency (gaming set or musical instrument), and a [pouch](compendium/items/pouch.md) containing 15 gp  

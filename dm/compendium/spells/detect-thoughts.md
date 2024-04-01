@@ -3,14 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/warlock/the-great-old-one
-- spell/class/wizard
-- spell/level/2
-- spell/school/divination
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/sorcerer/aberrant-mind
+- ttrpg-cli/spell/class/warlock/the-great-old-one
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/divination
 aliases: ["Detect Thoughts"]
 ---
 # Detect Thoughts
@@ -31,6 +32,6 @@ You can also use this spell to detect the presence of thinking creatures you can
 
 Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Great Old One)](compendium/classes/warlock-the-great-old-one.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Bard](compendium/classes/bard.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer (Aberrant Mind)](compendium/classes/sorcerer-aberrant-mind-tce.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Great Old One)](compendium/classes/warlock-the-great-old-one.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 231. Available in the SRD.*

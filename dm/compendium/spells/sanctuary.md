@@ -3,11 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/monk/way-of-the-open-hand
-- spell/class/paladin/oath-of-devotion
-- spell/level/1
-- spell/school/abjuration
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/peace-domain
+- ttrpg-cli/spell/class/monk/way-of-the-open-hand
+- ttrpg-cli/spell/class/paladin/oath-of-devotion
+- ttrpg-cli/spell/class/paladin/oath-of-redemption
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock/the-genie
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/school/abjuration
 aliases: ["Sanctuary"]
 ---
 # Sanctuary
@@ -22,6 +27,6 @@ You ward a creature within range against attack. Until the spell ends, any creat
 
 If the warded creature makes an attack, casts a spell that affects an enemy, or deals damage to another creature, this spell ends.
 
-**Classes**: [Cleric](compendium/classes/cleric.md), [Monk (Way of the Open Hand)](compendium/classes/monk-way-of-the-open-hand.md), [Paladin (Oath of Devotion)](compendium/classes/paladin-oath-of-devotion.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Cleric (Peace Domain)](compendium/classes/cleric-peace-domain-tce.md), [Cleric](compendium/classes/cleric.md), [Monk (Way of the Open Hand)](compendium/classes/monk-way-of-the-open-hand.md), [Paladin (Oath of Devotion)](compendium/classes/paladin-oath-of-devotion.md), [Paladin (Oath of Redemption)](compendium/classes/paladin-oath-of-redemption-xge.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Warlock (The Genie)](compendium/classes/warlock-the-genie-tce.md)
 
 *Source: Player's Handbook p. 272. Available in the SRD and the Basic Rules.*

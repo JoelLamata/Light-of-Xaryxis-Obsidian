@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/underwater
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Sea Horse"]
 ---
 # Giant Sea Horse
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 328, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Sea Horse
@@ -34,13 +34,13 @@ title: Giant Sea Horse
 
 ## Traits
 
-***Charge.*** If the sea horse moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 7 (`2d6`) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked [prone](rules/conditions.md#prone).
+***Charge.*** If the sea horse moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra `dice: 2d6|avg` (`2d6`) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone).
 
 ***Water Breathing.*** The sea horse can breathe only underwater.
 
 ## Actions
 
-***Ram.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) bludgeoning damage.
+***Ram.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) bludgeoning damage.
 ```
 ^statblock
 

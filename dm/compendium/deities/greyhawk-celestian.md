@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/knowledge
-- domain/twilight
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/twilight
 aliases: ["Celestian"]
 ---
 # Celestian

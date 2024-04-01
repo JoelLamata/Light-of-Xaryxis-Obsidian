@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/legendary
-- item/tier/minor
-- item/wondrous
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/minor
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Universal Solvent"
 ---

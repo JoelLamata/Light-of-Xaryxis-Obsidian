@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/legendary
-- item/tier/major
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "+3 Armor"
 - "+3 Chain Mail"

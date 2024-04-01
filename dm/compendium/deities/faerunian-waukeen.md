@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/knowledge
-- domain/trickery
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/trickery
 aliases: ["Waukeen", "Our Lady of Gold", "The Coinmaiden", "The Merchant's Friend"]
 ---
 # Waukeen

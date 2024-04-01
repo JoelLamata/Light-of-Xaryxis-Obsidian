@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/11
-- monster/size/large
-- monster/type/fiend/devil
+- ttrpg-cli/monster/cr/11
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/fiend/devil
 aliases: ["Horned Devil"]
 ---
 # Horned Devil
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 74, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Horned Devil
@@ -41,10 +41,10 @@ title: Horned Devil
 
 ***Multiattack.*** The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack.
 
-***Fork.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 15 (`2d8 + 6`) piercing damage.
+***Fork.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 10 ft., one target. *Hit:* `dice: 2d8 + 6|avg` (`2d8 + 6`) piercing damage.
 
-***Tail.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 10 (`1d8 + 6`) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose 10 (`3d6`) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (`3d6`). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom ([Medicine](rules/skills.md#Medicine)) check. The wound also closes if the target receives magical healing.
+***Tail.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 10 ft., one target. *Hit:* `dice: 1d8 + 6|avg` (`1d8 + 6`) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose `dice: 3d6|avg` (`3d6`) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by `dice: 3d6|avg` (`3d6`). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom ([Medicine](/compendium/rules/skills.md#Medicine)) check. The wound also closes if the target receives magical healing.
 
-***Hurl Flame.*** *Ranged Spell Attack:* +7 to hit, range 150 ft., one target. *Hit:* 14 (`4d6`) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
+***Hurl Flame.*** *Ranged Spell Attack:* `dice: d20+7` (+7 to hit), range 150 ft., one target. *Hit:* `dice: 4d6|avg` (`4d6`) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
 ```
 ^statblock

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/norse
-- domain/trickery
+- ttrpg-cli/deity/norse
+- ttrpg-cli/domain/trickery
 aliases: ["Hermod"]
 ---
 # Hermod

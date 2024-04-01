@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-hazard
 tags:
 - compendium/src/5e/dmg
-- hazard/env
+- ttrpg-cli/hazard/env
 aliases: ["High Altitude"]
 ---
 # High Altitude

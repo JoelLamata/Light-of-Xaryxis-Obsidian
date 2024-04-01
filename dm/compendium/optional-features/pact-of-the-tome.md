@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/pb
+- ttrpg-cli/optional-feature/pb
 aliases: ["Pact of the Tome"]
 ---
 # Pact of the Tome

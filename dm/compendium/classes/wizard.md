@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/wizard
 - compendium/src/5e/phb
+- ttrpg-cli/class/wizard
 aliases: ["Wizard"]
 ---
 # Wizard
@@ -15,7 +15,7 @@ aliases: ["Wizard"]
 > |-------|----|----------|
 > | 1st | +2 | [Arcane Recovery](#Arcane%20Recovery%20(Level%201)), [Spellcasting](#Spellcasting%20(Level%201)) |
 > | 2nd | +2 | [Arcane Tradition](#Arcane%20Tradition%20(Level%202)) |
-> | 3rd | +2 | ⏤ |
+> | 3rd | +2 | [Cantrip Formulas](#Cantrip%20Formulas%20(Level%203)) |
 > | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
 > | 5th | +3 | ⏤ |
 > | 6th | +3 | [Arcane Tradition feature](#Arcane%20Tradition%20feature%20(Level%206)) |
@@ -261,7 +261,7 @@ Each time you gain a wizard level, you can add two wizard spells of your choice 
 > 
 > For each level of the spell, the process takes 2 hours and costs 50 gp. The cost represents material components you expend as you experiment with the spell to master it, as well as the fine inks you need to record it. Once you have spent this time and money, you can prepare the spell just like your other spells.
 > 
-> **Copying from a Spell Scroll.** A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence ([Arcana](rules/skills.md#Arcana)) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.
+> **Copying from a Spell Scroll.** A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When you copy a spell from a spell scroll, you must succeed on an Intelligence ([Arcana](/compendium/rules/skills.md#Arcana)) check with a DC equal to 10 + the spell's level. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.
 > 
 > **.** **Replacing the Book.** You can copy a spell from your own spellbook into another book—for example, if you want to make a backup copy of your spellbook. This is just like copying a new spell into your spellbook, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and 10 gp for each level of the copied spell.
 > 
@@ -273,6 +273,13 @@ Each time you gain a wizard level, you can add two wizard spells of your choice 
 ### Arcane Tradition (Level 2)
 
 When you reach 2nd level, you choose an arcane tradition from the list of available traditions, shaping your practice of magic. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.
+
+### Cantrip Formulas (Level 3)
+_Source: Tasha's Cauldron of Everything p. 75_
+
+*3rd-level wizard [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one wizard cantrip you know with another cantrip from the wizard spell list.
 
 ### Ability Score Improvement (Level 4)
 

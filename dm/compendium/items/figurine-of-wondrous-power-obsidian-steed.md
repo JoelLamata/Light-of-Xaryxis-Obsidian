@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/very-rare
-- item/tier/major
-- item/wondrous
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Figurine of Wondrous Power, Obsidian Steed"
 ---
@@ -21,8 +21,8 @@ The creature exists for a duration specific to each figurine. At the end of the 
 
 ## Obsidian Steed
 
-This polished obsidian horse can become a nightmare for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can't be used again until 5 days have passed.
+This polished obsidian horse can become a [nightmare](compendium/bestiary/fiend/nightmare.md) for up to 24 hours. The [nightmare](compendium/bestiary/fiend/nightmare.md) fights only to defend itself. Once it has been used, it can't be used again until 5 days have passed.
 
-If you have a good alignment, the figurine has a 10% chance chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.
+If you have a good alignment, the figurine has a 10% chance chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the [nightmare](compendium/bestiary/fiend/nightmare.md) while it is ignoring your orders, you and the [nightmare](compendium/bestiary/fiend/nightmare.md) are instantly transported to a random location on the plane of Hades, where the [nightmare](compendium/bestiary/fiend/nightmare.md) reverts to figurine form.
 
 *Source: Dungeon Master's Guide p. 170. Available in the SRD.*

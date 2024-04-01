@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/celtic
-- domain/nature
+- ttrpg-cli/deity/celtic
+- ttrpg-cli/domain/nature
 aliases: ["Dunatis"]
 ---
 # Dunatis

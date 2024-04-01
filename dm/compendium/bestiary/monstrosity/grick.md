@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/forest
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Grick"]
 ---
 # Grick
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 173, Lost Mine of Phandelver. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Grick
@@ -35,15 +35,15 @@ title: Grick
 
 ## Traits
 
-***Stone Camouflage.*** The grick has advantage on Dexterity ([Stealth](rules/skills.md#Stealth)) checks made to hide in rocky terrain.
+***Stone Camouflage.*** The grick has advantage on Dexterity ([Stealth](/compendium/rules/skills.md#Stealth)) checks made to hide in rocky terrain.
 
 ## Actions
 
 ***Multiattack.*** The grick makes one attack with its tentacles. If that attack hits, the grick can make one beak attack against the same target.
 
-***Tentacles.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (`2d6 + 2`) slashing damage.
+***Tentacles.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 2|avg` (`2d6 + 2`) slashing damage.
 
-***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+***Beak.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
 ```
 ^statblock
 

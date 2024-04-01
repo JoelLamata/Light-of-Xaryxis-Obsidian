@@ -3,10 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/paladin
-- spell/level/2
-- spell/school/abjuration
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/peace-domain
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/sorcerer/clockwork-soul
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/abjuration
 aliases: ["Aid"]
 ---
 # Aid
@@ -21,6 +25,6 @@ Your spell bolsters your allies with toughness and resolve. Choose up to three c
 
 **At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, a target's hit points increase by an additional 5 for each slot level above 2nd.
 
-**Classes**: [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Cleric (Peace Domain)](compendium/classes/cleric-peace-domain-tce.md), [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md), [Sorcerer (Clockwork Soul)](compendium/classes/sorcerer-clockwork-soul-tce.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 211. Available in the SRD and the Basic Rules.*

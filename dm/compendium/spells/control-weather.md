@@ -3,12 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/arcana-domain
-- spell/class/druid
-- spell/class/wizard
-- spell/level/8
-- spell/school/transmutation
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/8
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Control Weather"]
 ---
 # Control Weather
@@ -59,6 +60,6 @@ When you change the weather conditions, find a current condition on the followin
 | 5 | Storm |
 ^wind
 
-**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Druid](compendium/classes/druid.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Druid](compendium/classes/druid.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 228. Available in the SRD.*

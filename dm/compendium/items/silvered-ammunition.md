@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/rarity/unknown
-- item/tier/minor
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/rarity/unknown
+- ttrpg-cli/item/tier/minor
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "Silvered Ammunition"
 - "Silvered Sling Bullet"

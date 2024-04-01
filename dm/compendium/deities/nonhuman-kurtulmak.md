@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/nonhuman
-- domain/war
+- ttrpg-cli/deity/nonhuman
+- ttrpg-cli/domain/war
 aliases: ["Kurtulmak"]
 ---
 # Kurtulmak

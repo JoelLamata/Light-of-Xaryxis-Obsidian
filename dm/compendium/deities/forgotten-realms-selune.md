@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/knowledge
-- domain/life
-- domain/twilight
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/twilight
 aliases: ["Selûne"]
 ---
 # Selûne

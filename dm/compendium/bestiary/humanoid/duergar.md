@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/humanoid/dwarf
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/dwarf
 aliases: ["Duergar"]
 ---
 # Duergar
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 122, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Duergar
@@ -34,19 +34,19 @@ title: Duergar
 
 ## Traits
 
-***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being [charmed](rules/conditions.md#charmed) or [paralyzed](rules/conditions.md#paralyzed).
+***Duergar Resilience.*** The duergar has advantage on saving throws against poison, spells, and illusions, as well as to resist being [charmed](/compendium/rules/conditions.md#charmed) or [paralyzed](/compendium/rules/conditions.md#paralyzed).
 
-***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight.
+***Sunlight Sensitivity.*** While in sunlight, the duergar has disadvantage on attack rolls, as well as on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight.
 
 ## Actions
 
 ***Enlarge (Recharges after a Short or Long Rest).*** For 1 minute, the duergar magically increases in size, along with anything it is wearing or carrying. While enlarged, the duergar is Large, doubles its damage dice on Strength-based weapon attacks (included in the attacks), and makes Strength checks and Strength saving throws with advantage. If the duergar lacks the room to become Large, it attains the maximum size possible in the space available.
 
-***War Pick.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage, or 11 (`2d8 + 2`) piercing damage while enlarged.
+***War Pick.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage, or `dice: 2d8 + 2|avg` (`2d8 + 2`) piercing damage while enlarged.
 
-***Javelin.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage, or 9 (`2d6 + 2`) piercing damage while enlarged.
+***Javelin.*** *Melee or Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft. or range 30/120 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage, or `dice: 2d6 + 2|avg` (`2d6 + 2`) piercing damage while enlarged.
 
-***Invisibility (Recharges after a Short or Long Rest).*** The duergar magically turns [invisible](rules/conditions.md#invisible) until it attacks, casts a spell, or uses its Enlarge, or until its [concentration](rules/conditions.md#concentration) is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is [invisible](rules/conditions.md#invisible) with it.
+***Invisibility (Recharges after a Short or Long Rest).*** The duergar magically turns [invisible](/compendium/rules/conditions.md#invisible) until it attacks, casts a spell, or uses its Enlarge, or until its [concentration](/compendium/rules/conditions.md#concentration) is broken, up to 1 hour (as if concentrating on a spell). Any equipment the duergar wears or carries is [invisible](/compendium/rules/conditions.md#invisible) with it.
 ```
 ^statblock
 

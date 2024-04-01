@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/life
-- domain/light
-- domain/twilight
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/light
+- ttrpg-cli/domain/twilight
 aliases: ["Helm", "The Watcher", "He of the Unsleeping Eyes", "The Vigilant One"]
 ---
 # Helm

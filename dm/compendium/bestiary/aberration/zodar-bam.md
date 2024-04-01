@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/16
-- monster/size/medium
-- monster/type/aberration
+- ttrpg-cli/monster/cr/16
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/aberration
 aliases: ["Zodar"]
 ---
 # Zodar
-*Source: Boo's Astral Menagerie p. 64*  
+*Source: Boo's Astral Menagerie p. 64, Light of Xaryxis*  
 
 A zodar is a bipedal entity whose body is encased in an obsidian exoskeleton. It has no facial features aside from two narrow, vertical slits that resemble eyes, and its countenance betrays no hint of pain or emotion. Underneath its armored exterior, a zodar's body is composed of tightly knit muscle fibers that make it incredibly strong and heavy. A zodar weighs 1,500 pounds.
 
@@ -53,10 +53,10 @@ title: Zodar
 
 ***Multiattack.*** The zodar makes two Crushing Fist attacks. Before or after these attacks, the zodar uses Forced Teleport.
 
-***Crushing Fist.*** *Melee Weapon Attack:* +15 to hit, reach 5 ft., one target. *Hit:* 21 (`2d10 + 10`) force damage.
+***Crushing Fist.*** *Melee Weapon Attack:* `dice: d20+15` (+15 to hit), reach 5 ft., one target. *Hit:* `dice: 2d10 + 10|avg` (`2d10 + 10`) force damage.
 
-***Forced Teleport.*** The zodar magically warps space around one creature it can see within 60 feet of itself. The target must make a DC 21 Constitution saving throw. On a failed save, the target takes 22 (`4d10`) force damage, and the zodar teleports it, along with any equipment it's wearing or carrying, up to 60 feet to an unoccupied space that the zodar can see and that can support the target. On a successful save, the target takes half as much damage and isn't teleported.
+***Forced Teleport.*** The zodar magically warps space around one creature it can see within 60 feet of itself. The target must make a DC 21 Constitution saving throw. On a failed save, the target takes `dice: 4d10|avg` (`4d10`) force damage, and the zodar teleports it, along with any equipment it's wearing or carrying, up to 60 feet to an unoccupied space that the zodar can see and that can support the target. On a successful save, the target takes half as much damage and isn't teleported.
 
-***Wish.*** The zodar casts the wish spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). After casting this spell, the zodar turns to dust and is destroyed.
+***Wish.*** The zodar casts the [wish](compendium/spells/wish.md) spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 17). After casting this spell, the zodar turns to dust and is destroyed.
 ```
 ^statblock

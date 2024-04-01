@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/size/medium
-- monster/type/humanoid/gnoll
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/gnoll
 aliases: ["Gnoll"]
 ---
 # Gnoll
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 163, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Gnoll
@@ -41,11 +41,11 @@ title: Gnoll
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d4 + 2`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage.
 
-***Spear.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage, or 6 (`1d8 + 2`) piercing damage if used with two hands to make a melee attack.
+***Spear.*** *Melee or Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft. or range 20/60 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage, or `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage if used with two hands to make a melee attack.
 
-***Longbow.*** *Ranged Weapon Attack:* +3 to hit, range 150/600 ft., one target. *Hit:* 5 (`1d8 + 1`) piercing damage.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+3` (+3 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 1|avg` (`1d8 + 1`) piercing damage.
 ```
 ^statblock
 

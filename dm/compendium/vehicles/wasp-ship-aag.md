@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Wasp Ship"]
 ---
 # Wasp Ship
@@ -32,6 +32,6 @@ title: Wasp Ship
 
 It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it.
 
-**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* `dice: 3d10|avg` (`3d10`) piercing damage.
 ```
 ^statblock

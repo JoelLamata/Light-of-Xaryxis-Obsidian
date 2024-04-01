@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/wizard
-- spell/level/1
-- spell/ritual
-- spell/school/conjuration
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/ritual
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Tenser's Floating Disk"]
 ---
 # Tenser's Floating Disk

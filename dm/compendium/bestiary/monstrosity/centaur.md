@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/forest
-- monster/environment/grassland
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Centaur"]
 ---
 # Centaur
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 38, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Centaur
@@ -35,17 +35,17 @@ title: Centaur
 
 ## Traits
 
-***Charge.*** If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra 10 (`3d6`) piercing damage.
+***Charge.*** If the centaur moves at least 30 feet straight toward a target and then hits it with a pike attack on the same turn, the target takes an extra `dice: 3d6|avg` (`3d6`) piercing damage.
 
 ## Actions
 
 ***Multiattack.*** The centaur makes two attacks: one with its pike and one with its hooves or two with its longbow.
 
-***Pike.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 9 (`1d10 + 4`) piercing damage.
+***Pike.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 1d10 + 4|avg` (`1d10 + 4`) piercing damage.
 
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
+***Hooves.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage.
 
-***Longbow.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage.
 ```
 ^statblock
 

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/dragonlance
-- domain/nature
+- ttrpg-cli/deity/dragonlance
+- ttrpg-cli/domain/nature
 aliases: ["Chislev"]
 ---
 # Chislev

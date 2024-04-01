@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/order
-- domain/war
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/order
+- ttrpg-cli/domain/war
 aliases: ["Bane"]
 ---
 # Bane

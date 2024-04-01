@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/norse
-- domain/light
-- domain/war
+- ttrpg-cli/deity/norse
+- ttrpg-cli/domain/light
+- ttrpg-cli/domain/war
 aliases: ["Heimdall"]
 ---
 # Heimdall

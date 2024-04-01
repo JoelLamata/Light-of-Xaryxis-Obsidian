@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/gnomish
-- domain/knowledge
+- ttrpg-cli/deity/gnomish
+- ttrpg-cli/domain/knowledge
 aliases: ["Flandal Steelskin"]
 ---
 # Flandal Steelskin

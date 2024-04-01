@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/arcana
-- domain/knowledge
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/knowledge
 aliases: ["Azuth"]
 ---
 # Azuth

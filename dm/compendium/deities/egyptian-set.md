@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/egyptian
-- domain/death
-- domain/tempest
-- domain/trickery
+- ttrpg-cli/deity/egyptian
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/tempest
+- ttrpg-cli/domain/trickery
 aliases: ["Set"]
 ---
 # Set

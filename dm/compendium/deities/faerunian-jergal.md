@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/death
-- domain/knowledge
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/knowledge
 aliases: ["Jergal", "The Final Scribe", "The Pitiless One", "The Bleak Seneschal"]
 ---
 # Jergal

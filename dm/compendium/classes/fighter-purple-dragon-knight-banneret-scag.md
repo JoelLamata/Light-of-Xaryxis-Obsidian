@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/scag
-- subclass/fighter/purple-dragon-knight-banneret
+- ttrpg-cli/subclass/fighter/purple-dragon-knight-banneret
 aliases: ["Purple Dragon Knight (Banneret)"]
 ---
 # Purple Dragon Knight (Banneret)
@@ -37,9 +37,9 @@ When you use your Second Wind feature, you can choose up to three creatures with
 
 A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.
 
-At 7th level, you gain proficiency in the [Persuasion](rules/skills.md#Persuasion) skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: [Animal Handling](rules/skills.md#Animal%20Handling), [Insight](rules/skills.md#Insight), [Intimidation](rules/skills.md#Intimidation), or [Performance](rules/skills.md#Performance).
+At 7th level, you gain proficiency in the [Persuasion](/compendium/rules/skills.md#Persuasion) skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: [Animal Handling](/compendium/rules/skills.md#Animal%20Handling), [Insight](/compendium/rules/skills.md#Insight), [Intimidation](/compendium/rules/skills.md#Intimidation), or [Performance](/compendium/rules/skills.md#Performance).
 
-Your proficiency bonus is doubled for any ability check you make that uses [Persuasion](rules/skills.md#Persuasion). You receive this benefit regardless of the skill proficiency you gain from this feature.
+Your proficiency bonus is doubled for any ability check you make that uses [Persuasion](/compendium/rules/skills.md#Persuasion). You receive this benefit regardless of the skill proficiency you gain from this feature.
 
 ### Inspiring Surge (Level 10)
 
@@ -49,7 +49,7 @@ Starting at 18th level, you can choose two allies within 60 feet of you, rather 
 
 ### Bulwark (Level 15)
 
-Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't [incapacitated](rules/conditions.md#incapacitated), you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll.
+Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't [incapacitated](/compendium/rules/conditions.md#incapacitated), you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll.
 
 ### Inspiring Surge (Level 18)
 

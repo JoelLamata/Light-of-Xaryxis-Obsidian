@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/forest
-- monster/size/huge
-- monster/type/plant
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/plant
 aliases: ["Awakened Tree"]
 ---
 # Awakened Tree
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 317, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Awakened Tree
@@ -38,7 +38,7 @@ title: Awakened Tree
 
 ## Actions
 
-***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 14 (`3d6 + 4`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 3d6 + 4|avg` (`3d6 + 4`) bludgeoning damage.
 ```
 ^statblock
 

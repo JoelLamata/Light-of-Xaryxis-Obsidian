@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/order
-- domain/war
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/order
+- ttrpg-cli/domain/war
 aliases: ["Tyr", "Grimjaws", "The Maimed God", "The Evenhanded"]
 ---
 # Tyr

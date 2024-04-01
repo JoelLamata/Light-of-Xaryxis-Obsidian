@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/death
-- domain/grave
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/grave
 aliases: ["Kelemvor"]
 ---
 # Kelemvor

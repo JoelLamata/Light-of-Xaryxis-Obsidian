@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-4
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Space Hamster"]
 ---
 # Giant Space Hamster
@@ -35,6 +35,6 @@ title: Giant Space Hamster
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`2d4 + 2`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 2d4 + 2|avg` (`2d4 + 2`) piercing damage.
 ```
 ^statblock

@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/ammunition
-- item/property/heavy
-- item/property/martial
-- item/property/two-handed
-- item/weapon/martial/ranged
+- ttrpg-cli/item/property/ammunition
+- ttrpg-cli/item/property/heavy
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/two-handed
+- ttrpg-cli/item/weapon/martial/ranged
 aliases: 
 - "Longbow"
 ---
@@ -16,7 +16,7 @@ aliases:
 
 - **Damage**: 1d8 P
 - **Range**: 150/600
-- **Properties**: [Ammunition](rules/item-properties.md#Ammunition), [Heavy](rules/item-properties.md#Heavy), Martial, [Two-handed](rules/item-properties.md#Two-handed)
+- **Properties**: [Ammunition](/compendium/rules/item-properties.md#Ammunition), [Heavy](/compendium/rules/item-properties.md#Heavy), Martial, [Two-handed](/compendium/rules/item-properties.md#Two-handed)
 - **Cost**: 50 gp
 - **Weight**: 2.0 lbs.
 

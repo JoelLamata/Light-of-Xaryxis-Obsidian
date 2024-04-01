@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/2
-- spell/school/conjuration
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Cloud of Daggers"]
 ---
 # Cloud of Daggers
@@ -21,7 +21,7 @@ aliases: ["Cloud of Daggers"]
 - **Components:** V, S, a sliver of glass
 - **Duration:** Concentration, up to 1 minute
 
-You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes `4d4` slashing damage when it enters the spell's area for the first time on a turn or starts its turn there.
+You fill the air with spinning daggers in a cube 5 feet on each side, centered on a point you choose within range. A creature takes `dice: 4d4|avg` (`4d4`) slashing damage when it enters the spell's area for the first time on a turn or starts its turn there.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 2d4 for each slot level above 2nd.
 

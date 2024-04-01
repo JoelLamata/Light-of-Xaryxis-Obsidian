@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/knowledge
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/knowledge
 aliases: ["The Shadow"]
 ---
 # The Shadow

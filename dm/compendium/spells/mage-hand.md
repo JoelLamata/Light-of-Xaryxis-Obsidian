@@ -3,15 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/arcana-domain
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/cantrip
-- spell/school/conjuration
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/ranger/swarmkeeper
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/cantrip
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Mage Hand"]
 ---
 # Mage Hand
@@ -28,6 +30,6 @@ You can use your action to control the hand. You can use the hand to manipulate 
 
 The hand can't attack, activate magic items, or carry more than 10 pounds.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Bard](compendium/classes/bard.md), [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Ranger (Swarmkeeper)](compendium/classes/ranger-swarmkeeper-tce.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 256. Available in the SRD and the Basic Rules.*

@@ -3,12 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric
-- spell/class/cleric/life-domain
-- spell/class/paladin
-- spell/level/5
-- spell/school/necromancy
+- ttrpg-cli/spell/class/artificer/alchemist
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/grave-domain
+- ttrpg-cli/spell/class/cleric/life-domain
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/school/necromancy
 aliases: ["Raise Dead"]
 ---
 # Raise Dead
@@ -27,6 +30,6 @@ This spell closes all mortal wounds, but it doesn't restore missing body parts. 
 
 Coming back from the dead is an ordeal. The target takes a −4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Cleric (Life Domain)](compendium/classes/cleric-life-domain.md), [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md)
+**Classes**: [Artificer (Alchemist)](compendium/classes/artificer-alchemist-tce.md), [Bard](compendium/classes/bard.md), [Cleric (Grave Domain)](compendium/classes/cleric-grave-domain-xge.md), [Cleric (Life Domain)](compendium/classes/cleric-life-domain.md), [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 270. Available in the SRD and the Basic Rules.*

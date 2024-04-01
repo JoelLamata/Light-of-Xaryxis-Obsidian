@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/size/medium
-- monster/type/construct
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/construct
 aliases: ["Animated Armor"]
 ---
 # Animated Armor
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 19, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Animated Armor
@@ -33,7 +33,7 @@ title: Animated Armor
 
 ## Traits
 
-***Antimagic Susceptibility.*** The armor is [incapacitated](rules/conditions.md#incapacitated) while in the area of an [antimagic field](compendium/spells/antimagic-field.md). If targeted by [dispel magic](compendium/spells/dispel-magic.md), the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall [unconscious](rules/conditions.md#unconscious) for 1 minute.
+***Antimagic Susceptibility.*** The armor is [incapacitated](/compendium/rules/conditions.md#incapacitated) while in the area of an [antimagic field](compendium/spells/antimagic-field.md). If targeted by [dispel magic](compendium/spells/dispel-magic.md), the armor must succeed on a Constitution saving throw against the caster's spell save DC or fall [unconscious](/compendium/rules/conditions.md#unconscious) for 1 minute.
 
 ***False Appearance.*** While the armor remains motionless, it is indistinguishable from a normal suit of armor.
 
@@ -41,6 +41,6 @@ title: Animated Armor
 
 ***Multiattack.*** The armor makes two melee attacks.
 
-***Slam.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) bludgeoning damage.
 ```
 ^statblock

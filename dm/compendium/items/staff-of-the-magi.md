@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/property/versatile
-- item/rarity/legendary
-- item/tier/major
-- item/wondrous/staff
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/staff
 aliases: 
 - "Staff of the Magi"
 ---
@@ -17,12 +17,12 @@ aliases:
 - **Damage**:
   - One-handed: 1d6 B
   - Two-handed: 1d8 B
-- **Properties**: [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
 
-The staff has 50 charges for the following properties. It regains `4d6 + 2` expended charges daily at dawn. If you expend the last charge, roll a `d20`. On a 20, the staff regains `1d12 + 1` charges.
+The staff has 50 charges for the following properties. It regains `dice: 4d6 + 2|avg` (`4d6 + 2`) expended charges daily at dawn. If you expend the last charge, roll a `dice: d20|avg` (`d20`). On a 20, the staff regains `dice: 1d12 + 1|avg` (`1d12 + 1`) charges.
 
 ## Spell Absorption
 

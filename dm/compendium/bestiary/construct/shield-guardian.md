@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/7
-- monster/environment/urban
-- monster/size/large
-- monster/type/construct
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/construct
 aliases: ["Shield Guardian"]
 ---
 # Shield Guardian
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 271, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Shield Guardian
@@ -44,7 +44,7 @@ title: Shield Guardian
 
 ***Multiattack.*** The guardian makes two fist attacks.
 
-***Fist.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
+***Fist.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage.
 
 ## Reactions
 

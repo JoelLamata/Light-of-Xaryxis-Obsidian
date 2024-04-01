@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/size/medium
-- monster/type/fiend/devil
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/fiend/devil
 aliases: ["Lemure"]
 ---
 # Lemure
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 76, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Lemure
@@ -35,10 +35,10 @@ title: Lemure
 
 ***Devil's Sight.*** Magical darkness doesn't impede the lemure's darkvision.
 
-***Hellish Rejuvenation.*** A lemure that dies in the Nine Hells comes back to life with all its hit points in `1d10` days unless it is killed by a good-aligned creature with a [bless](compendium/spells/bless.md) spell cast on that creature or its remains are sprinkled with holy water.
+***Hellish Rejuvenation.*** A lemure that dies in the Nine Hells comes back to life with all its hit points in `dice: 1d10|avg` (`1d10`) days unless it is killed by a good-aligned creature with a [bless](compendium/spells/bless.md) spell cast on that creature or its remains are sprinkled with holy water.
 
 ## Actions
 
-***Fist.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage
+***Fist.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4|avg` (`1d4`) bludgeoning damage
 ```
 ^statblock

@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/urban
-- monster/size/medium
-- monster/type/humanoid/any-race
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/any-race
 aliases: ["Priest"]
 ---
 # Priest
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 348, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Priest
@@ -34,9 +34,9 @@ title: Priest
 
 ## Traits
 
-***Divine Eminence.*** As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra 10 (`3d6`) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by `1d6` for each level above 1st.
+***Divine Eminence.*** As a bonus action, the priest can expend a spell slot to cause its melee weapon attacks to magically deal an extra `dice: 3d6|avg` (`3d6`) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If the priest expends a spell slot of 2nd level or higher, the extra damage increases by `dice: 1d6|avg` (`1d6`) for each level above 1st.
 
-***Spellcasting.*** The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). The priest has the following cleric spells prepared:
+***Spellcasting.*** The priest is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, `dice: d20+5` (+5 to hit) with spell attacks). The priest has the following cleric spells prepared:
 
 **Cantrips (at will)**: [light](compendium/spells/light.md), [sacred flame](compendium/spells/sacred-flame.md), [thaumaturgy](compendium/spells/thaumaturgy.md)
 
@@ -48,7 +48,7 @@ title: Priest
 
 ## Actions
 
-***Mace.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 3 (`1d6`) bludgeoning damage.
+***Mace.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6|avg` (`1d6`) bludgeoning damage.
 ```
 ^statblock
 

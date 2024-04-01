@@ -3,12 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/arcana-domain
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/9
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/9
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Gate"]
 ---
 # Gate
@@ -27,6 +28,6 @@ Deities and other planar rulers can prevent portals created by this spell from o
 
 When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn't work). If that creature is on a plane other than the one you are on, the portal opens in the named creature's immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the DM deems appropriate. It might leave, attack you, or help you.
 
-**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 244. Available in the SRD and the Basic Rules.*

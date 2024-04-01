@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/druid/moon
+- ttrpg-cli/subclass/druid/moon
 aliases: ["Circle of the Moon"]
 ---
 # Circle of the Moon
@@ -23,7 +23,7 @@ Changeable as the moon, a druid of this circle might prowl as a great cat one ni
 
 You gain the ability to use Wild Shape on your turn as a bonus action, rather than as an action.
 
-Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain `1d8` hit points per level of the spell slot expended.
+Additionally, while you are transformed by Wild Shape, you can use a bonus action to expend one spell slot to regain `dice: 1d8|avg` (`1d8`) hit points per level of the spell slot expended.
 
 ### Circle Forms (Level 2)
 
@@ -51,7 +51,7 @@ Starting at 6th level, your attacks in beast form count as magical for the purpo
 
 ### Elemental Wild Shape (Level 10)
 
-At 10th level, you can expend two uses of Wild Shape at the same time to transform into an air elemental, an earth elemental, a fire elemental, or a water elemental.
+At 10th level, you can expend two uses of Wild Shape at the same time to transform into an [air elemental](compendium/bestiary/elemental/air-elemental.md), an [earth elemental](compendium/bestiary/elemental/earth-elemental.md), a [fire elemental](compendium/bestiary/elemental/fire-elemental.md), or a [water elemental](compendium/bestiary/elemental/water-elemental.md).
 
 ### Thousand Forms (Level 14)
 

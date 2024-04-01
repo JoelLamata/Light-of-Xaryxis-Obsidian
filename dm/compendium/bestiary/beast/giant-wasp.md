@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/urban
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Wasp"]
 ---
 # Giant Wasp
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 329, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Wasp
@@ -36,7 +36,7 @@ title: Giant Wasp
 
 ## Actions
 
-***Sting.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (`1d6 + 2`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but [poisoned](rules/conditions.md#poisoned) for 1 hour, even after regaining hit points, and is [paralyzed](rules/conditions.md#paralyzed) while [poisoned](rules/conditions.md#poisoned) in this way.
+***Sting.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking `dice: 3d6|avg` (`3d6`) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but [poisoned](/compendium/rules/conditions.md#poisoned) for 1 hour, even after regaining hit points, and is [paralyzed](/compendium/rules/conditions.md#paralyzed) while [poisoned](/compendium/rules/conditions.md#poisoned) in this way.
 ```
 ^statblock
 

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/norse
-- domain/life
+- ttrpg-cli/deity/norse
+- ttrpg-cli/domain/life
 aliases: ["Freya"]
 ---
 # Freya

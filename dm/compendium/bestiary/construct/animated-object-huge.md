@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/phb
-- monster/cr/
-- monster/size/huge
-- monster/type/construct
+- ttrpg-cli/monster/cr/
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/construct
 aliases: ["Animated Object (Huge)"]
 ---
 # Animated Object (Huge)
@@ -41,6 +41,6 @@ The DM might rule that a specific objects slam attack inflicts slashing or pierc
 
 ## Actions
 
-***Slam.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16 (`2d12 + 4`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 5 ft., one target. *Hit:* `dice: 2d12 + 4|avg` (`2d12 + 4`) bludgeoning damage.
 ```
 ^statblock

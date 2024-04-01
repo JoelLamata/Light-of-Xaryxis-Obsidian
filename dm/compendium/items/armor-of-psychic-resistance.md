@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/rarity/rare
-- item/tier/major
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "Armor of Psychic Resistance"
 - "Chain Mail of Psychic Resistance"

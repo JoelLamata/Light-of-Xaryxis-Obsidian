@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/underwater
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Hunter Shark"]
 ---
 # Hunter Shark
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 330, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Hunter Shark
@@ -40,7 +40,7 @@ title: Hunter Shark
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) piercing damage.
 ```
 ^statblock
 

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/death
-- domain/trickery
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/trickery
 aliases: ["Shar", "The Mistress of the Night", "The Dark Lady", "Our Lady of Loss"]
 ---
 # Shar

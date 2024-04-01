@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/size/tiny
-- monster/type/fiend/devil
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/fiend/devil
 aliases: ["Imp"]
 ---
 # Imp
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 76, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Imp
@@ -41,8 +41,8 @@ title: Imp
 
 ## Actions
 
-***Sting (Bite in Beast Form).*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one.
+***Sting (Bite in Beast Form).*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking `dice: 3d6|avg` (`3d6`) poison damage on a failed save, or half as much damage on a successful one.
 
-***Invisibility.*** The imp magically turns [invisible](rules/conditions.md#invisible) until it attacks, or until its [concentration](rules/conditions.md#concentration) ends (as if concentrating on a spell). Any equipment the imp wears or carries is [invisible](rules/conditions.md#invisible) with it.
+***Invisibility.*** The imp magically turns [invisible](/compendium/rules/conditions.md#invisible) until it attacks, or until its [concentration](/compendium/rules/conditions.md#concentration) ends (as if concentrating on a spell). Any equipment the imp wears or carries is [invisible](/compendium/rules/conditions.md#invisible) with it.
 ```
 ^statblock

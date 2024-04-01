@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/rarity/very-rare
-- item/tier/major
-- item/wondrous
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Cloak of Arachnida"
 ---

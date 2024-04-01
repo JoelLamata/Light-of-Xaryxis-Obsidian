@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/arcana-domain
-- spell/class/wizard
-- spell/level/7
-- spell/school/illusion
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/7
+- ttrpg-cli/spell/school/illusion
 aliases: ["Project Image"]
 ---
 # Project Image
@@ -22,9 +22,9 @@ You create an illusory copy of yourself that lasts for the duration. The copy ca
 
 You can use your action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.
 
-You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are [blinded](rules/conditions.md#blinded) and [deafened](rules/conditions.md#deafened) in regard to your own surroundings.
+You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are [blinded](/compendium/rules/conditions.md#blinded) and [deafened](/compendium/rules/conditions.md#deafened) in regard to your own surroundings.
 
-Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ([Investigation](rules/skills.md#Investigation)) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
+Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ([Investigation](/compendium/rules/skills.md#Investigation)) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.
 
 **Classes**: [Bard](compendium/classes/bard.md), [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Wizard](compendium/classes/wizard.md)
 

@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/vehicle/ship
+- ttrpg-cli/item/vehicle/ship
 aliases: 
 - "Rowboat"
 ---

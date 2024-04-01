@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/versatile
-- item/weapon/simple/melee
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/weapon/simple/melee
 aliases: 
 - "Quarterstaff"
 ---
@@ -14,7 +14,7 @@ aliases:
 - **Damage**:
   - One-handed: 1d6 B
   - Two-handed: 1d8 B
-- **Properties**: [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Cost**: 2 sp
 - **Weight**: 4.0 lbs.
 

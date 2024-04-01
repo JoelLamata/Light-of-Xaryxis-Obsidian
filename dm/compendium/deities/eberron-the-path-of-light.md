@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/life
-- domain/light
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/light
 aliases: ["The Path of Light"]
 ---
 # The Path of Light

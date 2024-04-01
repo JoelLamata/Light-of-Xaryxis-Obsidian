@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/urban
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Warhorse"]
 ---
 # Warhorse
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 340, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Warhorse
@@ -34,11 +34,11 @@ title: Warhorse
 
 ## Traits
 
-***Trampling Charge.*** If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked [prone](rules/conditions.md#prone). If the target is [prone](rules/conditions.md#prone), the horse can make another attack with its hooves against it as a bonus action.
+***Trampling Charge.*** If the horse moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone). If the target is [prone](/compendium/rules/conditions.md#prone), the horse can make another attack with its hooves against it as a bonus action.
 
 ## Actions
 
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
+***Hooves.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage.
 ```
 ^statblock
 

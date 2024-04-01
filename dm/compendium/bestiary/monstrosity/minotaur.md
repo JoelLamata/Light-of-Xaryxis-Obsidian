@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/underdark
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Minotaur"]
 ---
 # Minotaur
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 223, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Minotaur
@@ -34,7 +34,7 @@ title: Minotaur
 
 ## Traits
 
-***Charge.*** If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra 9 (`2d8`) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked [prone](rules/conditions.md#prone).
+***Charge.*** If the minotaur moves at least 10 feet straight toward a target and then hits it with a gore attack on the same turn, the target takes an extra `dice: 2d8|avg` (`2d8`) piercing damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be pushed up to 10 feet away and knocked [prone](/compendium/rules/conditions.md#prone).
 
 ***Labyrinthine Recall.*** The minotaur can perfectly recall any path it has traveled.
 
@@ -42,9 +42,9 @@ title: Minotaur
 
 ## Actions
 
-***Greataxe.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 17 (`2d12 + 4`) slashing damage.
+***Greataxe.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d12 + 4|avg` (`2d12 + 4`) slashing damage.
 
-***Gore.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) piercing damage.
+***Gore.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) piercing damage.
 ```
 ^statblock
 

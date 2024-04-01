@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/life
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/life
 aliases: ["Lliira"]
 ---
 # Lliira

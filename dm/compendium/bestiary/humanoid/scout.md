@@ -3,22 +3,22 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/arctic
-- monster/environment/coastal
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/mountain
-- monster/environment/swamp
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/humanoid/any-race
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/any-race
 aliases: ["Scout"]
 ---
 # Scout
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 349, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Scout
@@ -42,15 +42,15 @@ title: Scout
 
 ## Traits
 
-***Keen Hearing and Sight.*** The scout has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing or sight.
+***Keen Hearing and Sight.*** The scout has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing or sight.
 
 ## Actions
 
 ***Multiattack.*** The scout makes two melee attacks or two ranged attacks.
 
-***Shortsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+***Shortsword.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
 
-***Longbow.*** *Ranged Weapon Attack:* +4 to hit, ranged 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), ranged 150/600 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage.
 ```
 ^statblock
 

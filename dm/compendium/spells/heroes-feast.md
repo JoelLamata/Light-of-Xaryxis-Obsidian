@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/druid
-- spell/level/6
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/6
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Heroes' Feast"]
 ---
 # Heroes' Feast
@@ -19,8 +20,8 @@ aliases: ["Heroes' Feast"]
 
 You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don't set in until this hour is over. Up to twelve creatures can partake of the feast.
 
-A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being [frightened](rules/conditions.md#frightened), and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by `2d10`, and it gains the same number of hit points. These benefits last for 24 hours.
+A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being [frightened](/compendium/rules/conditions.md#frightened), and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by `dice: 2d10|avg` (`2d10`), and it gains the same number of hit points. These benefits last for 24 hours.
 
-**Classes**: [Cleric](compendium/classes/cleric.md), [Druid](compendium/classes/druid.md)
+**Classes**: [Cleric](compendium/classes/cleric.md), [Druid](compendium/classes/druid.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 250. Available in the SRD and the Basic Rules.*

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/knowledge
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/knowledge
 aliases: ["St. Cuthbert"]
 ---
 # St. Cuthbert

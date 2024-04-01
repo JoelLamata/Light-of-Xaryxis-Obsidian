@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/sea
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/sea
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Lamprey Ship"]
 ---
 # Lamprey Ship
@@ -33,7 +33,7 @@ title: Lamprey Ship
 
 It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.
 
-**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* `dice: 3d10|avg` (`3d10`) piercing damage.
 
 ## Weapon: Grappling Jaws (Crew: 1)
 
@@ -41,6 +41,6 @@ It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire i
 
 It takes 1 action to make a Grappling Jaws attack.
 
-**Grappling Jaws** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one ship or Gargantuan creature. *Hit:* 22 (`4d10`) piercing damage, and the speed of the lamprey ship and the target become 0 until the grapple ends. As an action, a creature can use the grappling jaws' controls to release the target. Otherwise, the effect ends when the target or the lamprey ship drops to 0 hit points.
+**Grappling Jaws** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one ship or Gargantuan creature. *Hit:* `dice: 4d10|avg` (`4d10`) piercing damage, and the speed of the lamprey ship and the target become 0 until the grapple ends. As an action, a creature can use the grappling jaws' controls to release the target. Otherwise, the effect ends when the target or the lamprey ship drops to 0 hit points.
 ```
 ^statblock

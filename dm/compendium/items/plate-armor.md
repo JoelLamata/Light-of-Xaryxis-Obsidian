@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/armor/heavy
+- ttrpg-cli/item/armor/heavy
 aliases: 
 - "Plate Armor"
 ---

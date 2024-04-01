@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/egyptian
-- domain/death
-- domain/grave
-- domain/order
+- ttrpg-cli/deity/egyptian
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/grave
+- ttrpg-cli/domain/order
 aliases: ["Anubis"]
 ---
 # Anubis

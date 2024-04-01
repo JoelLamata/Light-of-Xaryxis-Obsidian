@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/8
-- monster/environment/urban
-- monster/size/medium
-- monster/type/humanoid/any-race
+- ttrpg-cli/monster/cr/8
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/any-race
 aliases: ["Assassin"]
 ---
 # Assassin
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 343, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Assassin
@@ -38,15 +38,15 @@ title: Assassin
 
 ***Evasion.*** If the assassin is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, the assassin instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.
 
-***Sneak Attack (1/Turn).*** The assassin deals an extra 14 (`4d6`) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't [incapacitated](rules/conditions.md#incapacitated) and the assassin doesn't have disadvantage on the attack roll.
+***Sneak Attack (1/Turn).*** The assassin deals an extra `dice: 4d6|avg` (`4d6`) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin that isn't [incapacitated](/compendium/rules/conditions.md#incapacitated) and the assassin doesn't have disadvantage on the attack roll.
 
 ## Actions
 
 ***Multiattack.*** The assassin makes two shortsword attacks.
 
-***Shortsword.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (`7d6`) poison damage on a failed save, or half as much damage on a successful one.
+***Shortsword.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking `dice: 7d6|avg` (`7d6`) poison damage on a failed save, or half as much damage on a successful one.
 
-***Light Crossbow.*** *Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 24 (`7d6`) poison damage on a failed save, or half as much damage on a successful one.
+***Light Crossbow.*** *Ranged Weapon Attack:* `dice: d20+6` (+6 to hit), range 80/320 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking `dice: 7d6|avg` (`7d6`) poison damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

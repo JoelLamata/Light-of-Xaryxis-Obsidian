@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greek
-- domain/life
+- ttrpg-cli/deity/greek
+- ttrpg-cli/domain/life
 aliases: ["Hestia"]
 ---
 # Hestia

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/0
-- monster/size/tiny
-- monster/type/elemental
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/elemental
 aliases: ["Chwinga Astronaut"]
 ---
 # Chwinga Astronaut
@@ -38,13 +38,13 @@ title: Chwinga Astronaut
 
 ## Traits
 
-***Evasion.*** When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails, provided it isn't incapacitated.
+***Evasion.*** When the chwinga is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails, provided it isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ***Unusual Nature.*** The chwinga doesn't require air, food, or drink. When it dies, it turns into a tiny pile of moondust, a cloud of glittering spores, a statuette resembling its former self, a chunk of ice, or a sponge shaped like a dodecahedron (DM's choice).
 
 ***Spellcasting.*** The chwinga casts one of the following spells, requiring no material or verbal components and using Charisma as the spellcasting ability:
 
-**At will**: druidcraft, guidance, pass without trace, resistance
+**At will**: [druidcraft](compendium/spells/druidcraft.md), [guidance](compendium/spells/guidance.md), [pass without trace](compendium/spells/pass-without-trace.md), [resistance](compendium/spells/resistance.md)
 
 ## Actions
 

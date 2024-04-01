@@ -3,22 +3,22 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-8
-- monster/environment/coastal
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/mountain
-- monster/environment/swamp
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/tiny
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/beast
 aliases: ["Stirge"]
 ---
 # Stirge
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 284, Lost Mine of Phandelver, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Stirge
@@ -42,7 +42,7 @@ title: Stirge
 
 ## Actions
 
-***Blood Drain.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (`1d4 + 3`) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses 5 (`1d4 + 3`) hit points due to blood loss.
+***Blood Drain.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn't attack. Instead, at the start of each of the stirge's turns, the target loses `dice: 1d4 + 3|avg` (`1d4 + 3`) hit points due to blood loss.
 
 The stirge can detach itself by spending 5 feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.
 ```

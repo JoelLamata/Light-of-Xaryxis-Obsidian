@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-object
 tags:
 - compendium/src/5e/dmg
-- object/size/large
-- object/type/siege-weapon
+- ttrpg-cli/object/size/large
+- ttrpg-cli/object/type/siege-weapon
 aliases: ["Mangonel"]
 ---
 # Mangonel
@@ -30,6 +30,6 @@ title: Mangonel
 
 ## Actions
 
-***Mangonel Stone.*** *Ranged Weapon Attack:* +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 27 (`5d10`) bludgeoning damage.
+***Mangonel Stone.*** *Ranged Weapon Attack:* +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 27 (`dice: 5d10|avg` (`5d10`)) bludgeoning damage.
 ```
 ^statblock

@@ -3,20 +3,20 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/swamp
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Swarm of Wasps"]
 ---
 # Swarm of Wasps
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 338, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Swarm of Wasps
@@ -44,7 +44,7 @@ title: Swarm of Wasps
 
 ## Actions
 
-***Bites.*** *Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (`4d4`) piercing damage, or 5 (`2d4`) piercing damage if the swarm has half of its hit points or fewer.
+***Bites.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 0 ft., one target in the swarm's space. *Hit:* `dice: 4d4|avg` (`4d4`) piercing damage, or `dice: 2d4|avg` (`2d4`) piercing damage if the swarm has half of its hit points or fewer.
 ```
 ^statblock
 

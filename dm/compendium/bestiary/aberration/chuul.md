@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/4
-- monster/environment/underdark
-- monster/size/large
-- monster/type/aberration
+- ttrpg-cli/monster/cr/4
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/aberration
 aliases: ["Chuul"]
 ---
 # Chuul
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 40, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Chuul
@@ -42,9 +42,9 @@ title: Chuul
 
 ***Multiattack.*** The chuul makes two pincer attacks. If the chuul is grappling a creature, the chuul can also use its tentacles once.
 
-***Pincer.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage. The target is [grappled](rules/conditions.md#grappled) (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures [grappled](rules/conditions.md#grappled).
+***Pincer.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage. The target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 14) if it is a Large or smaller creature and the chuul doesn't have two other creatures [grappled](/compendium/rules/conditions.md#grappled).
 
-***Tentacles.*** One creature [grappled](rules/conditions.md#grappled) by the chuul must succeed on a DC 13 Constitution saving throw or be [poisoned](rules/conditions.md#poisoned) for 1 minute. Until this poison ends, the target is [paralyzed](rules/conditions.md#paralyzed). The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Tentacles.*** One creature [grappled](/compendium/rules/conditions.md#grappled) by the chuul must succeed on a DC 13 Constitution saving throw or be [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. Until this poison ends, the target is [paralyzed](/compendium/rules/conditions.md#paralyzed). The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 ```
 ^statblock
 

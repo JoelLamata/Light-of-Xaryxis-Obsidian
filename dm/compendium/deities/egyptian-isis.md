@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/egyptian
-- domain/arcana
-- domain/knowledge
-- domain/life
+- ttrpg-cli/deity/egyptian
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/life
 aliases: ["Isis"]
 ---
 # Isis

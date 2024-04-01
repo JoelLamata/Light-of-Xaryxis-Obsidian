@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/phb
-- race/gnome/rock
+- ttrpg-cli/race/gnome/rock
 aliases: ["Gnome (Rock)"]
 ---
 # Gnome (Rock)
@@ -37,7 +37,7 @@ You can speak, read, and write Common and Gnomish. The Gnomish language, which u
 
 ### Artificer's Lore
 
-Whenever you make an Intelligence ([History](rules/skills.md#History)) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
+Whenever you make an Intelligence ([History](/compendium/rules/skills.md#History)) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
 
 ### Tinker
 

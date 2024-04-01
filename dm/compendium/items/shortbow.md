@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/ammunition
-- item/property/two-handed
-- item/weapon/simple/ranged
+- ttrpg-cli/item/property/ammunition
+- ttrpg-cli/item/property/two-handed
+- ttrpg-cli/item/weapon/simple/ranged
 aliases: 
 - "Shortbow"
 ---
@@ -14,7 +14,7 @@ aliases:
 
 - **Damage**: 1d6 P
 - **Range**: 80/320
-- **Properties**: [Ammunition](rules/item-properties.md#Ammunition), [Two-handed](rules/item-properties.md#Two-handed)
+- **Properties**: [Ammunition](/compendium/rules/item-properties.md#Ammunition), [Two-handed](/compendium/rules/item-properties.md#Two-handed)
 - **Cost**: 25 gp
 - **Weight**: 2.0 lbs.
 

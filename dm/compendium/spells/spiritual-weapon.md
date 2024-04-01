@@ -3,11 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/life-domain
-- spell/class/cleric/war-domain
-- spell/level/2
-- spell/school/evocation
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/life-domain
+- ttrpg-cli/spell/class/cleric/war-domain
+- ttrpg-cli/spell/class/paladin/oath-of-conquest
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/evocation
 aliases: ["Spiritual Weapon"]
 ---
 # Spiritual Weapon
@@ -18,7 +20,7 @@ aliases: ["Spiritual Weapon"]
 - **Components:** V, S
 - **Duration:** 1 minute
 
-You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to `1d8` + your spellcasting ability modifier.
+You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to `dice: 1d8|avg` (`1d8`) + your spellcasting ability modifier.
 
 As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.
 
@@ -26,6 +28,6 @@ The weapon can take whatever form you choose. Clerics of deities who are associa
 
 **At Higher Levels.** When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above 2nd.
 
-**Classes**: [Cleric (Life Domain)](compendium/classes/cleric-life-domain.md), [Cleric (War Domain)](compendium/classes/cleric-war-domain.md), [Cleric](compendium/classes/cleric.md)
+**Classes**: [Cleric (Life Domain)](compendium/classes/cleric-life-domain.md), [Cleric (War Domain)](compendium/classes/cleric-war-domain.md), [Cleric](compendium/classes/cleric.md), [Paladin (Oath of Conquest)](compendium/classes/paladin-oath-of-conquest-xge.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 278. Available in the SRD and the Basic Rules.*

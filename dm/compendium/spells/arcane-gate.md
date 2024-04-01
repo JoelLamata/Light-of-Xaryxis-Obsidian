@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/sorcerer
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/6
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/6
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Arcane Gate"]
 ---
 # Arcane Gate

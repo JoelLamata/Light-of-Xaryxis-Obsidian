@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-4
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Space Swine"]
 ---
 # Space Swine
@@ -37,6 +37,6 @@ title: Space Swine
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage.
 ```
 ^statblock

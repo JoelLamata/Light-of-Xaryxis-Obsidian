@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greek
-- domain/death
-- domain/grave
+- ttrpg-cli/deity/greek
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/grave
 aliases: ["Hades"]
 ---
 # Hades

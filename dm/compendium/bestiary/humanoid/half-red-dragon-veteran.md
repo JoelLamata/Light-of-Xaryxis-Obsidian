@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/size/medium
-- monster/type/humanoid/human
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/human
 aliases: ["Half-Red Dragon Veteran"]
 ---
 # Half-Red Dragon Veteran
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 180, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Half-Red Dragon Veteran
@@ -35,12 +35,12 @@ title: Half-Red Dragon Veteran
 
 ***Multiattack.*** The veteran makes two longsword attacks. If it has a shortsword drawn, it can also make a shortsword attack.
 
-***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) slashing damage, or 8 (`1d10 + 3`) slashing damage if used with two hands.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) slashing damage, or `dice: 1d10 + 3|avg` (`1d10 + 3`) slashing damage if used with two hands.
 
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+***Shortsword.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage.
 
-***Heavy Crossbow.*** *Ranged Weapon Attack:* +3 to hit, range 100/400 ft., one target. *Hit:* 6 (`1d10 + 1`) piercing damage.
+***Heavy Crossbow.*** *Ranged Weapon Attack:* `dice: d20+3` (+3 to hit), range 100/400 ft., one target. *Hit:* `dice: 1d10 + 1|avg` (`1d10 + 1`) piercing damage.
 
-***Fire Breath (Recharge 5-6).*** The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (`7d6`) fire damage on a failed save, or half as much damage on a successful one.
+***Fire Breath (Recharge 5-6).*** The veteran exhales fire in a 15-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking `dice: 7d6|avg` (`7d6`) fire damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock

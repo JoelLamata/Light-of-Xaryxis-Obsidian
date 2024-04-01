@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/rogue
 - compendium/src/5e/phb
+- ttrpg-cli/class/rogue
 aliases: ["Rogue"]
 ---
 # Rogue
@@ -15,7 +15,7 @@ aliases: ["Rogue"]
 > |-------|----|----------|
 > | 1st | +2 | [Expertise](#Expertise%20(Level%201)), [Sneak Attack](#Sneak%20Attack%20(Level%201)), [Thieves' Cant](#Thieves'%20Cant%20(Level%201)) |
 > | 2nd | +2 | [Cunning Action](#Cunning%20Action%20(Level%202)) |
-> | 3rd | +2 | [Roguish Archetype](#Roguish%20Archetype%20(Level%203)) |
+> | 3rd | +2 | [Roguish Archetype](#Roguish%20Archetype%20(Level%203)), [Steady Aim](#Steady%20Aim%20(Level%203)) |
 > | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
 > | 5th | +3 | [Uncanny Dodge](#Uncanny%20Dodge%20(Level%205)) |
 > | 6th | +3 | [Expertise](#Expertise%20(Level%206)) |
@@ -224,9 +224,9 @@ At 6th level, you can choose two more of your proficiencies (in skills or with [
 
 ### Sneak Attack (Level 1)
 
-Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `1d6` damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra `dice: 1d6|avg` (`1d6`) damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
 
-You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't [incapacitated](rules/conditions.md#incapacitated), and you don't have disadvantage on the attack roll.
+You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't [incapacitated](/compendium/rules/conditions.md#incapacitated), and you don't have disadvantage on the attack roll.
 
 The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.
 
@@ -238,11 +238,18 @@ In addition, you understand a set of secret signs and symbols used to convey sho
 
 ### Cunning Action (Level 2)
 
-Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the [Dash](rules/actions.md#Dash), [Disengage](rules/actions.md#Disengage), or [Hide](rules/actions.md#Hide) action.
+Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the [Dash](/compendium/rules/actions.md#Dash), [Disengage](/compendium/rules/actions.md#Disengage), or [Hide](/compendium/rules/actions.md#Hide) action.
 
 ### Roguish Archetype (Level 3)
 
 At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level.
+
+### Steady Aim (Level 3)
+_Source: Tasha's Cauldron of Everything p. 62_
+
+*3rd-level rogue [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn.
 
 ### Ability Score Improvement (Level 4)
 
@@ -280,7 +287,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Reliable Talent (Level 11)
 
-By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a `d20` roll of 9 or lower as a 10.
+By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a `dice: d20|avg` (`d20`) roll of 9 or lower as a 10.
 
 ### Ability Score Improvement (Level 12)
 
@@ -294,7 +301,7 @@ At 13th level, you gain a feature granted by your Roguish Archetype.
 
 ### Blindsense (Level 14)
 
-Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or [invisible](rules/conditions.md#invisible) creature within 10 feet of you.
+Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or [invisible](/compendium/rules/conditions.md#invisible) creature within 10 feet of you.
 
 ### Slippery Mind (Level 15)
 
@@ -312,7 +319,7 @@ At 17th level, you gain a feature granted by your Roguish Archetype.
 
 ### Elusive (Level 18)
 
-Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't [incapacitated](rules/conditions.md#incapacitated).
+Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ### Ability Score Improvement (Level 19)
 
@@ -322,6 +329,6 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Stroke of Luck (Level 20)
 
-At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the `d20` roll as a 20.
+At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the `dice: d20|avg` (`d20`) roll as a 20.
 
 Once you use this feature, you can't use it again until you finish a short or long rest.

@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-2
-- monster/size/medium
-- monster/type/monstrosity/lizardfolk
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity/lizardfolk
 aliases: ["Ssurran Poisoner"]
 ---
 # Ssurran Poisoner
-*Source: Boo's Astral Menagerie p. 58*  
+*Source: Boo's Astral Menagerie p. 58, Light of Xaryxis*  
 
 Ssurran poisoners coat their weapons with toxin and hurl bombs that release poisonous gas.
 
@@ -18,7 +18,7 @@ title: Ssurran Poisoner
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Ssurran%20Poisoner.webp#token)
 *Medium monstrosity (lizardfolk), Any alignment*
 
-- **Armor Class** 16  (natural armor, shield)
+- **Armor Class** 16  (natural armor, [shield](compendium/items/shield.md))
 - **Hit Points** 22 (`4d8 + 4`)
 - **Speed** 30 ft., swim 30 ft.
 
@@ -41,10 +41,10 @@ title: Ssurran Poisoner
 
 ***Multiattack.*** The ssurran makes two Claw attacks.
 
-***Claw.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) slashing damage.
 
-***Javelin.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage plus 4 (`1d8`) poison damage.
+***Javelin.*** *Melee or Ranged Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft. or range 30/120 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage plus `dice: 1d8|avg` (`1d8`) poison damage.
 
-***Poison Bomb.*** The ssurran throws a tangerine-sized bomb at a point up to 60 feet away, where it explodes, releasing a 10-foot-radius sphere of poisonous gas that disperses quickly. Each creature in the sphere must make a DC 11 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one. After the ssurran throws a bomb, roll a `d6`; on a roll of 4 or lower, the ssurran has no more bombs to throw.
+***Poison Bomb.*** The ssurran throws a tangerine-sized bomb at a point up to 60 feet away, where it explodes, releasing a 10-foot-radius sphere of poisonous gas that disperses quickly. Each creature in the sphere must make a DC 11 Constitution saving throw, taking `dice: 3d6|avg` (`3d6`) poison damage on a failed save, or half as much damage on a successful one. After the ssurran throws a bomb, roll a `dice: d6|avg` (`d6`); on a roll of 4 or lower, the ssurran has no more bombs to throw.
 ```
 ^statblock

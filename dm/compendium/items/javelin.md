@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/thrown
-- item/weapon/simple/melee
+- ttrpg-cli/item/property/thrown
+- ttrpg-cli/item/weapon/simple/melee
 aliases: 
 - "Javelin"
 ---
@@ -13,7 +13,7 @@ aliases:
 
 - **Damage**: 1d6 P
 - **Range**: 30/120
-- **Properties**: [Thrown](rules/item-properties.md#Thrown)
+- **Properties**: [Thrown](/compendium/rules/item-properties.md#Thrown)
 - **Cost**: 5 sp
 - **Weight**: 2.0 lbs.
 

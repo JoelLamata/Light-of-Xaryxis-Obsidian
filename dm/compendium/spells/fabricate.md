@@ -3,11 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/wizard
-- spell/level/4
-- spell/school/transmutation
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/cleric/forge-domain
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Fabricate"]
 ---
 # Fabricate
@@ -24,6 +26,6 @@ Choose raw materials that you can see within range. You can fabricate a Large or
 
 Creatures or magic items can't be created or transmuted by this spell. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of artisan's tools used to craft such objects.
 
-**Classes**: [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Cleric (Forge Domain)](compendium/classes/cleric-forge-domain-xge.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 239. Available in the SRD.*

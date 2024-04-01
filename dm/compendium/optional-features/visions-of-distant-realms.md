@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/ei
+- ttrpg-cli/optional-feature/ei
 aliases: ["Visions of Distant Realms"]
 ---
 # Visions of Distant Realms

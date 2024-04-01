@@ -22,6 +22,6 @@ aliases: ["Ship Quirks"]
 | 6 | The floor of the main deck is adorned with a stylized rendering of a mysterious star chart that pulsates occasionally with scintillating colors. |
 | 7 | The ship's air envelope has a salty, briny smell. |
 | 8 | Bulkheads throughout the ship have lines of poetry scrawled on them. |
-| 9 | Unattended tools often go missing, only to reappear `1d4` hours later in another part of the ship. |
+| 9 | Unattended tools often go missing, only to reappear `dice: 1d4\|avg` (`1d4`) hours later in another part of the ship. |
 | 10 | A creature seated in the ship's [spelljamming helm](compendium/items/spelljamming-helm-aag.md) hears faint spacefaring chanteys in its mind except when the ship is under attack. |
 ^ship-quirks

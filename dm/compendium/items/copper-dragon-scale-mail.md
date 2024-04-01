@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/armor/medium
-- item/attunement/required
-- item/rarity/very-rare
-- item/tier/major
+- ttrpg-cli/item/armor/medium
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/major
 aliases: 
 - "Copper Dragon Scale Mail"
 ---

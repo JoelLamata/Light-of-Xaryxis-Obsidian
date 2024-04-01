@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/life
-- domain/nature
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/nature
 aliases: ["Ehlonna"]
 ---
 # Ehlonna

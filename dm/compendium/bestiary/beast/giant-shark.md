@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/environment/underwater
-- monster/size/huge
-- monster/type/beast
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Shark"]
 ---
 # Giant Shark
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 328, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Shark
@@ -40,7 +40,7 @@ title: Giant Shark
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 22 (`3d10 + 6`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 5 ft., one target. *Hit:* `dice: 3d10 + 6|avg` (`3d10 + 6`) piercing damage.
 ```
 ^statblock
 

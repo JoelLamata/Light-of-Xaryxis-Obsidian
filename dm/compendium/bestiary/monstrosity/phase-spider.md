@@ -3,19 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Phase Spider"]
 ---
 # Phase Spider
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 334, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Phase Spider
@@ -47,7 +47,7 @@ title: Phase Spider
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (`1d10 + 2`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 18 (`4d8`) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but [poisoned](rules/conditions.md#poisoned) for 1 hour, even after regaining hit points, and is [paralyzed](rules/conditions.md#paralyzed) while [poisoned](rules/conditions.md#poisoned) in this way.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d10 + 2|avg` (`1d10 + 2`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking `dice: 4d8|avg` (`4d8`) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but [poisoned](/compendium/rules/conditions.md#poisoned) for 1 hour, even after regaining hit points, and is [paralyzed](/compendium/rules/conditions.md#paralyzed) while [poisoned](/compendium/rules/conditions.md#poisoned) in this way.
 ```
 ^statblock
 

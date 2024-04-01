@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/5
-- monster/size/huge
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Night Scavver"]
 ---
 # Night Scavver
@@ -41,6 +41,6 @@ title: Night Scavver
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +8 to hit (with advantage if the target is a creature that is missing any hit points), reach 10 ft., one target. *Hit:* 27 (`4d10 + 5`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit) (with advantage if the target is a creature that is missing any hit points), reach 10 ft., one target. *Hit:* `dice: 4d10 + 5|avg` (`4d10 + 5`) piercing damage.
 ```
 ^statblock

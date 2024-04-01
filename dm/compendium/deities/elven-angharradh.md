@@ -2,17 +2,20 @@
 obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
-- compendium/src/5e/scag
-- deity/elven
-- domain/knowledge
-- domain/life
-- domain/peace
+- compendium/src/5e/mtf
+- ttrpg-cli/deity/elven
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/peace
+- ttrpg-cli/domain/war
 aliases: ["Angharradh"]
 ---
 # Angharradh
-*Source: Sword Coast Adventurer's Guide p. 23, Tasha's Cauldron of Everything p. 32* 
+*Source: Mordenkainen's Tome of Foes p. 43, Tasha's Cauldron of Everything p. 32* 
 
 - **Alignment**: Chaotic Good
-- **Domains**: Knowledge, Life, Peace
+- **Category**: The Seldarine
+- **Domains**: Knowledge, Life, War, Peace
 - **Pantheon**: Elven
-- **Symbol**: Triangle with three interlocking circles within
+- **Province**: Wisdom, growth, protection
+- **Symbol**: Three interlocking circles

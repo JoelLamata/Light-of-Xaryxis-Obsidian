@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/ranger
 - compendium/src/5e/phb
+- ttrpg-cli/class/ranger
 aliases: ["Ranger"]
 ---
 # Ranger
@@ -13,16 +13,16 @@ aliases: ["Ranger"]
 > 
 > | Level | PB | Features |
 > |-------|----|----------|
-> | 1st | +2 | [Favored Enemy](#Favored%20Enemy%20(Level%201)), [Natural Explorer](#Natural%20Explorer%20(Level%201)) |
-> | 2nd | +2 | [Fighting Style](#Fighting%20Style%20(Level%202)), [Spellcasting](#Spellcasting%20(Level%202)) |
-> | 3rd | +2 | [Ranger Archetype](#Ranger%20Archetype%20(Level%203)), [Primeval Awareness](#Primeval%20Awareness%20(Level%203)) |
-> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
+> | 1st | +2 | [Favored Enemy](#Favored%20Enemy%20(Level%201)), [Favored Foe](#Favored%20Foe%20(Level%201)), [Natural Explorer](#Natural%20Explorer%20(Level%201)), [Deft Explorer](#Deft%20Explorer%20(Level%201)) |
+> | 2nd | +2 | [Fighting Style](#Fighting%20Style%20(Level%202)), [Spellcasting](#Spellcasting%20(Level%202)), [Spellcasting Focus](#Spellcasting%20Focus%20(Level%202)) |
+> | 3rd | +2 | [Ranger Archetype](#Ranger%20Archetype%20(Level%203)), [Primeval Awareness](#Primeval%20Awareness%20(Level%203)), [Primal Awareness](#Primal%20Awareness%20(Level%203)) |
+> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)), [Martial Versatility](#Martial%20Versatility%20(Level%204)) |
 > | 5th | +3 | [Extra Attack](#Extra%20Attack%20(Level%205)) |
-> | 6th | +3 | [Favored Enemy and Natural Explorer improvements](#Favored%20Enemy%20and%20Natural%20Explorer%20improvements%20(Level%206)) |
+> | 6th | +3 | [Favored Enemy and Natural Explorer improvements](#Favored%20Enemy%20and%20Natural%20Explorer%20improvements%20(Level%206)), [Deft Explorer Improvement](#Deft%20Explorer%20Improvement%20(Level%206)) |
 > | 7th | +3 | [Ranger Archetype feature](#Ranger%20Archetype%20feature%20(Level%207)) |
 > | 8th | +3 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%208)), [Land's Stride](#Land's%20Stride%20(Level%208)) |
 > | 9th | +4 | ⏤ |
-> | 10th | +4 | [Hide in Plain Sight](#Hide%20in%20Plain%20Sight%20(Level%2010)), [Natural Explorer improvement](#Natural%20Explorer%20improvement%20(Level%2010)) |
+> | 10th | +4 | [Hide in Plain Sight](#Hide%20in%20Plain%20Sight%20(Level%2010)), [Nature's Veil](#Nature's%20Veil%20(Level%2010)), [Natural Explorer improvement](#Natural%20Explorer%20improvement%20(Level%2010)), [Deft Explorer Improvement](#Deft%20Explorer%20Improvement%20(Level%2010)) |
 > | 11th | +4 | [Ranger Archetype feature](#Ranger%20Archetype%20feature%20(Level%2011)) |
 > | 12th | +4 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%2012)) |
 > | 13th | +5 | ⏤ |
@@ -215,13 +215,26 @@ What spurred your character to select a particular enemy? Was the choice made be
 
 Beginning at 1st level, you have significant experience studying, tracking, hunting, and even talking to a certain type of enemy.
 
-Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as gnolls and orcs) as favored enemies.
+Choose a type of favored enemy: aberrations, beasts, celestials, constructs, dragons, elementals, fey, fiends, giants, monstrosities, oozes, plants, or undead. Alternatively, you can select two races of humanoid (such as [gnolls](compendium/bestiary/humanoid/gnoll.md) and [orcs](compendium/bestiary/humanoid/orc.md)) as favored enemies.
 
-You have advantage on Wisdom ([Survival](rules/skills.md#Survival)) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
+You have advantage on Wisdom ([Survival](/compendium/rules/skills.md#Survival)) checks to track your favored enemies, as well as on Intelligence checks to recall information about them.
 
 When you gain this feature, you also learn one language of your choice that is spoken by your favored enemies, if they speak one at all.
 
 You choose one additional favored enemy, as well as an associated language, at 6th and 14th level. As you gain levels, your choices should reflect the types of monsters you have encountered on your adventures.
+
+### Favored Foe (Level 1)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+*1st-level ranger [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Favored Enemy feature and works with the Foe Slayer feature*
+
+When you hit a creature with an attack roll, you can call on your mystical bond with nature to mark the target as your favored enemy for 1 minute or until you lose your [concentration](/compendium/rules/conditions.md#concentration) (as if you were concentrating on a spell).
+
+The first time on each of your turns that you hit the favored enemy and deal damage to it, including when you mark it, you can increase that damage by `dice: 1d4|avg` (`1d4`).
+
+You can use this feature to mark a favored enemy a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+This feature's extra damage increases when you reach certain levels in this class: to `dice: 1d6|avg` (`1d6`) at 6th level and to `dice: 1d8|avg` (`1d8`) at 14th level.
 
 ### Natural Explorer (Level 1)
 
@@ -237,6 +250,19 @@ While traveling for an hour or more in your favored terrain, you gain the follow
 - While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.  
 
 You choose additional favored terrain types at 6th and 10th level.
+
+### Deft Explorer (Level 1)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+*1st-level ranger [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Natural Explorer feature*
+
+You are an unsurpassed explorer and survivor, both in the wilderness and in dealing with others on your travels. You gain the Canny benefit below, and you gain an additional benefit below when you reach 6th level and 10th level in this class.
+
+#### Canny
+
+Choose one of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses the chosen skill.
+
+You can also speak, read, and write two additional languages of your choice.
 
 ### Fighting Style (Level 2)
 
@@ -273,6 +299,13 @@ Wisdom is your spellcasting ability for your ranger spells, since your magic dra
 
 **Spell attack modifier**: your proficiency bonus + your Wisdom modifier
 
+### Spellcasting Focus (Level 2)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+*2nd-level ranger [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+You can use a [druidic focus](compendium/items/druidic-focus.md) as a spellcasting focus for your ranger spells. A druidic focus might be a sprig of mistletoe or holly, a wand or rod made of yew or another special wood, a staff drawn whole from a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.
+
 ### Ranger Archetype (Level 3)
 
 At 3rd level, you choose an archetype that you strive to emulate from the list of available archetypes. Your choice grants features at 3rd level, and again at 7th, 11th, and 15th level.
@@ -281,21 +314,57 @@ At 3rd level, you choose an archetype that you strive to emulate from the list o
 
 Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn't reveal the creatures' location or number.
 
+### Primal Awareness (Level 3)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+*3rd-level ranger [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Primeval Awareness feature*
+
+You can focus your awareness through the interconnections of nature: you learn additional spells when you reach certain levels in this class if you don't already know them, as shown in the Primal Awareness Spells table. These spells don't count against the number of ranger spells you know.
+
+**Primal Awareness Spells**
+
+| Ranger Level | Spell |
+|--------------|-------|
+| 3rd | [speak with animals](compendium/spells/speak-with-animals.md) |
+| 5th | [beast sense](compendium/spells/beast-sense.md) |
+| 9th | [speak with plants](compendium/spells/speak-with-plants.md) |
+| 13th | [locate creature](compendium/spells/locate-creature.md) |
+| 17th | [commune with nature](compendium/spells/commune-with-nature.md) |
+^primal-awareness-spells
+
+You can cast each of these spells once without expending a spell slot. Once you cast a spell in this way, you can't do so again until you finish a long rest.
+
 ### Ability Score Improvement (Level 4)
 
 When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
 If your DM allows the use of feats, you may instead take a feat.
 
+### Martial Versatility (Level 4)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+*4th-level ranger [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a fighting style you know with another fighting style available to rangers. This replacement represents a shift of focus in your martial practice.
+
 ### Extra Attack (Level 5)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](rules/actions.md#Attack) action on your turn.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](/compendium/rules/actions.md#Attack) action on your turn.
 
 ### Favored Enemy and Natural Explorer improvements (Level 6)
 
 At 6th level, you gain an additional favored terrain.
 
 At 6th level, you choose one additional favored enemy, as well as an associated language. Your choice should reflect the types of monsters you have encountered on your adventures.
+
+### Deft Explorer Improvement (Level 6)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+You gain an additional benefit when you reach 6th level in this class.
+
+#### Roving
+
+Your walking speed increases by 5, and you gain a climbing speed and a swimming speed equal to your walking speed.
 
 ### Ranger Archetype feature (Level 7)
 
@@ -317,11 +386,31 @@ In addition, you have advantage on saving throws against plants that are magical
 
 Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
 
-Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity ([Stealth](rules/skills.md#Stealth)) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.
+Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity ([Stealth](/compendium/rules/skills.md#Stealth)) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.
+
+### Nature's Veil (Level 10)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+*10th-level ranger [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Hide in Plain Sight feature*
+
+You draw on the powers of nature to hide yourself from view briefly. As a bonus action, you can magically become [invisible](/compendium/rules/conditions.md#invisible), along with any equipment you are wearing or carrying, until the start of your next turn.
+
+You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 ### Natural Explorer improvement (Level 10)
 
 You gain an additional favored terrain.
+
+### Deft Explorer Improvement (Level 10)
+_Source: Tasha's Cauldron of Everything p. 56_
+
+You gain an additional benefit when you reach 10th level in this class.
+
+#### Tireless
+
+As an action, you can give yourself a number of temporary hit points equal to `dice: 1d8|avg` (`1d8`) + your Wisdom modifier (minimum of 1 temporary hit point). You can use this action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+In addition, whenever you finish a short rest, your [exhaustion](/compendium/rules/conditions.md#exhaustion) level, if any, is decreased by 1.
 
 ### Ranger Archetype feature (Level 11)
 
@@ -335,7 +424,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Vanish (Level 14)
 
-Starting at 14th level, you can use the [Hide](rules/actions.md#Hide) action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.
+Starting at 14th level, you can use the [Hide](/compendium/rules/actions.md#Hide) action as a bonus action on your turn. Also, you can't be tracked by nonmagical means, unless you choose to leave a trail.
 
 ### Favored Enemy improvement (Level 14)
 
@@ -353,7 +442,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Feral Senses (Level 18)
 
-At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any [invisible](rules/conditions.md#invisible) creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't [blinded](rules/conditions.md#blinded) or [deafened](rules/conditions.md#deafened).
+At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it. You are also aware of the location of any [invisible](/compendium/rules/conditions.md#invisible) creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't [blinded](/compendium/rules/conditions.md#blinded) or [deafened](/compendium/rules/conditions.md#deafened).
 
 ### Ability Score Improvement (Level 19)
 

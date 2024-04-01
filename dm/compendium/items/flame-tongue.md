@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/rarity/rare
-- item/tier/major
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "Flame Tongue"
 - "Flame Tongue Longsword"
@@ -20,7 +20,7 @@ aliases:
 *Generic Variant, major, rare (requires attunement)*  
 
 
-You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra `2d6` fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
+You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra `dice: 2d6|avg` (`2d6`) fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
 
 **Variants**:
 - [Flame Tongue Longsword](#Flame%20Tongue%20Longsword)

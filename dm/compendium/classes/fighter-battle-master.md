@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/fighter/battle-master
+- ttrpg-cli/subclass/fighter/battle-master
 aliases: ["Battle Master"]
 ---
 # Battle Master
@@ -33,7 +33,7 @@ You learn two additional maneuvers of your choice at 7th, 10th, and 15th level. 
 
 #### Superiority Dice
 
-You have four superiority dice, which are `d8`s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
+You have four superiority dice, which are `dice: d8|avg` (`d8`)s. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.
 
 You gain another superiority die at 7th level and one more at 15th level.
 
@@ -64,6 +64,13 @@ The maneuvers are presented in alphabetical order.
 - [Sweeping Attack](compendium/optional-features/sweeping-attack.md)  
 - [Trip Attack](compendium/optional-features/trip-attack.md)  
 
+### Maneuver Options (Level 3)
+_Source: Tasha's Cauldron of Everything p. 41_
+
+*3rd-level fighter [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+If you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters but also to characters who have a special feature like the [Superior Technique](compendium/optional-features/superior-technique-tce.md) fighting style or the [Martial Adept](compendium/feats/martial-adept.md) feat.
+
 ### Additional Maneuvers (Level 7)
 
 At 7th level, you learn two additional maneuvers of your choice.
@@ -90,7 +97,7 @@ At 10th level, you learn two additional maneuvers of your choice.
 
 ### Improved Combat Superiority (d10) (Level 10)
 
-At 10th level, your superiority dice turn into `d10`s.
+At 10th level, your superiority dice turn into `dice: d10|avg` (`d10`)s.
 
 ### Additional Maneuvers (Level 15)
 
@@ -106,7 +113,7 @@ Starting at 15th level, when you roll initiative and have no superiority dice re
 
 ### Improved Combat Superiority (d12) (Level 18)
 
-At 18th level, your superiority dice turn into `d12`s.
+At 18th level, your superiority dice turn into `dice: d12|avg` (`d12`)s.
 
 ## Optional Features
 

@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-8
-- monster/environment/coastal
-- monster/environment/underwater
-- monster/size/medium
-- monster/type/humanoid/merfolk
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/merfolk
 aliases: ["Merfolk"]
 ---
 # Merfolk
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 218, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Merfolk
@@ -39,7 +39,7 @@ title: Merfolk
 
 ## Actions
 
-***Spear.*** *Melee or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 3 (`1d6`) piercing damage, or 4 (`1d8`) piercing damage if used with two hands to make a melee attack.
+***Spear.*** *Melee or Ranged Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft. or range 20/60 ft., one target. *Hit:* `dice: 1d6|avg` (`1d6`) piercing damage, or `dice: 1d8|avg` (`1d8`) piercing damage if used with two hands to make a melee attack.
 ```
 ^statblock
 

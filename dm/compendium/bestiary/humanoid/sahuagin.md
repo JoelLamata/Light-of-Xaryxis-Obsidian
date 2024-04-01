@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/coastal
-- monster/environment/underwater
-- monster/size/medium
-- monster/type/humanoid/sahuagin
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/sahuagin
 aliases: ["Sahuagin"]
 ---
 # Sahuagin
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 263, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Sahuagin
@@ -45,11 +45,11 @@ title: Sahuagin
 
 ***Multiattack.*** The sahuagin makes two melee attacks: one with its bite and one with its claws or spear.
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) piercing damage.
 
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) slashing damage.
 
-***Spear.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage, or 5 (`1d8 + 1`) piercing damage if used with two hands to make a melee attack.
+***Spear.*** *Melee or Ranged Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft. or range 20/60 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage, or `dice: 1d8 + 1|avg` (`1d8 + 1`) piercing damage if used with two hands to make a melee attack.
 ```
 ^statblock
 

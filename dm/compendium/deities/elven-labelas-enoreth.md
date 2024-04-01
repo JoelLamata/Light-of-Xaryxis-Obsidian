@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/elven
-- domain/arcana
-- domain/knowledge
+- ttrpg-cli/deity/elven
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/knowledge
 aliases: ["Labelas Enoreth"]
 ---
 # Labelas Enoreth

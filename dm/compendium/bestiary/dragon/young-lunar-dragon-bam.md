@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/7
-- monster/size/large
-- monster/type/dragon
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/dragon
 aliases: ["Young Lunar Dragon"]
 ---
 # Young Lunar Dragon
@@ -49,14 +49,14 @@ title: Young Lunar Dragon
 
 ***Multiattack.*** The dragon makes one Bite attack and two Claw attacks.
 
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 7 (`1d6 + 4`) piercing damage plus 3 (`1d6`) cold damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 10 ft., one target. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) piercing damage plus `dice: 1d6|avg` (`1d6`) cold damage.
 
-***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (`1d6 + 4`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) slashing damage.
 
-***Cold Breath (Recharge 5-6).*** The dragon exhales a blast of frost in a 30-foot cone. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, the creature takes 27 (`6d8`) cold damage, and its speed is halved until the end of its next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.
+***Cold Breath (Recharge 5-6).*** The dragon exhales a blast of frost in a 30-foot cone. Each creature in the cone must make a DC 15 Constitution saving throw. On a failed save, the creature takes `dice: 6d8|avg` (`6d8`) cold damage, and its speed is halved until the end of its next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.
 
 ## Bonus Actions
 
-***Phase (2/Day).*** The dragon becomes partially incorporeal for as long as it maintains concentration on the effect (as if concentrating on a spell). While partially incorporeal, the dragon has resistance to bludgeoning, piercing, and slashing damage.
+***Phase (2/Day).*** The dragon becomes partially incorporeal for as long as it maintains [concentration](/compendium/rules/conditions.md#concentration) on the effect (as if concentrating on a spell). While partially incorporeal, the dragon has resistance to bludgeoning, piercing, and slashing damage.
 ```
 ^statblock

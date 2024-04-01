@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-2
-- monster/size/small
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/beast
 aliases: ["Space Eel"]
 ---
 # Space Eel
@@ -41,8 +41,8 @@ title: Space Eel
 
 ***Multiattack.*** If it isn't attached to a creature, the eel makes one Bite attack and one Tail Spine attack.
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d6 + 1`) piercing damage, and the eel attaches to the target. While attached, the eel can't make Bite attacks. Instead, the target takes 4 (`1d6 + 1`) piercing damage at the start of each of the eel's turns. The eel can detach itself as a bonus action. A creature, including the target, can use its action to detach the eel.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage, and the eel attaches to the target. While attached, the eel can't make Bite attacks. Instead, the target takes `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage at the start of each of the eel's turns. The eel can detach itself as a bonus action. A creature, including the target, can use its action to detach the eel.
 
-***Tail Spine.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (`1d4 + 1`) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Tail Spine.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. Until this poison ends, the target is [paralyzed](/compendium/rules/conditions.md#paralyzed). The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 ```
 ^statblock

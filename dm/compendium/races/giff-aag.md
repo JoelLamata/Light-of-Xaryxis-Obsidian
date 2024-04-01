@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/aag
-- race/giff
+- ttrpg-cli/race/giff
 aliases: ["Giff"]
 ---
 # Giff

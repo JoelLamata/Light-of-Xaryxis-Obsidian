@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/6
-- monster/environment/desert
-- monster/size/medium
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/6
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Medusa"]
 ---
 # Medusa
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 214, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Medusa
@@ -34,7 +34,7 @@ title: Medusa
 
 ## Traits
 
-***Petrifying Gaze.*** When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't [incapacitated](rules/conditions.md#incapacitated) and can see the creature. If the saving throw fails by 5 or more, the creature is instantly [petrified](rules/conditions.md#petrified). Otherwise, a creature that fails the save begins to turn to stone and is [restrained](rules/conditions.md#restrained). The [restrained](rules/conditions.md#restrained) creature must repeat the saving throw at the end of its next turn, becoming [petrified](rules/conditions.md#petrified) on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  [greater restoration](compendium/spells/greater-restoration.md) spell or other magic.
+***Petrifying Gaze.*** When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't [incapacitated](/compendium/rules/conditions.md#incapacitated) and can see the creature. If the saving throw fails by 5 or more, the creature is instantly [petrified](/compendium/rules/conditions.md#petrified). Otherwise, a creature that fails the save begins to turn to stone and is [restrained](/compendium/rules/conditions.md#restrained). The [restrained](/compendium/rules/conditions.md#restrained) creature must repeat the saving throw at the end of its next turn, becoming [petrified](/compendium/rules/conditions.md#petrified) on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the  [greater restoration](compendium/spells/greater-restoration.md) spell or other magic.
 
 Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.
 
@@ -44,11 +44,11 @@ If the medusa sees itself reflected on a polished surface within 30 feet of it a
 
 ***Multiattack.*** The medusa makes either three melee attacks—one with its snake hair and two with its shortsword—or two ranged attacks with its longbow.
 
-***Snake Hair.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d4 + 2`) piercing damage plus 14 (`4d6`) poison damage.
+***Snake Hair.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage plus `dice: 4d6|avg` (`4d6`) poison damage.
 
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+***Shortsword.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
 
-***Longbow.*** *Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage plus 7 (`2d6`) poison damage.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage plus `dice: 2d6|avg` (`2d6`) poison damage.
 ```
 ^statblock
 

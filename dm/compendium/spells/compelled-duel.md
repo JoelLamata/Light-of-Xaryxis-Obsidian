@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/paladin
-- spell/class/paladin/oath-of-the-crown
-- spell/level/1
-- spell/school/enchantment
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/paladin/oath-of-the-crown
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/school/enchantment
 aliases: ["Compelled Duel"]
 ---
 # Compelled Duel

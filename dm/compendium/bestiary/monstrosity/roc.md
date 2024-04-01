@@ -3,18 +3,18 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/11
-- monster/environment/arctic
-- monster/environment/coastal
-- monster/environment/desert
-- monster/environment/hill
-- monster/environment/mountain
-- monster/size/gargantuan
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/11
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/gargantuan
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Roc"]
 ---
 # Roc
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 260, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Roc
@@ -38,15 +38,15 @@ title: Roc
 
 ## Traits
 
-***Keen Sight.*** The roc has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight.
+***Keen Sight.*** The roc has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight.
 
 ## Actions
 
 ***Multiattack.*** The roc makes two attacks: one with its beak and one with its talons.
 
-***Beak.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 27 (`4d8 + 9`) piercing damage.
+***Beak.*** *Melee Weapon Attack:* `dice: d20+13` (+13 to hit), reach 10 ft., one target. *Hit:* `dice: 4d8 + 9|avg` (`4d8 + 9`) piercing damage.
 
-***Talons.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 23 (`4d6 + 9`) slashing damage, and the target is [grappled](rules/conditions.md#grappled) (escape DC 19). Until this grapple ends, the target is [restrained](rules/conditions.md#restrained), and the roc can't use its talons on another target.
+***Talons.*** *Melee Weapon Attack:* `dice: d20+13` (+13 to hit), reach 5 ft., one target. *Hit:* `dice: 4d6 + 9|avg` (`4d6 + 9`) slashing damage, and the target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 19). Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), and the roc can't use its talons on another target.
 ```
 ^statblock
 

@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/arcana-domain
-- spell/class/druid
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/9
-- spell/school/divination
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/9
+- ttrpg-cli/spell/school/divination
 aliases: ["Foresight"]
 ---
 # Foresight

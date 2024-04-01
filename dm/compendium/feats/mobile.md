@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- feat
+- ttrpg-cli/feat
 aliases: ["Mobile"]
 ---
 # Mobile
@@ -12,5 +12,5 @@ aliases: ["Mobile"]
 You are exceptionally speedy and agile. You gain the following benefits:
 
 - Your speed increases by 10 feet.  
-- When you use the [Dash](rules/actions.md#Dash) action, difficult terrain doesn't cost you extra movement on that turn.  
+- When you use the [Dash](/compendium/rules/actions.md#Dash) action, difficult terrain doesn't cost you extra movement on that turn.  
 - When you make a melee attack against a creature, you don't provoke opportunity attacks from that creature for the rest of the turn, whether you hit or not.

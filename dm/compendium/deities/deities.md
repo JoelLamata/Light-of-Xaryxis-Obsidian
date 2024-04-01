@@ -210,6 +210,7 @@ cssclasses: json5e-note
 - [Tyr](forgotten-realms-tyr.md)
 - [Umberlee](forgotten-realms-umberlee.md)
 - [Waukeen](forgotten-realms-waukeen.md)
+- [Gaerdal Ironhand](gnome-gaerdal-ironhand.md)
 - [Baervan Wildwanderer](gnomish-baervan-wildwanderer.md)
 - [Baravar Cloakshadow](gnomish-baravar-cloakshadow.md)
 - [Callarduran Smoothhands](gnomish-callarduran-smoothhands.md)
@@ -319,3 +320,4 @@ cssclasses: json5e-note
 - [Luthic](orc-luthic.md)
 - [Shargaas](orc-shargaas.md)
 - [Yurtrus](orc-yurtrus.md)
+- [Procan](unknown-procan.md)

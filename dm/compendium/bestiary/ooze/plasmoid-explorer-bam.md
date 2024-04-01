@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-4
-- monster/size/medium
-- monster/type/ooze
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/ooze
 aliases: ["Plasmoid Explorer"]
 ---
 # Plasmoid Explorer
@@ -43,8 +43,8 @@ title: Plasmoid Explorer
 
 ***Multiattack.*** The plasmoid makes two Pseudopod attacks. It can replace one of those attacks with a Javelin attack.
 
-***Pseudopod.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning damage.
+***Pseudopod.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) bludgeoning damage.
 
-***Javelin.*** *Melee or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage.
+***Javelin.*** *Melee or Ranged Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft. or range 30/120 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage.
 ```
 ^statblock

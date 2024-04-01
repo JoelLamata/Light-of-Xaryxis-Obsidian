@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/trickery-domain
-- spell/class/druid
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/4
-- spell/school/transmutation
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/trickery-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Polymorph"]
 ---
 # Polymorph

@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/0
-- monster/size/small
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/beast
 aliases: ["Space Guppy"]
 ---
 # Space Guppy
-*Source: Boo's Astral Menagerie p. 55*  
+*Source: Boo's Astral Menagerie p. 55, Light of Xaryxis*  
 
 Space guppies are 2- to 3-foot-long, fish-like creatures that glide through Wildspace and the Astral Sea. Chwinga astronauts, sprites, and other Tiny creatures occasionally use space guppies as mounts.
 
@@ -41,6 +41,6 @@ title: Space Guppy
 
 ## Actions
 
-***Tail Slap.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
+***Tail Slap.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
 ```
 ^statblock

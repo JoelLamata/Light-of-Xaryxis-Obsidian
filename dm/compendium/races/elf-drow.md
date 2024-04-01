@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/phb
-- race/elf/drow
+- ttrpg-cli/race/elf/drow
 aliases: ["Elf (Drow)"]
 ---
 # Elf (Drow)
@@ -30,11 +30,11 @@ Accustomed to the depths of the Underdark, you have superior vision in dark and 
 
 ### Keen Senses
 
-You have proficiency in the [Perception](rules/skills.md#Perception) skill.
+You have proficiency in the [Perception](/compendium/rules/skills.md#Perception) skill.
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](rules/conditions.md#charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](/compendium/rules/conditions.md#charmed), and magic can't put you to sleep.
 
 ### Trance
 
@@ -49,7 +49,7 @@ You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle i
 
 ### Sunlight Sensitivity
 
-You have disadvantage on attack rolls and on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
+You have disadvantage on attack rolls and on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.
 
 ### Drow Magic
 

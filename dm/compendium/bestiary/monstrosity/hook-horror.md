@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/underdark
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Hook Horror"]
 ---
 # Hook Horror
@@ -34,15 +34,15 @@ title: Hook Horror
 
 ## Traits
 
-***Echolocation.*** The hook horror can't use its blindsight while deafened.
+***Echolocation.*** The hook horror can't use its blindsight while [deafened](/compendium/rules/conditions.md#deafened).
 
-***Keen Hearing.*** The hook horror has advantage on Wisdom (Perception) checks that rely on hearing.
+***Keen Hearing.*** The hook horror has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing.
 
 ## Actions
 
 ***Multiattack.*** The hook horror makes two hook attacks.
 
-***Hook.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 11 (`2d6 + 4`) piercing damage.
+***Hook.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) piercing damage.
 ```
 ^statblock
 

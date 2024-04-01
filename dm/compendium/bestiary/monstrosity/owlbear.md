@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/forest
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Owlbear"]
 ---
 # Owlbear
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 249, Lost Mine of Phandelver, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Owlbear
@@ -34,15 +34,15 @@ title: Owlbear
 
 ## Traits
 
-***Keen Sight and Smell.*** The owlbear has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight or smell.
+***Keen Sight and Smell.*** The owlbear has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight or smell.
 
 ## Actions
 
 ***Multiattack.*** The owlbear makes two attacks: one with its beak and one with its claws.
 
-***Beak.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 10 (`1d10 + 5`) piercing damage.
+***Beak.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d10 + 5|avg` (`1d10 + 5`) piercing damage.
 
-***Claws.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (`2d8 + 5`) slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 5|avg` (`2d8 + 5`) slashing damage.
 ```
 ^statblock
 

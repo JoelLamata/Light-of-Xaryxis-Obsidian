@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/monk/open-hand
+- ttrpg-cli/subclass/monk/open-hand
 aliases: ["Way of the Open Hand"]
 ---
 # Way of the Open Hand
@@ -21,7 +21,7 @@ Monks of the Way of the Open Hand are the ultimate masters of martial arts comba
 
 You can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target.
 
-- It must succeed on a Dexterity saving throw or be knocked [prone](rules/conditions.md#prone).  
+- It must succeed on a Dexterity saving throw or be knocked [prone](/compendium/rules/conditions.md#prone).  
 - It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.  
 - It can't take reactions until the end of your next turn.  
 
@@ -35,6 +35,6 @@ Beginning at 11th level, you can enter a special meditation that surrounds you w
 
 ### Quivering Palm (Level 17)
 
-You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes `10d10` necrotic damage.
+You gain the ability to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 ki points to start these imperceptible vibrations, which last for a number of days equal to your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When you use this action, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes `dice: 10d10|avg` (`10d10`) necrotic damage.
 
 You can have only one creature under the effect of this feature at a time. You can choose to end the vibrations harmlessly without using an action.

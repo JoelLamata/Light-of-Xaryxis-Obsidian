@@ -3,18 +3,18 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/humanoid/goblinoid
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/goblinoid
 aliases: ["Hobgoblin"]
 ---
 # Hobgoblin
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 186, Lost Mine of Phandelver, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Hobgoblin
@@ -38,13 +38,13 @@ title: Hobgoblin
 
 ## Traits
 
-***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra 7 (`2d6`) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't [incapacitated](rules/conditions.md#incapacitated).
+***Martial Advantage.*** Once per turn, the hobgoblin can deal an extra `dice: 2d6|avg` (`2d6`) damage to a creature it hits with a weapon attack if that creature is within 5 feet of an ally of the hobgoblin that isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ## Actions
 
-***Longsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (`1d8 + 1`) slashing damage, or 6 (`1d10 + 1`) slashing damage if used with two hands.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 1|avg` (`1d8 + 1`) slashing damage, or `dice: 1d10 + 1|avg` (`1d10 + 1`) slashing damage if used with two hands.
 
-***Longbow.*** *Ranged Weapon Attack:* +3 to hit, range 150/600 ft., one target. *Hit:* 5 (`1d8 + 1`) piercing damage.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+3` (+3 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 1|avg` (`1d8 + 1`) piercing damage.
 ```
 ^statblock
 

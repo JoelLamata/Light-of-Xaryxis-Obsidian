@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/gnomish
-- domain/trickery
+- ttrpg-cli/deity/gnomish
+- ttrpg-cli/domain/trickery
 aliases: ["Garl Glittergold"]
 ---
 # Garl Glittergold

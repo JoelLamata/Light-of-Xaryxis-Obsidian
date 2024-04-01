@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/coastal
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/mountain
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Eagle"]
 ---
 # Giant Eagle
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 324, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Eagle
@@ -37,15 +37,15 @@ title: Giant Eagle
 
 ## Traits
 
-***Keen Sight.*** The eagle has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight.
+***Keen Sight.*** The eagle has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight.
 
 ## Actions
 
 ***Multiattack.*** The eagle makes two attacks: one with its beak and one with its talons.
 
-***Beak.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+***Beak.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage.
 
-***Talons.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) slashing damage.
+***Talons.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 3|avg` (`2d6 + 3`) slashing damage.
 ```
 ^statblock
 

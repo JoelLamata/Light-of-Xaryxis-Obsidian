@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/aag
-- race/astral-elf
+- ttrpg-cli/race/astral-elf
 aliases: ["Astral Elf"]
 ---
 # Astral Elf
@@ -23,7 +23,7 @@ You are a Humanoid. You are also considered an elf for any prerequisite or effec
 
 ### Astral Fire
 
-You know one of the following cantrips of your choice: dancing lights, light, or sacred flame. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).
+You know one of the following cantrips of your choice: [dancing lights](compendium/spells/dancing-lights.md), [light](compendium/spells/light.md), or [sacred flame](compendium/spells/sacred-flame.md). Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race).
 
 ### Darkvision
 
@@ -31,11 +31,11 @@ You can see in dim light within 60 feet of yourself as if it were bright light, 
 
 ### Fey Ancestry
 
-You have advantage on saving throws you make to avoid or end the charmed condition on yourself.
+You have advantage on saving throws you make to avoid or end the [charmed](/compendium/rules/conditions.md#charmed) condition on yourself.
 
 ### Keen Senses
 
-You have proficiency in the Perception skill.
+You have proficiency in the [Perception](/compendium/rules/skills.md#Perception) skill.
 
 ### Starlight Step
 

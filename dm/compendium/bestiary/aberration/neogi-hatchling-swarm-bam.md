@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/3
-- monster/size/medium
-- monster/type/aberration
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/aberration
 aliases: ["Neogi Hatchling Swarm"]
 ---
 # Neogi Hatchling Swarm
@@ -41,6 +41,6 @@ title: Neogi Hatchling Swarm
 
 ## Actions
 
-***Swarm of Bites.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 22 (`6d6 + 1`) poison damage, or 11 (`3d6 + 1`) poison damage if the swarm has half of its hit points or fewer, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Swarm of Bites.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one creature. *Hit:* `dice: 6d6 + 1|avg` (`6d6 + 1`) poison damage, or `dice: 3d6 + 1|avg` (`3d6 + 1`) poison damage if the swarm has half of its hit points or fewer, and the target must succeed on a DC 12 Constitution saving throw or become [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 ```
 ^statblock

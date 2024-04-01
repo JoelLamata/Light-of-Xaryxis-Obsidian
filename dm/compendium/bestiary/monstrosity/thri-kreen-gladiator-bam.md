@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/7
-- monster/size/medium
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Thri-kreen Gladiator"]
 ---
 # Thri-kreen Gladiator
-*Source: Boo's Astral Menagerie p. 60*  
+*Source: Boo's Astral Menagerie p. 60, Light of Xaryxis*  
 
 Thri-kreen gladiators relish opportunities to test their mettle in combat and often paint their carapaces with the blood of their enemies.
 
@@ -37,9 +37,9 @@ title: Thri-kreen Gladiator
 
 ***Multiattack.*** The thri-kreen makes two Gythka attacks and one Chatkcha attack.
 
-***Gythka.*** *Melee Weapon Attack:* +7 to hit (with advantage if the thri-kreen is missing any hit points), reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) slashing damage.
+***Gythka.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit) (with advantage if the thri-kreen is missing any hit points), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) slashing damage.
 
-***Chatkcha.*** *Ranged Weapon Attack:* +7 to hit (with advantage if the thri-kreen is missing any hit points), range 30/120 ft., one target. *Hit:* 7 (`1d6 + 4`) slashing damage.
+***Chatkcha.*** *Ranged Weapon Attack:* `dice: d20+7` (+7 to hit) (with advantage if the thri-kreen is missing any hit points), range 30/120 ft., one target. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) slashing damage.
 
 ## Bonus Actions
 

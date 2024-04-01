@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Cloistered Scholar"]
 ---
 # Cloistered Scholar
 *Source: Sword Coast Adventurer's Guide p. 146*  
 
-- **Skill Proficiencies.** [History](rules/skills.md#History), plus your choice of one from among [Arcana](rules/skills.md#Arcana), [Nature](rules/skills.md#Nature), and [Religion](rules/skills.md#Religion)  
+- **Skill Proficiencies.** [History](/compendium/rules/skills.md#History), plus your choice of one from among [Arcana](/compendium/rules/skills.md#Arcana), [Nature](/compendium/rules/skills.md#Nature), and [Religion](/compendium/rules/skills.md#Religion)  
 - **Languages.** any two of your choice  
 - **Equipment.** The scholar's [robes](compendium/items/robes.md) of your cloister, a writing kit (small [pouch](compendium/items/pouch.md) with a quill, ink, folded parchment, and a small penknife), a borrowed [book](compendium/items/book.md) on the subject of your current study, and a [pouch](compendium/items/pouch.md) containing 10 gp  
 

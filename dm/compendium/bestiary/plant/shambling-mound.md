@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/environment/forest
-- monster/environment/swamp
-- monster/size/large
-- monster/type/plant
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/plant
 aliases: ["Shambling Mound"]
 ---
 # Shambling Mound
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 270, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Shambling Mound
@@ -39,11 +39,11 @@ title: Shambling Mound
 
 ## Actions
 
-***Multiattack.*** The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is [grappled](rules/conditions.md#grappled) (escape DC 14), and the shambling mound uses its Engulf on it.
+***Multiattack.*** The shambling mound makes two slam attacks. If both attacks hit a Medium or smaller target, the target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 14), and the shambling mound uses its Engulf on it.
 
-***Slam.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) bludgeoning damage.
 
-***Engulf.*** The shambling mound engulfs a Medium or smaller creature [grappled](rules/conditions.md#grappled) by it. The engulfed target is [blinded](rules/conditions.md#blinded), [restrained](rules/conditions.md#restrained), and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take 13 (`2d8 + 4`) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time.
+***Engulf.*** The shambling mound engulfs a Medium or smaller creature [grappled](/compendium/rules/conditions.md#grappled) by it. The engulfed target is [blinded](/compendium/rules/conditions.md#blinded), [restrained](/compendium/rules/conditions.md#restrained), and unable to breathe, and it must succeed on a DC 14 Constitution saving throw at the start of each of the mound's turns or take `dice: 2d8 + 4|avg` (`2d8 + 4`) bludgeoning damage. If the mound moves, the engulfed target moves with it. The mound can have only one creature engulfed at a time.
 ```
 ^statblock
 

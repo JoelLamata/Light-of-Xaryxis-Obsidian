@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/property/versatile
-- item/rarity/very-rare
-- item/tier/major
-- item/wondrous/staff
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/staff
 aliases: 
 - "Staff of Power"
 ---
@@ -17,16 +17,16 @@ aliases:
 - **Damage**:
   - One-handed: 1d6 B
   - Two-handed: 1d8 B
-- **Properties**: [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it, you gain a +2 bonus to Armor Class, saving throws, and spell attack rolls.
 
-The staff has 20 charges for the following properties. The staff regains `2d8 + 4` expended charges daily at dawn. If you expend the last charge, roll a `d20`. On a 1, the staff retains its +2 bonus to attack and damage roll but loses all other properties. On a 20, the staff regain `1d8 + 2` charges.
+The staff has 20 charges for the following properties. The staff regains `dice: 2d8 + 4|avg` (`2d8 + 4`) expended charges daily at dawn. If you expend the last charge, roll a `dice: d20|avg` (`d20`). On a 1, the staff retains its +2 bonus to attack and damage roll but loses all other properties. On a 20, the staff regain `dice: 1d8 + 2|avg` (`1d8 + 2`) charges.
 
 ## Power Strike
 
-When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra `1d6` force damage to the target.
+When you hit with a melee attack using the staff, you can expend 1 charge to deal an extra `dice: 1d6|avg` (`1d6`) force damage to the target.
 
 ## Spells
 

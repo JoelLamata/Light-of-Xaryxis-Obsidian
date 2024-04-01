@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/aag
-- item/vehicle/spelljammer
+- ttrpg-cli/item/vehicle/spelljammer
 aliases: 
 - "Lamprey Ship"
 ---

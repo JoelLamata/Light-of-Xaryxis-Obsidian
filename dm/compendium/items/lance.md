@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/martial
-- item/property/reach
-- item/property/special
-- item/weapon/martial/melee
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/reach
+- ttrpg-cli/item/property/special
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Lance"
 ---
@@ -14,7 +14,7 @@ aliases:
 *Melee Weapon*  
 
 - **Damage**: 1d12 P
-- **Properties**: Martial, [Reach](rules/item-properties.md#Reach), [Special](rules/item-properties.md#Special)
+- **Properties**: Martial, [Reach](/compendium/rules/item-properties.md#Reach), [Special](/compendium/rules/item-properties.md#Special)
 - **Cost**: 10 gp
 - **Weight**: 6.0 lbs.
 

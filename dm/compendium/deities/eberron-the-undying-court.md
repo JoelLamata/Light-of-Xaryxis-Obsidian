@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/grave
-- domain/knowledge
-- domain/life
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/grave
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/life
 aliases: ["The Undying Court"]
 ---
 # The Undying Court

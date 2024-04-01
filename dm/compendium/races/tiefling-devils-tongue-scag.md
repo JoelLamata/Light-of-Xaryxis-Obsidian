@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/scag
-- race/tiefling/devils-tongue
+- ttrpg-cli/race/tiefling/devils-tongue
 aliases: ["Tiefling (Devil's Tongue)"]
 ---
 # Tiefling (Devil's Tongue)
@@ -42,7 +42,7 @@ You can speak, read, and write Common and Infernal.
 
 ### Appearance
 
-Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose `1d4+1` of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.
+Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose `dice: 1d4+1|avg` (`1d4+1`) of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.
 
 ## Description
 

@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/forest
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Ape"]
 ---
 # Ape
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 317, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Ape
@@ -36,9 +36,9 @@ title: Ape
 
 ***Multiattack.*** The ape makes two fist attacks.
 
-***Fist.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) bludgeoning damage.
+***Fist.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) bludgeoning damage.
 
-***Rock.*** *Ranged Weapon Attack:* +5 to hit, range 25/50 ft., one target. *Hit:* 6 (`1d6 + 3`) bludgeoning damage.
+***Rock.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 25/50 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) bludgeoning damage.
 ```
 ^statblock
 

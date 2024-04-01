@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/4
-- monster/size/medium
-- monster/type/aberration/warlock
+- ttrpg-cli/monster/cr/4
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/aberration/warlock
 aliases: ["Neogi Void Hunter"]
 ---
 # Neogi Void Hunter
@@ -37,26 +37,26 @@ title: Neogi Void Hunter
 
 ***Devil's Sight.*** Magical darkness doesn't impede the neogi's darkvision.
 
-***Mental Fortitude.*** The neogi has advantage on saving throws against being charmed or frightened, and magic can't put the neogi to sleep.
+***Mental Fortitude.*** The neogi has advantage on saving throws against being [charmed](/compendium/rules/conditions.md#charmed) or [frightened](/compendium/rules/conditions.md#frightened), and magic can't put the neogi to sleep.
 
 ***Spider Climb.*** The neogi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
 ***Spellcasting.*** The neogi casts one of the following spells, using Charisma as the spellcasting ability:
 
-**1/day each**: dimension door, invisibility
+**1/day each**: [dimension door](compendium/spells/dimension-door.md), [invisibility](compendium/spells/invisibility.md)
 
 ## Actions
 
 ***Multiattack.*** The neogi makes one Bite attack and two Claw attacks, or it makes two Eldritch Bolt attacks.
 
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage plus 14 (`4d6`) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage plus `dice: 4d6|avg` (`4d6`) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage.
 
-***Eldritch Bolt.*** *Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:* 20 (`3d10 + 4`) force damage.
+***Eldritch Bolt.*** *Ranged Spell Attack:* `dice: d20+6` (+6 to hit), range 120 ft., one creature. *Hit:* `dice: 3d10 + 4|avg` (`3d10 + 4`) force damage.
 
 ## Bonus Actions
 
-***Enslave (Recharges after a Short or Long Rest).*** The neogi targets one creature it can see within 30 feet of itself. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The charmed target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the charmed target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
+***Enslave (Recharges after a Short or Long Rest).*** The neogi targets one creature it can see within 30 feet of itself. The target must succeed on a DC 14 Wisdom saving throw or be magically [charmed](/compendium/rules/conditions.md#charmed) by the neogi for 1 day, or until the neogi dies or is more than 1 mile from the target. The [charmed](/compendium/rules/conditions.md#charmed) target obeys the neogi's commands and can't take reactions, and the neogi and the target can communicate telepathically with each other at a distance of up to 1 mile. Whenever the [charmed](/compendium/rules/conditions.md#charmed) target takes damage, it can repeat the saving throw, ending the effect on itself on a success.
 ```
 ^statblock

@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/wizard
-- spell/level/2
-- spell/school/illusion
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/illusion
 aliases: ["Nystul's Magic Aura"]
 ---
 # Nystul's Magic Aura

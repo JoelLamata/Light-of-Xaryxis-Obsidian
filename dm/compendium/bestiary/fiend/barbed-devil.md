@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/size/medium
-- monster/type/fiend/devil
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/fiend/devil
 aliases: ["Barbed Devil"]
 ---
 # Barbed Devil
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 70, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Barbed Devil
@@ -33,7 +33,7 @@ title: Barbed Devil
 
 ## Traits
 
-***Barbed Hide.*** At the start of each of its turns, the barbed devil deals 5 (`1d10`) piercing damage to any creature grappling it.
+***Barbed Hide.*** At the start of each of its turns, the barbed devil deals `dice: 1d10|avg` (`1d10`) piercing damage to any creature grappling it.
 
 ***Devil's Sight.*** Magical darkness doesn't impede the devil's darkvision.
 
@@ -43,10 +43,10 @@ title: Barbed Devil
 
 ***Multiattack.*** The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.
 
-***Claw.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage.
 
-***Tail.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) piercing damage.
+***Tail.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 3|avg` (`2d6 + 3`) piercing damage.
 
-***Hurl Flame.*** *Ranged Spell Attack:* +5 to hit, range 150 ft., one target. *Hit:* 10 (`3d6`) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
+***Hurl Flame.*** *Ranged Spell Attack:* `dice: d20+5` (+5 to hit), range 150 ft., one target. *Hit:* `dice: 3d6|avg` (`3d6`) fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire.
 ```
 ^statblock

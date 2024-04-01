@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/nature
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/nature
 aliases: ["Malar", "The Beastlord", "The Black-Blooded One"]
 ---
 # Malar

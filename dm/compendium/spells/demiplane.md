@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/8
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/8
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Demiplane"]
 ---
 # Demiplane

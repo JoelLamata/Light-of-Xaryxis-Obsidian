@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-object
 tags:
 - compendium/src/5e/dmg
-- object/size/large
-- object/type/siege-weapon
+- ttrpg-cli/object/size/large
+- ttrpg-cli/object/type/siege-weapon
 aliases: ["Suspended Cauldron"]
 ---
 # Suspended Cauldron
@@ -30,6 +30,6 @@ title: Suspended Cauldron
 
 ## Actions
 
-***Boiling Oil.*** The cauldron pours boiling oil onto a 10-foot-square area directly below it. Any creature in the area must make a DC 15 Dexterity saving throw, taking 10 (`3d6`) fire damage on a failed save, or half as much damage on a successful one.
+***Boiling Oil.*** The cauldron pours boiling oil onto a 10-foot-square area directly below it. Any creature in the area must make a DC 15 Dexterity saving throw, taking `dice: 3d6|avg` (`3d6`) fire damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock

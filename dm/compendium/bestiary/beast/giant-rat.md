@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-8
-- monster/environment/forest
-- monster/environment/swamp
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/small
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Rat"]
 ---
 # Giant Rat
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 327, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Rat
@@ -37,13 +37,13 @@ title: Giant Rat
 
 ## Traits
 
-***Keen Smell.*** The rat has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The rat has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
-***Pack Tactics.*** The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't [incapacitated](rules/conditions.md#incapacitated).
+***Pack Tactics.*** The rat has advantage on an attack roll against a creature if at least one of the rat's allies is within 5 feet of the creature and the ally isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage.
 ```
 ^statblock
 

@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/property/heavy
-- item/property/martial
-- item/property/two-handed
-- item/rarity/legendary
-- item/weapon/martial/melee
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/property/heavy
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/two-handed
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Blackrazor"
 ---
@@ -16,7 +16,7 @@ aliases:
 *Melee Weapon, legendary (requires attunement by a creature of non-lawful alignment)*  
 
 - **Damage**: 2d6 S
-- **Properties**: [Heavy](rules/item-properties.md#Heavy), Martial, [Two-handed](rules/item-properties.md#Two-handed)
+- **Properties**: [Heavy](/compendium/rules/item-properties.md#Heavy), Martial, [Two-handed](/compendium/rules/item-properties.md#Two-handed)
 - **Weight**: 6.0 lbs.
 
 Hidden in the dungeon of White Plume Mountain, Blackrazor shines like a piece of night sky filled with stars. Its black scabbard is decorated with pieces of cut obsidian.
@@ -29,17 +29,17 @@ Whenever you use it to reduce a creature to 0 hit points, the sword slays the cr
 
 When it devours a soul, Blackrazor grants you temporary hit points equal to the slain creature's hit point maximum. These hit points fade after 24 hours. As long as these temporary hit points last and you keep Blackrazor in hand, you have advantage on attack rolls, saving throws, and ability checks.
 
-If you hit an undead with this weapon, you take `1d10` necrotic damage and the target regains `1d10` hit points. If this necrotic damage reduces you to 0 hit points, Blackrazor devours your soul.
+If you hit an undead with this weapon, you take `dice: 1d10|avg` (`1d10`) necrotic damage and the target regains `dice: 1d10|avg` (`1d10`) hit points. If this necrotic damage reduces you to 0 hit points, Blackrazor devours your soul.
 
 ## Soul Hunter
 
-While you hold the weapon. you are aware of the presence of Tiny or larger creatures within 60 feet of you that aren't constructs or undead. You also can't be [charmed](rules/conditions.md#charmed) or [frightened](rules/conditions.md#frightened).
+While you hold the weapon. you are aware of the presence of Tiny or larger creatures within 60 feet of you that aren't constructs or undead. You also can't be [charmed](/compendium/rules/conditions.md#charmed) or [frightened](/compendium/rules/conditions.md#frightened).
 
-Blackrazor can cast the [haste](compendium/spells/haste.md) spell on you once per day. It decides when to cast the spell and maintains [concentration](rules/conditions.md#concentration) on it so that you don't have to.
+Blackrazor can cast the [haste](compendium/spells/haste.md) spell on you once per day. It decides when to cast the spell and maintains [concentration](/compendium/rules/conditions.md#concentration) on it so that you don't have to.
 
 ## Sentience
 
-Blackrazor is a sentient chaotic neutral weapon with an Intelligence of 17, a Wisdom of 10, and a Charisma of 19. It has hearing and [darkvision](rules/senses.md#darkvision) out to a range of 120 feet.
+Blackrazor is a sentient chaotic neutral weapon with an Intelligence of 17, a Wisdom of 10, and a Charisma of 19. It has hearing and [darkvision](/compendium/rules/senses.md#darkvision) out to a range of 120 feet.
 
 The weapon can speak, read, and understand Common, and can communicate with its wielder telepathically. Its voice is deep and echoing. While you are attuned to it, Blackrazor also understands every language you know.
 

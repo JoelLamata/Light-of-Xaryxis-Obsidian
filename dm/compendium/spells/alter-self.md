@@ -3,13 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/druid/circle-of-the-moon
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/2
-- spell/school/transmutation
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/druid/circle-of-the-moon
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Alter Self"]
 ---
 # Alter Self
@@ -32,10 +33,10 @@ You transform your appearance. You decide what you look like, including your hei
 
 ## Natural Weapons
 
-You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal `1d6` bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.
+You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal `dice: 1d6|avg` (`1d6`) bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.
 
 ## Summary
 
-**Classes**: [Druid (Circle of the Moon)](compendium/classes/druid-circle-of-the-moon.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Druid (Circle of the Moon)](compendium/classes/druid-circle-of-the-moon.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 211. Available in the SRD.*

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/rare
-- item/tier/major
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/rarity/rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "Dragon Slayer"
 - "Dragon Slayer Longsword"
@@ -21,7 +21,7 @@ aliases:
 
 You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 
-When you hit a dragon with this weapon, the dragon takes an extra `3d6` damage of the weapon's type. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
+When you hit a dragon with this weapon, the dragon takes an extra `dice: 3d6|avg` (`3d6`) damage of the weapon's type. For the purpose of this weapon, "dragon" refers to any creature with the dragon type, including dragon turtles and wyverns.
 
 **Variants**:
 - [Dragon Slayer Longsword](#Dragon%20Slayer%20Longsword)

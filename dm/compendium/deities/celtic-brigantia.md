@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/celtic
-- domain/life
+- ttrpg-cli/deity/celtic
+- ttrpg-cli/domain/life
 aliases: ["Brigantia"]
 ---
 # Brigantia

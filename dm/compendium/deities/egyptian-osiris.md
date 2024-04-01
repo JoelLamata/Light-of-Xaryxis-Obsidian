@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/egyptian
-- domain/grave
-- domain/life
-- domain/nature
+- ttrpg-cli/deity/egyptian
+- ttrpg-cli/domain/grave
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/nature
 aliases: ["Osiris"]
 ---
 # Osiris

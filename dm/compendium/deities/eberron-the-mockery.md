@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/war
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/war
 aliases: ["The Mockery"]
 ---
 # The Mockery

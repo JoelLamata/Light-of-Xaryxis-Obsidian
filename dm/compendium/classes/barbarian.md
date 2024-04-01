@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/barbarian
 - compendium/src/5e/phb
+- ttrpg-cli/class/barbarian
 aliases: ["Barbarian"]
 ---
 # Barbarian
@@ -15,11 +15,11 @@ aliases: ["Barbarian"]
 > |-------|----|----------|
 > | 1st | +2 | [Rage](#Rage%20(Level%201)), [Unarmored Defense](#Unarmored%20Defense%20(Level%201)) |
 > | 2nd | +2 | [Danger Sense](#Danger%20Sense%20(Level%202)), [Reckless Attack](#Reckless%20Attack%20(Level%202)) |
-> | 3rd | +2 | [Primal Path](#Primal%20Path%20(Level%203)) |
+> | 3rd | +2 | [Primal Path](#Primal%20Path%20(Level%203)), [Primal Knowledge](#Primal%20Knowledge%20(Level%203)) |
 > | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
 > | 5th | +3 | [Extra Attack](#Extra%20Attack%20(Level%205)), [Fast Movement](#Fast%20Movement%20(Level%205)) |
 > | 6th | +3 | [Path Feature](#Path%20Feature%20(Level%206)) |
-> | 7th | +3 | [Feral Instinct](#Feral%20Instinct%20(Level%207)) |
+> | 7th | +3 | [Feral Instinct](#Feral%20Instinct%20(Level%207)), [Instinctive Pounce](#Instinctive%20Pounce%20(Level%207)) |
 > | 8th | +3 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%208)) |
 > | 9th | +4 | [Brutal Critical (1 die)](#Brutal%20Critical%20(1%20die)%20(Level%209)) |
 > | 10th | +4 | [Path feature](#Path%20feature%20(Level%2010)) |
@@ -226,7 +226,7 @@ While raging, you gain the following benefits if you aren't wearing heavy armor:
 
 If you are able to cast spells, you can't cast them or concentrate on them while raging.
 
-Your rage lasts for 1 minute. It ends early if you are knocked [unconscious](rules/conditions.md#unconscious) or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
+Your rage lasts for 1 minute. It ends early if you are knocked [unconscious](/compendium/rules/conditions.md#unconscious) or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action.
 
 Once you have raged the maximum number of times for your barbarian level, you must finish a long rest before you can rage again. You may rage 2 times at 1st level, 3 at 3rd, 4 at 6th, 5 at 12th, and 6 at 17th.
 
@@ -236,7 +236,7 @@ While you are not wearing any armor, your Armor Class equals 10 + your Dexterity
 
 ### Danger Sense (Level 2)
 
-At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be [blinded](rules/conditions.md#blinded), [deafened](rules/conditions.md#deafened), or [incapacitated](rules/conditions.md#incapacitated).
+At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger. You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be [blinded](/compendium/rules/conditions.md#blinded), [deafened](/compendium/rules/conditions.md#deafened), or [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ### Reckless Attack (Level 2)
 
@@ -246,6 +246,13 @@ Starting at 2nd level, you can throw aside all concern for defense to attack wit
 
 At 3rd level, you choose a path that shapes the nature of your rage from the list of available paths. Your choice grants you features at 3rd level and again at 6th, 10th, and 14th levels.
 
+### Primal Knowledge (Level 3)
+_Source: Tasha's Cauldron of Everything p. 24_
+
+*3rd-level barbarian [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+When you reach 3rd level and again at 10th level, you gain proficiency in one skill of your choice from the list of skills available to barbarians at 1st level.
+
 ### Ability Score Improvement (Level 4)
 
 When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
@@ -254,7 +261,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Extra Attack (Level 5)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](rules/actions.md#Attack) action on your turn.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](/compendium/rules/actions.md#Attack) action on your turn.
 
 ### Fast Movement (Level 5)
 
@@ -268,7 +275,14 @@ At 6th level, you gain a feature from your Primal Path.
 
 By 7th level, your instincts are so honed that you have advantage on initiative rolls.
 
-Additionally, if you are surprised at the beginning of combat and aren't [incapacitated](rules/conditions.md#incapacitated), you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
+Additionally, if you are surprised at the beginning of combat and aren't [incapacitated](/compendium/rules/conditions.md#incapacitated), you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.
+
+### Instinctive Pounce (Level 7)
+_Source: Tasha's Cauldron of Everything p. 24_
+
+*7th-level barbarian [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+As part of the bonus action you take to enter your rage, you can move up to half your speed.
 
 ### Ability Score Improvement (Level 8)
 
@@ -310,7 +324,7 @@ At 14th level, you gain a feature from your Primal Path.
 
 ### Persistent Rage (Level 15)
 
-Beginning at 15th level, your rage is so fierce that it ends early only if you fall [unconscious](rules/conditions.md#unconscious) or if you choose to end it.
+Beginning at 15th level, your rage is so fierce that it ends early only if you fall [unconscious](/compendium/rules/conditions.md#unconscious) or if you choose to end it.
 
 ### Ability Score Improvement (Level 16)
 

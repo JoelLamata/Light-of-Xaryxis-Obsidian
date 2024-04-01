@@ -3,13 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/death-domain
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/2
-- spell/school/necromancy
+- ttrpg-cli/spell/class/cleric/death-domain
+- ttrpg-cli/spell/class/cleric/grave-domain
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/necromancy
 aliases: ["Ray of Enfeeblement"]
 ---
 # Ray of Enfeeblement
@@ -24,6 +25,6 @@ A black beam of enervating energy springs from your finger toward a creature wit
 
 At the end of each of the target's turns, it can make a Constitution saving throw against the spell. On a success, the spell ends.
 
-**Classes**: [Cleric (Death Domain)](compendium/classes/cleric-death-domain.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Death Domain)](compendium/classes/cleric-death-domain.md), [Cleric (Grave Domain)](compendium/classes/cleric-grave-domain-xge.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 271. Available in the SRD.*

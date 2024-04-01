@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/rarity/unknown
-- item/tier/major
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/rarity/unknown
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "Silvered Weapon"
 - "Silvered Heavy Crossbow"

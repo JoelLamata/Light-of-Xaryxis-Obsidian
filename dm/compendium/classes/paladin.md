@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/paladin
 - compendium/src/5e/phb
+- ttrpg-cli/class/paladin
 aliases: ["Paladin"]
 ---
 # Paladin
@@ -16,7 +16,7 @@ aliases: ["Paladin"]
 > | 1st | +2 | [Divine Sense](#Divine%20Sense%20(Level%201)), [Lay on Hands](#Lay%20on%20Hands%20(Level%201)) |
 > | 2nd | +2 | [Divine Smite](#Divine%20Smite%20(Level%202)), [Fighting Style](#Fighting%20Style%20(Level%202)), [Spellcasting](#Spellcasting%20(Level%202)) |
 > | 3rd | +2 | [Divine Health](#Divine%20Health%20(Level%203)), [Sacred Oath](#Sacred%20Oath%20(Level%203)) |
-> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
+> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)), [Martial Versatility](#Martial%20Versatility%20(Level%204)) |
 > | 5th | +3 | [Extra Attack](#Extra%20Attack%20(Level%205)) |
 > | 6th | +3 | [Aura of Protection](#Aura%20of%20Protection%20(Level%206)) |
 > | 7th | +3 | [Sacred Oath feature](#Sacred%20Oath%20feature%20(Level%207)) |
@@ -251,7 +251,7 @@ This feature has no effect on undead and constructs.
 
 ### Divine Smite (Level 2)
 
-Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is `2d8` for a 1st-level spell slot, plus `1d8` for each spell level higher than 1st, to a maximum of `5d8`. The damage increases by `1d8` if the target is an undead or a fiend, to a maximum of `6d8`.
+Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is `dice: 2d8|avg` (`2d8`) for a 1st-level spell slot, plus `dice: 1d8|avg` (`1d8`) for each spell level higher than 1st, to a maximum of `dice: 5d8|avg` (`5d8`). The damage increases by `dice: 1d8|avg` (`1d8`) if the target is an undead or a fiend, to a maximum of `dice: 6d8|avg` (`6d8`).
 
 ### Fighting Style (Level 2)
 
@@ -312,6 +312,13 @@ When you use your Channel Divinity, you choose which option to use. You must the
 
 Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC.
 
+### Channel Divinity: Harness Divine Power (Level 3)
+_Source: Tasha's Cauldron of Everything p. 52_
+
+*3rd-level paladin [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 3rd level, once; 7th level, twice; and 15th level, thrice. You regain all expended uses when you finish a long rest.
+
 > [!note] Breaking Your Oath
 > 
 > A paladin tries to hold to the highest standards of conduct, but even the most virtuous paladin is fallible. Sometimes the right path proves too demanding, sometimes a situation calls for the lesser of two evils, and sometimes the heat of emotion causes a paladin to transgress his or her oath.
@@ -327,9 +334,16 @@ When you reach 4th level, you can increase one ability score of your choice by 2
 
 If your DM allows the use of feats, you may instead take a feat.
 
+### Martial Versatility (Level 4)
+_Source: Tasha's Cauldron of Everything p. 52_
+
+*4th-level paladin [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace a [fighting style](compendium/optional-features/list-fighting-style-paladin.md) you know with another fighting style available to paladins. This replacement represents a shift of focus in your martial practice.
+
 ### Extra Attack (Level 5)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](rules/actions.md#Attack) action on your turn.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](/compendium/rules/actions.md#Attack) action on your turn.
 
 ### Aura of Protection (Level 6)
 
@@ -349,13 +363,13 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Aura of Courage (Level 10)
 
-Starting at 10th level, you and friendly creatures within 10 feet of you can't be [frightened](rules/conditions.md#frightened) while you are conscious.
+Starting at 10th level, you and friendly creatures within 10 feet of you can't be [frightened](/compendium/rules/conditions.md#frightened) while you are conscious.
 
 At 18th level, the range of this aura increases to 30 feet.
 
 ### Improved Divine Smite (Level 11)
 
-By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra `1d8` radiant damage.
+By 11th level, you are so suffused with righteous might that all your melee weapon strikes carry divine power with them. Whenever you hit a creature with a melee weapon, the creature takes an extra `dice: 1d8|avg` (`1d8`) radiant damage.
 
 ### Ability Score Improvement (Level 12)
 

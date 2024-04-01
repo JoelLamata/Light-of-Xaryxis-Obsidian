@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/arcana-domain
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/7
-- spell/school/evocation
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/7
+- ttrpg-cli/spell/school/evocation
 aliases: ["Forcecage"]
 ---
 # Forcecage

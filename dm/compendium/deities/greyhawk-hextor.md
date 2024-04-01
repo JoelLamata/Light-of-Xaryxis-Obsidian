@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/war
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/war
 aliases: ["Hextor"]
 ---
 # Hextor

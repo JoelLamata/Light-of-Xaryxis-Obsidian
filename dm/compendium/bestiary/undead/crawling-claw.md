@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/size/tiny
-- monster/type/undead
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/undead
 aliases: ["Crawling Claw"]
 ---
 # Crawling Claw
-*Source: Monster Manual p. 44, Light of Xaryxis*  
+*Source: Monster Manual p. 44, Baldur's Gate: Descent Into Avernus, Light of Xaryxis*  
 
 ```ad-statblock
 title: Crawling Claw
@@ -37,6 +37,6 @@ title: Crawling Claw
 
 ## Actions
 
-***Claw.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning or slashing damage (claw's choice).
+***Claw.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) bludgeoning or slashing damage (claw's choice).
 ```
 ^statblock

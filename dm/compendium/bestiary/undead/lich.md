@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/21
-- monster/size/medium
-- monster/type/undead
+- ttrpg-cli/monster/cr/21
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/undead
 aliases: ["Lich"]
 ---
 # Lich
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 202, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Lich
@@ -35,17 +35,17 @@ title: Lich
 
 ***Legendary Resistance (3/Day).*** If the lich fails a saving throw, it can choose to succeed instead.
 
-***Rejuvenation.*** If it has a phylactery, a destroyed lich gains a new body in `1d10` days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
+***Rejuvenation.*** If it has a phylactery, a destroyed lich gains a new body in `dice: 1d10|avg` (`1d10`) days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
 
 ***Turn Resistance.*** The lich has advantage on saving throws against any effect that turns undead.
 
-***Spellcasting.*** The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:
+***Spellcasting.*** The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, `dice: d20+12` (+12 to hit) with spell attacks). The lich has the following wizard spells prepared:
 
 **Cantrips (at will)**: [mage hand](compendium/spells/mage-hand.md), [prestidigitation](compendium/spells/prestidigitation.md), [ray of frost](compendium/spells/ray-of-frost.md)
 
 **1st level (4 slots)**: [detect magic](compendium/spells/detect-magic.md), [magic missile](compendium/spells/magic-missile.md), [shield](compendium/spells/shield.md), [thunderwave](compendium/spells/thunderwave.md)
 
-**2nd level (3 slots)**: [detect thoughts](compendium/spells/detect-thoughts.md), [invisibility](compendium/spells/invisibility.md), Melf's acid arrow, [mirror image](compendium/spells/mirror-image.md)
+**2nd level (3 slots)**: [detect thoughts](compendium/spells/detect-thoughts.md), [invisibility](compendium/spells/invisibility.md), [Melf's acid arrow](compendium/spells/melfs-acid-arrow.md), [mirror image](compendium/spells/mirror-image.md)
 
 **3rd level (3 slots)**: [animate dead](compendium/spells/animate-dead.md), [counterspell](compendium/spells/counterspell.md), [dispel magic](compendium/spells/dispel-magic.md), [fireball](compendium/spells/fireball.md)
 
@@ -63,7 +63,7 @@ title: Lich
 
 ## Actions
 
-***Paralyzing Touch.*** *Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (`3d6`) cold damage. The target must succeed on a DC 18 Constitution saving throw or be [paralyzed](rules/conditions.md#paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Paralyzing Touch.*** *Melee Spell Attack:* `dice: d20+12` (+12 to hit), reach 5 ft., one creature. *Hit:* `dice: 3d6|avg` (`3d6`) cold damage. The target must succeed on a DC 18 Constitution saving throw or be [paralyzed](/compendium/rules/conditions.md#paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
 ## Legendary Actions
 
@@ -71,8 +71,8 @@ title: Lich
 
 ***Paralyzing Touch (Costs 2 Actions).*** The lich uses its Paralyzing Touch.
 
-***Frightening Gaze (Costs 2 Actions).*** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become [frightened](rules/conditions.md#frightened) for 1 minute. The [frightened](rules/conditions.md#frightened) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
+***Frightening Gaze (Costs 2 Actions).*** The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become [frightened](/compendium/rules/conditions.md#frightened) for 1 minute. The [frightened](/compendium/rules/conditions.md#frightened) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target's saving throw is successful or the effect ends for it, the target is immune to the lich's gaze for the next 24 hours.
 
-***Disrupt Life (Costs 3 Actions).*** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (`6d6`) necrotic damage on a failed save, or half as much damage on a successful one.
+***Disrupt Life (Costs 3 Actions).*** Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking `dice: 6d6|avg` (`6d6`) necrotic damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock

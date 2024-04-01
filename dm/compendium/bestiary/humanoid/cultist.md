@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-8
-- monster/environment/urban
-- monster/size/medium
-- monster/type/humanoid/any-race
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/any-race
 aliases: ["Cultist"]
 ---
 # Cultist
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 345, Lost Mine of Phandelver, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Cultist
@@ -34,11 +34,11 @@ title: Cultist
 
 ## Traits
 
-***Dark Devotion.*** The cultist has advantage on saving throws against being [charmed](rules/conditions.md#charmed) or [frightened](rules/conditions.md#frightened).
+***Dark Devotion.*** The cultist has advantage on saving throws against being [charmed](/compendium/rules/conditions.md#charmed) or [frightened](/compendium/rules/conditions.md#frightened).
 
 ## Actions
 
-***Scimitar.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d6 + 1`) slashing damage.
+***Scimitar.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) slashing damage.
 ```
 ^statblock
 

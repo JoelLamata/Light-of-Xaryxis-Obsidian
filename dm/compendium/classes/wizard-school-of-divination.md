@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/wizard/divination
+- ttrpg-cli/subclass/wizard/divination
 aliases: ["School of Divination"]
 ---
 # School of Divination
@@ -23,7 +23,7 @@ Beginning when you select this school at 2nd level, the gold and time you must s
 
 ### Portent (Level 2)
 
-Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two `d20`s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
+Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two `dice: d20|avg` (`d20`)s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.
 
 Each foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls.
 
@@ -33,13 +33,13 @@ Beginning at 6th level, casting divination spells comes so easily to you that it
 
 ### The Third Eye (Level 10)
 
-Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are [incapacitated](rules/conditions.md#incapacitated) or you take a short or long rest. You can't use the feature again until you finish a rest.
+Starting at 10th level, you can use your action to increase your powers of perception. When you do so, choose one of the following benefits, which lasts until you are [incapacitated](/compendium/rules/conditions.md#incapacitated) or you take a short or long rest. You can't use the feature again until you finish a rest.
 
-- **Darkvision.** You gain [darkvision](rules/senses.md#darkvision) out to a range of 60 feet.  
+- **Darkvision.** You gain [darkvision](/compendium/rules/senses.md#darkvision) out to a range of 60 feet.  
 - **Ethereal Sight.** You can see into the Ethereal Plane within 60 feet of you.  
 - **Greater Comprehension.** You can read any language.  
-- **See Invisibility.** You can see [invisible](rules/conditions.md#invisible) creatures and objects within 10 feet of you that are within line of sight.  
+- **See Invisibility.** You can see [invisible](/compendium/rules/conditions.md#invisible) creatures and objects within 10 feet of you that are within line of sight.  
 
 ### Greater Portent (Level 14)
 
-Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three `d20`s for your Portent feature, rather than two.
+Starting at 14th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three `dice: d20|avg` (`d20`)s for your Portent feature, rather than two.

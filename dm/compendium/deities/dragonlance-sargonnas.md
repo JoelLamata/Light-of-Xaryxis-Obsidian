@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/dragonlance
-- domain/war
+- ttrpg-cli/deity/dragonlance
+- ttrpg-cli/domain/war
 aliases: ["Sargonnas"]
 ---
 # Sargonnas

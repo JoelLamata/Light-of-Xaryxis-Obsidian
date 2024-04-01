@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/tempest
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/tempest
 aliases: ["Umberlee", "The Bitch Queen", "The Queen of the Depths", "The Wavemother"]
 ---
 # Umberlee

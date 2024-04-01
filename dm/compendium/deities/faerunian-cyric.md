@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/trickery
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/trickery
 aliases: ["Cyric", "The Prince of Lies", "The Dark Sun"]
 ---
 # Cyric

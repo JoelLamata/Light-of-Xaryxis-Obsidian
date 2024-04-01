@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/knowledge
-- domain/order
-- domain/trickery
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/order
+- ttrpg-cli/domain/trickery
 aliases: ["Asmodeus", "The Lord of the Ninth", "The Cloven", "Old Hoof and Horn"]
 ---
 # Asmodeus

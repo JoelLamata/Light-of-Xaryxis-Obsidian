@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/environment/hill
-- monster/size/huge
-- monster/type/giant
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/giant
 aliases: ["Hill Giant"]
 ---
 # Hill Giant
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 155, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Hill Giant
@@ -36,9 +36,9 @@ title: Hill Giant
 
 ***Multiattack.*** The giant makes two greatclub attacks.
 
-***Greatclub.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 18 (`3d8 + 5`) bludgeoning damage.
+***Greatclub.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 10 ft., one target. *Hit:* `dice: 3d8 + 5|avg` (`3d8 + 5`) bludgeoning damage.
 
-***Rock.*** *Ranged Weapon Attack:* +8 to hit, range 60/240 ft., one target. *Hit:* 21 (`3d10 + 5`) bludgeoning damage.
+***Rock.*** *Ranged Weapon Attack:* `dice: d20+8` (+8 to hit), range 60/240 ft., one target. *Hit:* `dice: 3d10 + 5|avg` (`3d10 + 5`) bludgeoning damage.
 ```
 ^statblock
 

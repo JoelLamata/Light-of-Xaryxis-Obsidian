@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/1
-- spell/ritual
-- spell/school/illusion
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/ritual
+- ttrpg-cli/spell/school/illusion
 aliases: ["Illusory Script"]
 ---
 # Illusory Script
@@ -27,7 +27,7 @@ To you and any creatures you designate when you cast the spell, the writing appe
 
 Should the spell be dispelled, the original script and the illusion both disappear.
 
-A creature with [truesight](rules/senses.md#truesight) can read the hidden message.
+A creature with [truesight](/compendium/rules/senses.md#truesight) can read the hidden message.
 
 **Classes**: [Bard](compendium/classes/bard.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
 

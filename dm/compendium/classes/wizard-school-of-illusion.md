@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/wizard/illusion
+- ttrpg-cli/subclass/wizard/illusion
 aliases: ["School of Illusion"]
 ---
 # School of Illusion

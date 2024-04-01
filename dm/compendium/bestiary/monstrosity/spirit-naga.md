@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/8
-- monster/environment/underdark
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/8
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Spirit Naga"]
 ---
 # Spirit Naga
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 234, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Spirit Naga
@@ -34,9 +34,9 @@ title: Spirit Naga
 
 ## Traits
 
-***Rejuvenation.*** If it dies, the naga returns to life in `1d6` days and regains all its hit points. Only a [wish](compendium/spells/wish.md) spell can prevent this trait from functioning.
+***Rejuvenation.*** If it dies, the naga returns to life in `dice: 1d6|avg` (`1d6`) days and regains all its hit points. Only a [wish](compendium/spells/wish.md) spell can prevent this trait from functioning.
 
-***Spellcasting.*** The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
+***Spellcasting.*** The naga is a 10th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, `dice: d20+6` (+6 to hit) with spell attacks), and it needs only verbal components to cast its spells. It has the following wizard spells prepared:
 
 **Cantrips (at will)**: [mage hand](compendium/spells/mage-hand.md), [minor illusion](compendium/spells/minor-illusion.md), [ray of frost](compendium/spells/ray-of-frost.md)
 
@@ -52,7 +52,7 @@ title: Spirit Naga
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one creature. *Hit:* 7 (`1d6 + 4`) piercing damage, and the target must make a DC 13 Constitution saving throw, taking 31 (`7d8`) poison damage on a failed save, or half as much damage on a successful one.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 10 ft., one creature. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) piercing damage, and the target must make a DC 13 Constitution saving throw, taking `dice: 7d8|avg` (`7d8`) poison damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

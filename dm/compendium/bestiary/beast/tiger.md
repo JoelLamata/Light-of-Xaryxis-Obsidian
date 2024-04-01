@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/forest
-- monster/environment/grassland
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Tiger"]
 ---
 # Tiger
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 339, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Tiger
@@ -35,15 +35,15 @@ title: Tiger
 
 ## Traits
 
-***Keen Smell.*** The tiger has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The tiger has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
-***Pounce.*** If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked [prone](rules/conditions.md#prone). If the target is [prone](rules/conditions.md#prone), the tiger can make one bite attack against it as a bonus action.
+***Pounce.*** If the tiger moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone). If the target is [prone](/compendium/rules/conditions.md#prone), the tiger can make one bite attack against it as a bonus action.
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (`1d10 + 3`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d10 + 3|avg` (`1d10 + 3`) piercing damage.
 
-***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) slashing damage.
 ```
 ^statblock
 

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/egyptian
-- domain/war
+- ttrpg-cli/deity/egyptian
+- ttrpg-cli/domain/war
 aliases: ["Bast"]
 ---
 # Bast

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/two-handed
-- item/weapon/simple/melee
+- ttrpg-cli/item/property/two-handed
+- ttrpg-cli/item/weapon/simple/melee
 aliases: 
 - "Greatclub"
 ---
@@ -12,7 +12,7 @@ aliases:
 *Melee Weapon*  
 
 - **Damage**: 1d8 B
-- **Properties**: [Two-handed](rules/item-properties.md#Two-handed)
+- **Properties**: [Two-handed](/compendium/rules/item-properties.md#Two-handed)
 - **Cost**: 2 sp
 - **Weight**: 10.0 lbs.
 

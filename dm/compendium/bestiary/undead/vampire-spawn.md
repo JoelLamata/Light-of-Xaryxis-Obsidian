@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/medium
-- monster/type/undead
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/undead
 aliases: ["Vampire Spawn"]
 ---
 # Vampire Spawn
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 298, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Vampire Spawn
@@ -45,7 +45,7 @@ title: Vampire Spawn
 
 *Harmed by Running Water.* The vampire takes 20 acid damage when it ends its turn in running water.
 
-*Stake to the Heart.* The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is [incapacitated](rules/conditions.md#incapacitated) in its resting place.
+*Stake to the Heart.* The vampire is destroyed if a piercing weapon made of wood is driven into its heart while it is [incapacitated](/compendium/rules/conditions.md#incapacitated) in its resting place.
 
 *Sunlight Hypersensitivity.* The vampire takes 20 radiant damage when it starts its turn in sunlight. While in sunlight, it has disadvantage on attack rolls and ability checks.
 
@@ -53,9 +53,9 @@ title: Vampire Spawn
 
 ***Multiattack.*** The vampire makes two attacks, only one of which can be a bite attack.
 
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one willing creature, or a creature that is [grappled](rules/conditions.md#grappled) by the vampire, [incapacitated](rules/conditions.md#incapacitated), or [restrained](rules/conditions.md#restrained). *Hit:* 6 (`1d6 + 3`) piercing damage plus 7 (`2d6`) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one willing creature, or a creature that is [grappled](/compendium/rules/conditions.md#grappled) by the vampire, [incapacitated](/compendium/rules/conditions.md#incapacitated), or [restrained](/compendium/rules/conditions.md#restrained). *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage plus `dice: 2d6|avg` (`2d6`) necrotic damage. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the vampire regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
 
-***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 8 (`2d4 + 3`) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).
+***Claws.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one creature. *Hit:* `dice: 2d4 + 3|avg` (`2d4 + 3`) slashing damage. Instead of dealing damage, the vampire can grapple the target (escape DC 13).
 ```
 ^statblock
 

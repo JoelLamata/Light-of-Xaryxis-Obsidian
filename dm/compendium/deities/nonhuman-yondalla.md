@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/nonhuman
-- domain/life
-- domain/twilight
+- ttrpg-cli/deity/nonhuman
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/twilight
 aliases: ["Yondalla"]
 ---
 # Yondalla

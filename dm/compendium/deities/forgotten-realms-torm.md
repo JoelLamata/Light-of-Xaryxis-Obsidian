@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/war
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/war
 aliases: ["Torm"]
 ---
 # Torm

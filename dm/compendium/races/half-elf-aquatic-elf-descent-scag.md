@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/scag
-- race/half-elf/aquatic-elf-descent
+- ttrpg-cli/race/half-elf/aquatic-elf-descent
 aliases: ["Half-Elf (Aquatic Elf Descent)"]
 ---
 # Half-Elf (Aquatic Elf Descent)
@@ -29,7 +29,7 @@ Thanks to your elf blood, you have superior vision in dark and dim conditions. Y
 
 ### Fey Ancestry
 
-You have advantage on saving throws against being [charmed](rules/conditions.md#charmed), and magic can't put you to sleep.
+You have advantage on saving throws against being [charmed](/compendium/rules/conditions.md#charmed), and magic can't put you to sleep.
 
 > [!note] Variant Feature (Choose 1)
 > 

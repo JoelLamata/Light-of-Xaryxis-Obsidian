@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/nonhuman
-- domain/death
+- ttrpg-cli/deity/nonhuman
+- ttrpg-cli/domain/death
 aliases: ["Laogzed"]
 ---
 # Laogzed

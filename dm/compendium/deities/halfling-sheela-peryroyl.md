@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/halfling
-- domain/nature
-- domain/tempest
+- ttrpg-cli/deity/halfling
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/tempest
 aliases: ["Sheela Peryroyl"]
 ---
 # Sheela Peryroyl

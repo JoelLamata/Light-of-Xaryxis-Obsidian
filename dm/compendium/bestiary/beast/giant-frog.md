@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/forest
-- monster/environment/swamp
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Frog"]
 ---
 # Giant Frog
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 325, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Frog
@@ -41,9 +41,9 @@ title: Giant Frog
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage, and the target is [grappled](rules/conditions.md#grappled) (escape DC 11). Until this grapple ends, the target is [restrained](rules/conditions.md#restrained), and the frog can't bite another target.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage, and the target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 11). Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), and the frog can't bite another target.
 
-***Swallow.*** The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is [blinded](rules/conditions.md#blinded) and [restrained](rules/conditions.md#restrained), it has total cover against attacks and other effects outside the frog, and it takes 5 (`2d4`) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer [restrained](rules/conditions.md#restrained) by it and can escape from the corpse using 5 feet of movement, exiting [prone](rules/conditions.md#prone).
+***Swallow.*** The frog makes one bite attack against a Small or smaller target it is grappling. If the attack hits, the target is swallowed, and the grapple ends. The swallowed target is [blinded](/compendium/rules/conditions.md#blinded) and [restrained](/compendium/rules/conditions.md#restrained), it has total cover against attacks and other effects outside the frog, and it takes `dice: 2d4|avg` (`2d4`) acid damage at the start of each of the frog's turns. The frog can have only one target swallowed at a time. If the frog dies, a swallowed creature is no longer [restrained](/compendium/rules/conditions.md#restrained) by it and can escape from the corpse using 5 feet of movement, exiting [prone](/compendium/rules/conditions.md#prone).
 ```
 ^statblock
 

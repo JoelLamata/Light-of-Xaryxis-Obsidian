@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/phb
-- race/gnome
+- ttrpg-cli/race/gnome
 aliases: ["Gnome"]
 ---
 # Gnome

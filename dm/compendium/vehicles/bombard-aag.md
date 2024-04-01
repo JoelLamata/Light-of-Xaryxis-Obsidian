@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/sea
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/sea
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Bombard"]
 ---
 # Bombard
@@ -33,7 +33,7 @@ title: Bombard
 
 It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.
 
-**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* `dice: 3d10|avg` (`3d10`) piercing damage.
 
 ## Weapon: Giant Cannon (Crew: 4)
 
@@ -43,6 +43,6 @@ It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire i
 
 It takes 3 actions to load the enormous cannon and 1 action to fire it.
 
-**Cannon Ball** *Ranged Weapon Attack:* +6 to hit, range 600/2,400 ft., one target. *Hit:* 88 (`16d10`) bludgeoning damage.
+**Cannon Ball** *Ranged Weapon Attack:* +6 to hit, range 600/2,400 ft., one target. *Hit:* `dice: 16d10|avg` (`16d10`) bludgeoning damage.
 ```
 ^statblock

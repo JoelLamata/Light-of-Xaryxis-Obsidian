@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/rare
-- item/tier/major
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/rarity/rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "Vicious Weapon"
 - "Vicious Heavy Crossbow"
@@ -67,7 +67,7 @@ aliases:
 When you roll a 20 with this magic weapon, the target takes an extra 7 damage of the weapon's type.
 
 > [!note]
-> According to the SRD, it is an extra `2d6` damage, although this is incorrect (https://rpg.stackexchange.com/a/174522/53884).
+> According to the SRD, it is an extra `dice: 2d6|avg` (`2d6`) damage, although this is incorrect (https://rpg.stackexchange.com/a/174522/53884).
 
 **Variants**:
 - [Vicious Heavy Crossbow](#Vicious%20Heavy%20Crossbow)

@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/9
-- monster/environment/mountain
-- monster/environment/underdark
-- monster/size/huge
-- monster/type/giant
+- ttrpg-cli/monster/cr/9
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/giant
 aliases: ["Fire Giant"]
 ---
 # Fire Giant
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 154, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Fire Giant
@@ -37,9 +37,9 @@ title: Fire Giant
 
 ***Multiattack.*** The giant makes two greatsword attacks.
 
-***Greatsword.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 28 (`6d6 + 7`) slashing damage.
+***Greatsword.*** *Melee Weapon Attack:* `dice: d20+11` (+11 to hit), reach 10 ft., one target. *Hit:* `dice: 6d6 + 7|avg` (`6d6 + 7`) slashing damage.
 
-***Rock.*** *Ranged Weapon Attack:* +11 to hit, range 60/240 ft., one target. *Hit:* 29 (`4d10 + 7`) bludgeoning damage.
+***Rock.*** *Ranged Weapon Attack:* `dice: d20+11` (+11 to hit), range 60/240 ft., one target. *Hit:* `dice: 4d10 + 7|avg` (`4d10 + 7`) bludgeoning damage.
 ```
 ^statblock
 

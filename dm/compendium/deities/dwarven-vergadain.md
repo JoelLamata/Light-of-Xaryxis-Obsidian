@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/dwarven
-- domain/trickery
+- ttrpg-cli/deity/dwarven
+- ttrpg-cli/domain/trickery
 aliases: ["Vergadain"]
 ---
 # Vergadain

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/5
-- monster/size/medium
-- monster/type/elemental
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/elemental
 aliases: ["Murder Comet"]
 ---
 # Murder Comet
@@ -40,7 +40,7 @@ title: Murder Comet
 
 ## Traits
 
-***Explode.*** When the comet drops to 0 hit points, it explodes in a 20-foot-radius sphere centered on itself. Each creature in the sphere must make a DC 16 Dexterity saving throw, taking 28 (`8d6`) fire damage on a failed save, or half as much damage on a successful one.
+***Explode.*** When the comet drops to 0 hit points, it explodes in a 20-foot-radius sphere centered on itself. Each creature in the sphere must make a DC 16 Dexterity saving throw, taking `dice: 8d6|avg` (`8d6`) fire damage on a failed save, or half as much damage on a successful one.
 
 ***Flyby.*** The comet doesn't provoke opportunity attacks when it flies out of an enemy's reach.
 
@@ -54,8 +54,8 @@ title: Murder Comet
 
 ***Multiattack.*** The comet makes one Slam attack and one Spit Fire attack.
 
-***Slam.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d8 + 2`) bludgeoning damage plus 7 (`2d6`) fire damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) bludgeoning damage plus `dice: 2d6|avg` (`2d6`) fire damage.
 
-***Spit Fire.*** *Ranged Weapon Attack:* +5 to hit, range 60 ft., one target. *Hit:* 13 (`2d10 + 2`) fire damage.
+***Spit Fire.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 60 ft., one target. *Hit:* `dice: 2d10 + 2|avg` (`2d10 + 2`) fire damage.
 ```
 ^statblock

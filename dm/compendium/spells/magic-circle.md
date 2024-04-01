@@ -3,15 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/arcana-domain
-- spell/class/fighter/eldritch-knight
-- spell/class/paladin
-- spell/class/rogue/arcane-trickster
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/3
-- spell/school/abjuration
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/ranger/monster-slayer
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/3
+- ttrpg-cli/spell/school/abjuration
 aliases: ["Magic Circle"]
 ---
 # Magic Circle
@@ -28,12 +30,12 @@ Choose one or more of the following types of creatures: celestials, elementals, 
 
 - The creature can't willingly enter the cylinder by nonmagical means. If the creature tries to use teleportation or interplanar travel to do so, it must first succeed on a Charisma saving throw.  
 - The creature has disadvantage on attack rolls against targets within the cylinder.  
-- Targets within the cylinder can't be [charmed](rules/conditions.md#charmed), [frightened](rules/conditions.md#frightened), or possessed by the creature.  
+- Targets within the cylinder can't be [charmed](/compendium/rules/conditions.md#charmed), [frightened](/compendium/rules/conditions.md#frightened), or possessed by the creature.  
 
 When you cast this spell, you can elect to cause its magic to operate in the reverse direction, preventing a creature of the specified type from leaving the cylinder and protecting targets outside it.
 
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, the duration increases by 1 hour for each slot level above 3rd.
 
-**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Paladin](compendium/classes/paladin.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Paladin](compendium/classes/paladin.md), [Ranger (Monster Slayer)](compendium/classes/ranger-monster-slayer-xge.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 256. Available in the SRD.*

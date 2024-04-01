@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/size/tiny
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/beast
 aliases: ["Hawk"]
 ---
 # Hawk
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 330, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Hawk
@@ -33,10 +33,10 @@ title: Hawk
 
 ## Traits
 
-***Keen Sight.*** The hawk has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight.
+***Keen Sight.*** The hawk has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight.
 
 ## Actions
 
-***Talons.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage.
+***Talons.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* 1 slashing damage.
 ```
 ^statblock

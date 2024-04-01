@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/5
-- monster/size/large
-- monster/type/aberration
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/aberration
 aliases: ["Feyr"]
 ---
 # Feyr
@@ -43,12 +43,12 @@ title: Feyr
 
 ***Multiattack.*** The feyr makes one Frightful Bite attack and one Tentacle attack.
 
-***Frightful Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 8 (`1d10 + 3`) piercing damage, and each creature within 10 feet of the feyr that can see it must succeed on a DC 13 Wisdom saving throw or be frightened of the feyr until the end of the feyr's next turn.
+***Frightful Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d10 + 3|avg` (`1d10 + 3`) piercing damage, and each creature within 10 feet of the feyr that can see it must succeed on a DC 13 Wisdom saving throw or be [frightened](/compendium/rules/conditions.md#frightened) of the feyr until the end of the feyr's next turn.
 
-***Tentacle.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one creature. *Hit:* 17 (`4d6 + 3`) psychic damage, and the target is grappled (escape DC 13). Until this grapple ends, the feyr can't use this tentacle against other targets. The feyr has two tentacles, each of which can grapple one creature.
+***Tentacle.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one creature. *Hit:* `dice: 4d6 + 3|avg` (`4d6 + 3`) psychic damage, and the target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 13). Until this grapple ends, the feyr can't use this tentacle against other targets. The feyr has two tentacles, each of which can grapple one creature.
 
-***Invisibility.*** The feyr becomes invisible until it attacks, uses Nightmare Fuel, or uses a bonus action to become visible.
+***Invisibility.*** The feyr becomes [invisible](/compendium/rules/conditions.md#invisible) until it attacks, uses Nightmare Fuel, or uses a bonus action to become visible.
 
-***Nightmare Fuel (1/Day).*** The feyr targets one unconscious creature it can see within 10 feet of itself. The target must succeed on a DC 13 Wisdom saving throw or take 27 (`5d10`) psychic damage, and the feyr gains temporary hit points equal to the damage dealt.
+***Nightmare Fuel (1/Day).*** The feyr targets one [unconscious](/compendium/rules/conditions.md#unconscious) creature it can see within 10 feet of itself. The target must succeed on a DC 13 Wisdom saving throw or take `dice: 5d10|avg` (`5d10`) psychic damage, and the feyr gains temporary hit points equal to the damage dealt.
 ```
 ^statblock

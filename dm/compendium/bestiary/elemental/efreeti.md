@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/11
-- monster/environment/desert
-- monster/size/large
-- monster/type/elemental
+- ttrpg-cli/monster/cr/11
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/elemental
 aliases: ["Efreeti"]
 ---
 # Efreeti
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 145, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Efreeti
@@ -36,7 +36,7 @@ title: Efreeti
 
 ***Elemental Demise.*** If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the efreeti was wearing or carrying.
 
-***Innate Spellcasting.*** The efreeti's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It can innately cast the following spells, requiring no material components:
+***Innate Spellcasting.*** The efreeti's innate spellcasting ability is Charisma (spell save DC 15, `dice: d20+7` (+7 to hit) with spell attacks). It can innately cast the following spells, requiring no material components:
 
 **At will**: [detect magic](compendium/spells/detect-magic.md)
 
@@ -48,9 +48,9 @@ title: Efreeti
 
 ***Multiattack.*** The efreeti makes two scimitar attacks or uses its Hurl Flame twice.
 
-***Scimitar.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage plus 7 (`2d6`) fire damage.
+***Scimitar.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 6|avg` (`2d6 + 6`) slashing damage plus `dice: 2d6|avg` (`2d6`) fire damage.
 
-***Hurl Flame.*** *Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 17 (`5d6`) fire damage.
+***Hurl Flame.*** *Ranged Spell Attack:* `dice: d20+7` (+7 to hit), range 120 ft., one target. *Hit:* `dice: 5d6|avg` (`5d6`) fire damage.
 ```
 ^statblock
 

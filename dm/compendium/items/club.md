@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/light
-- item/weapon/simple/melee
+- ttrpg-cli/item/property/light
+- ttrpg-cli/item/weapon/simple/melee
 aliases: 
 - "Club"
 ---
@@ -12,7 +12,7 @@ aliases:
 *Melee Weapon*  
 
 - **Damage**: 1d4 B
-- **Properties**: [Light](rules/item-properties.md#Light)
+- **Properties**: [Light](/compendium/rules/item-properties.md#Light)
 - **Cost**: 1 sp
 - **Weight**: 2.0 lbs.
 

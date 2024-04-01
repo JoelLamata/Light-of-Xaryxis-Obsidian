@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/7
-- monster/size/medium
-- monster/type/humanoid
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid
 aliases: ["Astral Elf Commander"]
 ---
 # Astral Elf Commander
-*Source: Boo's Astral Menagerie p. 12*  
+*Source: Boo's Astral Menagerie p. 12, Light of Xaryxis*  
 
 An astral elf commander leads warriors into battle and usually has one or more spelljamming ships under their command. A commander channels the radiant energy of starlight through their weapons, and they can rescue warriors from a perilous situation by using their gods-given power of teleportation.
 
@@ -37,7 +37,7 @@ title: Astral Elf Commander
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Astral%20Elf%20Commander.webp#token)
 *Medium humanoid, Any alignment*
 
-- **Armor Class** 17  (half plate)
+- **Armor Class** 17  ([half plate](compendium/items/half-plate-armor.md))
 - **Hit Points** 143 (`26d8 + 26`)
 - **Speed** 30 ft.
 
@@ -54,20 +54,20 @@ title: Astral Elf Commander
 
 ## Traits
 
-***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the charmed condition on itself, and magic can't put it to sleep.
+***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the [charmed](/compendium/rules/conditions.md#charmed) condition on itself, and magic can't put it to sleep.
 
 ***Unusual Nature.*** The elf doesn't require sleep.
 
 ***Spellcasting.*** The elf casts the following spell, using Wisdom as the spellcasting ability:
 
-**2/day**: teleport
+**2/day**: [teleport](compendium/spells/teleport.md)
 
 ## Actions
 
 ***Multiattack.*** The elf makes two Longsword or Longbow attacks.
 
-***Longsword.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d8 + 1`) slashing damage, or 6 (`1d10 + 1`) slashing damage when used with two hands, plus 14 (`4d6`) radiant damage.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 1|avg` (`1d8 + 1`) slashing damage, or `dice: 1d10 + 1|avg` (`1d10 + 1`) slashing damage when used with two hands, plus `dice: 4d6|avg` (`4d6`) radiant damage.
 
-***Longbow.*** *Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage plus 14 (`4d6`) radiant damage.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage plus `dice: 4d6|avg` (`4d6`) radiant damage.
 ```
 ^statblock

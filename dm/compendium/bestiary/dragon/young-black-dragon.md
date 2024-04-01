@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/7
-- monster/environment/swamp
-- monster/size/large
-- monster/type/dragon
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/dragon
 aliases: ["Young Black Dragon"]
 ---
 # Young Black Dragon
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 88, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Young Black Dragon
@@ -40,11 +40,11 @@ title: Young Black Dragon
 
 ***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
 
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (`2d10 + 4`) piercing damage plus 4 (`1d8`) acid damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 4|avg` (`2d10 + 4`) piercing damage plus `dice: 1d8|avg` (`1d8`) acid damage.
 
-***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) slashing damage.
 
-***Acid Breath (Recharge 5-6).*** The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (`11d8`) acid damage on a failed save, or half as much damage on a successful one.
+***Acid Breath (Recharge 5-6).*** The dragon exhales acid in a 30-foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking `dice: 11d8|avg` (`11d8`) acid damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

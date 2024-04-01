@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/drow
-- domain/light
-- domain/nature
+- ttrpg-cli/deity/drow
+- ttrpg-cli/domain/light
+- ttrpg-cli/domain/nature
 aliases: ["Eilistraee"]
 ---
 # Eilistraee

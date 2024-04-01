@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-object
 tags:
 - compendium/src/5e/dmg
-- object/size/large
-- object/type/siege-weapon
+- ttrpg-cli/object/size/large
+- ttrpg-cli/object/type/siege-weapon
 aliases: ["Ballista"]
 ---
 # Ballista
@@ -28,6 +28,6 @@ title: Ballista
 
 ## Actions
 
-***Bolt.*** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+***Bolt.*** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`dice: 3d10|avg` (`3d10`)) piercing damage.
 ```
 ^statblock

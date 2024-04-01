@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/druid
-- spell/class/ranger
-- spell/level/3
-- spell/school/transmutation
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/level/3
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Speak with Plants"]
 ---
 # Speak with Plants
@@ -26,7 +26,7 @@ Plants might be able to perform other tasks on your behalf, at the DM's discreti
 
 If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.
 
-This spell can cause the plants created by the [entangle](compendium/spells/entangle.md) spell to release a [restrained](rules/conditions.md#restrained) creature.
+This spell can cause the plants created by the [entangle](compendium/spells/entangle.md) spell to release a [restrained](/compendium/rules/conditions.md#restrained) creature.
 
 **Classes**: [Bard](compendium/classes/bard.md), [Druid](compendium/classes/druid.md), [Ranger](compendium/classes/ranger.md)
 

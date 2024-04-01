@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/sea
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/sea
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Living Ship"]
 ---
 # Living Ship
@@ -21,7 +21,7 @@ title: Living Ship
 - **Damage Threshold** 15
 - **Speed** fly 40 ft. (fly 4½ mph ^[108.0 miles per day])
 - **Cargo** 10 tons tons
-- **Crew** 5 crew (plus the treant)
+- **Crew** 5 crew (plus the [treant](compendium/bestiary/plant/treant.md))
 - **Keel/Beam** 80 ft. by 20 ft.
 - **Cost** 25.000 gp
 
@@ -33,6 +33,6 @@ title: Living Ship
 
 It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it.
 
-**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* `dice: 3d10|avg` (`3d10`) piercing damage.
 ```
 ^statblock

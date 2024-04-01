@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/egyptian
-- domain/nature
-- domain/tempest
+- ttrpg-cli/deity/egyptian
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/tempest
 aliases: ["Sobek"]
 ---
 # Sobek

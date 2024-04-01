@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/nonhuman
-- domain/arcana
-- domain/light
+- ttrpg-cli/deity/nonhuman
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/light
 aliases: ["Corellon Larethian"]
 ---
 # Corellon Larethian

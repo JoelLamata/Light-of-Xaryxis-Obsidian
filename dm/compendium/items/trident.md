@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/martial
-- item/property/thrown
-- item/property/versatile
-- item/weapon/martial/melee
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/thrown
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Trident"
 ---
@@ -17,7 +17,7 @@ aliases:
   - One-handed: 1d6 P
   - Two-handed: 1d8 P
 - **Range**: 20/60
-- **Properties**: Martial, [Thrown](rules/item-properties.md#Thrown), [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: Martial, [Thrown](/compendium/rules/item-properties.md#Thrown), [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Cost**: 5 gp
 - **Weight**: 4.0 lbs.
 

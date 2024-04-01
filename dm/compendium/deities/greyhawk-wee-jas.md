@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/arcana
-- domain/death
-- domain/grave
-- domain/knowledge
-- domain/order
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/grave
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/order
 aliases: ["Wee Jas"]
 ---
 # Wee Jas

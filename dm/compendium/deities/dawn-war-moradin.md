@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/forge
-- domain/knowledge
-- domain/war
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/forge
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/war
 aliases: ["Moradin"]
 ---
 # Moradin

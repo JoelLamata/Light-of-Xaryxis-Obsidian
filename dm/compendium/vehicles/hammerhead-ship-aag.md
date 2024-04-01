@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/sea
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/sea
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Hammerhead Ship"]
 ---
 # Hammerhead Ship
@@ -33,7 +33,7 @@ title: Hammerhead Ship
 
 It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire it.
 
-**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+**Bolt** *Ranged Weapon Attack:* `dice: d20+6` (+6 to hit), range 120/480 ft., one target. *Hit:* `dice: 3d10|avg` (`3d10`) piercing damage.
 
 ## Weapon: 2 Mangonels (Crew: 5 each)
 
@@ -43,7 +43,7 @@ It takes 1 action to load the ballista, 1 action to aim it, and 1 action to fire
 
 It takes 2 actions to load a mangonel, 2 actions to aim it, and 1 action to fire it.
 
-**Mangonel Stone** *Ranged Weapon Attack:* +5 to hit, range 200/800 ft. (can't hit targets within 60 ft. of it), one target. *Hit:* 27 (`5d10`) bludgeoning damage.
+**Mangonel Stone** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 200/800 ft. (can't hit targets within 60 ft. of it), one target. *Hit:* `dice: 5d10|avg` (`5d10`) bludgeoning damage.
 
 ## Weapon: Blunt Ram
 
@@ -51,6 +51,6 @@ It takes 2 actions to load a mangonel, 2 actions to aim it, and 1 action to fire
 
 The ship's spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see "Crashing" in chapter 2 of Astral Adventurer's Guide).
 
-**Blunt Ram** *Melee Weapon Attack:* +8 to hit, range 0 ft. one object or Gargantuan creature. *Hit:* 88 (`16d10`) bludgeoning damage. The hammerhead ship takes half as much damage and comes to a dead stop. *Miss:* The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the hammerhead ship's path, and the hammerhead ship can continue moving if it has any movement left.
+**Blunt Ram** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), range 0 ft. one object or Gargantuan creature. *Hit:* `dice: 16d10|avg` (`16d10`) bludgeoning damage. The hammerhead ship takes half as much damage and comes to a dead stop. *Miss:* The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the hammerhead ship's path, and the hammerhead ship can continue moving if it has any movement left.
 ```
 ^statblock

@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/ammunition
-- item/property/heavy
-- item/property/loading
-- item/property/martial
-- item/property/two-handed
-- item/weapon/martial/ranged
+- ttrpg-cli/item/property/ammunition
+- ttrpg-cli/item/property/heavy
+- ttrpg-cli/item/property/loading
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/two-handed
+- ttrpg-cli/item/weapon/martial/ranged
 aliases: 
 - "Heavy Crossbow"
 ---
@@ -17,7 +17,7 @@ aliases:
 
 - **Damage**: 1d10 P
 - **Range**: 100/400
-- **Properties**: [Ammunition](rules/item-properties.md#Ammunition), [Heavy](rules/item-properties.md#Heavy), [Loading](rules/item-properties.md#Loading), Martial, [Two-handed](rules/item-properties.md#Two-handed)
+- **Properties**: [Ammunition](/compendium/rules/item-properties.md#Ammunition), [Heavy](/compendium/rules/item-properties.md#Heavy), [Loading](/compendium/rules/item-properties.md#Loading), Martial, [Two-handed](/compendium/rules/item-properties.md#Two-handed)
 - **Cost**: 50 gp
 - **Weight**: 18.0 lbs.
 

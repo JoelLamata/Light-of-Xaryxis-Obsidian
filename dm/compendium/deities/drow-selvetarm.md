@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/drow
-- domain/war
+- ttrpg-cli/deity/drow
+- ttrpg-cli/domain/war
 aliases: ["Selvetarm"]
 ---
 # Selvetarm

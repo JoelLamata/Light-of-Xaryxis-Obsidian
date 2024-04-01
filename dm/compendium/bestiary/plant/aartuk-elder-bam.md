@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/3
-- monster/size/large
-- monster/type/plant
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/plant
 aliases: ["Aartuk Elder"]
 ---
 # Aartuk Elder
-*Source: Boo's Astral Menagerie p. 8*  
+*Source: Boo's Astral Menagerie p. 8, Light of Xaryxis*  
 
 Aartuks are intelligent plant creatures that live to wage war. Beholders destroyed their original home world and scattered the survivors across the Material Plane. These survivors formed small nomadic cells.
 
@@ -49,18 +49,18 @@ title: Aartuk Elder
 
 ***Spellcasting (Psionics).*** The aartuk casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 12):
 
-**1/day each**: calm emotions, detect magic, sending
+**1/day each**: [calm emotions](compendium/spells/calm-emotions.md), [detect magic](compendium/spells/detect-magic.md), [sending](compendium/spells/sending.md)
 
 ## Actions
 
 ***Multiattack.*** The aartuk makes two Branch attacks, two Radiant Pellet attacks, or one of each.
 
-***Branch.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
+***Branch.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage.
 
-***Radiant Pellet.*** *Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:* 10 (`4d4`) radiant damage.
+***Radiant Pellet.*** *Ranged Spell Attack:* `dice: d20+4` (+4 to hit), range 60 ft., one target. *Hit:* `dice: 4d4|avg` (`4d4`) radiant damage.
 
 ## Bonus Actions
 
-***Tongue (Recharge 6).*** The aartuk tries to use its gooey tongue to snare one Large or smaller creature it can see within 30 feet of itself. The target must make a DC 12 Dexterity saving throw. On a failed save, the target is grappled by the tongue (escape DC 14) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time.
+***Tongue (Recharge 6).*** The aartuk tries to use its gooey tongue to snare one Large or smaller creature it can see within 30 feet of itself. The target must make a DC 12 Dexterity saving throw. On a failed save, the target is [grappled](/compendium/rules/conditions.md#grappled) by the tongue (escape DC 14) and pulled up to 25 feet toward the aartuk. The tongue can grapple one creature at a time.
 ```
 ^statblock

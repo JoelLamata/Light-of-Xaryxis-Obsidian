@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Hermit"]
 ---
 # Hermit
 *Source: Player's Handbook p. 134*  
 
-- **Skill Proficiencies.** [Medicine](rules/skills.md#Medicine), [Religion](rules/skills.md#Religion)  
+- **Skill Proficiencies.** [Medicine](/compendium/rules/skills.md#Medicine), [Religion](/compendium/rules/skills.md#Religion)  
 - **Tool Proficiencies.** [Herbalism kit](compendium/items/herbalism-kit.md)  
 - **Languages.** One of your choice  
 - **Equipment.** A [scroll case](compendium/items/map-or-scroll-case.md) stuffed full of notes from your studies or prayers, a winter [blanket](compendium/items/blanket.md), a set of [common clothes](compendium/items/common-clothes.md), an [herbalism kit](compendium/items/herbalism-kit.md), and 5 gp  

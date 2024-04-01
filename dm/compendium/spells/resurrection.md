@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric
-- spell/level/7
-- spell/school/necromancy
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/7
+- ttrpg-cli/spell/school/necromancy
 aliases: ["Resurrection"]
 ---
 # Resurrection
@@ -27,6 +28,6 @@ Coming back from the dead is an ordeal. The target takes a −4 penalty to all a
 
 Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Cleric](compendium/classes/cleric.md)
+**Classes**: [Bard](compendium/classes/bard.md), [Cleric](compendium/classes/cleric.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 272. Available in the SRD and the Basic Rules.*

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/celtic
-- domain/arcana
-- domain/knowledge
+- ttrpg-cli/deity/celtic
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/knowledge
 aliases: ["Math Mathonwy"]
 ---
 # Math Mathonwy

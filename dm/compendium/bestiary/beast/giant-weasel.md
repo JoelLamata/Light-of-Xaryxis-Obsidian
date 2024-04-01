@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-8
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Weasel"]
 ---
 # Giant Weasel
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 329, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Weasel
@@ -36,11 +36,11 @@ title: Giant Weasel
 
 ## Traits
 
-***Keen Hearing and Smell.*** The weasel has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing or smell.
+***Keen Hearing and Smell.*** The weasel has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing or smell.
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage.
 ```
 ^statblock
 

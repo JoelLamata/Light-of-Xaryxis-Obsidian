@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/rarity/legendary
-- item/tier/major
-- item/wondrous/rod
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/rod
 aliases: 
 - "Rod of Lordly Might"
 ---
@@ -35,14 +35,14 @@ If you press button 6, the rod assumes or remains in its normal form and indicat
 
 ## Drain Life
 
-When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failure, the target rakes an extra `4d6` necrotic damage, and you regain a number of hit points equal to half that necrotic damage. This property can't be used again until the next dawn.
+When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Constitution saving throw. On a failure, the target rakes an extra `dice: 4d6|avg` (`4d6`) necrotic damage, and you regain a number of hit points equal to half that necrotic damage. This property can't be used again until the next dawn.
 
 ## Paralyze
 
-When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Strength saving throw. On a failure, the target is [paralyzed](rules/conditions.md#paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. This property can't be used again until the next dawn.
+When you hit a creature with a melee attack using the rod, you can force the target to make a DC 17 Strength saving throw. On a failure, the target is [paralyzed](/compendium/rules/conditions.md#paralyzed) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on a success. This property can't be used again until the next dawn.
 
 ## Terrify
 
-While holding the rod, you can use an action to force each creature you can see within 30 feet of you to make a DC 17 Wisdom saving throw. On a failure, a target is [frightened](rules/conditions.md#frightened) of you for 1 minute. A [frightened](rules/conditions.md#frightened) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property can't be used again until the next dawn.
+While holding the rod, you can use an action to force each creature you can see within 30 feet of you to make a DC 17 Wisdom saving throw. On a failure, a target is [frightened](/compendium/rules/conditions.md#frightened) of you for 1 minute. A [frightened](/compendium/rules/conditions.md#frightened) target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. This property can't be used again until the next dawn.
 
 *Source: Dungeon Master's Guide p. 196. Available in the SRD.*

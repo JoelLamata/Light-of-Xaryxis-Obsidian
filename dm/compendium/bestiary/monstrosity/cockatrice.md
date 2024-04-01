@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/grassland
-- monster/size/small
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Cockatrice"]
 ---
 # Cockatrice
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 42, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Cockatrice
@@ -34,7 +34,7 @@ title: Cockatrice
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (`1d4 + 1`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically [petrified](rules/conditions.md#petrified). On a failed save, the creature begins to turn to stone and is [restrained](rules/conditions.md#restrained). It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is [petrified](rules/conditions.md#petrified) for 24 hours.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw against being magically [petrified](/compendium/rules/conditions.md#petrified). On a failed save, the creature begins to turn to stone and is [restrained](/compendium/rules/conditions.md#restrained). It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is [petrified](/compendium/rules/conditions.md#petrified) for 24 hours.
 ```
 ^statblock
 

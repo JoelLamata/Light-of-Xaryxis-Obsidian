@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/environment/arctic
-- monster/environment/forest
-- monster/environment/hill
-- monster/size/medium
-- monster/type/humanoid/human
-- monster/type/humanoid/shapechanger
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/human
+- ttrpg-cli/monster/type/humanoid/shapechanger
 aliases: ["Werebear"]
 ---
 # Werebear
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 208, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Werebear
@@ -39,17 +39,17 @@ title: Werebear
 
 ***Shapechanger.*** The werebear can use its action to polymorph into a Large bear-humanoid hybrid or into a Large bear, or back into its true form, which is humanoid. Its statistics, other than its size and AC, are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies.
 
-***Keen Smell.*** The werebear has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The werebear has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
 ## Actions
 
 ***Multiattack.*** In bear form, the werebear makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid.
 
-***Bite (Bear or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (`2d10 + 4`) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy.
+***Bite (Bear or Hybrid Form Only).*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d10 + 4|avg` (`2d10 + 4`) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy.
 
-***Claw (Bear or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) slashing damage.
+***Claw (Bear or Hybrid Form Only).*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) slashing damage.
 
-***Greataxe (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (`1d12 + 4`) slashing damage.
+***Greataxe (Humanoid or Hybrid Form Only).*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 1d12 + 4|avg` (`1d12 + 4`) slashing damage.
 ```
 ^statblock
 

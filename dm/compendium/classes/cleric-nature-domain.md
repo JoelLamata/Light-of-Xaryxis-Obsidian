@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- domain/nature
-- subclass/cleric/nature
+- ttrpg-cli/domain/nature
+- ttrpg-cli/subclass/cleric/nature
 aliases: ["Nature Domain"]
 ---
 # Nature Domain
@@ -33,7 +33,7 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 ### Acolyte of Nature (Level 1)
 
-At 1st level, you learn one druid cantrip of your choice. This cantrip doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: [Animal Handling](rules/skills.md#Animal%20Handling), [Nature](rules/skills.md#Nature), or [Survival](rules/skills.md#Survival).
+At 1st level, you learn one druid cantrip of your choice. This cantrip doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: [Animal Handling](/compendium/rules/skills.md#Animal%20Handling), [Nature](/compendium/rules/skills.md#Nature), or [Survival](/compendium/rules/skills.md#Survival).
 
 ### Bonus Proficiency (Level 1)
 
@@ -43,7 +43,7 @@ Also at 1st level, you gain proficiency with heavy armor.
 
 Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.
 
-As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is [charmed](rules/conditions.md#charmed) by you for 1 minute or until it takes damage. While it is [charmed](rules/conditions.md#charmed) by you, it is friendly to you and other creatures you designate.
+As an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is [charmed](/compendium/rules/conditions.md#charmed) by you for 1 minute or until it takes damage. While it is [charmed](/compendium/rules/conditions.md#charmed) by you, it is friendly to you and other creatures you designate.
 
 ### Dampen Elements (Level 6)
 
@@ -51,8 +51,15 @@ Starting at 6th level, when you or a creature within 30 feet of you takes acid, 
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `dice: 1d8|avg` (`1d8`) cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to `dice: 2d8|avg` (`2d8`).
+
+### Blessed Strikes (Level 8)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*8th-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
+
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `dice: 1d8|avg` (`1d8`) radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Master of Nature (Level 17)
 
-At 17th level, you gain the ability to command animals and plant creatures. While creatures are [charmed](rules/conditions.md#charmed) by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.
+At 17th level, you gain the ability to command animals and plant creatures. While creatures are [charmed](/compendium/rules/conditions.md#charmed) by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn.

@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/underwater
-- monster/size/huge
-- monster/type/beast
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/beast
 aliases: ["Killer Whale"]
 ---
 # Killer Whale
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 331, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Killer Whale
@@ -34,15 +34,15 @@ title: Killer Whale
 
 ## Traits
 
-***Echolocation.*** The whale can't use its blindsight while [deafened](rules/conditions.md#deafened).
+***Echolocation.*** The whale can't use its blindsight while [deafened](/compendium/rules/conditions.md#deafened).
 
 ***Hold Breath.*** The whale can hold its breath for 30 minutes.
 
-***Keen Hearing.*** The whale has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing.
+***Keen Hearing.*** The whale has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing.
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 21 (`5d6 + 4`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 5d6 + 4|avg` (`5d6 + 4`) piercing damage.
 ```
 ^statblock
 

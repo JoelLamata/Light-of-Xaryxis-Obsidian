@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/life
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/life
 aliases: ["Chauntea", "The Great Mother", "The Grain Goddess"]
 ---
 # Chauntea

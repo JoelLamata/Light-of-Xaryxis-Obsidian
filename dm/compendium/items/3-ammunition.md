@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/very-rare
-- item/tier/minor
-- item/wondrous/wondrous-item
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/minor
+- ttrpg-cli/item/wondrous/wondrous-item
 aliases: 
 - "+3 Ammunition"
 - "+3 Sling Bullet"

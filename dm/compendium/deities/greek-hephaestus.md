@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greek
-- domain/forge
-- domain/knowledge
+- ttrpg-cli/deity/greek
+- ttrpg-cli/domain/forge
+- ttrpg-cli/domain/knowledge
 aliases: ["Hephaestus"]
 ---
 # Hephaestus

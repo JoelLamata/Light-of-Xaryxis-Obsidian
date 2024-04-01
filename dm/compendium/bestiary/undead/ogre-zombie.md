@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/size/large
-- monster/type/undead
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/undead
 aliases: ["Ogre Zombie"]
 ---
 # Ogre Zombie
-*Source: Monster Manual p. 316, Light of Xaryxis. Available in the SRD.*  
+*Source: Monster Manual p. 316, Ghosts of Saltmarsh, Light of Xaryxis. Available in the SRD.*  
 
 ```ad-statblock
 title: Ogre Zombie
@@ -37,6 +37,6 @@ title: Ogre Zombie
 
 ## Actions
 
-***Morningstar.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) bludgeoning damage.
+***Morningstar.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) bludgeoning damage.
 ```
 ^statblock

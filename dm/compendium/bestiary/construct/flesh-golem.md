@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/size/medium
-- monster/type/construct
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/construct
 aliases: ["Flesh Golem"]
 ---
 # Flesh Golem
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 169, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Flesh Golem
@@ -33,9 +33,9 @@ title: Flesh Golem
 
 ## Traits
 
-***Berserk.*** Whenever the golem starts its turn with 40 hit points or fewer, roll a `d6`. On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.
+***Berserk.*** Whenever the golem starts its turn with 40 hit points or fewer, roll a `dice: d6|avg` (`d6`). On a 6, the golem goes berserk. On each of its turns while berserk, the golem attacks the nearest creature it can see. If no creature is near enough to move to and attack, the golem attacks an object, with preference for an object smaller than itself. Once the golem goes berserk, it continues to do so until it is destroyed or regains all its hit points.
 
-The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma ([Persuasion](rules/skills.md#Persuasion)) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again.
+The golem's creator, if within 60 feet of the berserk golem, can try to calm it by speaking firmly and persuasively. The golem must be able to hear its creator, who must take an action to make a DC 15 Charisma ([Persuasion](/compendium/rules/skills.md#Persuasion)) check. If the check succeeds, the golem ceases being berserk. If it takes damage while still at 40 hit points or fewer, the golem might go berserk again.
 
 ***Aversion of Fire.*** If the golem takes fire damage, it has disadvantage on attack rolls and ability checks until the end of its next turn.
 
@@ -51,6 +51,6 @@ The golem's creator, if within 60 feet of the berserk golem, can try to calm it 
 
 ***Multiattack.*** The golem makes two slam attacks.
 
-***Slam.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) bludgeoning damage.
 ```
 ^statblock

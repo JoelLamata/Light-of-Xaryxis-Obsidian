@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/norse
-- domain/life
-- domain/light
+- ttrpg-cli/deity/norse
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/light
 aliases: ["Balder"]
 ---
 # Balder

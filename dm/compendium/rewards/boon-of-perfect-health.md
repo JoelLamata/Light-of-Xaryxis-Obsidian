@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-reward
 tags:
 - compendium/src/5e/dmg
-- reward/boon
+- ttrpg-cli/reward/boon
 aliases: ["Boon of Perfect Health"]
 ---
 # Boon of Perfect Health

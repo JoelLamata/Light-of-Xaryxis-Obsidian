@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Tyrant Ship"]
 ---
 # Tyrant Ship
@@ -20,7 +20,7 @@ title: Tyrant Ship
 - **Damage Threshold** 20
 - **Speed** fly 40 ft. (fly 4½ mph ^[108.0 miles per day])
 - **Cargo** 20 tons tons
-- **Crew** 10 crew (beholders)
+- **Crew** 10 crew ([beholders](compendium/bestiary/aberration/beholder.md))
 - **Keel/Beam** 100 ft. by 100 ft.
 - **Cost** —
 
@@ -30,6 +30,6 @@ title: Tyrant Ship
 
 This weapon looks like an eye mounted on an eyestalk. A beholder stationed in one of the tyrant ship's meditation pods can see through the eye by concentrating on it (as if concentrating on a spell) and use an action to make the following attack.
 
-**Destructive Ray** *Ranged Spell Attack:* +8 to hit, range 120/480 ft., one target. *Hit:* 35 (`10d6`) force damage.
+**Destructive Ray** *Ranged Spell Attack:* +8 to hit, range 120/480 ft., one target. *Hit:* `dice: 10d6|avg` (`10d6`) force damage.
 ```
 ^statblock

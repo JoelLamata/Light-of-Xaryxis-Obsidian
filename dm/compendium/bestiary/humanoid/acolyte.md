@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/urban
-- monster/size/medium
-- monster/type/humanoid/any-race
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/any-race
 aliases: ["Acolyte"]
 ---
 # Acolyte
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 342, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Acolyte
@@ -32,7 +32,7 @@ title: Acolyte
 - **Languages** any one language (usually Common)
 - **Challenge** 1/4
 
-***Spellcasting.*** The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:
+***Spellcasting.*** The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, `dice: d20+4` (+4 to hit) with spell attacks). The acolyte has following cleric spells prepared:
 
 **Cantrips (at will)**: [light](compendium/spells/light.md), [sacred flame](compendium/spells/sacred-flame.md), [thaumaturgy](compendium/spells/thaumaturgy.md)
 
@@ -40,7 +40,7 @@ title: Acolyte
 
 ## Actions
 
-***Club.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage.
+***Club.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4|avg` (`1d4`) bludgeoning damage.
 ```
 ^statblock
 

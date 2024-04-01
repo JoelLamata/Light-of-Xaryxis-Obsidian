@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/druid
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/wizard
-- spell/level/4
-- spell/school/conjuration
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Conjure Minor Elementals"]
 ---
 # Conjure Minor Elementals

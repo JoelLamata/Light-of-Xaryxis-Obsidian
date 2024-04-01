@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/size/tiny
-- monster/type/fiend/demon
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/fiend/demon
 aliases: ["Quasit"]
 ---
 # Quasit
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 63, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Quasit
@@ -39,10 +39,10 @@ title: Quasit
 
 ## Actions
 
-***Claw (Bite in Beast Form).*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (`2d4`) poison damage and become [poisoned](rules/conditions.md#poisoned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Claw (Bite in Beast Form).*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take `dice: 2d4|avg` (`2d4`) poison damage and become [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 
-***Scare (1/Day).*** One creature of the quasit's choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be [frightened](rules/conditions.md#frightened) for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.
+***Scare (1/Day).*** One creature of the quasit's choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be [frightened](/compendium/rules/conditions.md#frightened) for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.
 
-***Invisibility.*** The quasit magically turns [invisible](rules/conditions.md#invisible) until it attacks or uses Scare, or until its [concentration](rules/conditions.md#concentration) ends (as if concentrating on a spell). Any equipment the quasit wears or carries is [invisible](rules/conditions.md#invisible) with it.
+***Invisibility.*** The quasit magically turns [invisible](/compendium/rules/conditions.md#invisible) until it attacks or uses Scare, or until its [concentration](/compendium/rules/conditions.md#concentration) ends (as if concentrating on a spell). Any equipment the quasit wears or carries is [invisible](/compendium/rules/conditions.md#invisible) with it.
 ```
 ^statblock

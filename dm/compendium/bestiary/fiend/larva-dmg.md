@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/dmg
-- monster/cr/0
-- monster/size/medium
-- monster/type/fiend
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/fiend
 aliases: ["Larva (DMG)"]
 ---
 # Larva (DMG)
-*Source: Dungeon Master's Guide p. 63*  
+*Source: Dungeon Master's Guide p. 63, Baldur's Gate: Descent Into Avernus*  
 
 ```ad-statblock
 title: Larva (DMG)
@@ -33,6 +33,6 @@ title: Larva (DMG)
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1 (`1d4 - 1`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+1` (+1 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 - 1|avg` (`1d4 - 1`) piercing damage.
 ```
 ^statblock

@@ -47,7 +47,7 @@ You gain 50,000 XP, and a wondrous item (which the DM determines randomly) appea
 
 ### Moon
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/03-moon.webp#card)
-You are granted the ability to cast the [wish](compendium/spells/wish.md) spell `1d3` times.
+You are granted the ability to cast the [wish](compendium/spells/wish.md) spell `dice: 1d3|avg` (`1d3`) times.
 
 ### Star
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/04-star.webp#card)
@@ -55,7 +55,7 @@ Increase one of your ability scores by 2. The score can exceed 20 but can't exce
 
 ### Throne
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/07-throne.webp#card)
-You gain proficiency in the [Persuasion](rules/skills.md#Persuasion) skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.
+You gain proficiency in the [Persuasion](/compendium/rules/skills.md#Persuasion) skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.
 
 ### Key
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/08-key.webp#card)
@@ -67,7 +67,7 @@ You gain the service of a 4th-level fighter who appears in a space you choose wi
 
 ### The Void
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/12-void.webp#card)
-This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](rules/conditions.md#incapacitated). A [wish](compendium/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
+This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](/compendium/rules/conditions.md#incapacitated). A [wish](compendium/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
 
 ### Flames
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/13-flames.webp#card)
@@ -83,7 +83,7 @@ All forms of wealth that you carry or own, other than magic items, are lost to y
 
 ### Euryale
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/18-euryale.webp#card)
-The card's medusa-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](compendium/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
+The card's [medusa](compendium/bestiary/monstrosity/medusa.md)-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](compendium/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
 
 ### Rogue
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/decks/DMG/Deck%20of%20Many%20Things/19-rogue.webp#card)

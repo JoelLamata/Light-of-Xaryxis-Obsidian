@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/arcana
-- domain/knowledge
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/knowledge
 aliases: ["Deneir", "The Lord of All Glyphs and Images", "The First Scribe", "The Scribe of Oghma"]
 ---
 # Deneir

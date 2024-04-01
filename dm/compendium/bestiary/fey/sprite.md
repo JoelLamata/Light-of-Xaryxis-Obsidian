@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/forest
-- monster/size/tiny
-- monster/type/fey
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/fey
 aliases: ["Sprite"]
 ---
 # Sprite
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 283, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Sprite
@@ -34,13 +34,13 @@ title: Sprite
 
 ## Actions
 
-***Longsword.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft., one target. *Hit:* 1 slashing damage.
 
-***Shortbow.*** *Ranged Weapon Attack:* +6 to hit, range 40/160 ft., one target. *Hit:* 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become [poisoned](rules/conditions.md#poisoned) for 1 minute. If its saving throw result is 5 or lower, the [poisoned](rules/conditions.md#poisoned) target falls [unconscious](rules/conditions.md#unconscious) for the same duration, or until it takes damage or another creature takes an action to shake it awake.
+***Shortbow.*** *Ranged Weapon Attack:* `dice: d20+6` (+6 to hit), range 40/160 ft., one target. *Hit:* 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. If its saving throw result is 5 or lower, the [poisoned](/compendium/rules/conditions.md#poisoned) target falls [unconscious](/compendium/rules/conditions.md#unconscious) for the same duration, or until it takes damage or another creature takes an action to shake it awake.
 
 ***Heart Sight.*** The sprite touches a creature and magically knows the creature's current emotional state. If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature's alignment. Celestials, fiends, and undead automatically fail the saving throw.
 
-***Invisibility.*** The sprite magically turns [invisible](rules/conditions.md#invisible) until it attacks or casts a spell, or until its [concentration](rules/conditions.md#concentration) ends (as if concentrating on a spell). Any equipment the sprite wears or carries is [invisible](rules/conditions.md#invisible) with it.
+***Invisibility.*** The sprite magically turns [invisible](/compendium/rules/conditions.md#invisible) until it attacks or casts a spell, or until its [concentration](/compendium/rules/conditions.md#concentration) ends (as if concentrating on a spell). Any equipment the sprite wears or carries is [invisible](/compendium/rules/conditions.md#invisible) with it.
 ```
 ^statblock
 

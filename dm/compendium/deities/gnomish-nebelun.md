@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/gnomish
-- domain/knowledge
-- domain/trickery
+- ttrpg-cli/deity/gnomish
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/trickery
 aliases: ["Nebelun"]
 ---
 # Nebelun

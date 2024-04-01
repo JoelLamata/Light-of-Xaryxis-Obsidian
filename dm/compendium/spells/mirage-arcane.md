@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/arcana-domain
-- spell/class/druid
-- spell/class/wizard
-- spell/level/7
-- spell/school/illusion
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/7
+- ttrpg-cli/spell/school/illusion
 aliases: ["Mirage Arcane"]
 ---
 # Mirage Arcane
@@ -25,7 +25,7 @@ Similarly, you can alter the appearance of structures, or add them where none ar
 
 The illusion includes audible, visual, tactile, and olfactory elements, so it can turn clear ground into difficult terrain (or vice versa) or otherwise impede movement through the area. Any piece of the illusory terrain (such as a rock or stick) that is removed from the spell's area disappears immediately.
 
-Creatures with [truesight](rules/senses.md#truesight) can see through the illusion to the terrain's true form; however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion.
+Creatures with [truesight](/compendium/rules/senses.md#truesight) can see through the illusion to the terrain's true form; however, all other elements of the illusion remain, so while the creature is aware of the illusion's presence, the creature can still physically interact with the illusion.
 
 **Classes**: [Bard](compendium/classes/bard.md), [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Druid](compendium/classes/druid.md), [Wizard](compendium/classes/wizard.md)
 

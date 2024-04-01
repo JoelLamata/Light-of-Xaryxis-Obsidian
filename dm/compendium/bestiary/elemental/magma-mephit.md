@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/underdark
-- monster/size/small
-- monster/type/elemental
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/elemental
 aliases: ["Magma Mephit"]
 ---
 # Magma Mephit
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 216, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Magma Mephit
@@ -34,7 +34,7 @@ title: Magma Mephit
 
 ## Traits
 
-***Death Burst.*** When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a DC 11 Dexterity saving throw, taking 7 (`2d6`) fire damage on a failed save, or half as much damage on a successful one.
+***Death Burst.*** When the mephit dies, it explodes in a burst of lava. Each creature within 5 feet of it must make a DC 11 Dexterity saving throw, taking `dice: 2d6|avg` (`2d6`) fire damage on a failed save, or half as much damage on a successful one.
 
 ***False Appearance.*** While the mephit remains motionless, it is indistinguishable from an ordinary mound of magma.
 
@@ -44,9 +44,9 @@ title: Magma Mephit
 
 ## Actions
 
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one creature. *Hit:* 3 (`1d4 + 1`) slashing damage plus 2 (`1d4`) fire damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) slashing damage plus `dice: 1d4|avg` (`1d4`) fire damage.
 
-***Fire Breath (Recharge 6).*** The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking 7 (`2d6`) fire damage on a failed save, or half as much damage on a successful one.
+***Fire Breath (Recharge 6).*** The mephit exhales a 15-foot cone of fire. Each creature in that area must make a DC 11 Dexterity saving throw, taking `dice: 2d6|avg` (`2d6`) fire damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

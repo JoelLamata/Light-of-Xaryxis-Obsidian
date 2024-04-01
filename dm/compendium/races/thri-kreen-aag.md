@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/aag
-- race/thri-kreen
+- ttrpg-cli/race/thri-kreen
 aliases: ["Thri-kreen"]
 ---
 # Thri-kreen
@@ -28,7 +28,7 @@ You are Medium or Small. You choose the size when you select this race.
 
 While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.
 
-As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity (Stealth) checks made to hide in those surroundings.
+As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ([Stealth](/compendium/rules/skills.md#Stealth)) checks made to [hide](/compendium/rules/actions.md#hide) in those surroundings.
 
 ### Darkvision
 
@@ -44,7 +44,7 @@ You do not require sleep and can remain conscious during a long rest, though you
 
 ### Thri-kreen Telepathy
 
-Without the assistance of magic, you can't speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures within 120 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is incapacitated, or if either of you mentally breaks the contact (no action required).
+Without the assistance of magic, you can't speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures within 120 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is [incapacitated](/compendium/rules/conditions.md#incapacitated), or if either of you mentally breaks the contact (no action required).
 
 ## Description
 

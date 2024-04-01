@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/druid
-- spell/level/6
-- spell/school/conjuration
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/level/6
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Transport via Plants"]
 ---
 # Transport via Plants

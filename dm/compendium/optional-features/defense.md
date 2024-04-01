@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/fs-f
-- optional-feature/fs-p
-- optional-feature/fs-r
+- ttrpg-cli/optional-feature/fs-f
+- ttrpg-cli/optional-feature/fs-p
+- ttrpg-cli/optional-feature/fs-r
 aliases: ["Defense"]
 ---
 # Defense

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/dwarven
-- domain/death
-- domain/knowledge
+- ttrpg-cli/deity/dwarven
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/knowledge
 aliases: ["Dumathoin"]
 ---
 # Dumathoin

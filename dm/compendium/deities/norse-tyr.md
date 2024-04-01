@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/norse
-- domain/knowledge
-- domain/order
-- domain/war
+- ttrpg-cli/deity/norse
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/order
+- ttrpg-cli/domain/war
 aliases: ["Tyr"]
 ---
 # Tyr

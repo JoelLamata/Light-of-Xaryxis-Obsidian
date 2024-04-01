@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/legendary
-- item/tier/minor
-- item/wondrous/scroll
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/minor
+- ttrpg-cli/item/wondrous/scroll
 aliases: 
 - "Spell Scroll (9th Level)"
 ---
@@ -19,8 +19,8 @@ If the spell is on your class's spell list but of a higher level than you can no
 
 Once the spell is cast, the words on the scroll fade, and the scroll itself crumbles to dust.
 
-A spell cast from this scroll has a save DC of 19 and an attack bonus of +11.
+A spell cast from this scroll has a save DC of 19 and an attack bonus of `dice: d20+11` (+11).
 
-A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 19 Intelligence ([Arcana](rules/skills.md#Arcana)) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.
+A wizard spell on a spell scroll can be copied just as spells in spellbooks can be copied. When a spell is copied from a spell scroll, the copier must succeed on a DC 19 Intelligence ([Arcana](/compendium/rules/skills.md#Arcana)) check. If the check succeeds, the spell is successfully copied. Whether the check succeeds or fails, the spell scroll is destroyed.
 
 *Source: Dungeon Master's Guide p. 208. Available in the SRD and the Basic Rules.*

@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Urban Bounty Hunter"]
 ---
 # Urban Bounty Hunter
 *Source: Sword Coast Adventurer's Guide p. 153*  
 
-- **Skill Proficiencies.** Choose two from among [Deception](rules/skills.md#Deception), [Insight](rules/skills.md#Insight), [Persuasion](rules/skills.md#Persuasion), and [Stealth](rules/skills.md#Stealth)  
+- **Skill Proficiencies.** Choose two from among [Deception](/compendium/rules/skills.md#Deception), [Insight](/compendium/rules/skills.md#Insight), [Persuasion](/compendium/rules/skills.md#Persuasion), and [Stealth](/compendium/rules/skills.md#Stealth)  
 - **Tool Proficiencies.** Choose two from among one type of gaming set, one musical instrument, and [thieves' tools](compendium/items/thieves-tools.md)  
 - **Equipment.** A set of clothes appropriate to your duties and a [pouch](compendium/items/pouch.md) containing 20 gp  
 

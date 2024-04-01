@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/wizard
-- spell/level/8
-- spell/school/evocation
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/8
+- ttrpg-cli/spell/school/evocation
 aliases: ["Telepathy"]
 ---
 # Telepathy

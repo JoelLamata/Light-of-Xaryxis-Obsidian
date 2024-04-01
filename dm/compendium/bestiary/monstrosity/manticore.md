@@ -3,18 +3,18 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/arctic
-- monster/environment/coastal
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/mountain
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Manticore"]
 ---
 # Manticore
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 213, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Manticore
@@ -44,11 +44,11 @@ title: Manticore
 
 ***Multiattack.*** The manticore makes three attacks: one with its bite and two with its claws or three with its tail spikes.
 
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage.
 
-***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) slashing damage.
 
-***Tail Spike.*** *Ranged Weapon Attack:* +5 to hit, range 100/200 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage.
+***Tail Spike.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 100/200 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage.
 ```
 ^statblock
 

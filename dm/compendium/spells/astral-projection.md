@@ -3,13 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/arcana-domain
-- spell/class/monk
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/9
-- spell/school/necromancy
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/monk
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/9
+- ttrpg-cli/spell/school/necromancy
 aliases: ["Astral Projection"]
 ---
 # Astral Projection
@@ -20,7 +21,7 @@ aliases: ["Astral Projection"]
 - **Components:** V, S, for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes
 - **Duration:** Special
 
-You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is [unconscious](rules/conditions.md#unconscious) and in a state of suspended animation, it doesn't need food or air and doesn't age.
+You and up to eight willing creatures within range project your astral bodies into the Astral Plane (the spell fails and the casting is wasted if you are already on that plane). The material body you leave behind is [unconscious](/compendium/rules/conditions.md#unconscious) and in a state of suspended animation, it doesn't need food or air and doesn't age.
 
 Your astral body resembles your mortal form in almost every way, replicating your game statistics and possessions. The principal difference is the addition of a silvery cord that extends from between your shoulder blades and trails behind you, fading to invisibility after 1 foot. This cord is your tether to your material body. As long as the tether remains intact, you can find your way home. If the cord is cut-something that can happen only when an effect specifically states that it does-your soul and body are separated, killing you instantly.
 
@@ -32,6 +33,6 @@ The spell might also end early for you or one of your companions. A successful [
 
 If you are returned to your body prematurely, your companions remain in their astral forms and must find their own way back to their bodies, usually by dropping to 0 hit points.
 
-**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Monk](compendium/classes/monk.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Monk](compendium/classes/monk.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 215. Available in the SRD and the Basic Rules.*

@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Acolyte"]
 ---
 # Acolyte
 *Source: Player's Handbook p. 127. Available in the SRD and the Basic Rules.*  
 
-- **Skill Proficiencies.** [Insight](rules/skills.md#Insight), [Religion](rules/skills.md#Religion)  
+- **Skill Proficiencies.** [Insight](/compendium/rules/skills.md#Insight), [Religion](/compendium/rules/skills.md#Religion)  
 - **Languages.** Two of your choice  
 - **Equipment.** A [holy symbol](compendium/items/holy-symbol.md) (a gift to you when you entered the priesthood), a prayer [book](compendium/items/book.md) or prayer wheel, 5 sticks of incense, vestments, a set of [common clothes](compendium/items/common-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 15 gp  
 

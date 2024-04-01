@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/tempest
-- domain/war
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/tempest
+- ttrpg-cli/domain/war
 aliases: ["Kord"]
 ---
 # Kord

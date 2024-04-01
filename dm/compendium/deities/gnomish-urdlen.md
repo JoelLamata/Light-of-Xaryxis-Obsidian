@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/gnomish
-- domain/death
-- domain/war
+- ttrpg-cli/deity/gnomish
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/war
 aliases: ["Urdlen"]
 ---
 # Urdlen

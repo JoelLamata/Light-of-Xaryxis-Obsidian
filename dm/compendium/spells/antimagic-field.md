@@ -3,11 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/arcana-domain
-- spell/class/wizard
-- spell/level/8
-- spell/school/abjuration
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/8
+- ttrpg-cli/spell/school/abjuration
 aliases: ["Antimagic Field"]
 ---
 # Antimagic Field
@@ -54,6 +55,6 @@ Spells and magical effects such as [dispel magic](compendium/spells/dispel-magic
 
 ## Summary
 
-**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Arcana Domain)](compendium/classes/cleric-arcana-domain-scag.md), [Cleric](compendium/classes/cleric.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 213. Available in the SRD and the Basic Rules.*

@@ -3,12 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/druid
-- spell/class/druid/circle-of-the-land
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/5
-- spell/school/evocation
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/druid/circle-of-the-land
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock/the-genie
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/school/evocation
 aliases: ["Wall of Stone"]
 ---
 # Wall of Stone
@@ -29,8 +31,8 @@ If you create a span greater than 20 feet in length, you must halve the size of 
 
 The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 hit points per inch of thickness. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion.
 
-If you maintain your [concentration](rules/conditions.md#concentration) on this spell for its whole duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.
+If you maintain your [concentration](/compendium/rules/conditions.md#concentration) on this spell for its whole duration, the wall becomes permanent and can't be dispelled. Otherwise, the wall disappears when the spell ends.
 
-**Classes**: [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Genie)](compendium/classes/warlock-the-genie-tce.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 287. Available in the SRD and the Basic Rules.*

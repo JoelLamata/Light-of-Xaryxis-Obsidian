@@ -3,10 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/5
-- spell/school/illusion
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/cleric/forge-domain
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock/the-genie
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/school/illusion
 aliases: ["Creation"]
 ---
 # Creation
@@ -36,6 +39,6 @@ Using any material created by this spell as another spell's material component c
 
 **At Higher Levels.** When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.
 
-**Classes**: [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Cleric (Forge Domain)](compendium/classes/cleric-forge-domain-xge.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Genie)](compendium/classes/warlock-the-genie-tce.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 229. Available in the SRD.*

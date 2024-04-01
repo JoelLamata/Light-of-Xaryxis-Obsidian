@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/fighter
 - compendium/src/5e/phb
+- ttrpg-cli/class/fighter
 aliases: ["Fighter"]
 ---
 # Fighter
@@ -16,7 +16,7 @@ aliases: ["Fighter"]
 > | 1st | +2 | [Fighting Style](#Fighting%20Style%20(Level%201)), [Second Wind](#Second%20Wind%20(Level%201)) |
 > | 2nd | +2 | [Action Surge](#Action%20Surge%20(Level%202)) |
 > | 3rd | +2 | [Martial Archetype](#Martial%20Archetype%20(Level%203)) |
-> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
+> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)), [Martial Versatility](#Martial%20Versatility%20(Level%204)) |
 > | 5th | +3 | [Extra Attack](#Extra%20Attack%20(Level%205)) |
 > | 6th | +3 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%206)) |
 > | 7th | +3 | [Martial Archetype feature](#Martial%20Archetype%20feature%20(Level%207)) |
@@ -195,7 +195,7 @@ You adopt a particular style of fighting as your specialty. Choose one of the fo
 
 ### Second Wind (Level 1)
 
-You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to `1d10` + your fighter level.
+You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to `dice: 1d10|avg` (`1d10`) + your fighter level.
 
 Once you use this feature, you must finish a short or long rest before you can use it again.
 
@@ -215,9 +215,19 @@ When you reach 4th level, you can increase one ability score of your choice by 2
 
 If your DM allows the use of feats, you may instead take a feat.
 
+### Martial Versatility (Level 4)
+_Source: Tasha's Cauldron of Everything p. 41_
+
+*4th-level fighter [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:
+
+- Replace a [fighting style](compendium/optional-features/list-fighting-style-fighter.md) you know with another fighting style available to fighters.  
+- If you know any [maneuvers](compendium/optional-features/list-maneuver-battle-master.md) from the [Battle Master](compendium/classes/fighter-battle-master.md) archetype, you can replace one maneuver you know with a different maneuver.  
+
 ### Extra Attack (Level 5)
 
-Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](rules/actions.md#Attack) action on your turn.
+Beginning at 5th level, you can attack twice, instead of once, whenever you take the [Attack](/compendium/rules/actions.md#Attack) action on your turn.
 
 The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.
 
@@ -249,7 +259,7 @@ At 10th level, you gain a feature granted by your Martial Archetype.
 
 ### Extra Attack (2) (Level 11)
 
-At 11th level, you can attack three times whenever you take the [Attack](rules/actions.md#Attack) action on your turn.
+At 11th level, you can attack three times whenever you take the [Attack](/compendium/rules/actions.md#Attack) action on your turn.
 
 ### Ability Score Improvement (Level 12)
 
@@ -297,7 +307,7 @@ If your DM allows the use of feats, you may instead take a feat.
 
 ### Extra Attack (3) (Level 20)
 
-At 20th level, you can attack four times whenever you take the [Attack](rules/actions.md#Attack) action on your turn.
+At 20th level, you can attack four times whenever you take the [Attack](/compendium/rules/actions.md#Attack) action on your turn.
 
 ## Optional Features
 

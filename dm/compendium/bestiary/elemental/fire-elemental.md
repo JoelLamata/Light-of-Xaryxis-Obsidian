@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/environment/desert
-- monster/size/large
-- monster/type/elemental
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/elemental
 aliases: ["Fire Elemental"]
 ---
 # Fire Elemental
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 125, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Fire Elemental
@@ -34,7 +34,7 @@ title: Fire Elemental
 
 ## Traits
 
-***Fire Form.*** The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 5 (`1d10`) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 5 (`1d10`) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (`1d10`) fire damage at the start of each of its turns.
+***Fire Form.*** The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes `dice: 1d10|avg` (`1d10`) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes `dice: 1d10|avg` (`1d10`) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes `dice: 1d10|avg` (`1d10`) fire damage at the start of each of its turns.
 
 ***Illumination.*** The elemental sheds bright light in a 30-foot radius and dim light in an additional 30 feet.
 
@@ -44,7 +44,7 @@ title: Fire Elemental
 
 ***Multiattack.*** The elemental makes two touch attacks.
 
-***Touch.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (`1d10`) fire damage at the start of each of its turns.
+***Touch.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 3|avg` (`2d6 + 3`) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes `dice: 1d10|avg` (`1d10`) fire damage at the start of each of its turns.
 ```
 ^statblock
 

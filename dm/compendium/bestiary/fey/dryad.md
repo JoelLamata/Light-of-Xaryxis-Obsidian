@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/forest
-- monster/size/medium
-- monster/type/fey
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/fey
 aliases: ["Dryad"]
 ---
 # Dryad
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 121, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Dryad
@@ -50,13 +50,13 @@ title: Dryad
 
 ## Actions
 
-***Club.*** *Melee Weapon Attack:* +2 to hit (+6 to hit with shillelagh), reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage, or 8 (`1d8 + 4`) bludgeoning damage with shillelagh.
+***Club.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit) (`dice: d20+6` (+6 to hit) with shillelagh), reach 5 ft., one target. *Hit:* `dice: 1d4|avg` (`1d4`) bludgeoning damage, or `dice: 1d8 + 4|avg` (`1d8 + 4`) bludgeoning damage with shillelagh.
 
-***Fey Charm.*** The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically [charmed](rules/conditions.md#charmed). The [charmed](rules/conditions.md#charmed) creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.
+***Fey Charm.*** The dryad targets one humanoid or beast that she can see within 30 feet of her. If the target can see the dryad, it must succeed on a DC 14 Wisdom saving throw or be magically [charmed](/compendium/rules/conditions.md#charmed). The [charmed](/compendium/rules/conditions.md#charmed) creature regards the dryad as a trusted friend to be heeded and protected. Although the target isn't under the dryad's control, it takes the dryad's requests or actions in the most favorable way it can.
 
 Each time the dryad or its allies do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect lasts 24 hours or until the dryad dies, is on a different plane of existence from the target, or ends the effect as a bonus action. If a target's saving throw is successful, the target is immune to the dryad's Fey Charm for the next 24 hours.
 
-The dryad can have no more than one humanoid and up to three beasts [charmed](rules/conditions.md#charmed) at a time.
+The dryad can have no more than one humanoid and up to three beasts [charmed](/compendium/rules/conditions.md#charmed) at a time.
 ```
 ^statblock
 

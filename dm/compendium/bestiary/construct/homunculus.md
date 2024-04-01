@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/size/tiny
-- monster/type/construct
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/construct
 aliases: ["Homunculus"]
 ---
 # Homunculus
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 188, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Homunculus
@@ -37,6 +37,6 @@ title: Homunculus
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be [poisoned](rules/conditions.md#poisoned) for 1 minute. If the saving throw fails by 5 or more, the target is instead [poisoned](rules/conditions.md#poisoned) for 5 (`1d10`) minutes and [unconscious](rules/conditions.md#unconscious) while [poisoned](rules/conditions.md#poisoned) in this way.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be [poisoned](/compendium/rules/conditions.md#poisoned) for 1 minute. If the saving throw fails by 5 or more, the target is instead [poisoned](/compendium/rules/conditions.md#poisoned) for `dice: 1d10|avg` (`1d10`) minutes and [unconscious](/compendium/rules/conditions.md#unconscious) while [poisoned](/compendium/rules/conditions.md#poisoned) in this way.
 ```
 ^statblock

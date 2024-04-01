@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/life
-- domain/light
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/light
 aliases: ["Amaunator", "The Keeper of the Eternal Sun", "The Light of Law", "The Yellow God"]
 ---
 # Amaunator

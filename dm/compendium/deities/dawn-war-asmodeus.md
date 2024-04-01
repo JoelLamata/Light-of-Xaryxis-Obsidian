@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/order
-- domain/trickery
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/order
+- ttrpg-cli/domain/trickery
 aliases: ["Asmodeus"]
 ---
 # Asmodeus

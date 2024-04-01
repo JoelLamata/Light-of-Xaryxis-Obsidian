@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/armor/heavy
-- item/attunement/required
-- item/rarity/legendary
-- item/tier/major
+- ttrpg-cli/item/armor/heavy
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/major
 aliases: 
 - "Efreeti Chain"
 ---

@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/phb
-- race/dwarf
+- ttrpg-cli/race/dwarf
 aliases: ["Dwarf"]
 ---
 # Dwarf
@@ -45,7 +45,7 @@ You gain proficiency with the artisan's tools of your choice: [Smith's tools](co
 
 ### Stonecunning
 
-Whenever you make an Intelligence ([History](rules/skills.md#History)) check related to the origin of stonework, you are considered proficient in the [History](rules/skills.md#History) skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+Whenever you make an Intelligence ([History](/compendium/rules/skills.md#History)) check related to the origin of stonework, you are considered proficient in the [History](/compendium/rules/skills.md#History) skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
 
 ### Languages
 

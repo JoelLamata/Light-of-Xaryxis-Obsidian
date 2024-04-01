@@ -3,19 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/swamp
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Poisonous Snake"]
 ---
 # Giant Poisonous Snake
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 327, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Poisonous Snake
@@ -39,7 +39,7 @@ title: Giant Poisonous Snake
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 6 (`1d4 + 4`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking 10 (`3d6`) poison damage on a failed save, or half as much damage on a successful one.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 1d4 + 4|avg` (`1d4 + 4`) piercing damage, and the target must make a DC 11 Constitution saving throw, taking `dice: 3d6|avg` (`3d6`) poison damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

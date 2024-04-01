@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/2
-- monster/size/medium
-- monster/type/aberration
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/aberration
 aliases: ["Psurlon"]
 ---
 # Psurlon
-*Source: Boo's Astral Menagerie p. 44*  
+*Source: Boo's Astral Menagerie p. 44, Light of Xaryxis*  
 
 Psurlons are malevolent, wormlike creatures that live on the Astral Plane. A fully grown specimen is 7 feet long. They have legs that end in hooves and arms that end in hands with three long fingers. A psurlon's eyeless head resembles that of an earthworm, capped by a maw ringed with teeth. Psurlons adorn themselves in richly colored robes and rarely wear armor or carry weapons.
 
@@ -24,7 +24,7 @@ title: Psurlon
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Psurlon.webp#token)
 *Medium aberration, typically  Lawful Evil*
 
-- **Armor Class** 15  (mage armor)
+- **Armor Class** 15  ([mage armor](compendium/spells/mage-armor.md))
 - **Hit Points** 45 (`7d8 + 14`)
 - **Speed** 30 ft.
 
@@ -45,18 +45,18 @@ title: Psurlon
 
 ***Spellcasting (Psionics).*** The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 13):
 
-**1/day**: suggestion
+**1/day**: [suggestion](compendium/spells/suggestion.md)
 
-**2/day each**: disguise self, mage armor (self only)
+**2/day each**: [disguise self](compendium/spells/disguise-self.md), [mage armor](compendium/spells/mage-armor.md) (self only)
 
 ## Actions
 
 ***Multiattack.*** The psurlon makes one Bite attack and two Claw attacks.
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 6 (`1d8 + 2`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage.
 
-***Claw.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) slashing damage.
 
-***Psychic Crush.*** The psurlon targets one creature it can see within 120 feet of itself. The target must make a DC 13 Wisdom saving throw, taking 14 (`2d10 + 3`) psychic damage on a failed save, or half as much damage on a successful one.
+***Psychic Crush.*** The psurlon targets one creature it can see within 120 feet of itself. The target must make a DC 13 Wisdom saving throw, taking `dice: 2d10 + 3|avg` (`2d10 + 3`) psychic damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock

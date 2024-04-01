@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/forge
-- domain/knowledge
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/forge
+- ttrpg-cli/domain/knowledge
 aliases: ["Gond", "The Wonderbringer", "The Inspiration Divine", "The Holy Maker of All Things"]
 ---
 # Gond

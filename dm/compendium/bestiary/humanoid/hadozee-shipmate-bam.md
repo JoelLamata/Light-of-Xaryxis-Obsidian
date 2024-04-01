@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-8
-- monster/size/medium
-- monster/type/humanoid
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid
 aliases: ["Hadozee Shipmate"]
 ---
 # Hadozee Shipmate
-*Source: Boo's Astral Menagerie p. 29*  
+*Source: Boo's Astral Menagerie p. 29, Light of Xaryxis*  
 
 Hadozee shipmates make up much of the crew aboard some spelljamming ships.
 
@@ -35,11 +35,11 @@ title: Hadozee Shipmate
 
 ## Traits
 
-***Glide.*** If it isn't incapacitated or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.
+***Glide.*** If it isn't [incapacitated](/compendium/rules/conditions.md#incapacitated) or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.
 
 ## Actions
 
-***Dagger.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
+***Dagger.*** *Melee or Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft. or range 20/60 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage.
 
 ## Reactions
 

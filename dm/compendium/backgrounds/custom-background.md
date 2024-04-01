@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Custom Background"]
 ---
 # Custom Background

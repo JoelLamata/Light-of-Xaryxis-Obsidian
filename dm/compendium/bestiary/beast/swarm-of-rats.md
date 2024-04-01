@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/swamp
-- monster/environment/urban
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Swarm of Rats"]
 ---
 # Swarm of Rats
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 339, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Swarm of Rats
@@ -35,13 +35,13 @@ title: Swarm of Rats
 
 ## Traits
 
-***Keen Smell.*** The swarm has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The swarm has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
 ***Swarm.*** The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny rat. The swarm can't regain hit points or gain temporary hit points.
 
 ## Actions
 
-***Bites.*** *Melee Weapon Attack:* +2 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 7 (`2d6`) piercing damage, or 3 (`1d6`) piercing damage if the swarm has half of its hit points or fewer.
+***Bites.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 0 ft., one target in the swarm's space. *Hit:* `dice: 2d6|avg` (`2d6`) piercing damage, or `dice: 1d6|avg` (`1d6`) piercing damage if the swarm has half of its hit points or fewer.
 ```
 ^statblock
 

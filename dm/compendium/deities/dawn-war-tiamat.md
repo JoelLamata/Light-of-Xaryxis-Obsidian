@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/trickery
-- domain/war
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/trickery
+- ttrpg-cli/domain/war
 aliases: ["Tiamat"]
 ---
 # Tiamat

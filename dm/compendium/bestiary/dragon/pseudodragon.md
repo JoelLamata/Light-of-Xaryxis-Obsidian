@@ -3,19 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/coastal
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/hill
-- monster/environment/mountain
-- monster/environment/urban
-- monster/size/tiny
-- monster/type/dragon
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/dragon
 aliases: ["Pseudodragon"]
 ---
 # Pseudodragon
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 254, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Pseudodragon
@@ -39,7 +39,7 @@ title: Pseudodragon
 
 ## Traits
 
-***Keen Senses.*** The pseudodragon has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight, hearing, or smell.
+***Keen Senses.*** The pseudodragon has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight, hearing, or smell.
 
 ***Magic Resistance.*** The pseudodragon has advantage on saving throws against spells and other magical effects.
 
@@ -47,9 +47,9 @@ title: Pseudodragon
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage.
 
-***Sting.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 4 (`1d4 + 2`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become [poisoned](rules/conditions.md#poisoned) for 1 hour. If the saving throw fails by 5 or more, the target falls [unconscious](rules/conditions.md#unconscious) for the same duration, or until it takes damage or another creature uses an action to shake it awake.
+***Sting.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become [poisoned](/compendium/rules/conditions.md#poisoned) for 1 hour. If the saving throw fails by 5 or more, the target falls [unconscious](/compendium/rules/conditions.md#unconscious) for the same duration, or until it takes damage or another creature uses an action to shake it awake.
 ```
 ^statblock
 

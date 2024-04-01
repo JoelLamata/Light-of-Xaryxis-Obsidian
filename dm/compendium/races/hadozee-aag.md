@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/aag
-- race/hadozee
+- ttrpg-cli/race/hadozee
 aliases: ["Hadozee"]
 ---
 # Hadozee
@@ -29,7 +29,7 @@ When you fall at least 10 feet above the ground, you can use your reaction to ex
 
 ### Hadozee Dodge
 
-The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a `d6`. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage).
+The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a `dice: d6|avg` (`d6`). Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage).
 
 You can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest.
 

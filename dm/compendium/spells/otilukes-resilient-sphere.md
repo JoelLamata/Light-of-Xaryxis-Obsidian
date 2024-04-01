@@ -3,11 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/wizard
-- spell/level/4
-- spell/school/evocation
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/cleric/peace-domain
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/paladin/oath-of-redemption
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/school/evocation
 aliases: ["Otiluke's Resilient Sphere"]
 ---
 # Otiluke's Resilient Sphere
@@ -26,6 +29,6 @@ The sphere is weightless and just large enough to contain the creature or object
 
 A [disintegrate](compendium/spells/disintegrate.md) spell targeting the globe destroys it without harming anything inside it.
 
-**Classes**: [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Cleric (Peace Domain)](compendium/classes/cleric-peace-domain-tce.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Paladin (Oath of Redemption)](compendium/classes/paladin-oath-of-redemption-xge.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 264. Available in the SRD (as 'Resilient Sphere').*

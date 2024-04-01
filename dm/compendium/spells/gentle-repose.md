@@ -3,13 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/wizard
-- spell/level/2
-- spell/ritual
-- spell/school/necromancy
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/grave-domain
+- ttrpg-cli/spell/class/druid/circle-of-spores
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/ritual
+- ttrpg-cli/spell/school/necromancy
 aliases: ["Gentle Repose"]
 ---
 # Gentle Repose
@@ -24,6 +27,6 @@ You touch a corpse or other remains. For the duration, the target is protected f
 
 The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as [raise dead](compendium/spells/raise-dead.md).
 
-**Classes**: [Cleric](compendium/classes/cleric.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Grave Domain)](compendium/classes/cleric-grave-domain-xge.md), [Cleric](compendium/classes/cleric.md), [Druid (Circle of Spores)](compendium/classes/druid-circle-of-spores-tce.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 245. Available in the SRD.*

@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/druid
-- spell/class/ranger
-- spell/level/2
-- spell/ritual
-- spell/school/divination
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/ritual
+- ttrpg-cli/spell/school/divination
 aliases: ["Locate Animals or Plants"]
 ---
 # Locate Animals or Plants

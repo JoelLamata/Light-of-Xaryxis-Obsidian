@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/rogue/assassin
+- ttrpg-cli/subclass/rogue/assassin
 aliases: ["Assassin"]
 ---
 # Assassin
@@ -37,7 +37,7 @@ Thereafter, if you adopt the new identity as a disguise, other creatures believe
 
 At 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerism.
 
-Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma ([Deception](rules/skills.md#Deception)) check you make to avoid detection.
+Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma ([Deception](/compendium/rules/skills.md#Deception)) check you make to avoid detection.
 
 ### Death Strike (Level 17)
 

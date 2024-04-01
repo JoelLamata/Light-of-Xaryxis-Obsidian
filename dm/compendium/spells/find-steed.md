@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/paladin
-- spell/level/2
-- spell/school/conjuration
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Find Steed"]
 ---
 # Find Steed
@@ -16,7 +16,7 @@ aliases: ["Find Steed"]
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose: a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.
+You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose: a [warhorse](compendium/bestiary/beast/warhorse.md), a pony, a [camel](compendium/bestiary/beast/camel.md), an elk, or a [mastiff](compendium/bestiary/beast/mastiff.md). (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.
 
 Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.
 

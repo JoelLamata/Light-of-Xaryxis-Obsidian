@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/aag
-- item/rarity/uncommon
-- item/wondrous
+- ttrpg-cli/item/rarity/uncommon
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Wildspace Orrery"
 ---

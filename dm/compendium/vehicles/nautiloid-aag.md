@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Nautiloid"]
 ---
 # Nautiloid
@@ -32,7 +32,7 @@ title: Nautiloid
 
 It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.
 
-**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* `dice: 3d10|avg` (`3d10`) piercing damage.
 
 ## Weapon: Mangonel (Crew: 5)
 
@@ -42,7 +42,7 @@ It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire i
 
 It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fire it.
 
-**Mangonel Stone** *Ranged Weapon Attack:* +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* 27 (`5d10`) bludgeoning damage.
+**Mangonel Stone** *Ranged Weapon Attack:* +5 to hit, range 200/800 ft. (can't hit targets within 60 feet of it), one target. *Hit:* `dice: 5d10|avg` (`5d10`) bludgeoning damage.
 
 ## Weapon: Tentacles
 
@@ -50,7 +50,7 @@ It takes 2 actions to load the mangonel, 2 actions to aim it, and 1 action to fi
 
 As an action, the ship's spelljammer can make one of the following attacks with the ship's tentacles.
 
-**Grappling Tentacles** *Melee Weapon Attack:* +8 to hit, reach 30 ft., one Huge or Gargantuan target. *Hit:* 22 (`4d10`) bludgeoning damage, and the nautiloid's speed becomes 0 until its spelljammer uses an action to release the target. If the target is a creature, it is grappled (escape DC 16). If the target is another ship, the target's speed becomes 0 until the nautiloid releases it, or until the target or the nautiloid drops to 0 hit points.
+**Grappling Tentacles** *Melee Weapon Attack:* +8 to hit, reach 30 ft., one Huge or Gargantuan target. *Hit:* `dice: 4d10|avg` (`4d10`) bludgeoning damage, and the nautiloid's speed becomes 0 until its spelljammer uses an action to release the target. If the target is a creature, it is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 16). If the target is another ship, the target's speed becomes 0 until the nautiloid releases it, or until the target or the nautiloid drops to 0 hit points.
 
 **Teleport** *Melee Spell Attack:* +8 to hit, reach 30 ft., one creature. *Hit:* The target must succeed on a DC 15 Constitution saving throw or be teleported to an unoccupied space aboard the nautiloid that the nautiloid's spelljammer can see.
 ```

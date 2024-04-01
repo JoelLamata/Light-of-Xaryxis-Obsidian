@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/6
-- monster/environment/urban
-- monster/size/medium
-- monster/type/elemental
+- ttrpg-cli/monster/cr/6
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/elemental
 aliases: ["Invisible Stalker"]
 ---
 # Invisible Stalker
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 192, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Invisible Stalker
@@ -34,7 +34,7 @@ title: Invisible Stalker
 
 ## Traits
 
-***Invisibility.*** The stalker is [invisible](rules/conditions.md#invisible).
+***Invisibility.*** The stalker is [invisible](/compendium/rules/conditions.md#invisible).
 
 ***Faultless Tracker.*** The stalker is given a quarry by its summoner. The stalker knows the direction and distance to its quarry as long as the two of them are on the same plane of existence. The stalker also knows the location of its summoner.
 
@@ -42,7 +42,7 @@ title: Invisible Stalker
 
 ***Multiattack.*** The stalker makes two slam attacks.
 
-***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 3|avg` (`2d6 + 3`) bludgeoning damage.
 ```
 ^statblock
 

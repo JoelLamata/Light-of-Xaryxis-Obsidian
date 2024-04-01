@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/aag
-- item/rarity/very-rare
-- item/wondrous
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Fish Suit"
 ---

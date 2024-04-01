@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Knight of the Order"]
 ---
 # Knight of the Order
 *Source: Sword Coast Adventurer's Guide p. 151*  
 
-- **Skill Proficiencies.** [Persuasion](rules/skills.md#Persuasion), plus one from among [Arcana](rules/skills.md#Arcana), [History](rules/skills.md#History), [Nature](rules/skills.md#Nature), and [Religion](rules/skills.md#Religion), as appropriate for your order  
+- **Skill Proficiencies.** [Persuasion](/compendium/rules/skills.md#Persuasion), plus one from among [Arcana](/compendium/rules/skills.md#Arcana), [History](/compendium/rules/skills.md#History), [Nature](/compendium/rules/skills.md#Nature), and [Religion](/compendium/rules/skills.md#Religion), as appropriate for your order  
 - **Tool Proficiencies.** Your choice of a gaming set or a musical instrument  
 - **Languages.** Any one of your choice  
 - **Equipment.** One set of [traveler's clothes](compendium/items/travelers-clothes.md), a signet, banner, or seal representing your place or rank in the order, and a [pouch](compendium/items/pouch.md) containing 10 gp  

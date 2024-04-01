@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/property/martial
-- item/property/thrown
-- item/property/versatile
-- item/rarity/artifact
-- item/weapon/martial/melee
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/thrown
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/rarity/artifact
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Axe of the Dwarvish Lords"
 ---
@@ -19,7 +19,7 @@ aliases:
   - One-handed: 1d8 S
   - Two-handed: 1d10 S
 - **Range**: 20/60
-- **Properties**: Martial, [Thrown](rules/item-properties.md#Thrown), [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: Martial, [Thrown](/compendium/rules/item-properties.md#Thrown), [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 Seeing the peril his people faced, a young dwarf prince came to believe that his people needed something to unite them. Thus, he set out to forge a weapon that would be such a symbol.
@@ -47,12 +47,12 @@ The axe has the following randomly determined properties:
 If you are a dwarf attuned to the axe, you gain the following benefits:
 
 - You have immunity to poison damage.  
-- The range of your [darkvision](rules/senses.md#darkvision) increases by 60 feet.  
+- The range of your [darkvision](/compendium/rules/senses.md#darkvision) increases by 60 feet.  
 - You gain proficiency with [artisan's tools](compendium/items/artisans-tools.md) related to blacksmithing, brewing, and stonemasonry.  
 
 ## Conjure Earth Elemental
 
-If you are holding the axe, you can use your action to cast the [conjure elemental](compendium/spells/conjure-elemental.md) spell from it, summoning an earth elemental. You can't use this property again until the next dawn.
+If you are holding the axe, you can use your action to cast the [conjure elemental](compendium/spells/conjure-elemental.md) spell from it, summoning an [earth elemental](compendium/bestiary/elemental/earth-elemental.md). You can't use this property again until the next dawn.
 
 ## Travel the Depths
 

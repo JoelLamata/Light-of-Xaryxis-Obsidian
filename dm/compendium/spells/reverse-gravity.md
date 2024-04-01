@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/druid
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/7
-- spell/school/transmutation
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/7
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Reverse Gravity"]
 ---
 # Reverse Gravity

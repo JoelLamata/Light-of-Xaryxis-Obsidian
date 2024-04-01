@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/finesse
-- item/property/martial
-- item/weapon/martial/melee
+- ttrpg-cli/item/property/finesse
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Rapier"
 ---
@@ -13,7 +13,7 @@ aliases:
 *Melee Weapon*  
 
 - **Damage**: 1d8 P
-- **Properties**: [Finesse](rules/item-properties.md#Finesse), Martial
+- **Properties**: [Finesse](/compendium/rules/item-properties.md#Finesse), Martial
 - **Cost**: 25 gp
 - **Weight**: 2.0 lbs.
 

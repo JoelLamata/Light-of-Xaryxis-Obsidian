@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/property/martial
-- item/property/thrown
-- item/property/versatile
-- item/rarity/legendary
-- item/weapon/martial/melee
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/thrown
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Wave"
 ---
@@ -19,7 +19,7 @@ aliases:
   - One-handed: 1d6 P
   - Two-handed: 1d8 P
 - **Range**: 20/60
-- **Properties**: Martial, [Thrown](rules/item-properties.md#Thrown), [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: Martial, [Thrown](/compendium/rules/item-properties.md#Thrown), [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
 Held in the dungeon of White Plume Mountain, this trident is an exquisite weapon engraved with images of waves, shells, and sea creatures. Although you must worship a god of the sea to attune to this weapon, Wave happily accepts new converts.
@@ -30,7 +30,7 @@ The weapon also functions as a [trident of fish command](compendium/items/triden
 
 ## Sentience
 
-Wave is a sentient weapon of neutral alignment, with an Intelligence of 14, a Wisdom of 10, and a Charisma of 18. It has hearing and [darkvision](rules/senses.md#darkvision) out to a range of 120 feet.
+Wave is a sentient weapon of neutral alignment, with an Intelligence of 14, a Wisdom of 10, and a Charisma of 18. It has hearing and [darkvision](/compendium/rules/senses.md#darkvision) out to a range of 120 feet.
 
 The weapon communicates telepathically with its wielder and can speak, read, and understand Aquan. It can also speak with aquatic animals as if using a [speak with animals](compendium/spells/speak-with-animals.md) spell, using telepathy to involve its wielder in the conversation.
 

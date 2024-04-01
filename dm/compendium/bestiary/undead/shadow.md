@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/medium
-- monster/type/undead
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/undead
 aliases: ["Shadow"]
 ---
 # Shadow
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 269, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Shadow
@@ -33,7 +33,7 @@ title: Shadow
 - **Damage Vulnerabilities** radiant
 - **Damage Resistances** acid; cold; fire; lightning; thunder; bludgeoning, piercing, slashing from nonmagical attacks
 - **Damage Immunities** necrotic, poison
-- **Condition Immunities** [exhaustion](rules/conditions.md#exhaustion), [frightened](rules/conditions.md#frightened), [grappled](rules/conditions.md#grappled), [paralyzed](rules/conditions.md#paralyzed), [petrified](rules/conditions.md#petrified), [poisoned](rules/conditions.md#poisoned), [prone](rules/conditions.md#prone), [restrained](rules/conditions.md#restrained)
+- **Condition Immunities** [exhaustion](/compendium/rules/conditions.md#exhaustion), [frightened](/compendium/rules/conditions.md#frightened), [grappled](/compendium/rules/conditions.md#grappled), [paralyzed](/compendium/rules/conditions.md#paralyzed), [petrified](/compendium/rules/conditions.md#petrified), [poisoned](/compendium/rules/conditions.md#poisoned), [prone](/compendium/rules/conditions.md#prone), [restrained](/compendium/rules/conditions.md#restrained)
 - **Languages** —
 - **Challenge** 1/2
 
@@ -47,9 +47,9 @@ title: Shadow
 
 ## Actions
 
-***Strength Drain.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 9 (`2d6 + 2`) necrotic damage, and the target's Strength score is reduced by `1d4`. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.
+***Strength Drain.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 2d6 + 2|avg` (`2d6 + 2`) necrotic damage, and the target's Strength score is reduced by `dice: 1d4|avg` (`1d4`). The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.
 
-If a non-evil humanoid dies from this attack, a new shadow rises from the corpse `1d4` hours later.
+If a non-evil humanoid dies from this attack, a new shadow rises from the corpse `dice: 1d4|avg` (`1d4`) hours later.
 ```
 ^statblock
 

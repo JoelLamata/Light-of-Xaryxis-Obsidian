@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/forge
-- domain/knowledge
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/forge
+- ttrpg-cli/domain/knowledge
 aliases: ["Gond"]
 ---
 # Gond

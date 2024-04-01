@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/10
-- monster/environment/desert
-- monster/environment/forest
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/10
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Guardian Naga"]
 ---
 # Guardian Naga
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 234, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Guardian Naga
@@ -35,9 +35,9 @@ title: Guardian Naga
 
 ## Traits
 
-***Rejuvenation.*** If it dies, the naga returns to life in `1d6` days and regains all its hit points. Only a [wish](compendium/spells/wish.md) spell can prevent this trait from functioning.
+***Rejuvenation.*** If it dies, the naga returns to life in `dice: 1d6|avg` (`1d6`) days and regains all its hit points. Only a [wish](compendium/spells/wish.md) spell can prevent this trait from functioning.
 
-***Spellcasting.*** The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:
+***Spellcasting.*** The naga is an 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, `dice: d20+8` (+8 to hit) with spell attacks), and it needs only verbal components to cast its spells. It has the following cleric spells prepared:
 
 **Cantrips (at will)**: [mending](compendium/spells/mending.md), [sacred flame](compendium/spells/sacred-flame.md), [thaumaturgy](compendium/spells/thaumaturgy.md)
 
@@ -55,9 +55,9 @@ title: Guardian Naga
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one creature. *Hit:* 8 (`1d8 + 4`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 45 (`10d8`) poison damage on a failed save, or half as much damage on a successful one.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 10 ft., one creature. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) piercing damage, and the target must make a DC 15 Constitution saving throw, taking `dice: 10d8|avg` (`10d8`) poison damage on a failed save, or half as much damage on a successful one.
 
-***Spit Poison.*** *Ranged Weapon Attack:* +8 to hit, range 15/30 ft., one creature. *Hit:* The target must make a DC 15 Constitution saving throw, taking 45 (`10d8`) poison damage on a failed save, or half as much damage on a successful one.
+***Spit Poison.*** *Ranged Weapon Attack:* `dice: d20+8` (+8 to hit), range 15/30 ft., one creature. *Hit:* The target must make a DC 15 Constitution saving throw, taking `dice: 10d8|avg` (`10d8`) poison damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/desert
-- monster/environment/grassland
-- monster/environment/hill
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Vulture"]
 ---
 # Vulture
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 339, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Vulture
@@ -36,13 +36,13 @@ title: Vulture
 
 ## Traits
 
-***Keen Sight and Smell.*** The vulture has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight or smell.
+***Keen Sight and Smell.*** The vulture has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight or smell.
 
-***Pack Tactics.*** The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't [incapacitated](rules/conditions.md#incapacitated).
+***Pack Tactics.*** The vulture has advantage on an attack roll against a creature if at least one of the vulture's allies is within 5 feet of the creature and the ally isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ## Actions
 
-***Beak.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) piercing damage.
+***Beak.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4|avg` (`1d4`) piercing damage.
 ```
 ^statblock
 

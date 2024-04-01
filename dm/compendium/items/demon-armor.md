@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/armor/heavy
-- item/attunement/required
-- item/rarity/very-rare
-- item/tier/major
+- ttrpg-cli/item/armor/heavy
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/major
 aliases: 
 - "Demon Armor"
 ---
@@ -18,7 +18,7 @@ aliases:
 - **Stealth**: The wearer has disadvantage on Stealth (DEX) checks.
 - **Weight**: 65.0 lbs.
 
-While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack and damage rolls and a damage die of `1d8`.
+While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack and damage rolls and a damage die of `dice: 1d8|avg` (`1d8`).
 
 ## Curse
 

@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/10
-- monster/environment/hill
-- monster/environment/mountain
-- monster/size/large
-- monster/type/dragon
+- ttrpg-cli/monster/cr/10
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/dragon
 aliases: ["Young Red Dragon"]
 ---
 # Young Red Dragon
@@ -37,11 +37,11 @@ title: Young Red Dragon
 
 ***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
 
-***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 17 (`2d10 + 6`) piercing damage plus 3 (`1d6`) fire damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 6|avg` (`2d10 + 6`) piercing damage plus `dice: 1d6|avg` (`1d6`) fire damage.
 
-***Claw.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 6|avg` (`2d6 + 6`) slashing damage.
 
-***Fire Breath (Recharge 5-6).*** The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (`16d6`) fire damage on a failed save, or half as much damage on a successful one.
+***Fire Breath (Recharge 5-6).*** The dragon exhales fire in a 30-foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking `dice: 16d6|avg` (`16d6`) fire damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

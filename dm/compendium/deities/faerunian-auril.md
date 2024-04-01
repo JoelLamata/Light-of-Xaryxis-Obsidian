@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/nature
-- domain/tempest
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/tempest
 aliases: ["Auril", "The Frostmaiden", "Lady Frostkiss", "Icedawn"]
 ---
 # Auril

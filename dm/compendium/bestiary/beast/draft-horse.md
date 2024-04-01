@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/urban
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Draft Horse"]
 ---
 # Draft Horse
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 321, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Draft Horse
@@ -34,7 +34,7 @@ title: Draft Horse
 
 ## Actions
 
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (`2d4 + 4`) bludgeoning damage.
+***Hooves.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d4 + 4|avg` (`2d4 + 4`) bludgeoning damage.
 ```
 ^statblock
 

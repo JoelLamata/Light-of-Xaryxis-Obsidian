@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/tempest
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/tempest
 aliases: ["Kord"]
 ---
 # Kord

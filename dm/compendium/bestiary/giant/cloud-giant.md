@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/9
-- monster/environment/mountain
-- monster/size/huge
-- monster/type/giant
+- ttrpg-cli/monster/cr/9
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/giant
 aliases: ["Cloud Giant"]
 ---
 # Cloud Giant
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 154, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Cloud Giant
@@ -34,7 +34,7 @@ title: Cloud Giant
 
 ## Traits
 
-***Keen Smell.*** The giant has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The giant has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
 ***Innate Spellcasting.*** The giant's innate spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:
 
@@ -48,9 +48,9 @@ title: Cloud Giant
 
 ***Multiattack.*** The giant makes two morningstar attacks.
 
-***Morningstar.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 21 (`3d8 + 8`) piercing damage.
+***Morningstar.*** *Melee Weapon Attack:* `dice: d20+12` (+12 to hit), reach 10 ft., one target. *Hit:* `dice: 3d8 + 8|avg` (`3d8 + 8`) piercing damage.
 
-***Rock.*** *Ranged Weapon Attack:* +12 to hit, range 60/240 ft., one target. *Hit:* 30 (`4d10 + 8`) bludgeoning damage.
+***Rock.*** *Ranged Weapon Attack:* `dice: d20+12` (+12 to hit), range 60/240 ft., one target. *Hit:* `dice: 4d10 + 8|avg` (`4d10 + 8`) bludgeoning damage.
 ```
 ^statblock
 

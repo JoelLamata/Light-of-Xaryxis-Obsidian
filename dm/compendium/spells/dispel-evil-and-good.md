@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/paladin
-- spell/level/5
-- spell/school/abjuration
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/school/abjuration
 aliases: ["Dispel Evil and Good"]
 ---
 # Dispel Evil and Good
@@ -23,7 +24,7 @@ You can end the spell early by using either of the following special functions.
 
 ## Break Enchantment
 
-As your action, you touch a creature you can reach that is [charmed](rules/conditions.md#charmed), [frightened](rules/conditions.md#frightened), or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer [charmed](rules/conditions.md#charmed), [frightened](rules/conditions.md#frightened), or possessed by such creatures.
+As your action, you touch a creature you can reach that is [charmed](/compendium/rules/conditions.md#charmed), [frightened](/compendium/rules/conditions.md#frightened), or possessed by a celestial, an elemental, a fey, a fiend, or an undead. The creature you touch is no longer [charmed](/compendium/rules/conditions.md#charmed), [frightened](/compendium/rules/conditions.md#frightened), or possessed by such creatures.
 
 ## Dismissal
 
@@ -31,6 +32,6 @@ As your action, make a melee spell attack against a celestial, an elemental, a f
 
 ## Summary
 
-**Classes**: [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md)
+**Classes**: [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 233. Available in the SRD.*

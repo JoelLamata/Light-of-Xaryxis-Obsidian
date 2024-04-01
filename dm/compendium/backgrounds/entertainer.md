@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Entertainer"]
 ---
 # Entertainer
 *Source: Player's Handbook p. 130*  
 
-- **Skill Proficiencies.** [Acrobatics](rules/skills.md#Acrobatics), [Performance](rules/skills.md#Performance)  
+- **Skill Proficiencies.** [Acrobatics](/compendium/rules/skills.md#Acrobatics), [Performance](/compendium/rules/skills.md#Performance)  
 - **Tool Proficiencies.** [Disguise kit](compendium/items/disguise-kit.md), one type of musical instrument  
 - **Equipment.** A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), [costume clothes](compendium/items/costume-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 15 gp  
 

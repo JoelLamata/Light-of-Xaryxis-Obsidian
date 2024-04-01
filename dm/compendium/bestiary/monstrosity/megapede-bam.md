@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/11
-- monster/size/gargantuan
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/11
+- ttrpg-cli/monster/size/gargantuan
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Megapede"]
 ---
 # Megapede
-*Source: Boo's Astral Menagerie p. 36*  
+*Source: Boo's Astral Menagerie p. 36, Light of Xaryxis*  
 
 Megapedes are enormous centipedes that can be as much as 150 feet long, though most specimens top out at between 100 and 120 feet. Their dozens of legs are each 5 feet long and tipped with flexible claws, and they have fur-covered carapaces. A megapede that lives in a sandy environment often buries itself in the sand and waits for prey to wander nearby, but megapedes also nest in cavernous underground chambers.
 
@@ -41,10 +41,10 @@ title: Megapede
 
 ***Multiattack.*** The megapede makes one Bite attack and uses either Life Drain or Psychic Bomb.
 
-***Bite.*** *Melee Weapon Attack:* +10 to hit, reach 20 ft., one target. *Hit:* 22 (`3d10 + 6`) piercing damage plus 22 (`5d8`) poison damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 20 ft., one target. *Hit:* `dice: 3d10 + 6|avg` (`3d10 + 6`) piercing damage plus `dice: 5d8|avg` (`5d8`) poison damage.
 
-***Life Drain.*** The megapede magically drains life energy from other creatures nearby. Each creature within 15 feet of the megapede must make a DC 15 Constitution saving throw, taking 16 (`3d10`) necrotic damage on a failed save, or half as much damage on a successful one.
+***Life Drain.*** The megapede magically drains life energy from other creatures nearby. Each creature within 15 feet of the megapede must make a DC 15 Constitution saving throw, taking `dice: 3d10|avg` (`3d10`) necrotic damage on a failed save, or half as much damage on a successful one.
 
-***Psychic Bomb.*** The megapede targets one creature it can see within 60 feet of itself. The target must make a DC 15 Wisdom saving throw. On a failed save, the target takes 22 (`5d8`) psychic damage and is incapacitated until the end of its next turn. On a successful save, the target takes half as much damage and isn't incapacitated.
+***Psychic Bomb.*** The megapede targets one creature it can see within 60 feet of itself. The target must make a DC 15 Wisdom saving throw. On a failed save, the target takes `dice: 5d8|avg` (`5d8`) psychic damage and is [incapacitated](/compendium/rules/conditions.md#incapacitated) until the end of its next turn. On a successful save, the target takes half as much damage and isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 ```
 ^statblock

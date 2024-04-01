@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/phb
-- race/tiefling
+- ttrpg-cli/race/tiefling
 aliases: ["Tiefling"]
 ---
 # Tiefling

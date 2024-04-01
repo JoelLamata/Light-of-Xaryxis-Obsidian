@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/scag
-- subclass/monk/long-death
+- ttrpg-cli/subclass/monk/long-death
 aliases: ["Way of the Long Death"]
 ---
 # Way of the Long Death
@@ -23,7 +23,7 @@ Starting when you choose this tradition at 3rd level, your study of death allows
 
 ### Hour of Reaping (Level 6)
 
-At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be [frightened](rules/conditions.md#frightened) of you until the end of your next turn.
+At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be [frightened](/compendium/rules/conditions.md#frightened) of you until the end of your next turn.
 
 ### Mastery of Death (Level 11)
 
@@ -31,4 +31,4 @@ Beginning at 11th level, you use your familiarity with death to escape its grasp
 
 ### Touch of the Long Death (Level 17)
 
-Starting at 17th level, your touch can channel the energy of death into a creature. As an action, you touch one creature within 5 feet of you, and you expend 1 to 10 ki points. The target must make a Constitution saving throw, and it takes `2d10` necrotic damage per ki point spent on a failed save, or half as much damage on a successful one.
+Starting at 17th level, your touch can channel the energy of death into a creature. As an action, you touch one creature within 5 feet of you, and you expend 1 to 10 ki points. The target must make a Constitution saving throw, and it takes `dice: 2d10|avg` (`2d10`) necrotic damage per ki point spent on a failed save, or half as much damage on a successful one.

@@ -3,22 +3,22 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/arctic
-- monster/environment/coastal
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/mountain
-- monster/environment/swamp
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/humanoid/any-race
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/any-race
 aliases: ["Druid"]
 ---
 # Druid
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 346, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Druid
@@ -40,7 +40,7 @@ title: Druid
 - **Languages** Druidic plus any two languages
 - **Challenge** 2
 
-***Spellcasting.*** The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:
+***Spellcasting.*** The druid is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, `dice: d20+4` (+4 to hit) with spell attacks). It has the following druid spells prepared:
 
 **Cantrips (at will)**: [druidcraft](compendium/spells/druidcraft.md), [produce flame](compendium/spells/produce-flame.md), [shillelagh](compendium/spells/shillelagh.md)
 
@@ -50,7 +50,7 @@ title: Druid
 
 ## Actions
 
-***Quarterstaff.*** *Melee Weapon Attack:* +2 to hit (+4 to hit with shillelagh), reach 5 ft., one target. *Hit:* 3 (`1d6`) bludgeoning damage, 4 (`1d8`) bludgeoning damage if wielded with two hands, or 6 (`1d8 + 2`) bludgeoning damage with [shillelagh](compendium/spells/shillelagh.md).
+***Quarterstaff.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit) (`dice: d20+4` (+4 to hit) with shillelagh), reach 5 ft., one target. *Hit:* `dice: 1d6|avg` (`1d6`) bludgeoning damage, `dice: 1d8|avg` (`1d8`) bludgeoning damage if wielded with two hands, or `dice: 1d8 + 2|avg` (`1d8 + 2`) bludgeoning damage with [shillelagh](compendium/spells/shillelagh.md).
 ```
 ^statblock
 

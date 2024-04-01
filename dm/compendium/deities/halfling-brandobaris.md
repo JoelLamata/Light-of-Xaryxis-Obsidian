@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/halfling
-- domain/trickery
+- ttrpg-cli/deity/halfling
+- ttrpg-cli/domain/trickery
 aliases: ["Brandobaris"]
 ---
 # Brandobaris

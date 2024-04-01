@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/5
-- monster/size/medium
-- monster/type/humanoid/cleric
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/cleric
 aliases: ["Astral Elf Star Priest"]
 ---
 # Astral Elf Star Priest
-*Source: Boo's Astral Menagerie p. 13*  
+*Source: Boo's Astral Menagerie p. 13, Light of Xaryxis*  
 
 Star priests draw their strength from the pantheon of elven gods and oversee religious practices in astral elf society. It's common for them to serve aboard spelljamming ships, not only as emissaries of the gods but also as spelljammers.
 
@@ -37,7 +37,7 @@ title: Astral Elf Star Priest
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Astral%20Elf%20Star%20Priest.webp#token)
 *Medium humanoid (cleric), Any alignment*
 
-- **Armor Class** 13  (chain shirt)
+- **Armor Class** 13  ([chain shirt](compendium/items/chain-shirt.md))
 - **Hit Points** 90 (`20d8`)
 - **Speed** 30 ft.
 
@@ -54,23 +54,23 @@ title: Astral Elf Star Priest
 
 ## Traits
 
-***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the charmed condition on itself, and magic can't put it to sleep.
+***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the [charmed](/compendium/rules/conditions.md#charmed) condition on itself, and magic can't put it to sleep.
 
 ***Unusual Nature.*** The elf doesn't require sleep.
 
 ***Spellcasting.*** The elf casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 16):
 
-**1/day each**: divination, sending, word of recall
+**1/day each**: [divination](compendium/spells/divination.md), [sending](compendium/spells/sending.md), [word of recall](compendium/spells/word-of-recall.md)
 
-**2/day each**: cure wounds (8th-level version), hold person
+**2/day each**: [cure wounds](compendium/spells/cure-wounds.md) (8th-level version), [hold person](compendium/spells/hold-person.md)
 
 ## Actions
 
 ***Multiattack.*** The elf makes two Morningstar attacks. It can use Rain of Radiance in place of one of these attacks.
 
-***Morningstar.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d8`) piercing damage plus 17 (`5d6`) radiant damage.
+***Morningstar.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8|avg` (`1d8`) piercing damage plus `dice: 5d6|avg` (`5d6`) radiant damage.
 
-***Rain of Radiance.*** Magical, flame-like radiance rains down on a creature that the elf can see within 60 feet of itself. The target must make a DC 16 Dexterity saving throw, taking 22 (`5d8`) radiant damage on a failed save, or half as much damage on a successful one.
+***Rain of Radiance.*** Magical, flame-like radiance rains down on a creature that the elf can see within 60 feet of itself. The target must make a DC 16 Dexterity saving throw, taking `dice: 5d8|avg` (`5d8`) radiant damage on a failed save, or half as much damage on a successful one.
 
 ## Bonus Actions
 

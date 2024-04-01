@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/martial
-- item/weapon/martial/melee
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Morningstar"
 ---

@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/23
-- monster/environment/underwater
-- monster/size/gargantuan
-- monster/type/monstrosity/titan
+- ttrpg-cli/monster/cr/23
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/gargantuan
+- ttrpg-cli/monster/type/monstrosity/titan
 aliases: ["Kraken"]
 ---
 # Kraken
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 197, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Kraken
@@ -36,7 +36,7 @@ title: Kraken
 
 ***Amphibious.*** The kraken can breathe air and water.
 
-***Freedom of Movement.*** The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be [restrained](rules/conditions.md#restrained). It can spend 5 feet of movement to escape from nonmagical restraints or being [grappled](rules/conditions.md#grappled).
+***Freedom of Movement.*** The kraken ignores difficult terrain, and magical effects can't reduce its speed or cause it to be [restrained](/compendium/rules/conditions.md#restrained). It can spend 5 feet of movement to escape from nonmagical restraints or being [grappled](/compendium/rules/conditions.md#grappled).
 
 ***Siege Monster.*** The kraken deals double damage to objects and structures.
 
@@ -44,13 +44,13 @@ title: Kraken
 
 ***Multiattack.*** The kraken makes three tentacle attacks, each of which it can replace with one use of Fling.
 
-***Bite.*** *Melee Weapon Attack:* +17 to hit, reach 5 ft., one target. *Hit:* 23 (`3d8 + 10`) piercing damage. If the target is a Large or smaller creature [grappled](rules/conditions.md#grappled) by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is [blinded](rules/conditions.md#blinded) and [restrained](rules/conditions.md#restrained), it has total cover against attacks and other effects outside the kraken, and it takes 42 (`12d6`) acid damage at the start of each of the kraken's turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall [prone](rules/conditions.md#prone) in a space within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer [restrained](rules/conditions.md#restrained) by it and can escape from the corpse using 15 feet of movement, exiting [prone](rules/conditions.md#prone).
+***Bite.*** *Melee Weapon Attack:* `dice: d20+17` (+17 to hit), reach 5 ft., one target. *Hit:* `dice: 3d8 + 10|avg` (`3d8 + 10`) piercing damage. If the target is a Large or smaller creature [grappled](/compendium/rules/conditions.md#grappled) by the kraken, that creature is swallowed, and the grapple ends. While swallowed, the creature is [blinded](/compendium/rules/conditions.md#blinded) and [restrained](/compendium/rules/conditions.md#restrained), it has total cover against attacks and other effects outside the kraken, and it takes `dice: 12d6|avg` (`12d6`) acid damage at the start of each of the kraken's turns. If the kraken takes 50 damage or more on a single turn from a creature inside it, the kraken must succeed on a DC 25 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall [prone](/compendium/rules/conditions.md#prone) in a space within 10 feet of the kraken. If the kraken dies, a swallowed creature is no longer [restrained](/compendium/rules/conditions.md#restrained) by it and can escape from the corpse using 15 feet of movement, exiting [prone](/compendium/rules/conditions.md#prone).
 
-***Tentacle.*** *Melee Weapon Attack:* +17 to hit, reach 30 ft., one target. *Hit:* 20 (`3d6 + 10`) bludgeoning damage, and the target is [grappled](rules/conditions.md#grappled) (escape DC 18). Until this grapple ends, the target is [restrained](rules/conditions.md#restrained). The kraken has ten tentacles, each of which can grapple one target.
+***Tentacle.*** *Melee Weapon Attack:* `dice: d20+17` (+17 to hit), reach 30 ft., one target. *Hit:* `dice: 3d6 + 10|avg` (`3d6 + 10`) bludgeoning damage, and the target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 18). Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained). The kraken has ten tentacles, each of which can grapple one target.
 
-***Fling.*** One Large or smaller object held or creature [grappled](rules/conditions.md#grappled) by the kraken is thrown up to 60 feet in a random direction and knocked [prone](rules/conditions.md#prone). If a thrown target strikes a solid surface, the target takes 3 (`1d6`) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked [prone](rules/conditions.md#prone).
+***Fling.*** One Large or smaller object held or creature [grappled](/compendium/rules/conditions.md#grappled) by the kraken is thrown up to 60 feet in a random direction and knocked [prone](/compendium/rules/conditions.md#prone). If a thrown target strikes a solid surface, the target takes `dice: 1d6|avg` (`1d6`) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked [prone](/compendium/rules/conditions.md#prone).
 
-***Lightning Storm.*** The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within 120 feet of it. A target must make a DC 23 Dexterity saving throw, taking 22 (`4d10`) lightning damage on a failed save, or half as much damage on a successful one.
+***Lightning Storm.*** The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within 120 feet of it. A target must make a DC 23 Dexterity saving throw, taking `dice: 4d10|avg` (`4d10`) lightning damage on a failed save, or half as much damage on a successful one.
 
 ## Legendary Actions
 
@@ -58,7 +58,7 @@ title: Kraken
 
 ***Lightning Storm (Costs 2 Actions).*** The kraken uses Lightning Storm.
 
-***Ink Cloud (Costs 3 Actions).*** While underwater, the kraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there must succeed on a DC 23 Constitution saving throw, taking 16 (`3d10`) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn.
+***Ink Cloud (Costs 3 Actions).*** While underwater, the kraken expels an ink cloud in a 60-foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken. Each creature other than the kraken that ends its turn there must succeed on a DC 23 Constitution saving throw, taking `dice: 3d10|avg` (`3d10`) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken's next turn.
 ```
 ^statblock
 

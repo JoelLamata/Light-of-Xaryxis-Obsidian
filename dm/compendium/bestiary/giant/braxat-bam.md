@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/9
-- monster/size/huge
-- monster/type/giant
+- ttrpg-cli/monster/cr/9
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/giant
 aliases: ["Braxat"]
 ---
 # Braxat
-*Source: Boo's Astral Menagerie p. 15*  
+*Source: Boo's Astral Menagerie p. 15, Light of Xaryxis*  
 
 A braxat is a towering, warm-blooded carnivore with a thick, articulated shell covering its back, a squarish head topped with horny protrusions, and thick arms ending in large hands with opposable thumbs. The creature walks upright on two legs and speaks in a voice similar to that of a human.
 
@@ -43,18 +43,18 @@ title: Braxat
 
 ***Spellcasting (Psionics).*** The braxat casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 14):
 
-**1/day each**: compulsion, fear
+**1/day each**: [compulsion](compendium/spells/compulsion.md), [fear](compendium/spells/fear.md)
 
 ## Actions
 
 ***Multiattack.*** The braxat makes two Greatclub attacks.
 
-***Greatclub.*** *Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 21 (`3d8 + 8`) bludgeoning damage.
+***Greatclub.*** *Melee Weapon Attack:* `dice: d20+12` (+12 to hit), reach 10 ft., one target. *Hit:* `dice: 3d8 + 8|avg` (`3d8 + 8`) bludgeoning damage.
 
-***Acid Breath (Recharge 6).*** The braxat exhales a 15-foot cone of acid. Each creature in the cone must make a DC 18 Constitution saving throw, taking 26 (`4d12`) acid damage on a failed save, or half as much damage on a successful one.
+***Acid Breath (Recharge 6).*** The braxat exhales a 15-foot cone of acid. Each creature in the cone must make a DC 18 Constitution saving throw, taking `dice: 4d12|avg` (`4d12`) acid damage on a failed save, or half as much damage on a successful one.
 
 ## Reactions
 
-***Psionic Shield (3/Day).*** When the braxat would be hit by an attack roll or a magic missile spell that originates from a source the braxat can see, the braxat can create an invisible barrier of magical force around itself that lasts until the start of its next turn. This barrier gives the braxat a +5 bonus to AC, including against the triggering attack, and prevents magic missile spells from damaging it.
+***Psionic Shield (3/Day).*** When the braxat would be hit by an attack roll or a [magic missile](compendium/spells/magic-missile.md) spell that originates from a source the braxat can see, the braxat can create an [invisible](/compendium/rules/conditions.md#invisible) barrier of magical force around itself that lasts until the start of its next turn. This barrier gives the braxat a +5 bonus to AC, including against the triggering attack, and prevents [magic missile](compendium/spells/magic-missile.md) spells from damaging it.
 ```
 ^statblock

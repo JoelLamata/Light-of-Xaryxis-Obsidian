@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-reward
 tags:
 - compendium/src/5e/dmg
-- reward/blessing
+- ttrpg-cli/reward/blessing
 aliases: ["Blessing of Weapon Enhancement"]
 ---
 # Blessing of Weapon Enhancement

@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/mv-b
+- ttrpg-cli/optional-feature/mv-b
 aliases: ["Lunging Attack"]
 ---
 # Lunging Attack

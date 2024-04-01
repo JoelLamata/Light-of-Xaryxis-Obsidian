@@ -3,9 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/wizard
-- spell/level/5
-- spell/school/evocation
+- ttrpg-cli/spell/class/artificer/armorer
+- ttrpg-cli/spell/class/artificer/artillerist
+- ttrpg-cli/spell/class/paladin/oath-of-redemption
+- ttrpg-cli/spell/class/sorcerer/clockwork-soul
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/school/evocation
 aliases: ["Wall of Force"]
 ---
 # Wall of Force
@@ -20,6 +24,6 @@ An invisible wall of force springs into existence at a point you choose within r
 
 Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by [dispel magic](compendium/spells/dispel-magic.md). A [disintegrate](compendium/spells/disintegrate.md) spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.
 
-**Classes**: [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer (Armorer)](compendium/classes/artificer-armorer-tce.md), [Artificer (Artillerist)](compendium/classes/artificer-artillerist-tce.md), [Paladin (Oath of Redemption)](compendium/classes/paladin-oath-of-redemption-xge.md), [Sorcerer (Clockwork Soul)](compendium/classes/sorcerer-clockwork-soul-tce.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 285. Available in the SRD.*

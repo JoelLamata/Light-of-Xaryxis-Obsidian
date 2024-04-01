@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/property/martial
-- item/property/versatile
-- item/rarity/legendary
-- item/tier/major
-- item/weapon/martial/melee
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Sword of Answering"
 ---
@@ -18,7 +18,7 @@ aliases:
 - **Damage**:
   - One-handed: 1d8 S
   - Two-handed: 1d10 S
-- **Properties**: Martial, [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: Martial, [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Weight**: 3.0 lbs.
 
 *Source: Dungeon Master's Guide p. 206*

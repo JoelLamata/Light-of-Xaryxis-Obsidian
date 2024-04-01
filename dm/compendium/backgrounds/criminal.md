@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Criminal"]
 ---
 # Criminal
 *Source: Player's Handbook p. 129. Available in the Basic Rules.*  
 
-- **Skill Proficiencies.** [Deception](rules/skills.md#Deception), [Stealth](rules/skills.md#Stealth)  
+- **Skill Proficiencies.** [Deception](/compendium/rules/skills.md#Deception), [Stealth](/compendium/rules/skills.md#Stealth)  
 - **Tool Proficiencies.** One type of gaming set, [thieves' tools](compendium/items/thieves-tools.md)  
 - **Equipment.** A [crowbar](compendium/items/crowbar.md), a set of dark [common clothes](compendium/items/common-clothes.md) including a hood, and a belt [pouch](compendium/items/pouch.md) containing 15 gp  
 

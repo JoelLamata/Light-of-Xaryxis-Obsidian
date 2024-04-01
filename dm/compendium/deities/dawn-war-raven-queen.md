@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/death
-- domain/life
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/life
 aliases: ["Raven Queen"]
 ---
 # Raven Queen

@@ -3,19 +3,19 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-8
-- monster/environment/arctic
-- monster/environment/coastal
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/mountain
-- monster/size/small
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/beast
 aliases: ["Blood Hawk"]
 ---
 # Blood Hawk
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 319, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Blood Hawk
@@ -39,13 +39,13 @@ title: Blood Hawk
 
 ## Traits
 
-***Keen Sight.*** The hawk has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on sight.
+***Keen Sight.*** The hawk has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on sight.
 
-***Pack Tactics.*** The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't [incapacitated](rules/conditions.md#incapacitated).
+***Pack Tactics.*** The hawk has advantage on an attack roll against a creature if at least one of the hawk's allies is within 5 feet of the creature and the ally isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ## Actions
 
-***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
+***Beak.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage.
 ```
 ^statblock
 

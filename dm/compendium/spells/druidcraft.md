@@ -3,11 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/nature-domain
-- spell/class/druid
-- spell/class/druid/circle-of-the-land
-- spell/level/cantrip
-- spell/school/transmutation
+- ttrpg-cli/spell/class/cleric/nature-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/druid/circle-of-the-land
+- ttrpg-cli/spell/class/fighter/arcane-archer
+- ttrpg-cli/spell/level/cantrip
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Druidcraft"]
 ---
 # Druidcraft
@@ -25,6 +26,6 @@ Whispering to the spirits of nature, you create one of the following effects wit
 - You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint odor of skunk. The effect must fit in a 5-foot cube.  
 - You instantly light or snuff out a candle, a torch, or a small campfire.  
 
-**Classes**: [Cleric (Nature Domain)](compendium/classes/cleric-nature-domain.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md)
+**Classes**: [Cleric (Nature Domain)](compendium/classes/cleric-nature-domain.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md), [Fighter (Arcane Archer)](compendium/classes/fighter-arcane-archer-xge.md)
 
 *Source: Player's Handbook p. 236. Available in the SRD.*

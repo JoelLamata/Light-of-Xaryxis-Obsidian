@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/plant
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/plant
 aliases: ["Violet Fungus"]
 ---
 # Violet Fungus
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 138, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Violet Fungus
@@ -38,9 +38,9 @@ title: Violet Fungus
 
 ## Actions
 
-***Multiattack.*** The fungus makes `1d4` Rotting Touch attacks.
+***Multiattack.*** The fungus makes `dice: 1d4|avg` (`1d4`) Rotting Touch attacks.
 
-***Rotting Touch.*** *Melee Weapon Attack:* +2 to hit, reach 10 ft., one creature. *Hit:* 4 (`1d8`) necrotic damage.
+***Rotting Touch.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 10 ft., one creature. *Hit:* `dice: 1d8|avg` (`1d8`) necrotic damage.
 ```
 ^statblock
 

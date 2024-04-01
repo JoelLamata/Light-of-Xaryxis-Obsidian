@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/forest
-- monster/environment/underdark
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Bat"]
 ---
 # Giant Bat
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 323, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Bat
@@ -35,13 +35,13 @@ title: Giant Bat
 
 ## Traits
 
-***Echolocation.*** The bat can't use its blindsight while [deafened](rules/conditions.md#deafened).
+***Echolocation.*** The bat can't use its blindsight while [deafened](/compendium/rules/conditions.md#deafened).
 
-***Keen Hearing.*** The bat has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing.
+***Keen Hearing.*** The bat has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing.
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (`1d6 + 2`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
 ```
 ^statblock
 

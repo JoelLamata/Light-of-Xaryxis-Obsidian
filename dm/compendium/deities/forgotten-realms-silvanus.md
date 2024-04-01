@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/nature
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/nature
 aliases: ["Silvanus"]
 ---
 # Silvanus

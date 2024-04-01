@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/16
-- monster/size/large
-- monster/type/celestial
+- ttrpg-cli/monster/cr/16
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/celestial
 aliases: ["Planetar"]
 ---
 # Planetar
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 17, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Planetar
@@ -33,7 +33,7 @@ title: Planetar
 
 ## Traits
 
-***Angelic Weapons.*** The planetar's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra `5d8` radiant damage (included in the attack).
+***Angelic Weapons.*** The planetar's weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra `dice: 5d8|avg` (`5d8`) radiant damage (included in the attack).
 
 ***Divine Awareness.*** The planetar knows if it hears a lie.
 
@@ -51,8 +51,8 @@ title: Planetar
 
 ***Multiattack.*** The planetar makes two melee attacks.
 
-***Greatsword.*** *Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 21 (`4d6 + 7`) slashing damage plus 22 (`5d8`) radiant damage.
+***Greatsword.*** *Melee Weapon Attack:* `dice: d20+12` (+12 to hit), reach 5 ft., one target. *Hit:* `dice: 4d6 + 7|avg` (`4d6 + 7`) slashing damage plus `dice: 5d8|avg` (`5d8`) radiant damage.
 
-***Healing Touch (4/Day).*** The planetar touches another creature. The target magically regains 30 (`6d8 + 3`) hit points and is freed from any curse, disease, poison, blindness, or deafness.
+***Healing Touch (4/Day).*** The planetar touches another creature. The target magically regains `dice: 6d8 + 3|avg` (`6d8 + 3`) hit points and is freed from any curse, disease, poison, blindness, or deafness.
 ```
 ^statblock

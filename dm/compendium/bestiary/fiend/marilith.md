@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/16
-- monster/size/large
-- monster/type/fiend/demon
+- ttrpg-cli/monster/cr/16
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/fiend/demon
 aliases: ["Marilith"]
 ---
 # Marilith
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 61, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Marilith
@@ -43,9 +43,9 @@ title: Marilith
 
 ***Multiattack.*** The marilith can make seven attacks: six with its longswords and one with its tail.
 
-***Longsword.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) slashing damage.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) slashing damage.
 
-***Tail.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one creature. *Hit:* 15 (`2d10 + 4`) bludgeoning damage. If the target is Medium or smaller, it is [grappled](rules/conditions.md#grappled) (escape DC 19). Until this grapple ends, the target is [restrained](rules/conditions.md#restrained), the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets.
+***Tail.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 10 ft., one creature. *Hit:* `dice: 2d10 + 4|avg` (`2d10 + 4`) bludgeoning damage. If the target is Medium or smaller, it is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 19). Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), the marilith can automatically hit the target with its tail, and the marilith can't make tail attacks against other targets.
 
 ***Teleport.*** The marilith magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
 

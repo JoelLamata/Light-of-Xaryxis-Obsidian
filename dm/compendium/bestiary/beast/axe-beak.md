@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/grassland
-- monster/environment/hill
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Axe Beak"]
 ---
 # Axe Beak
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 317, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Axe Beak
@@ -35,7 +35,7 @@ title: Axe Beak
 
 ## Actions
 
-***Beak.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (`1d8 + 2`) slashing damage.
+***Beak.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) slashing damage.
 ```
 ^statblock
 

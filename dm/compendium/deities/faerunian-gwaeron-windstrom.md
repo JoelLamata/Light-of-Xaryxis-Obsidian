@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/knowledge
-- domain/nature
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/nature
 aliases: ["Gwaeron Windstrom", "The Mouth of Mielikki", "The Master Tracker", "The Tracker Never Led Astray"]
 ---
 # Gwaeron Windstrom

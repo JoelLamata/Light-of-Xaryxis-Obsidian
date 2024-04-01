@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/ed
+- ttrpg-cli/optional-feature/ed
 aliases: ["Flames of the Phoenix"]
 ---
 # Flames of the Phoenix

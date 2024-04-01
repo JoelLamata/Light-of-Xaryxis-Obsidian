@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/cleric
 - compendium/src/5e/phb
+- ttrpg-cli/class/cleric
 aliases: ["Cleric"]
 ---
 # Cleric
@@ -14,9 +14,9 @@ aliases: ["Cleric"]
 > | Level | PB | Features |
 > |-------|----|----------|
 > | 1st | +2 | [Spellcasting](#Spellcasting%20(Level%201)), [Divine Domain](#Divine%20Domain%20(Level%201)) |
-> | 2nd | +2 | [Channel Divinity](#Channel%20Divinity%20(Level%202)), [Divine Domain feature](#Divine%20Domain%20feature%20(Level%202)) |
+> | 2nd | +2 | [Channel Divinity](#Channel%20Divinity%20(Level%202)), [Channel Divinity: Harness Divine Power](#Channel%20Divinity%20Harness%20Divine%20Power%20(Level%202)), [Divine Domain feature](#Divine%20Domain%20feature%20(Level%202)) |
 > | 3rd | +2 | ⏤ |
-> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
+> | 4th | +2 | [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)), [Cantrip Versatility](#Cantrip%20Versatility%20(Level%204)) |
 > | 5th | +3 | [Destroy Undead (CR 1/2)](#Destroy%20Undead%20(CR%201/2)%20(Level%205)) |
 > | 6th | +3 | [Channel Divinity](#Channel%20Divinity%20(Level%206)), [Divine Domain feature](#Divine%20Domain%20feature%20(Level%206)) |
 > | 7th | +3 | ⏤ |
@@ -281,7 +281,14 @@ Beginning at 6th level, you can use your Channel Divinity twice between rests, a
 
 As an action, you present your holy symbol and speak a prayer censuring the undead. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
 
-A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](rules/actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](rules/actions.md#Dodge) action.
+A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the [Dash](/compendium/rules/actions.md#Dash) action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the [Dodge](/compendium/rules/actions.md#Dodge) action.
+
+### Channel Divinity: Harness Divine Power (Level 2)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*2nd-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+You can expend a use of your Channel Divinity to fuel your spells. As a bonus action, you touch your holy symbol, utter a prayer, and regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up). The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.
 
 ### Divine Domain feature (Level 2)
 
@@ -292,6 +299,13 @@ At 2nd level, you gain a feature from your Divine Domain.
 When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
 If your DM allows the use of feats, you may instead take a feat.
+
+### Cantrip Versatility (Level 4)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*4th-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the cleric spell list.
 
 ### Destroy Undead (CR 1/2) (Level 5)
 

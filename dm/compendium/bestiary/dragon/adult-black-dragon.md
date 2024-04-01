@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/14
-- monster/environment/swamp
-- monster/size/huge
-- monster/type/dragon
+- ttrpg-cli/monster/cr/14
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/dragon
 aliases: ["Adult Black Dragon"]
 ---
 # Adult Black Dragon
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 88, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Adult Black Dragon
@@ -42,23 +42,23 @@ title: Adult Black Dragon
 
 ***Multiattack.*** The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
 
-***Bite.*** *Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (`2d10 + 6`) piercing damage plus 4 (`1d8`) acid damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+11` (+11 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 6|avg` (`2d10 + 6`) piercing damage plus `dice: 1d8|avg` (`1d8`) acid damage.
 
-***Claw.*** *Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 13 (`2d6 + 6`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+11` (+11 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 6|avg` (`2d6 + 6`) slashing damage.
 
-***Tail.*** *Melee Weapon Attack:* +11 to hit, reach 15 ft., one target. *Hit:* 15 (`2d8 + 6`) bludgeoning damage.
+***Tail.*** *Melee Weapon Attack:* `dice: d20+11` (+11 to hit), reach 15 ft., one target. *Hit:* `dice: 2d8 + 6|avg` (`2d8 + 6`) bludgeoning damage.
 
-***Frightful Presence.*** Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become [frightened](rules/conditions.md#frightened) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
+***Frightful Presence.*** Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become [frightened](/compendium/rules/conditions.md#frightened) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.
 
-***Acid Breath (Recharge 5-6).*** The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (`12d8`) acid damage on a failed save, or half as much damage on a successful one.
+***Acid Breath (Recharge 5-6).*** The dragon exhales acid in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking `dice: 12d8|avg` (`12d8`) acid damage on a failed save, or half as much damage on a successful one.
 
 ## Legendary Actions
 
-***Detect.*** The dragon makes a Wisdom ([Perception](rules/skills.md#Perception)) check.
+***Detect.*** The dragon makes a Wisdom ([Perception](/compendium/rules/skills.md#Perception)) check.
 
 ***Tail Attack.*** The dragon makes a tail attack.
 
-***Wing Attack (Costs 2 Actions).*** The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (`2d6 + 6`) bludgeoning damage and be knocked [prone](rules/conditions.md#prone). The dragon can then fly up to half its flying speed.
+***Wing Attack (Costs 2 Actions).*** The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take `dice: 2d6 + 6|avg` (`2d6 + 6`) bludgeoning damage and be knocked [prone](/compendium/rules/conditions.md#prone). The dragon can then fly up to half its flying speed.
 ```
 ^statblock
 

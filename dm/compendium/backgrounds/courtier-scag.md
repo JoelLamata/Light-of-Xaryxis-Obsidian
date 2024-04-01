@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Courtier"]
 ---
 # Courtier
 *Source: Sword Coast Adventurer's Guide p. 146*  
 
-- **Skill Proficiencies.** [Insight](rules/skills.md#Insight), [Persuasion](rules/skills.md#Persuasion)  
+- **Skill Proficiencies.** [Insight](/compendium/rules/skills.md#Insight), [Persuasion](/compendium/rules/skills.md#Persuasion)  
 - **Languages.** Any two of your choice  
 - **Equipment.** A set of [fine clothes](compendium/items/fine-clothes.md) and a [pouch](compendium/items/pouch.md) containing 5 gp  
 

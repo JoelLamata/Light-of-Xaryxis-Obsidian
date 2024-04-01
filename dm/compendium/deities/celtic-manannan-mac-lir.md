@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/celtic
-- domain/nature
-- domain/tempest
+- ttrpg-cli/deity/celtic
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/tempest
 aliases: ["Manannan mac Lir"]
 ---
 # Manannan mac Lir

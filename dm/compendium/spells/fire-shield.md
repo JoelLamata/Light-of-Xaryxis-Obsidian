@@ -3,12 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/warlock/the-fiend
-- spell/class/wizard
-- spell/level/4
-- spell/school/evocation
+- ttrpg-cli/spell/class/artificer/armorer
+- ttrpg-cli/spell/class/artificer/battle-smith
+- ttrpg-cli/spell/class/druid/circle-of-wildfire
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/warlock/the-fiend
+- ttrpg-cli/spell/class/warlock/the-genie
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/school/evocation
 aliases: ["Fire Shield"]
 ---
 # Fire Shield
@@ -23,8 +27,8 @@ Thin and wispy flames wreathe your body for the duration, shedding bright light 
 
 The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.
 
-In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes `2d8` fire damage from a warm shield, or `2d8` cold damage from a cold shield.
+In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes `dice: 2d8|avg` (`2d8`) fire damage from a warm shield, or `dice: 2d8|avg` (`2d8`) cold damage from a cold shield.
 
-**Classes**: [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Warlock (The Fiend)](compendium/classes/warlock-the-fiend.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer (Armorer)](compendium/classes/artificer-armorer-tce.md), [Artificer (Battle Smith)](compendium/classes/artificer-battle-smith-tce.md), [Druid (Circle of Wildfire)](compendium/classes/druid-circle-of-wildfire-tce.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Warlock (The Fiend)](compendium/classes/warlock-the-fiend.md), [Warlock (The Genie)](compendium/classes/warlock-the-genie-tce.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 242. Available in the SRD.*

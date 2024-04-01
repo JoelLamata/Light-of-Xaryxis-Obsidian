@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Far Traveler"]
 ---
 # Far Traveler
 *Source: Sword Coast Adventurer's Guide p. 148*  
 
-- **Skill Proficiencies.** [Insight](rules/skills.md#Insight), [Perception](rules/skills.md#Perception)  
+- **Skill Proficiencies.** [Insight](/compendium/rules/skills.md#Insight), [Perception](/compendium/rules/skills.md#Perception)  
 - **Tool Proficiencies.** Any one musical instrument or gaming set of your choice, likely something native to your homeland  
 - **Languages.** Any one of your choice  
 - **Equipment.** One set of [traveler's clothes](compendium/items/travelers-clothes.md), any one musical instrument or gaming set you are proficient with, poorly wrought maps from your homeland that depict where you are in Faerûn, a small piece of jewelry worth 10 gp in the style of your homeland's craftsmanship, and a [pouch](compendium/items/pouch.md) containing 5 gp  

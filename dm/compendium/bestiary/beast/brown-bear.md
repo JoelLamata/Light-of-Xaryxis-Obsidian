@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/arctic
-- monster/environment/forest
-- monster/environment/hill
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Brown Bear"]
 ---
 # Brown Bear
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 319, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Brown Bear
@@ -36,15 +36,15 @@ title: Brown Bear
 
 ## Traits
 
-***Keen Smell.*** The bear has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The bear has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
 ## Actions
 
 ***Multiattack.*** The bear makes two attacks: one with its bite and one with its claws.
 
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) piercing damage.
 
-***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) slashing damage.
 ```
 ^statblock
 

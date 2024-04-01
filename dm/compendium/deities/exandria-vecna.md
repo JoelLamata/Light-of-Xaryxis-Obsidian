@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/egw
-- deity/exandria
-- domain/arcana
-- domain/death
-- domain/grave
-- domain/knowledge
+- ttrpg-cli/deity/exandria
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/grave
+- ttrpg-cli/domain/knowledge
 aliases: ["Vecna"]
 ---
 # Vecna

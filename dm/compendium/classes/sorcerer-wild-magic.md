@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/sorcerer/wild
+- ttrpg-cli/subclass/sorcerer/wild
 aliases: ["Wild Magic"]
 ---
 # Wild Magic
@@ -19,9 +19,9 @@ Your innate magic comes from the wild forces of chaos that underlie the order of
 
 ### Wild Magic Surge (Level 1)
 
-Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a `d20`. If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. A Wild Magic Surge can happen once per turn.
+Starting when you choose this origin at 1st level, your spellcasting can unleash surges of untamed magic. Immediately after you cast a sorcerer spell of 1st level or higher, the DM can have you roll a `dice: d20|avg` (`d20`). If you roll a 1, roll on the Wild Magic Surge table to create a random magical effect. A Wild Magic Surge can happen once per turn.
 
-If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires [concentration](rules/conditions.md#concentration), it doesn't require [concentration](rules/conditions.md#concentration) in this case; the spell lasts for its full duration.
+If a Wild Magic effect is a spell, it's too wild to be affected by Metamagic. If it normally requires [concentration](/compendium/rules/conditions.md#concentration), it doesn't require [concentration](/compendium/rules/conditions.md#concentration) in this case; the spell lasts for its full duration.
 
 ![Wild Magic Surge](compendium/tables/wild-magic-surge.md)
 
@@ -33,7 +33,7 @@ Any time before you regain the use of this feature, the DM can have you roll on 
 
 ### Bend Luck (Level 6)
 
-Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll `1d4` and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur.
+Starting at 6th level, you have the ability to twist fate using your wild magic. When another creature you can see makes an attack roll, an ability check, or a saving throw, you can use your reaction and spend 2 sorcery points to roll `dice: 1d4|avg` (`1d4`) and apply the number rolled as a bonus or penalty (your choice) to the creature's roll. You can do so after the creature rolls but before any effects of the roll occur.
 
 ### Controlled Chaos (Level 14)
 

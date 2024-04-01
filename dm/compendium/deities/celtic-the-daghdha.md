@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/celtic
-- domain/nature
-- domain/trickery
+- ttrpg-cli/deity/celtic
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/trickery
 aliases: ["The Daghdha"]
 ---
 # The Daghdha

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/0
-- monster/size/small
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/beast
 aliases: ["Space Mollymawk"]
 ---
 # Space Mollymawk
@@ -43,6 +43,6 @@ title: Space Mollymawk
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (`1d4 + 2`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 2|avg` (`1d4 + 2`) piercing damage.
 ```
 ^statblock

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/armor/heavy
-- item/rarity/very-rare
-- item/tier/major
+- ttrpg-cli/item/armor/heavy
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/major
 aliases: 
 - "Dwarven Plate"
 ---

@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Uthgardt Tribe Member"]
 ---
 # Uthgardt Tribe Member
 *Source: Sword Coast Adventurer's Guide p. 153*  
 
-- **Skill Proficiencies.** [Athletics](rules/skills.md#Athletics), [Survival](rules/skills.md#Survival)  
+- **Skill Proficiencies.** [Athletics](/compendium/rules/skills.md#Athletics), [Survival](/compendium/rules/skills.md#Survival)  
 - **Languages.** Any one of your choice  
 - **Tool Proficiencies.** One type of musical instrument or artisan's tools  
 - **Equipment.** A [hunting trap](compendium/items/hunting-trap.md), a totemic token or set of tattoos marking your loyalty to Uthgar and your tribal totem, a set of [traveler's clothes](compendium/items/travelers-clothes.md), and a [pouch](compendium/items/pouch.md) containing 10 gp  

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- domain/life
-- subclass/cleric/life
+- ttrpg-cli/domain/life
+- ttrpg-cli/subclass/cleric/life
 aliases: ["Life Domain"]
 ---
 # Life Domain
@@ -51,8 +51,15 @@ Beginning at 6th level, the healing spells you cast on others heal you as well. 
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` radiant damage to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `dice: 1d8|avg` (`1d8`) radiant damage to the target. When you reach 14th level, the extra damage increases to `dice: 2d8|avg` (`2d8`).
+
+### Blessed Strikes (Level 8)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*8th-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
+
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `dice: 1d8|avg` (`1d8`) radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Supreme Healing (Level 17)
 
-Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring `2d6` hit points to a creature, you restore 12.
+Starting at 17th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest number possible for each die. For example, instead of restoring `dice: 2d6|avg` (`2d6`) hit points to a creature, you restore 12.

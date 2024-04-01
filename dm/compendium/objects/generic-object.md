@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-object
 tags:
 - compendium/src/5e/dmg
-- object/size/varies
-- object/type/generic
+- ttrpg-cli/object/size/varies
+- ttrpg-cli/object/type/generic
 aliases: ["Generic Object"]
 ---
 # Generic Object

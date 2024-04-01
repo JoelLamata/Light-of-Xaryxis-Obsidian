@@ -12,95 +12,95 @@ aliases: ["Creating a Monster Stat Block; Monster Features"]
 
 | Name | Example Monster | Effect on Challenge Rating |
 |------|-----------------|----------------------------|
-| Aggressive | Orc | Increase the monster's effective per-round damage output by 2. |
-| Ambusher | Doppelganger | Increase the monster's effective attack bonus by 1. |
-| Amorphous | Black pudding | — |
-| Amphibious | Kuo-toa | — |
+| Aggressive | [Orc](compendium/bestiary/humanoid/orc.md) | Increase the monster's effective per-round damage output by 2. |
+| Ambusher | [Doppelganger](compendium/bestiary/monstrosity/doppelganger.md) | Increase the monster's effective attack bonus by 1. |
+| Amorphous | [Black pudding](compendium/bestiary/ooze/black-pudding.md) | — |
+| Amphibious | [Kuo-toa](compendium/bestiary/humanoid/kuo-toa.md) | — |
 | Angelic Weapons | Deva | Increase the monster's effective per-round damage by the amount noted in the trait. |
-| Antimagic Susceptibility | Flying sword | — |
-| Avoidance | Demilich | Increase the monster's effective AC by 1. |
+| Antimagic Susceptibility | [Flying sword](compendium/bestiary/construct/flying-sword.md) | — |
+| Avoidance | [Demilich](compendium/bestiary/undead/demilich.md) | Increase the monster's effective AC by 1. |
 | Blind Senses | Grimlock | — |
-| Blood Frenzy | Sahuagin | Increase the monster's effective attack bonus by 4. |
+| Blood Frenzy | [Sahuagin](compendium/bestiary/humanoid/sahuagin.md) | Increase the monster's effective attack bonus by 4. |
 | Breath Weapon | Ancient black dragon | For the purpose of determining effective damage output, assume the breath weapon hits two targets, and that each target fails its saving throw. |
-| Brute | Bugbear | Increase the monster's effective per-round damage by the amount noted in the trait. |
+| Brute | [Bugbear](compendium/bestiary/humanoid/bugbear.md) | Increase the monster's effective per-round damage by the amount noted in the trait. |
 | Chameleon Skin | Troglodyte | — |
 | Change Shape | Ancient brass dragon | — |
-| Charge | Centaur | Increase the monster's damage on one attack by the amount noted in the trait. |
-| Charm | Vampire | — |
+| Charge | [Centaur](compendium/bestiary/monstrosity/centaur.md) | Increase the monster's damage on one attack by the amount noted in the trait. |
+| Charm | [Vampire](compendium/bestiary/undead/vampire.md) | — |
 | Constrict | Constrictor snake | Increase the monster's effective AC by 1. |
-| Damage Absorption | Flesh golem | — |
+| Damage Absorption | [Flesh golem](compendium/bestiary/construct/flesh-golem.md) | — |
 | Damage Transfer | Cloaker | Double the monster's effective hit points. Add one-third of the monster's hit points to its per-round damage. |
-| Death Burst | Magmin | Increase the monster's effective damage output for 1 round by the amount noted in the trait, and assume it affects two creatures. |
-| Devil Sight | Barbed devil | — |
-| Dive | Aarakocra | Increase the monster's effective damage on one attack by the amount noted in the trait. |
-| Echolocation | Hook horror | — |
+| Death Burst | [Magmin](compendium/bestiary/elemental/magmin.md) | Increase the monster's effective damage output for 1 round by the amount noted in the trait, and assume it affects two creatures. |
+| Devil Sight | [Barbed devil](compendium/bestiary/fiend/barbed-devil.md) | — |
+| Dive | [Aarakocra](compendium/bestiary/humanoid/aarakocra.md) | Increase the monster's effective damage on one attack by the amount noted in the trait. |
+| Echolocation | [Hook horror](compendium/bestiary/monstrosity/hook-horror.md) | — |
 | Elemental Body | Azer | Increase the monster's effective per-round damage by the amount noted in the trait. |
-| Enlarge | Duergar | Increase the monster's effective per-round damage by the amount noted in the trait. |
-| Etherealness | Night hag | — |
-| False Appearance | Gargoyle | — |
-| Fey Ancestry | Drow | — |
-| Fiendish Blessing | Cambion | Apply the monster's Charisma modifier to its actual AC. |
-| Flyby | Peryton | — |
+| Enlarge | [Duergar](compendium/bestiary/humanoid/duergar.md) | Increase the monster's effective per-round damage by the amount noted in the trait. |
+| Etherealness | [Night hag](compendium/bestiary/fiend/night-hag.md) | — |
+| False Appearance | [Gargoyle](compendium/bestiary/elemental/gargoyle.md) | — |
+| Fey Ancestry | [Drow](compendium/bestiary/humanoid/drow.md) | — |
+| Fiendish Blessing | [Cambion](compendium/bestiary/fiend/cambion.md) | Apply the monster's Charisma modifier to its actual AC. |
+| Flyby | [Peryton](compendium/bestiary/monstrosity/peryton.md) | — |
 | Frightful Presence | Ancient black dragon | Increase the monster's effective hit points by 25% if the monster is meant to face characters of 10th level or lower. |
-| Grappler | Mimic | — |
-| Hold Breath | Lizardfolk | — |
-| Horrifying Visage | Banshee | See Frightful Presence. |
-| Illumination | Flameskull | — |
-| Illusory Appearance | Green hag | — |
-| Immutable Form | Iron golem | — |
-| Incorporeal Movement | Ghost | — |
-| Innate Spellcasting | Djinni | See step 13 under "Creating a Monster Stat Block." |
+| Grappler | [Mimic](compendium/bestiary/monstrosity/mimic.md) | — |
+| Hold Breath | [Lizardfolk](compendium/bestiary/humanoid/lizardfolk.md) | — |
+| Horrifying Visage | [Banshee](compendium/bestiary/undead/banshee.md) | See Frightful Presence. |
+| Illumination | [Flameskull](compendium/bestiary/undead/flameskull.md) | — |
+| Illusory Appearance | [Green hag](compendium/bestiary/fey/green-hag.md) | — |
+| Immutable Form | [Iron golem](compendium/bestiary/construct/iron-golem.md) | — |
+| Incorporeal Movement | [Ghost](compendium/bestiary/undead/ghost.md) | — |
+| Innate Spellcasting | [Djinni](compendium/bestiary/elemental/djinni.md) | See step 13 under "Creating a Monster Stat Block." |
 | Inscrutable | Androsphinx | — |
-| Invisibility | Imp | — |
-| Keen Senses | Hell hound | — |
-| Labyrinthine Recall | Minotaur | — |
-| Leadership | Hobgoblin captain | — |
+| Invisibility | [Imp](compendium/bestiary/fiend/imp.md) | — |
+| Keen Senses | [Hell hound](compendium/bestiary/fiend/hell-hound.md) | — |
+| Labyrinthine Recall | [Minotaur](compendium/bestiary/monstrosity/minotaur.md) | — |
+| Leadership | [Hobgoblin captain](compendium/bestiary/humanoid/hobgoblin-captain.md) | — |
 | Legendary Resistance | Ancient black dragon | Each per-day use of this trait increases the monster's effective hit points based on the expected challenge rating: 1-4, 10 hp: 5-10, 20 hp: 11 or higher, 30 hp. |
-| Life Drain | Wight | — |
-| Light Sensitivity | Shadow demon | — |
-| Magic Resistance | Balor | Increase the monster's effective AC by 2. |
-| Magic Weapons | Balor | — |
-| Martial Advantage | Hobgoblin | Increase the effective damage of one attack per round by the amount gained from this trait. |
-| Mimicry | Kenku | — |
-| Nimble Escape | Goblin | Increase the monster's effective AC and effective attack bonus by 4 (assuming the monster hides every round). |
-| Otherworldly Perception | Kuo-toa | — |
-| Pack Tactics | Kobold | Increase the monster's effective attack bonus by 1. |
-| Parry | Hobgoblin warlord | Increase the monster's effective AC by 1. |
-| Possession | Ghost | Double the monster's effective hit points. |
-| Pounce | Tiger | Increase the monster's effective damage for 1 round by the amount it deals with the bonus action gained from this trait. |
+| Life Drain | [Wight](compendium/bestiary/undead/wight.md) | — |
+| Light Sensitivity | [Shadow demon](compendium/bestiary/fiend/shadow-demon.md) | — |
+| Magic Resistance | [Balor](compendium/bestiary/fiend/balor.md) | Increase the monster's effective AC by 2. |
+| Magic Weapons | [Balor](compendium/bestiary/fiend/balor.md) | — |
+| Martial Advantage | [Hobgoblin](compendium/bestiary/humanoid/hobgoblin.md) | Increase the effective damage of one attack per round by the amount gained from this trait. |
+| Mimicry | [Kenku](compendium/bestiary/humanoid/kenku.md) | — |
+| Nimble Escape | [Goblin](compendium/bestiary/humanoid/goblin.md) | Increase the monster's effective AC and effective attack bonus by 4 (assuming the monster hides every round). |
+| Otherworldly Perception | [Kuo-toa](compendium/bestiary/humanoid/kuo-toa.md) | — |
+| Pack Tactics | [Kobold](compendium/bestiary/humanoid/kobold.md) | Increase the monster's effective attack bonus by 1. |
+| Parry | [Hobgoblin warlord](compendium/bestiary/humanoid/hobgoblin-warlord.md) | Increase the monster's effective AC by 1. |
+| Possession | [Ghost](compendium/bestiary/undead/ghost.md) | Double the monster's effective hit points. |
+| Pounce | [Tiger](compendium/bestiary/beast/tiger.md) | Increase the monster's effective damage for 1 round by the amount it deals with the bonus action gained from this trait. |
 | Psychic Defense | Githzerai monk | Apply the monster's Wisdom modifier to its actual AC if the monster isn't wearing armor or wielding a shield. |
-| Rampage | Gnoll | Increase the monster's effective per-round damage by 2. |
-| Reactive | Marilith | — |
-| Read Thoughts | Doppelganger | — |
-| Reckless | Minotaur | — |
-| Redirect Attack | Goblin boss | — |
+| Rampage | [Gnoll](compendium/bestiary/humanoid/gnoll.md) | Increase the monster's effective per-round damage by 2. |
+| Reactive | [Marilith](compendium/bestiary/fiend/marilith.md) | — |
+| Read Thoughts | [Doppelganger](compendium/bestiary/monstrosity/doppelganger.md) | — |
+| Reckless | [Minotaur](compendium/bestiary/monstrosity/minotaur.md) | — |
+| Redirect Attack | [Goblin boss](compendium/bestiary/humanoid/goblin-boss.md) | — |
 | Reel | Roper | — |
-| Regeneration | Troll | Increase the monster's effective hit points by 3 × the number of hit points the monster regenerates each round. |
-| Rejuvenation | Lich | — |
-| Relentless | Wereboar | Increase the monster's effective hit points based on the expected challenge rating: 1-4, 7 hp: 5-10, 14 hp: 11-16, 21 hp: 17 or higher, 28 hp. |
-| Shadow Stealth | Shadow demon | Increase the monster's effective AC by 4. |
-| Shapechanger | Wererat | — |
-| Siege Monster | Earth elemental | — |
-| Slippery | Kuo-toa | — |
-| Spellcasting | Lich | See step 13 under "Creating a Monster Stat Block." |
-| Spider Climb | Ettercap | — |
-| Standing Leap | Bullywug | — |
-| Steadfast | Bearded devil | — |
+| Regeneration | [Troll](compendium/bestiary/giant/troll.md) | Increase the monster's effective hit points by 3 × the number of hit points the monster regenerates each round. |
+| Rejuvenation | [Lich](compendium/bestiary/undead/lich.md) | — |
+| Relentless | [Wereboar](compendium/bestiary/humanoid/wereboar.md) | Increase the monster's effective hit points based on the expected challenge rating: 1-4, 7 hp: 5-10, 14 hp: 11-16, 21 hp: 17 or higher, 28 hp. |
+| Shadow Stealth | [Shadow demon](compendium/bestiary/fiend/shadow-demon.md) | Increase the monster's effective AC by 4. |
+| Shapechanger | [Wererat](compendium/bestiary/humanoid/wererat.md) | — |
+| Siege Monster | [Earth elemental](compendium/bestiary/elemental/earth-elemental.md) | — |
+| Slippery | [Kuo-toa](compendium/bestiary/humanoid/kuo-toa.md) | — |
+| Spellcasting | [Lich](compendium/bestiary/undead/lich.md) | See step 13 under "Creating a Monster Stat Block." |
+| Spider Climb | [Ettercap](compendium/bestiary/monstrosity/ettercap.md) | — |
+| Standing Leap | [Bullywug](compendium/bestiary/humanoid/bullywug.md) | — |
+| Steadfast | [Bearded devil](compendium/bestiary/fiend/bearded-devil.md) | — |
 | Stench | Troglodyte | Increase the monster's effective AC by 1. |
-| Sunlight Sensitivity | Kobold | — |
+| Sunlight Sensitivity | [Kobold](compendium/bestiary/humanoid/kobold.md) | — |
 | Superior Invisibility | Faerie dragon | Increase the monster's effective AC by 2. |
-| Sure-Footed | Dao | — |
-| Surprise Attack | Bugbear | Increase the monster's effective damage for 1 round by the amount noted in the trait. |
+| Sure-Footed | [Dao](compendium/bestiary/elemental/dao.md) | — |
+| Surprise Attack | [Bugbear](compendium/bestiary/humanoid/bugbear.md) | Increase the monster's effective damage for 1 round by the amount noted in the trait. |
 | Swallow | Behir | Assume the monster swallows one creature and deals 2 rounds of acid damage to it. |
-| Teleport | Balor | — |
-| Terrain Camouflage | Bullywug | — |
-| Tunneler | Umber hulk | — |
+| Teleport | [Balor](compendium/bestiary/fiend/balor.md) | — |
+| Terrain Camouflage | [Bullywug](compendium/bestiary/humanoid/bullywug.md) | — |
+| Tunneler | [Umber hulk](compendium/bestiary/monstrosity/umber-hulk.md) | — |
 | Turn Immunity | Revenant | — |
-| Turn Resistance | Lich | — |
+| Turn Resistance | [Lich](compendium/bestiary/undead/lich.md) | — |
 | Two Heads | Ettin | — |
-| Undead Fortitude | Zombie | Increase the monster's effective hit points based on the expected challenge rating: 1-4, 7 hp: 5-10, 14 hp: 11-16, 21 hp: 17 or higher, 28 hp. |
-| Web | Giant spider | Increase the monster's effective AC by 1. |
-| Web Sense | Giant spider | — |
-| Web Walker | Giant spider | — |
-| Wounded Fury | Quaggoth | Increase the monster's damage for 1 round by the amount noted in the trait. |
+| Undead Fortitude | [Zombie](compendium/bestiary/undead/zombie.md) | Increase the monster's effective hit points based on the expected challenge rating: 1-4, 7 hp: 5-10, 14 hp: 11-16, 21 hp: 17 or higher, 28 hp. |
+| Web | [Giant spider](compendium/bestiary/beast/giant-spider.md) | Increase the monster's effective AC by 1. |
+| Web Sense | [Giant spider](compendium/bestiary/beast/giant-spider.md) | — |
+| Web Walker | [Giant spider](compendium/bestiary/beast/giant-spider.md) | — |
+| Wounded Fury | [Quaggoth](compendium/bestiary/humanoid/quaggoth.md) | Increase the monster's damage for 1 round by the amount noted in the trait. |
 ^monster-features

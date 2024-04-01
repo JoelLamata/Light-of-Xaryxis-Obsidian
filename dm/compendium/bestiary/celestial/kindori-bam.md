@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/7
-- monster/size/gargantuan
-- monster/type/celestial
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/size/gargantuan
+- ttrpg-cli/monster/type/celestial
 aliases: ["Kindori"]
 ---
 # Kindori
-*Source: Boo's Astral Menagerie p. 31*  
+*Source: Boo's Astral Menagerie p. 31, Light of Xaryxis*  
 
 A kindori lacks a noticeable mouth. The leading edge of its body is dotted with small eyes that can emit bright beams of light, which the creature uses to blind predators before making its escape. Kindori communicate with one another over long distances by sending flashes of light from their eyes and draw their nourishment from the light of suns and stars.
 
@@ -45,10 +45,10 @@ title: Kindori
 
 ## Actions
 
-***Tail.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 23 (`3d10 + 7`) bludgeoning damage.
+***Tail.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 5 ft., one target. *Hit:* `dice: 3d10 + 7|avg` (`3d10 + 7`) bludgeoning damage.
 
 ## Bonus Actions
 
-***Flashing Eyes (Recharge 6).*** The kindori emits bright light in a 120-foot cone. Each creature in the cone must succeed on a DC 14 Wisdom saving throw or be blinded for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+***Flashing Eyes (Recharge 6).*** The kindori emits bright light in a 120-foot cone. Each creature in the cone must succeed on a DC 14 Wisdom saving throw or be [blinded](/compendium/rules/conditions.md#blinded) for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 ```
 ^statblock

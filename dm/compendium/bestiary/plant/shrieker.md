@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/plant
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/plant
 aliases: ["Shrieker"]
 ---
 # Shrieker
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 138, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Shrieker
@@ -38,7 +38,7 @@ title: Shrieker
 
 ## Reactions
 
-***Shriek.*** When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for `1d4` of the shrieker's turns afterward.
+***Shriek.*** When bright light or a creature is within 30 feet of the shrieker, it emits a shriek audible within 300 feet of it. The shrieker continues to shriek until the disturbance moves out of range and for `dice: 1d4|avg` (`1d4`) of the shrieker's turns afterward.
 ```
 ^statblock
 

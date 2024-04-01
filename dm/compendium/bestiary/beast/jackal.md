@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/desert
-- monster/environment/grassland
-- monster/size/small
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/beast
 aliases: ["Jackal"]
 ---
 # Jackal
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 331, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Jackal
@@ -35,13 +35,13 @@ title: Jackal
 
 ## Traits
 
-***Keen Hearing and Smell.*** The jackal has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing or smell.
+***Keen Hearing and Smell.*** The jackal has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing or smell.
 
-***Pack Tactics.*** The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 feet of the creature and the ally isn't [incapacitated](rules/conditions.md#incapacitated).
+***Pack Tactics.*** The jackal has advantage on an attack roll against a creature if at least one of the jackal's allies is within 5 feet of the creature and the ally isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1 (`1d4 - 1`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+1` (+1 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 - 1|avg` (`1d4 - 1`) piercing damage.
 ```
 ^statblock
 

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/dmg
-- domain/death
-- subclass/cleric/death
+- ttrpg-cli/domain/death
+- ttrpg-cli/subclass/cleric/death
 aliases: ["Death Domain"]
 ---
 # Death Domain
@@ -51,7 +51,14 @@ Starting at 6th level, the cleric's ability to channel negative energy becomes m
 
 ### Divine Strike (Level 8)
 
-At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra `1d8` necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to `2d8`.
+At 8th level, the cleric gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the cleric's turns when he or she hits a creature with a weapon attack, the cleric can cause the attack to deal an extra `dice: 1d8|avg` (`1d8`) necrotic damage to the target. When the cleric reaches 14th level, the extra damage increases to `dice: 2d8|avg` (`2d8`).
+
+### Blessed Strikes (Level 8)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*8th-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
+
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `dice: 1d8|avg` (`1d8`) radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Improved Reaper (Level 17)
 

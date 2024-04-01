@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/10
-- monster/size/medium
-- monster/type/humanoid
+- ttrpg-cli/monster/cr/10
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid
 aliases: ["Giff Warlord"]
 ---
 # Giff Warlord
@@ -20,7 +20,7 @@ title: Giff Warlord
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Giff%20Warlord.webp#token)
 *Medium humanoid, Any alignment*
 
-- **Armor Class** 17  (half plate)
+- **Armor Class** 17  ([half plate](compendium/items/half-plate-armor.md))
 - **Hit Points** 178 (`21d8 + 84`)
 - **Speed** 30 ft., swim 30 ft.
 
@@ -45,15 +45,15 @@ title: Giff Warlord
 
 ***Multiattack.*** The giff makes two Morningstar attacks.
 
-***Morningstar.*** *Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 14 (`2d8 + 5`) piercing damage.
+***Morningstar.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 5|avg` (`2d8 + 5`) piercing damage.
 
-***Double-Barreled Musket.*** *Ranged Weapon Attack:* +6 to hit, range 40/120 ft., one target. *Hit:* 28 (`4d12 + 2`) piercing damage.
+***Double-Barreled Musket.*** *Ranged Weapon Attack:* `dice: d20+6` (+6 to hit), range 40/120 ft., one target. *Hit:* `dice: 4d12 + 2|avg` (`4d12 + 2`) piercing damage.
 
 ## Legendary Actions
 
 ***Move.*** The giff moves up to its speed without provoking opportunity attacks.
 
-***Rallying Cry.*** The giff ends the frightened condition on itself and each creature of its choice that it can see within 30 feet of it.
+***Rallying Cry.*** The giff ends the [frightened](/compendium/rules/conditions.md#frightened) condition on itself and each creature of its choice that it can see within 30 feet of it.
 
 ***Weapon of Choice (2 Actions).*** The giff makes two Morningstar attacks or one Double-Barreled Musket attack.
 ```

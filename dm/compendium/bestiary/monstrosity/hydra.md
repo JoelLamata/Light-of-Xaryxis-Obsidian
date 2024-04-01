@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/8
-- monster/environment/swamp
-- monster/size/huge
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/8
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Hydra"]
 ---
 # Hydra
-*Source: Monster Manual p. 190, Light of Xaryxis. Available in the SRD and the Basic Rules.*  
+*Source: Monster Manual p. 190, Ghosts of Saltmarsh, Light of Xaryxis. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Hydra
@@ -36,7 +36,7 @@ title: Hydra
 
 ***Hold Breath.*** The hydra can hold its breath for 1 hour.
 
-***Multiple Heads.*** The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
+***Multiple Heads.*** The hydra has five heads. While it has more than one head, the hydra has advantage on saving throws against being [blinded](/compendium/rules/conditions.md#blinded), [charmed](/compendium/rules/conditions.md#charmed), [deafened](/compendium/rules/conditions.md#deafened), [frightened](/compendium/rules/conditions.md#frightened), [stunned](/compendium/rules/conditions.md#stunned), and knocked [unconscious](/compendium/rules/conditions.md#unconscious).
 
 Whenever the hydra takes 25 or more damage in a single turn, one of its heads dies. If all its heads die, the hydra dies.
 
@@ -50,7 +50,7 @@ At the end of its turn, it grows two heads for each of its heads that died since
 
 ***Multiattack.*** The hydra makes as many bite attacks as it has heads.
 
-***Bite.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 10 (`1d10 + 5`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 10 ft., one target. *Hit:* `dice: 1d10 + 5|avg` (`1d10 + 5`) piercing damage.
 ```
 ^statblock
 

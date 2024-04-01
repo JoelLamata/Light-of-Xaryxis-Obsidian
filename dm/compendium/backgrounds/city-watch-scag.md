@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["City Watch"]
 ---
 # City Watch
 *Source: Sword Coast Adventurer's Guide p. 145*  
 
-- **Skill Proficiencies.** [Athletics](rules/skills.md#Athletics), [Insight](rules/skills.md#Insight)  
+- **Skill Proficiencies.** [Athletics](/compendium/rules/skills.md#Athletics), [Insight](/compendium/rules/skills.md#Insight)  
 - **Languages.** Any two of your choice  
 - **Equipment.** A uniform in the style of your unit and indicative of your rank, a [horn](compendium/items/horn.md) with which to summon help, a set of [manacles](compendium/items/manacles.md), and a [pouch](compendium/items/pouch.md) containing 10 gp  
 

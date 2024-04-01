@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/mountain
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/fiend
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/fiend
 aliases: ["Hell Hound"]
 ---
 # Hell Hound
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 182, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Hell Hound
@@ -35,15 +35,15 @@ title: Hell Hound
 
 ## Traits
 
-***Keen Hearing and Smell.*** The hound has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing or smell.
+***Keen Hearing and Smell.*** The hound has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing or smell.
 
-***Pack Tactics.*** The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't [incapacitated](rules/conditions.md#incapacitated).
+***Pack Tactics.*** The hound has advantage on an attack roll against a creature if at least one of the hound's allies is within 5 feet of the creature and the ally isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage plus 7 (`2d6`) fire damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage plus `dice: 2d6|avg` (`2d6`) fire damage.
 
-***Fire Breath (Recharge 5-6).*** The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 21 (`6d6`) fire damage on a failed save, or half as much damage on a successful one.
+***Fire Breath (Recharge 5-6).*** The hound exhales fire in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking `dice: 6d6|avg` (`6d6`) fire damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

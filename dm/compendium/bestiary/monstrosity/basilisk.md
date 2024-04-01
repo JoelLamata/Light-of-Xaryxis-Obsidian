@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/mountain
-- monster/size/medium
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Basilisk"]
 ---
 # Basilisk
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 24, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Basilisk
@@ -34,7 +34,7 @@ title: Basilisk
 
 ## Traits
 
-***Petrifying Gaze.*** If a creature starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving throw if the basilisk isn't [incapacitated](rules/conditions.md#incapacitated). On a failed save, the creature magically begins to turn to stone and is [restrained](rules/conditions.md#restrained). It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is [petrified](rules/conditions.md#petrified) until freed by the  [greater restoration](compendium/spells/greater-restoration.md) spell or other magic.
+***Petrifying Gaze.*** If a creature starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving throw if the basilisk isn't [incapacitated](/compendium/rules/conditions.md#incapacitated). On a failed save, the creature magically begins to turn to stone and is [restrained](/compendium/rules/conditions.md#restrained). It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is [petrified](/compendium/rules/conditions.md#petrified) until freed by the  [greater restoration](compendium/spells/greater-restoration.md) spell or other magic.
 
 A creature that isn't surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can't see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.
 
@@ -42,7 +42,7 @@ If the basilisk sees its reflection within 30 feet of it in bright light, it mis
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (`2d6 + 3`) piercing damage plus 7 (`2d6`) poison damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 3|avg` (`2d6 + 3`) piercing damage plus `dice: 2d6|avg` (`2d6`) poison damage.
 ```
 ^statblock
 

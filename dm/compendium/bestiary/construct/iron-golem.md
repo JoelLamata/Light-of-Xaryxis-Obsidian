@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/16
-- monster/size/large
-- monster/type/construct
+- ttrpg-cli/monster/cr/16
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/construct
 aliases: ["Iron Golem"]
 ---
 # Iron Golem
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 170, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Iron Golem
@@ -45,10 +45,10 @@ title: Iron Golem
 
 ***Multiattack.*** The golem makes two melee attacks.
 
-***Slam.*** *Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 20 (`3d8 + 7`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+13` (+13 to hit), reach 5 ft., one target. *Hit:* `dice: 3d8 + 7|avg` (`3d8 + 7`) bludgeoning damage.
 
-***Sword.*** *Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 23 (`3d10 + 7`) slashing damage.
+***Sword.*** *Melee Weapon Attack:* `dice: d20+13` (+13 to hit), reach 10 ft., one target. *Hit:* `dice: 3d10 + 7|avg` (`3d10 + 7`) slashing damage.
 
-***Poison Breath (Recharge 5-6).*** The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 45 (`10d8`) poison damage on a failed save, or half as much damage on a successful one.
+***Poison Breath (Recharge 5-6).*** The golem exhales poisonous gas in a 15-foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking `dice: 10d8|avg` (`10d8`) poison damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock

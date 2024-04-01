@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Wolf"]
 ---
 # Wolf
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 341, Lost Mine of Phandelver, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Wolf
@@ -36,13 +36,13 @@ title: Wolf
 
 ## Traits
 
-***Keen Hearing and Smell.*** The wolf has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing or smell.
+***Keen Hearing and Smell.*** The wolf has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing or smell.
 
-***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't [incapacitated](rules/conditions.md#incapacitated).
+***Pack Tactics.*** The wolf has advantage on an attack roll against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (`2d4 + 2`) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked [prone](rules/conditions.md#prone).
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 2d4 + 2|avg` (`2d4 + 2`) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone).
 ```
 ^statblock
 

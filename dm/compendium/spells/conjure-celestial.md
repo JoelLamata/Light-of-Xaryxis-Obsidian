@@ -3,9 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/level/7
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/7
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Conjure Celestial"]
 ---
 # Conjure Celestial
@@ -24,6 +25,6 @@ The DM has the celestial's statistics.
 
 **At Higher Levels.** When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower.
 
-**Classes**: [Cleric](compendium/classes/cleric.md)
+**Classes**: [Cleric](compendium/classes/cleric.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 225. Available in the SRD.*

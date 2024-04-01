@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-vehicle
 tags:
 - compendium/src/5e/aag
-- vehicle/terrain/sea
-- vehicle/terrain/space
-- vehicle/type/spelljammer
+- ttrpg-cli/vehicle/terrain/sea
+- ttrpg-cli/vehicle/terrain/space
+- ttrpg-cli/vehicle/type/spelljammer
 aliases: ["Shrike Ship"]
 ---
 # Shrike Ship
@@ -33,7 +33,7 @@ title: Shrike Ship
 
 It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire it.
 
-**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* 16 (`3d10`) piercing damage.
+**Bolt** *Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* `dice: 3d10|avg` (`3d10`) piercing damage.
 
 ## Weapon: Piercing Ram
 
@@ -41,6 +41,6 @@ It takes 1 action to load a ballista, 1 action to aim it, and 1 action to fire i
 
 The ship's spelljammer can make the following attack when the ship runs into another object or into a Gargantuan creature (see ""Crashing"" earlier in the chapter).
 
-**Piercing Ram** *Melee Weapon Attack:* +8 to hit, range 0 ft., one object or Gargantuan creature. *Hit:* 88 (`16d10`) piercing damage. The shrike ship takes half as much damage and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the shrike ship's path, and the shrike ship can continue moving if it has any movement left.
+**Piercing Ram** *Melee Weapon Attack:* +8 to hit, range 0 ft., one object or Gargantuan creature. *Hit:* `dice: 16d10|avg` (`16d10`) piercing damage. The shrike ship takes half as much damage and comes to a dead stop. Miss: The attack deals no damage, the target moves into the nearest unoccupied space that isn't in the shrike ship's path, and the shrike ship can continue moving if it has any movement left.
 ```
 ^statblock

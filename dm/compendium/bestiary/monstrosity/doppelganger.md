@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/underdark
-- monster/environment/urban
-- monster/size/medium
-- monster/type/monstrosity/shapechanger
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity/shapechanger
 aliases: ["Doppelganger"]
 ---
 # Doppelganger
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 82, Lost Mine of Phandelver, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Doppelganger
@@ -39,15 +39,15 @@ title: Doppelganger
 
 ***Ambusher.*** In the first round of a combat, the doppelganger has advantage on attack rolls against any creature it surprised.
 
-***Surprise Attack.*** If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (`3d6`) damage from the attack.
+***Surprise Attack.*** If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra `dice: 3d6|avg` (`3d6`) damage from the attack.
 
 ## Actions
 
 ***Multiattack.*** The doppelganger makes two melee attacks.
 
-***Slam.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (`1d6 + 4`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) bludgeoning damage.
 
-***Read Thoughts.*** The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's [concentration](rules/conditions.md#concentration) isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom ([Insight](rules/skills.md#Insight)) and Charisma ([Deception](rules/skills.md#Deception), [Intimidation](rules/skills.md#Intimidation), and [Persuasion](rules/skills.md#Persuasion)) checks against the target.
+***Read Thoughts.*** The doppelganger magically reads the surface thoughts of one creature within 60 feet of it. The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger's [concentration](/compendium/rules/conditions.md#concentration) isn't broken (as if concentrating on a spell). While reading the target's mind, the doppelganger has advantage on Wisdom ([Insight](/compendium/rules/skills.md#Insight)) and Charisma ([Deception](/compendium/rules/skills.md#Deception), [Intimidation](/compendium/rules/skills.md#Intimidation), and [Persuasion](/compendium/rules/skills.md#Persuasion)) checks against the target.
 ```
 ^statblock
 

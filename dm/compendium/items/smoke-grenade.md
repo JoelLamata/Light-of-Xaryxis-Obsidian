@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/weapon/explosive
+- ttrpg-cli/item/weapon/explosive
 aliases: 
 - "Smoke Grenade"
 ---

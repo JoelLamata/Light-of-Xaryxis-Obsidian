@@ -3,8 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/aag
-- spell/level/5
-- spell/school/transmutation
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Create Spelljamming Helm"]
 ---
 # Create Spelljamming Helm
@@ -16,5 +18,7 @@ aliases: ["Create Spelljamming Helm"]
 - **Duration:** Instantaneous
 
 Holding the rod used in the casting of the spell, you touch a Large or smaller chair that is unoccupied. The rod disappears, and the chair is transformed into a [spelljamming helm](compendium/items/spelljamming-helm-aag.md).
+
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Astral Adventurer's Guide p. 22*

@@ -3,13 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/knowledge-domain
-- spell/class/paladin
-- spell/class/paladin/oath-of-the-crown
-- spell/class/warlock/the-fiend
-- spell/level/1
-- spell/school/enchantment
+- ttrpg-cli/spell/class/bard/college-of-glamour
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/knowledge-domain
+- ttrpg-cli/spell/class/cleric/order-domain
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/paladin/oath-of-conquest
+- ttrpg-cli/spell/class/paladin/oath-of-the-crown
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock/the-fiend
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/school/enchantment
 aliases: ["Command"]
 ---
 # Command
@@ -38,7 +42,7 @@ The target spends its turn moving away from you by the fastest available means.
 
 ## Grovel
 
-The target falls [prone](rules/conditions.md#prone) and then ends its turn.
+The target falls [prone](/compendium/rules/conditions.md#prone) and then ends its turn.
 
 ## Halt
 
@@ -50,6 +54,6 @@ When you cast this spell using a spell slot of 2nd level or higher, you can affe
 
 ## Summary
 
-**Classes**: [Cleric (Knowledge Domain)](compendium/classes/cleric-knowledge-domain.md), [Cleric](compendium/classes/cleric.md), [Paladin (Oath of the Crown)](compendium/classes/paladin-oath-of-the-crown-scag.md), [Paladin](compendium/classes/paladin.md), [Warlock (The Fiend)](compendium/classes/warlock-the-fiend.md)
+**Classes**: [Bard (College of Glamour)](compendium/classes/bard-college-of-glamour-xge.md), [Cleric (Knowledge Domain)](compendium/classes/cleric-knowledge-domain.md), [Cleric (Order Domain)](compendium/classes/cleric-order-domain-tce.md), [Cleric](compendium/classes/cleric.md), [Paladin (Oath of Conquest)](compendium/classes/paladin-oath-of-conquest-xge.md), [Paladin (Oath of the Crown)](compendium/classes/paladin-oath-of-the-crown-scag.md), [Paladin](compendium/classes/paladin.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Warlock (The Fiend)](compendium/classes/warlock-the-fiend.md)
 
 *Source: Player's Handbook p. 223. Available in the SRD and the Basic Rules.*

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/death
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/death
 aliases: ["Myrkul", "The Lord of Bones", "Old Lord Skull", "The Reaper"]
 ---
 # Myrkul

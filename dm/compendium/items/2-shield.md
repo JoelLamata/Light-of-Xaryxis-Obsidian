@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/armor/shield
-- item/rarity/rare
-- item/tier/major
+- ttrpg-cli/item/armor/shield
+- ttrpg-cli/item/rarity/rare
+- ttrpg-cli/item/tier/major
 aliases: 
 - "+2 Shield"
 ---

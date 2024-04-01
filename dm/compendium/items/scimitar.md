@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/finesse
-- item/property/light
-- item/property/martial
-- item/weapon/martial/melee
+- ttrpg-cli/item/property/finesse
+- ttrpg-cli/item/property/light
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Scimitar"
 ---
@@ -14,7 +14,7 @@ aliases:
 *Melee Weapon*  
 
 - **Damage**: 1d6 S
-- **Properties**: [Finesse](rules/item-properties.md#Finesse), [Light](rules/item-properties.md#Light), Martial
+- **Properties**: [Finesse](/compendium/rules/item-properties.md#Finesse), [Light](/compendium/rules/item-properties.md#Light), Martial
 - **Cost**: 25 gp
 - **Weight**: 3.0 lbs.
 

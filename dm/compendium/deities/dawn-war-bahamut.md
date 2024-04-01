@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/life
-- domain/war
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/war
 aliases: ["Bahamut"]
 ---
 # Bahamut

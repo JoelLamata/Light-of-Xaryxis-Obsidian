@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/mm
+- ttrpg-cli/optional-feature/mm
 aliases: ["Extended Spell"]
 ---
 # Extended Spell

@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/ei
+- ttrpg-cli/optional-feature/ei
 aliases: ["Sign of Ill Omen"]
 ---
 # Sign of Ill Omen

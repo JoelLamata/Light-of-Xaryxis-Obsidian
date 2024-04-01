@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/death
-- domain/life
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/life
 aliases: ["The Blood of Vol"]
 ---
 # The Blood of Vol

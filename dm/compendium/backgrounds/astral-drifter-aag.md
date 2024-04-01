@@ -2,16 +2,16 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/aag
+- ttrpg-cli/background
 aliases: ["Astral Drifter"]
 ---
 # Astral Drifter
 *Source: Astral Adventurer's Guide p. 7*  
 
-- **Skill Proficiencies.** Insight, Religion  
+- **Skill Proficiencies.** [Insight](/compendium/rules/skills.md#Insight), [Religion](/compendium/rules/skills.md#Religion)  
 - **Languages.** Two of your choice (Celestial or Gith recommended)  
-- **Equipment.** A set of traveler's clothes, a diary, an ink pen, a bottle of ink, and a pouch containing 10 gp  
+- **Equipment.** A set of [traveler's clothes](compendium/items/travelers-clothes.md), a diary, an [ink pen](compendium/items/ink-pen.md), a [bottle of ink](compendium/items/ink-1-ounce-bottle.md), and a [pouch](compendium/items/pouch.md) containing 10 gp  
 
 For longer than you can remember, you have traversed the Astral Sea. There, you experienced firsthand the wonders of the Silver Void: you stopped aging and no longer felt hunger or thirst. Driven by wanderlust, you drifted from one part of the Astral Sea to another, like a mote of dust on the wind. You have lost count of the decades that have passed since you arrived here.
 
@@ -19,11 +19,11 @@ In your travels, you have camped on the petrified hulks of dead gods and narrowl
 
 ## Longevity
 
-You are `20d6` years older than you look, because you have spent that much time in the Astral Sea without aging.
+You are `dice: 20d6|avg` (`20d6`) years older than you look, because you have spent that much time in the Astral Sea without aging.
 
 ## Feature: Divine Contact
 
-You gain the Magic Initiate feat from the "Player's Handbook" and must choose cleric for the feat.
+You gain the [Magic Initiate feat](compendium/feats/magic-initiate.md) from the "Player's Handbook" and must choose cleric for the feat.
 
 In the Astral Sea, you crossed paths with a wandering deity. The encounter was brief and nonviolent, yet it made a lasting impression on you. This deity saw fit to share one secret or obscure bit of cosmic lore with you. Work with your DM to determine the details of this knowledge and its impact on the campaign.
 

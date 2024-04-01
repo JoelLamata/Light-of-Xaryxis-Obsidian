@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-2
-- monster/size/medium
-- monster/type/humanoid
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid
 aliases: ["Hadozee Warrior"]
 ---
 # Hadozee Warrior
@@ -18,7 +18,7 @@ title: Hadozee Warrior
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Hadozee%20Warrior.webp#token)
 *Medium humanoid, Any alignment*
 
-- **Armor Class** 16  (breastplate)
+- **Armor Class** 16  ([breastplate](compendium/items/breastplate.md))
 - **Hit Points** 16 (`3d8 + 3`)
 - **Speed** 30 ft., climb 30 ft.
 
@@ -35,15 +35,15 @@ title: Hadozee Warrior
 
 ## Traits
 
-***Glide.*** If it isn't incapacitated or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.
+***Glide.*** If it isn't [incapacitated](/compendium/rules/conditions.md#incapacitated) or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.
 
 ## Actions
 
 ***Multiattack.*** The hadozee makes two Shortsword attacks.
 
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+***Shortsword.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage.
 
-***Light Crossbow.*** *Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:* 12 (`2d8 + 3`) piercing damage.
+***Light Crossbow.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 80/320 ft., one target. *Hit:* `dice: 2d8 + 3|avg` (`2d8 + 3`) piercing damage.
 
 ## Reactions
 

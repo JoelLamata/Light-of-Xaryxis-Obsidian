@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Mercenary Veteran"]
 ---
 # Mercenary Veteran
 *Source: Sword Coast Adventurer's Guide p. 152*  
 
-- **Skill Proficiencies.** [Athletics](rules/skills.md#Athletics), [Persuasion](rules/skills.md#Persuasion)  
+- **Skill Proficiencies.** [Athletics](/compendium/rules/skills.md#Athletics), [Persuasion](/compendium/rules/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of gaming set, vehicles (land)  
 - **Equipment.** A uniform of your company ([traveler's clothes](compendium/items/travelers-clothes.md) in quality), an insignia of your rank, a gaming set of your choice, and a [pouch](compendium/items/pouch.md) containing the remainder of your last wages (10 gp).  
 

@@ -3,10 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/druid
-- spell/level/1
-- spell/school/transmutation
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock/the-fathomless
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Create or Destroy Water"]
 ---
 # Create or Destroy Water
@@ -33,6 +35,6 @@ When you cast this spell using a spell slot of 2nd level or higher, you create o
 
 ## Summary
 
-**Classes**: [Cleric](compendium/classes/cleric.md), [Druid](compendium/classes/druid.md)
+**Classes**: [Cleric](compendium/classes/cleric.md), [Druid](compendium/classes/druid.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Warlock (The Fathomless)](compendium/classes/warlock-the-fathomless-tce.md)
 
 *Source: Player's Handbook p. 229. Available in the SRD.*

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/lox
-- monster/cr/8
-- monster/size/medium
-- monster/type/celestial
+- ttrpg-cli/monster/cr/8
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/celestial
 aliases: ["Hastain"]
 ---
 # Hastain
@@ -41,19 +41,19 @@ title: Hastain
 
 ***Spellcasting (Psionics).*** Hastain casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 18):
 
-**At will**: light, mage hand, prestidigitation
+**At will**: [light](compendium/spells/light.md), [mage hand](compendium/spells/mage-hand.md), [prestidigitation](compendium/spells/prestidigitation.md)
 
-**1/day each**: mass suggestion, sending
+**1/day each**: [mass suggestion](compendium/spells/mass-suggestion.md), [sending](compendium/spells/sending.md)
 
-**2/day each**: dimension door, phantasmal force
+**2/day each**: [dimension door](compendium/spells/dimension-door.md), [phantasmal force](compendium/spells/phantasmal-force.md)
 
 ## Actions
 
 ***Multiattack.*** Hastain makes two Trident attacks.
 
-***Trident.*** *Melee or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (`1d6 + 4`) piercing damage, or 8 (`1d8 + 4`) piercing damage if used with two hands to make a melee attack, plus 3 (`1d6`) force damage if Hastain is wearing its talarith.
+***Trident.*** *Melee or Ranged Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft. or range 20/60 ft., one target. *Hit:* `dice: 1d6 + 4|avg` (`1d6 + 4`) piercing damage, or `dice: 1d8 + 4|avg` (`1d8 + 4`) piercing damage if used with two hands to make a melee attack, plus `dice: 1d6|avg` (`1d6`) force damage if Hastain is wearing its talarith.
 
-***Chromatic Bolt.*** *Ranged Spell Attack:* +10 to hit, range 90 ft., one target. *Hit:* 22 (`5d8`) damage of a type chosen by Hastain from the following list: cold, fire, lightning, or radiant.
+***Chromatic Bolt.*** *Ranged Spell Attack:* `dice: d20+10` (+10 to hit), range 90 ft., one target. *Hit:* `dice: 5d8|avg` (`5d8`) damage of a type chosen by Hastain from the following list: cold, fire, lightning, or radiant.
 
 ***Summon Duplicate (Recharges after a Short or Long Rest).*** Using its talarith, Hastain summons a duplicate of itself. The duplicate obeys Hastain's commands and uses Hastain's statistics, except it is an unaligned Construct that doesn't have a talarith of its own. The duplicate takes its turn immediately after Hastain. It vanishes after 1 hour or when it is reduced to 0 hit points.
 ```

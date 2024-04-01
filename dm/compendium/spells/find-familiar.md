@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/wizard
-- spell/level/1
-- spell/ritual
-- spell/school/conjuration
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/ritual
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Find Familiar"]
 ---
 # Find Familiar
@@ -19,7 +19,7 @@ aliases: ["Find Familiar"]
 - **Components:** V, S, 10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier
 - **Duration:** Instantaneous
 
-You gain the service of a familiar, a spirit that takes an animal form you choose: bat, cat, crab, frog (toad), hawk, lizard, octopus, owl, poisonous snake, fish (quipper), rat, raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.
+You gain the service of a familiar, a spirit that takes an animal form you choose: bat, [cat](compendium/bestiary/beast/cat.md), [crab](compendium/bestiary/beast/crab.md), frog (toad), [hawk](compendium/bestiary/beast/hawk.md), lizard, [octopus](compendium/bestiary/beast/octopus.md), owl, [poisonous snake](compendium/bestiary/beast/poisonous-snake.md), fish ([quipper](compendium/bestiary/beast/quipper.md)), [rat](compendium/bestiary/beast/rat.md), raven, sea horse, spider, or weasel. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of a beast.
 
 > [!note]
 > Additional animal form choices may be available at the DM's discretion.

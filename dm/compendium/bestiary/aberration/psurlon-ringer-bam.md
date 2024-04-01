@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1
-- monster/size/medium
-- monster/type/aberration
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/aberration
 aliases: ["Psurlon Ringer"]
 ---
 # Psurlon Ringer
-*Source: Boo's Astral Menagerie p. 45*  
+*Source: Boo's Astral Menagerie p. 45, Light of Xaryxis*  
 
 A psurlon can use magic to assume the form of a specific Medium Humanoid. First, the psurlon must consume the creature it wants to imitate. It then enters a psionic trance for 8 hours, at the end of which it takes on the appearance of the creature it ate. The psurlon gains that creature's memories and languages, but none of its class features or other abilities. The transformation is permanent and can be undone only by a wish spell. Despite appearances, the psurlon ringer is still an Aberration, and other psurlons recognize it for what it is.
 
@@ -18,7 +18,7 @@ title: Psurlon Ringer
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Psurlon%20Ringer.webp#token)
 *Medium aberration, typically  Lawful Evil*
 
-- **Armor Class** 13  (mage armor)
+- **Armor Class** 13  ([mage armor](compendium/spells/mage-armor.md))
 - **Hit Points** 31 (`7d8`)
 - **Speed** 30 ft.
 
@@ -39,14 +39,14 @@ title: Psurlon Ringer
 
 ***Spellcasting (Psionics).*** The psurlon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 13):
 
-**1/day**: suggestion
+**1/day**: [suggestion](compendium/spells/suggestion.md)
 
-**2/day**: mage armor (self only)
+**2/day**: [mage armor](compendium/spells/mage-armor.md) (self only)
 
 ## Actions
 
-***Dagger.*** *Melee or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 2 (`1d4`) piercing damage plus 4 (`1d8`) psychic damage.
+***Dagger.*** *Melee or Ranged Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft. or range 20/60 ft., one target. *Hit:* `dice: 1d4|avg` (`1d4`) piercing damage plus `dice: 1d8|avg` (`1d8`) psychic damage.
 
-***Psychic Crush.*** The psurlon targets one creature it can see within 120 feet of itself. The target must make a DC 13 Wisdom saving throw, taking 12 (`3d8 + 3`) psychic damage on a failed save, or half as much damage on a successful one.
+***Psychic Crush.*** The psurlon targets one creature it can see within 120 feet of itself. The target must make a DC 13 Wisdom saving throw, taking `dice: 3d8 + 3|avg` (`3d8 + 3`) psychic damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock

@@ -3,20 +3,20 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/arctic
-- monster/environment/coastal
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/urban
-- monster/size/medium
-- monster/type/humanoid/any-race
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/arctic
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/any-race
 aliases: ["Commoner"]
 ---
 # Commoner
-*Source: Monster Manual p. 345, Light of Xaryxis. Available in the SRD and the Basic Rules.*  
+*Source: Monster Manual p. 345, Lost Mine of Phandelver, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything, Light of Xaryxis. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Commoner
@@ -40,7 +40,7 @@ title: Commoner
 
 ## Actions
 
-***Club.*** *Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (`1d4`) bludgeoning damage.
+***Club.*** *Melee Weapon Attack:* `dice: d20+2` (+2 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4|avg` (`1d4`) bludgeoning damage.
 ```
 ^statblock
 

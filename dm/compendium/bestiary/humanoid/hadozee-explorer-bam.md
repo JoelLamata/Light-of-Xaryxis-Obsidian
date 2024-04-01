@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/2
-- monster/size/medium
-- monster/type/humanoid
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid
 aliases: ["Hadozee Explorer"]
 ---
 # Hadozee Explorer
-*Source: Boo's Astral Menagerie p. 28*  
+*Source: Boo's Astral Menagerie p. 28, Light of Xaryxis*  
 
 Hadozee explorers scour Wildspace systems for riches and adventure. They often serve as navigators aboard spelljamming ships. To them, the Astral Plane is a mostly uncharted expanse worthy of further exploration.
 
@@ -18,7 +18,7 @@ title: Hadozee Explorer
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Hadozee%20Explorer.webp#token)
 *Medium humanoid, Any alignment*
 
-- **Armor Class** 15  (studded leather)
+- **Armor Class** 15  ([studded leather](compendium/items/studded-leather-armor.md))
 - **Hit Points** 49 (`9d8 + 9`)
 - **Speed** 30 ft., climb 30 ft.
 
@@ -35,15 +35,15 @@ title: Hadozee Explorer
 
 ## Traits
 
-***Glide.*** If it isn't incapacitated or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.
+***Glide.*** If it isn't [incapacitated](/compendium/rules/conditions.md#incapacitated) or wearing heavy armor, the hadozee can extend its skin membranes to move up to 5 feet horizontally for every 1 foot it descends in the air.
 
 ## Actions
 
 ***Multiattack.*** The hadozee makes two Shortsword attacks.
 
-***Shortsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage.
+***Shortsword.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage.
 
-***Musket.*** *Ranged Weapon Attack:* +5 to hit, range 40/120 ft., one target. *Hit:* 16 (`2d12 + 3`) piercing damage.
+***Musket.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 40/120 ft., one target. *Hit:* `dice: 2d12 + 3|avg` (`2d12 + 3`) piercing damage.
 
 ## Bonus Actions
 

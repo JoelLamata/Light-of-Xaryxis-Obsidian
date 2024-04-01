@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Waterdhavian Noble"]
 ---
 # Waterdhavian Noble
 *Source: Sword Coast Adventurer's Guide p. 154*  
 
-- **Skill Proficiencies.** [History](rules/skills.md#History), [Persuasion](rules/skills.md#Persuasion)  
+- **Skill Proficiencies.** [History](/compendium/rules/skills.md#History), [Persuasion](/compendium/rules/skills.md#Persuasion)  
 - **Languages.** Any one of your choice  
 - **Tool Proficiencies.** One type of gaming set or musical instrument  
 - **Equipment.** A set of [fine clothes](compendium/items/fine-clothes.md), a [signet ring](compendium/items/signet-ring.md) or brooch, a scroll of pedigree, a skin of fine zzar or wine, and a purse containing 20 gp  

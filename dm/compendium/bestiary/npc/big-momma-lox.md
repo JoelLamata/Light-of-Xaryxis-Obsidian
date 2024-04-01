@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/lox
-- monster/cr/11
-- monster/size/huge
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/11
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Big Momma"]
 ---
 # Big Momma
@@ -37,14 +37,14 @@ title: Big Momma
 
 ## Actions
 
-***Swallowing Bite.*** *Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 45 (`6d12 + 6`) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 16 Dexterity saving throw or be swallowed by Big Momma. Big Momma can have one creature swallowed at a time.
+***Swallowing Bite.*** *Melee Weapon Attack:* `dice: d20+10` (+10 to hit), reach 10 ft., one target. *Hit:* `dice: 6d12 + 6|avg` (`6d12 + 6`) piercing damage. If the target is a Large or smaller creature, it must succeed on a DC 16 Dexterity saving throw or be swallowed by Big Momma. Big Momma can have one creature swallowed at a time.
 
-A swallowed creature is blinded and restrained, has total cover against attacks and other effects outside Big Momma, and takes 11 (`2d10`) acid damage at the start of each of Big Momma's turns from the digestive juices in Big Momma's gullet.
+A swallowed creature is [blinded](/compendium/rules/conditions.md#blinded) and [restrained](/compendium/rules/conditions.md#restrained), has total cover against attacks and other effects outside Big Momma, and takes `dice: 2d10|avg` (`2d10`) acid damage at the start of each of Big Momma's turns from the digestive juices in Big Momma's gullet.
 
-If Big Momma takes 25 damage or more on a single turn from a creature inside it, Big Momma must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls prone in a space within 10 feet of Big Momma. If Big Momma dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 10 feet of movement, exiting prone.
+If Big Momma takes 25 damage or more on a single turn from a creature inside it, Big Momma must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate the swallowed creature, which falls [prone](/compendium/rules/conditions.md#prone) in a space within 10 feet of Big Momma. If Big Momma dies, a swallowed creature is no longer [restrained](/compendium/rules/conditions.md#restrained) by it and can escape from the corpse by using 10 feet of movement, exiting [prone](/compendium/rules/conditions.md#prone).
 
 ## Bonus Actions
 
-***Ray of Fear (Recharge 4-6).*** Big Momma's eye emits an invisible, magical ray that targets one creature Big Momma can see within 60 feet of itself. The target must succeed on a DC 16 Wisdom saving throw or be frightened of Big Momma until the start of Big Momma's next turn.
+***Ray of Fear (Recharge 4-6).*** Big Momma's eye emits an [invisible](/compendium/rules/conditions.md#invisible), magical ray that targets one creature Big Momma can see within 60 feet of itself. The target must succeed on a DC 16 Wisdom saving throw or be [frightened](/compendium/rules/conditions.md#frightened) of Big Momma until the start of Big Momma's next turn.
 ```
 ^statblock

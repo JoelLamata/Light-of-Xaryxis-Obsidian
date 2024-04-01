@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/coastal
-- monster/environment/forest
-- monster/environment/hill
-- monster/environment/mountain
-- monster/size/medium
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Harpy"]
 ---
 # Harpy
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 181, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Harpy
@@ -39,13 +39,13 @@ title: Harpy
 
 ***Multiattack.*** The harpy makes two attacks: one with its claws and one with its club.
 
-***Claws.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 6 (`2d4 + 1`) slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 2d4 + 1|avg` (`2d4 + 1`) slashing damage.
 
-***Club.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning damage.
+***Club.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) bludgeoning damage.
 
-***Luring Song.*** The harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be [charmed](rules/conditions.md#charmed) until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is [incapacitated](rules/conditions.md#incapacitated).
+***Luring Song.*** The harpy sings a magical melody. Every humanoid and giant within 300 feet of the harpy that can hear the song must succeed on a DC 11 Wisdom saving throw or be [charmed](/compendium/rules/conditions.md#charmed) until the song ends. The harpy must take a bonus action on its subsequent turns to continue singing. It can stop singing at any time. The song ends if the harpy is [incapacitated](/compendium/rules/conditions.md#incapacitated).
 
-While [charmed](rules/conditions.md#charmed) by the harpy, a target is [incapacitated](rules/conditions.md#incapacitated) and ignores the songs of other harpies. If the [charmed](rules/conditions.md#charmed) target is more than 5 feet away from the harpy, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.
+While [charmed](/compendium/rules/conditions.md#charmed) by the harpy, a target is [incapacitated](/compendium/rules/conditions.md#incapacitated) and ignores the songs of other harpies. If the [charmed](/compendium/rules/conditions.md#charmed) target is more than 5 feet away from the harpy, the target must move on its turn toward the harpy by the most direct route. It doesn't avoid opportunity attacks, but before moving into damaging terrain, such as lava or a pit, and whenever it takes damage from a source other than the harpy, a target can repeat the saving throw. A creature can also repeat the saving throw at the end of each of its turns. If a creature's saving throw is successful, the effect ends on it.
 
 A target that successfully saves is immune to this harpy's song for the next 24 hours.
 ```

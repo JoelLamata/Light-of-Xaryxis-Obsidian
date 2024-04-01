@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-feat
 tags:
 - compendium/src/5e/phb
-- optional-feature/ei
+- ttrpg-cli/optional-feature/ei
 aliases: ["Thirsting Blade"]
 ---
 # Thirsting Blade
@@ -11,4 +11,4 @@ aliases: ["Thirsting Blade"]
 
 **Prerequisite**: 5th-level, Pact of the Blade
 
-You can attack with your pact weapon twice, instead of once, whenever you take the [Attack](rules/actions.md#Attack) action on your turn.
+You can attack with your pact weapon twice, instead of once, whenever you take the [Attack](/compendium/rules/actions.md#Attack) action on your turn.

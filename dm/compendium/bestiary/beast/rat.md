@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/swamp
-- monster/environment/urban
-- monster/size/tiny
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/beast
 aliases: ["Rat"]
 ---
 # Rat
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 335, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Rat
@@ -35,11 +35,11 @@ title: Rat
 
 ## Traits
 
-***Keen Smell.*** The rat has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The rat has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+0` (+0 to hit), reach 5 ft., one target. *Hit:* 1 piercing damage.
 ```
 ^statblock
 

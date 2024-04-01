@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/5
-- monster/environment/forest
-- monster/size/large
-- monster/type/celestial
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/celestial
 aliases: ["Unicorn"]
 ---
 # Unicorn
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 294, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Unicorn
@@ -34,7 +34,7 @@ title: Unicorn
 
 ## Traits
 
-***Charge.*** If the unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 9 (`2d8`) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked [prone](rules/conditions.md#prone).
+***Charge.*** If the unicorn moves at least 20 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra `dice: 2d8|avg` (`2d8`) piercing damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone).
 
 ***Magic Resistance.*** The unicorn has advantage on saving throws against spells and other magical effects.
 
@@ -50,11 +50,11 @@ title: Unicorn
 
 ***Multiattack.*** The unicorn makes two attacks: one with its hooves and one with its horn.
 
-***Hooves.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
+***Hooves.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage.
 
-***Horn.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) piercing damage.
+***Horn.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) piercing damage.
 
-***Healing Touch (3/Day).*** The unicorn touches another creature with its horn. The target magically regains 11 (`2d8 + 2`) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.
+***Healing Touch (3/Day).*** The unicorn touches another creature with its horn. The target magically regains `dice: 2d8 + 2|avg` (`2d8 + 2`) hit points. In addition, the touch removes all diseases and neutralizes all poisons afflicting the target.
 
 ***Teleport (1/Day).*** The unicorn magically teleports itself and up to three willing creatures it can see within 5 feet of it, along with any equipment they are wearing or carrying, to a location the unicorn is familiar with, up to 1 mile away.
 
@@ -64,7 +64,7 @@ title: Unicorn
 
 ***Shimmering Shield (Costs 2 Actions).*** The unicorn creates a shimmering, magical field around itself or another creature it can see within 60 feet of it. The target gains a +2 bonus to AC until the end of the unicorn's next turn.
 
-***Heal Self (Costs 3 Actions).*** The unicorn magically regains 11 (`2d8 + 2`) hit points.
+***Heal Self (Costs 3 Actions).*** The unicorn magically regains `dice: 2d8 + 2|avg` (`2d8 + 2`) hit points.
 ```
 ^statblock
 

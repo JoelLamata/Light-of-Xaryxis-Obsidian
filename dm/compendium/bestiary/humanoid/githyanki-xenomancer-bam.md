@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/9
-- monster/size/medium
-- monster/type/humanoid/druid
-- monster/type/humanoid/gith
+- ttrpg-cli/monster/cr/9
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/druid
+- ttrpg-cli/monster/type/humanoid/gith
 aliases: ["Githyanki Xenomancer"]
 ---
 # Githyanki Xenomancer
-*Source: Boo's Astral Menagerie p. 27*  
+*Source: Boo's Astral Menagerie p. 27, Light of Xaryxis*  
 
 A githyanki xenomancer travels to the farthest reaches of Wildspace and the Astral Sea, even visiting worlds of the Material Plane from time to time, to study and catalog creatures it has never encountered before. Friendly contact with sapient creatures can bring the xenomancer's diplomatic skills to the forefront, while hostile contact becomes a test of the xenomancer's survival skills.
 
@@ -38,19 +38,19 @@ title: Githyanki Xenomancer
 
 ***Spellcasting (Psionics).*** The githyanki casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability (spell save DC 16):
 
-**At will**: druidcraft, light, mage hand (the hand is invisible)
+**At will**: [druidcraft](compendium/spells/druidcraft.md), [light](compendium/spells/light.md), [mage hand](compendium/spells/mage-hand.md) (the hand is invisible)
 
-**1/day each**: dominate monster, forcecage, plane shift, telekinesis
+**1/day each**: [dominate monster](compendium/spells/dominate-monster.md), [forcecage](compendium/spells/forcecage.md), [plane shift](compendium/spells/plane-shift.md), [telekinesis](compendium/spells/telekinesis.md)
 
-**2/day each**: invisibility (self only), pass without trace (self only)
+**2/day each**: [invisibility](compendium/spells/invisibility.md) (self only), [pass without trace](compendium/spells/pass-without-trace.md) (self only)
 
 ## Actions
 
 ***Multiattack.*** The githyanki makes three Staff attacks, three Telekinetic Bolt attacks, or a combination thereof.
 
-***Staff.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) bludgeoning damage, or 6 (`1d8 + 2`) bludgeoning damage when used with two hands, plus 14 (`4d6`) psychic damage.
+***Staff.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) bludgeoning damage, or `dice: 1d8 + 2|avg` (`1d8 + 2`) bludgeoning damage when used with two hands, plus `dice: 4d6|avg` (`4d6`) psychic damage.
 
-***Telekinetic Bolt.*** *Ranged Spell Attack:* +8 to hit, range 60 ft., one target. *Hit:* 20 (`3d10 + 4`) force damage.
+***Telekinetic Bolt.*** *Ranged Spell Attack:* `dice: d20+8` (+8 to hit), range 60 ft., one target. *Hit:* `dice: 3d10 + 4|avg` (`3d10 + 4`) force damage.
 
 ## Bonus Actions
 

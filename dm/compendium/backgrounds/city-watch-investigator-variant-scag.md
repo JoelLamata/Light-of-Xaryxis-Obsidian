@@ -2,18 +2,18 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["City Watch (Investigator) (Variant)"]
 ---
 # City Watch (Investigator) (Variant)
 *Source: Sword Coast Adventurer's Guide p. 145*  
 
-- **Skill Proficiencies.** [Insight](rules/skills.md#Insight), [Investigation](rules/skills.md#Investigation)  
+- **Skill Proficiencies.** [Insight](/compendium/rules/skills.md#Insight), [Investigation](/compendium/rules/skills.md#Investigation)  
 - **Languages.** Any two of your choice  
 - **Equipment.** A uniform in the style of your unit and indicative of your rank, a [horn](compendium/items/horn.md) with which to summon help, a set of [manacles](compendium/items/manacles.md), and a [pouch](compendium/items/pouch.md) containing 10 gp  
 
-Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in [Investigation](rules/skills.md#Investigation) rather than [Athletics](rules/skills.md#Athletics).
+Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals. If your prior experience is as an investigator, you have proficiency in [Investigation](/compendium/rules/skills.md#Investigation) rather than [Athletics](/compendium/rules/skills.md#Athletics).
 
 ## Feature: Watcher's Eye
 

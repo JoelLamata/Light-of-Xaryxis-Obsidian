@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/life
-- domain/nature
-- domain/peace
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/peace
 aliases: ["Eldath", "The Quiet One", "The Guardian of Groves", "The Mother of the Waters"]
 ---
 # Eldath

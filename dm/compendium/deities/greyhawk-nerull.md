@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/death
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/death
 aliases: ["Nerull"]
 ---
 # Nerull

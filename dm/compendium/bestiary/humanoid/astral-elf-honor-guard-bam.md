@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/5
-- monster/size/medium
-- monster/type/humanoid
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid
 aliases: ["Astral Elf Honor Guard"]
 ---
 # Astral Elf Honor Guard
-*Source: Boo's Astral Menagerie p. 12*  
+*Source: Boo's Astral Menagerie p. 12, Light of Xaryxis*  
 
 The safety of important individuals and locations is entrusted to astral elf honor guards, highly trained warriors who are more than capable of holding their own in combat.
 
@@ -37,7 +37,7 @@ title: Astral Elf Honor Guard
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Astral%20Elf%20Honor%20Guard.webp#token)
 *Medium humanoid, Any alignment*
 
-- **Armor Class** 17  (half plate)
+- **Armor Class** 17  ([half plate](compendium/items/half-plate-armor.md))
 - **Hit Points** 93 (`17d8 + 17`)
 - **Speed** 30 ft.
 
@@ -54,7 +54,7 @@ title: Astral Elf Honor Guard
 
 ## Traits
 
-***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the charmed condition on itself, and magic can't put it to sleep.
+***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the [charmed](/compendium/rules/conditions.md#charmed) condition on itself, and magic can't put it to sleep.
 
 ***Unusual Nature.*** The elf doesn't require sleep.
 
@@ -62,8 +62,8 @@ title: Astral Elf Honor Guard
 
 ***Multiattack.*** The elf makes two Longsword or Radiant Ray attacks.
 
-***Longsword.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 11 (`2d8 + 2`) slashing damage, or 13 (`2d10 + 2`) slashing damage when used with two hands, plus 10 (`3d6`) radiant damage.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 2|avg` (`2d8 + 2`) slashing damage, or `dice: 2d10 + 2|avg` (`2d10 + 2`) slashing damage when used with two hands, plus `dice: 3d6|avg` (`3d6`) radiant damage.
 
-***Radiant Ray.*** *Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:* 22 (`4d10`) radiant damage.
+***Radiant Ray.*** *Ranged Spell Attack:* `dice: d20+6` (+6 to hit), range 120 ft., one target. *Hit:* `dice: 4d10|avg` (`4d10`) radiant damage.
 ```
 ^statblock

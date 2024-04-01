@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-8
-- monster/environment/forest
-- monster/environment/hill
-- monster/environment/urban
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-8
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Mastiff"]
 ---
 # Mastiff
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 332, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Mastiff
@@ -36,11 +36,11 @@ title: Mastiff
 
 ## Traits
 
-***Keen Hearing and Smell.*** The mastiff has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on hearing or smell.
+***Keen Hearing and Smell.*** The mastiff has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on hearing or smell.
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked [prone](rules/conditions.md#prone).
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone).
 ```
 ^statblock
 

@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/0
-- monster/size/small
-- monster/type/fey
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/fey
 aliases: ["Dohwar"]
 ---
 # Dohwar
-*Source: Boo's Astral Menagerie p. 19*  
+*Source: Boo's Astral Menagerie p. 19, Light of Xaryxis*  
 
 Dohwars are short, pudgy, flightless avians that look and move like penguins. Dohwars migrate from the Feywild to Wildspace, where they are typically encountered. They conduct their affairs in secrecy, preferring to meet in dark alleys and out-of-the-way places even when their business isn't illegal or dangerous. They tend to dress in a garish mishmash of clothing, but many of them also shroud themselves in hooded cloaks.
 
@@ -43,10 +43,10 @@ title: Dohwar
 
 ***Spellcasting (Psionics).*** The dohwar casts the following spell, requiring no spell components and using Charisma as the spellcasting ability (spell save DC 11):
 
-**3/day**: detect thoughts
+**3/day**: [detect thoughts](compendium/spells/detect-thoughts.md)
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) piercing damage.
 ```
 ^statblock

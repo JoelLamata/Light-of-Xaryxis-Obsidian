@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-2
-- monster/environment/swamp
-- monster/environment/urban
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-2
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Crocodile"]
 ---
 # Crocodile
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 320, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Crocodile
@@ -39,7 +39,7 @@ title: Crocodile
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (`1d10 + 2`) piercing damage, and the target is [grappled](rules/conditions.md#grappled) (escape DC 12). Until this grapple ends, the target is [restrained](rules/conditions.md#restrained), and the crocodile can't bite another target
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d10 + 2|avg` (`1d10 + 2`) piercing damage, and the target is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 12). Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), and the crocodile can't bite another target
 ```
 ^statblock
 

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/tempest
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/tempest
 aliases: ["The Devourer"]
 ---
 # The Devourer

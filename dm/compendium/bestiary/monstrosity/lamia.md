@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/4
-- monster/environment/desert
-- monster/size/large
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/4
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Lamia"]
 ---
 # Lamia
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 201, Ghosts of Saltmarsh. Available in the SRD.*  
 
 ```ad-statblock
 title: Lamia
@@ -44,11 +44,11 @@ title: Lamia
 
 ***Multiattack.*** The lamia makes two attacks: one with its claws and one with its dagger or Intoxicating Touch.
 
-***Claws.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 14 (`2d10 + 3`) slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 2d10 + 3|avg` (`2d10 + 3`) slashing damage.
 
-***Dagger.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d4 + 3`) piercing damage.
+***Dagger.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 3|avg` (`1d4 + 3`) piercing damage.
 
-***Intoxicating Touch.*** *Melee Spell Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.
+***Intoxicating Touch.*** *Melee Spell Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one creature. *Hit:* The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.
 ```
 ^statblock
 

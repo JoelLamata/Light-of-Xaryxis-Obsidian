@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/5
-- monster/size/medium
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/5
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Thri-kreen Mystic"]
 ---
 # Thri-kreen Mystic
-*Source: Boo's Astral Menagerie p. 61*  
+*Source: Boo's Astral Menagerie p. 61, Light of Xaryxis*  
 
 Thri-kreen mystics use psionics to navigate difficult terrain in Wildspace, turn invisible, and drain life from their prey. They often serve as spelljammers aboard thri-kreen ships.
 
@@ -35,22 +35,22 @@ title: Thri-kreen Mystic
 
 ***Spellcasting (Psionics).*** The thri-kreen casts one of the following spells, requiring no spell components and using Wisdom as the spellcasting ability:
 
-**At will**: levitate (self only), mage hand (the hand is invisible)
+**At will**: [levitate](compendium/spells/levitate.md) (self only), [mage hand](compendium/spells/mage-hand.md) (the hand is invisible)
 
-**1/day each**: freedom of movement (self only), invisibility (self only)
+**1/day each**: [freedom of movement](compendium/spells/freedom-of-movement.md) (self only), [invisibility](compendium/spells/invisibility.md) (self only)
 
 ## Actions
 
 ***Multiattack.*** The thri-kreen makes two Gythka attacks or four Psychic Bolt attacks.
 
-***Gythka.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10 (`2d8 + 1`) slashing damage.
+***Gythka.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 1|avg` (`2d8 + 1`) slashing damage.
 
-***Psychic Bolt.*** *Ranged Spell Attack:* +6 to hit, range 60 ft., one creature. *Hit:* 6 (`1d6 + 3`) psychic damage.
+***Psychic Bolt.*** *Ranged Spell Attack:* `dice: d20+6` (+6 to hit), range 60 ft., one creature. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) psychic damage.
 
-***Drain Vitality (Recharges after a Short or Long Rest).*** The thri-kreen targets one creature it can see within 30 feet of itself. The target must make a DC 14 Constitution saving throw, taking 32 (`5d12`) necrotic damage on a failed save, or half as much damage on a successful one. The thri-kreen regains hit points equal to the damage dealt.
+***Drain Vitality (Recharges after a Short or Long Rest).*** The thri-kreen targets one creature it can see within 30 feet of itself. The target must make a DC 14 Constitution saving throw, taking `dice: 5d12|avg` (`5d12`) necrotic damage on a failed save, or half as much damage on a successful one. The thri-kreen regains hit points equal to the damage dealt.
 
 ## Bonus Actions
 
-***Chameleon Carapace.*** The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity (Stealth) checks it makes to hide in those surroundings.
+***Chameleon Carapace.*** The thri-kreen changes the color of its carapace to match the color and texture of its surroundings, gaining advantage on Dexterity ([Stealth](/compendium/rules/skills.md#Stealth)) checks it makes to hide in those surroundings.
 ```
 ^statblock

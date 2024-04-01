@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/gear/tools
+- ttrpg-cli/item/gear/tools
 aliases: 
 - "Herbalism Kit"
 ---

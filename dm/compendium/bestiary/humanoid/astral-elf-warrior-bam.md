@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/3
-- monster/size/medium
-- monster/type/humanoid
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid
 aliases: ["Astral Elf Warrior"]
 ---
 # Astral Elf Warrior
-*Source: Boo's Astral Menagerie p. 13*  
+*Source: Boo's Astral Menagerie p. 13, Light of Xaryxis*  
 
 Astral elf warriors operate elven spelljamming ships and defend elven strongholds throughout the Astral Plane.
 
@@ -37,7 +37,7 @@ title: Astral Elf Warrior
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Astral%20Elf%20Warrior.webp#token)
 *Medium humanoid, Any alignment*
 
-- **Armor Class** 16  (breastplate)
+- **Armor Class** 16  ([breastplate](compendium/items/breastplate.md))
 - **Hit Points** 58 (`13d8`)
 - **Speed** 30 ft.
 
@@ -54,7 +54,7 @@ title: Astral Elf Warrior
 
 ## Traits
 
-***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the charmed condition on itself, and magic can't put it to sleep.
+***Fey Ancestry.*** The elf has advantage on saving throws it makes to avoid or end the [charmed](/compendium/rules/conditions.md#charmed) condition on itself, and magic can't put it to sleep.
 
 ***Unusual Nature.*** The elf doesn't require sleep.
 
@@ -62,8 +62,8 @@ title: Astral Elf Warrior
 
 ***Multiattack.*** The elf makes two Longsword or Longbow attacks.
 
-***Longsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (`1d8 + 1`) slashing damage, or 6 (`1d10 + 1`) slashing damage when used with two hands, plus 10 (`3d6`) radiant damage.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 1|avg` (`1d8 + 1`) slashing damage, or `dice: 1d10 + 1|avg` (`1d10 + 1`) slashing damage when used with two hands, plus `dice: 3d6|avg` (`3d6`) radiant damage.
 
-***Longbow.*** *Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (`1d8 + 2`) piercing damage plus 10 (`3d6`) radiant damage.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 2|avg` (`1d8 + 2`) piercing damage plus `dice: 3d6|avg` (`3d6`) radiant damage.
 ```
 ^statblock

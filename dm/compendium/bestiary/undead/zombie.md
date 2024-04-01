@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/urban
-- monster/size/medium
-- monster/type/undead
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/undead
 aliases: ["Zombie"]
 ---
 # Zombie
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 316, Lost Mine of Phandelver, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Zombie
@@ -38,7 +38,7 @@ title: Zombie
 
 ## Actions
 
-***Slam.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (`1d6 + 1`) bludgeoning damage.
+***Slam.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 1|avg` (`1d6 + 1`) bludgeoning damage.
 ```
 ^statblock
 

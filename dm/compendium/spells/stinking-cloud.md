@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/druid/circle-of-the-land
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/warlock/the-fiend
-- spell/class/wizard
-- spell/level/3
-- spell/school/conjuration
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/druid/circle-of-the-land
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock/the-fiend
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/3
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Stinking Cloud"]
 ---
 # Stinking Cloud

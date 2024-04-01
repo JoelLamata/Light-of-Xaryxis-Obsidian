@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/6
-- monster/size/huge
-- monster/type/giant
+- ttrpg-cli/monster/cr/6
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/giant
 aliases: ["B'rohg"]
 ---
 # B'rohg
-*Source: Boo's Astral Menagerie p. 16*  
+*Source: Boo's Astral Menagerie p. 16, Light of Xaryxis*  
 
 B'rohgs are broad-shouldered, four-armed Giants, 15 feet tall, with burnt-orange skin. They have flat noses, pointed ears, and long hair that grows down the backs and sides of their otherwise bald heads. They wear simple garb and like to hurl heavy rocks. A b'rohg can wield a weapon with each of its four arms, but it prefers to pound enemies with its fists and rip smaller creatures apart with its bare hands.
 
@@ -41,10 +41,10 @@ title: B'rohg
 
 ***Multiattack.*** The b'rohg makes four Fist attacks or two Rock attacks.
 
-***Fist.*** *Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 12 (`2d6 + 5`) bludgeoning damage.
+***Fist.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 10 ft., one target. *Hit:* `dice: 2d6 + 5|avg` (`2d6 + 5`) bludgeoning damage.
 
-***Rock.*** *Ranged Weapon Attack:* +5 to hit, range 60/240 ft., one target. *Hit:* 23 (`4d8 + 5`) bludgeoning damage.
+***Rock.*** *Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), range 60/240 ft., one target. *Hit:* `dice: 4d8 + 5|avg` (`4d8 + 5`) bludgeoning damage.
 
-***Hideous Rend.*** The b'rohg uses all four of its hands to target one Large or smaller creature it can see within 10 feet of itself. The target must succeed on a DC 16 Dexterity saving throw or be grappled (escape DC 16). Until this grapple ends, the b'rohg can't make Fist attacks or Rock attacks, and the target takes 49 (`8d10 + 5`) bludgeoning damage at the start of each of its turns. A creature reduced to 0 hit points by this damage is ripped into four pieces.
+***Hideous Rend.*** The b'rohg uses all four of its hands to target one Large or smaller creature it can see within 10 feet of itself. The target must succeed on a DC 16 Dexterity saving throw or be [grappled](/compendium/rules/conditions.md#grappled) (escape DC 16). Until this grapple ends, the b'rohg can't make Fist attacks or Rock attacks, and the target takes `dice: 8d10 + 5|avg` (`8d10 + 5`) bludgeoning damage at the start of each of its turns. A creature reduced to 0 hit points by this damage is ripped into four pieces.
 ```
 ^statblock

@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/heavy
-- item/property/martial
-- item/property/two-handed
-- item/weapon/martial/melee
+- ttrpg-cli/item/property/heavy
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/property/two-handed
+- ttrpg-cli/item/weapon/martial/melee
 aliases: 
 - "Greatsword"
 ---
@@ -14,7 +14,7 @@ aliases:
 *Melee Weapon*  
 
 - **Damage**: 2d6 S
-- **Properties**: [Heavy](rules/item-properties.md#Heavy), Martial, [Two-handed](rules/item-properties.md#Two-handed)
+- **Properties**: [Heavy](/compendium/rules/item-properties.md#Heavy), Martial, [Two-handed](/compendium/rules/item-properties.md#Two-handed)
 - **Cost**: 50 gp
 - **Weight**: 6.0 lbs.
 

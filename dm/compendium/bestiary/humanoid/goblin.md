@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/underdark
-- monster/size/small
-- monster/type/humanoid/goblinoid
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/humanoid/goblinoid
 aliases: ["Goblin"]
 ---
 # Goblin
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 166, Lost Mine of Phandelver, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Goblin
@@ -41,9 +41,9 @@ title: Goblin
 
 ## Actions
 
-***Scimitar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) slashing damage.
+***Scimitar.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) slashing damage.
 
-***Shortbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage.
+***Shortbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 80/320 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage.
 ```
 ^statblock
 

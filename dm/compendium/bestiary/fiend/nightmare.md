@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/size/large
-- monster/type/fiend
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/fiend
 aliases: ["Nightmare"]
 ---
 # Nightmare
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 235, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Nightmare
@@ -39,7 +39,7 @@ title: Nightmare
 
 ## Actions
 
-***Hooves.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) bludgeoning damage plus 7 (`2d6`) fire damage.
+***Hooves.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) bludgeoning damage plus `dice: 2d6|avg` (`2d6`) fire damage.
 
 ***Ethereal Stride.*** The nightmare and up to three willing creatures within 5 feet of it magically enter the Ethereal Plane from the Material Plane, or vice versa.
 ```

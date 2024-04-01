@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/order
-- domain/war
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/order
+- ttrpg-cli/domain/war
 aliases: ["Bane", "The Black Hand", "The Lord of Darkness"]
 ---
 # Bane

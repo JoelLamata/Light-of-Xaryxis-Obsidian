@@ -3,15 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/light-domain
-- spell/class/druid
-- spell/class/druid/circle-of-the-land
-- spell/class/paladin
-- spell/class/ranger
-- spell/class/sorcerer
-- spell/level/3
-- spell/school/evocation
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/light-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/druid/circle-of-the-land
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock/the-celestial
+- ttrpg-cli/spell/level/3
+- ttrpg-cli/spell/school/evocation
 aliases: ["Daylight"]
 ---
 # Daylight
@@ -28,6 +30,6 @@ If you chose a point on an object you are holding or one that isn't being worn o
 
 If any of this spell's area overlaps with an area of darkness created by a spell of 3rd level or lower, the spell that created the darkness is dispelled.
 
-**Classes**: [Cleric (Light Domain)](compendium/classes/cleric-light-domain.md), [Cleric](compendium/classes/cleric.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md), [Paladin](compendium/classes/paladin.md), [Ranger](compendium/classes/ranger.md), [Sorcerer](compendium/classes/sorcerer.md)
+**Classes**: [Cleric (Light Domain)](compendium/classes/cleric-light-domain.md), [Cleric](compendium/classes/cleric.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Druid](compendium/classes/druid.md), [Paladin](compendium/classes/paladin.md), [Ranger](compendium/classes/ranger.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Celestial)](compendium/classes/warlock-the-celestial-xge.md)
 
 *Source: Player's Handbook p. 230. Available in the SRD.*

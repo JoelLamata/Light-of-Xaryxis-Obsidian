@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/war
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/war
 aliases: ["Tempus", "The Foehammer", "The Lord of Battles"]
 ---
 # Tempus

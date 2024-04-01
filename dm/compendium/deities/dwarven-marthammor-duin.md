@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/dwarven
-- domain/nature
-- domain/trickery
+- ttrpg-cli/deity/dwarven
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/trickery
 aliases: ["Marthammor Duin"]
 ---
 # Marthammor Duin

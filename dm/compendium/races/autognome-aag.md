@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/aag
-- race/autognome
+- ttrpg-cli/race/autognome
 aliases: ["Autognome"]
 ---
 # Autognome
@@ -26,17 +26,17 @@ You are encased in thin metal or some other durable material. While you aren't w
 
 ### Built for Success
 
-You can add a `d4` to one attack roll, ability check, or saving throw you make, and you can do so after seeing the `d20` roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+You can add a `dice: d4|avg` (`d4`) to one attack roll, ability check, or saving throw you make, and you can do so after seeing the `dice: d20|avg` (`d20`) roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
 
 ### Healing Machine
 
-If the mending spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).
+If the [mending](compendium/spells/mending.md) spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).
 
-In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: cure wounds, healing word, mass cure wounds, mass healing word, and spare the dying.
+In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: [cure wounds](compendium/spells/cure-wounds.md), [healing word](compendium/spells/healing-word.md), [mass cure wounds](compendium/spells/mass-cure-wounds.md), [mass healing word](compendium/spells/mass-healing-word.md), and [spare the dying](compendium/spells/spare-the-dying.md).
 
 ### Mechanical Nature
 
-You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being paralyzed or poisoned. You don't need to eat, drink, or breathe.
+You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being [paralyzed](/compendium/rules/conditions.md#paralyzed) or [poisoned](/compendium/rules/conditions.md#poisoned). You don't need to eat, drink, or breathe.
 
 ### Sentry's Rest
 

@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/size/large
-- monster/type/construct
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/construct
 aliases: ["Rug of Smothering"]
 ---
 # Rug of Smothering
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 20, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Rug of Smothering
@@ -33,14 +33,14 @@ title: Rug of Smothering
 
 ## Traits
 
-***Antimagic Susceptibility.*** The rug is [incapacitated](rules/conditions.md#incapacitated) while in the area of an [antimagic field](compendium/spells/antimagic-field.md). If targeted by [dispel magic](compendium/spells/dispel-magic.md), the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall [unconscious](rules/conditions.md#unconscious) for 1 minute.
+***Antimagic Susceptibility.*** The rug is [incapacitated](/compendium/rules/conditions.md#incapacitated) while in the area of an [antimagic field](compendium/spells/antimagic-field.md). If targeted by [dispel magic](compendium/spells/dispel-magic.md), the rug must succeed on a Constitution saving throw against the caster's spell save DC or fall [unconscious](/compendium/rules/conditions.md#unconscious) for 1 minute.
 
-***Damage Transfer.*** While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature [grappled](rules/conditions.md#grappled) by the rug takes the other half.
+***Damage Transfer.*** While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature [grappled](/compendium/rules/conditions.md#grappled) by the rug takes the other half.
 
 ***False Appearance.*** While the rug remains motionless, it is indistinguishable from a normal rug.
 
 ## Actions
 
-***Smother.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one Medium or smaller creature. *Hit:* The creature is [grappled](rules/conditions.md#grappled) (escape DC 13). Until this grapple ends, the target is [restrained](rules/conditions.md#restrained), [blinded](rules/conditions.md#blinded), and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes 10 (`2d6 + 3`) bludgeoning damage.
+***Smother.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one Medium or smaller creature. *Hit:* The creature is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 13). Until this grapple ends, the target is [restrained](/compendium/rules/conditions.md#restrained), [blinded](/compendium/rules/conditions.md#blinded), and at risk of suffocating, and the rug can't smother another target. In addition, at the start of each of the target's turns, the target takes `dice: 2d6 + 3|avg` (`2d6 + 3`) bludgeoning damage.
 ```
 ^statblock

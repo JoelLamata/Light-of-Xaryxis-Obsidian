@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/orc
-- domain/war
+- ttrpg-cli/deity/orc
+- ttrpg-cli/domain/war
 aliases: ["Ilneval"]
 ---
 # Ilneval

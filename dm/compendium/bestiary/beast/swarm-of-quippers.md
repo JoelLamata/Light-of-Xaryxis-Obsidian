@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/underwater
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Swarm of Quippers"]
 ---
 # Swarm of Quippers
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 338, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Swarm of Quippers
@@ -42,7 +42,7 @@ title: Swarm of Quippers
 
 ## Actions
 
-***Bites.*** *Melee Weapon Attack:* +5 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* 14 (`4d6`) piercing damage, or 7 (`2d6`) piercing damage if the swarm has half of its hit points or fewer.
+***Bites.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 0 ft., one creature in the swarm's space. *Hit:* `dice: 4d6|avg` (`4d6`) piercing damage, or `dice: 2d6|avg` (`2d6`) piercing damage if the swarm has half of its hit points or fewer.
 ```
 ^statblock
 

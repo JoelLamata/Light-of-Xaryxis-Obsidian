@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/7
-- monster/environment/forest
-- monster/size/huge
-- monster/type/beast
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Ape"]
 ---
 # Giant Ape
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 323, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Giant Ape
@@ -36,9 +36,9 @@ title: Giant Ape
 
 ***Multiattack.*** The ape makes two fist attacks.
 
-***Fist.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 22 (`3d10 + 6`) bludgeoning damage.
+***Fist.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 10 ft., one target. *Hit:* `dice: 3d10 + 6|avg` (`3d10 + 6`) bludgeoning damage.
 
-***Rock.*** *Ranged Weapon Attack:* +9 to hit, range 50/100 ft., one target. *Hit:* 30 (`7d6 + 6`) bludgeoning damage.
+***Rock.*** *Ranged Weapon Attack:* `dice: d20+9` (+9 to hit), range 50/100 ft., one target. *Hit:* `dice: 7d6 + 6|avg` (`7d6 + 6`) bludgeoning damage.
 ```
 ^statblock
 

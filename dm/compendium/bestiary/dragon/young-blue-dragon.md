@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/9
-- monster/environment/coastal
-- monster/environment/desert
-- monster/size/large
-- monster/type/dragon
+- ttrpg-cli/monster/cr/9
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/dragon
 aliases: ["Young Blue Dragon"]
 ---
 # Young Blue Dragon
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 91, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Young Blue Dragon
@@ -37,11 +37,11 @@ title: Young Blue Dragon
 
 ***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
 
-***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (`2d10 + 5`) piercing damage plus 5 (`1d10`) lightning damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 5|avg` (`2d10 + 5`) piercing damage plus `dice: 1d10|avg` (`1d10`) lightning damage.
 
-***Claw.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (`2d6 + 5`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 5|avg` (`2d6 + 5`) slashing damage.
 
-***Lightning Breath (Recharge 5-6).*** The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 55 (`10d10`) lightning damage on a failed save, or half as much damage on a successful one.
+***Lightning Breath (Recharge 5-6).*** The dragon exhales lightning in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking `dice: 10d10|avg` (`10d10`) lightning damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/elven
-- domain/nature
+- ttrpg-cli/deity/elven
+- ttrpg-cli/domain/nature
 aliases: ["Rillifane Rallathil"]
 ---
 # Rillifane Rallathil

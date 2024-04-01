@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/very-rare
-- item/tier/major
-- item/wondrous
+- ttrpg-cli/item/rarity/very-rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Carpet of Flying, 3 ft. × 5 ft."
 ---

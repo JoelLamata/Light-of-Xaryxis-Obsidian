@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/light
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/light
 aliases: ["Milil", "The Lord of Song", "The One True Hand of All-Wise Oghma"]
 ---
 # Milil

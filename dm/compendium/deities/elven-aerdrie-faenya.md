@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/elven
-- domain/tempest
-- domain/trickery
+- ttrpg-cli/deity/elven
+- ttrpg-cli/domain/tempest
+- ttrpg-cli/domain/trickery
 aliases: ["Aerdrie Faenya"]
 ---
 # Aerdrie Faenya

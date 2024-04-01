@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/coastal
-- monster/size/tiny
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/beast
 aliases: ["Crab"]
 ---
 # Crab
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 320, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Crab
@@ -38,7 +38,7 @@ title: Crab
 
 ## Actions
 
-***Claw.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+0` (+0 to hit), reach 5 ft., one target. *Hit:* 1 bludgeoning damage.
 ```
 ^statblock
 

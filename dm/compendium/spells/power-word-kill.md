@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/arcana-domain
-- spell/class/sorcerer
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/9
-- spell/school/enchantment
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/9
+- ttrpg-cli/spell/school/enchantment
 aliases: ["Power Word Kill"]
 ---
 # Power Word Kill

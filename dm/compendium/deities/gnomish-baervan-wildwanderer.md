@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/gnomish
-- domain/nature
+- ttrpg-cli/deity/gnomish
+- ttrpg-cli/domain/nature
 aliases: ["Baervan Wildwanderer"]
 ---
 # Baervan Wildwanderer

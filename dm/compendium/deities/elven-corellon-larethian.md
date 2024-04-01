@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/mtf
-- deity/elven
-- domain/arcana
-- domain/life
-- domain/light
-- domain/war
+- ttrpg-cli/deity/elven
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/light
+- ttrpg-cli/domain/war
 aliases: ["Corellon Larethian"]
 ---
 # Corellon Larethian

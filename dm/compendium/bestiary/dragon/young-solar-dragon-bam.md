@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/9
-- monster/size/large
-- monster/type/dragon
+- ttrpg-cli/monster/cr/9
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/dragon
 aliases: ["Young Solar Dragon"]
 ---
 # Young Solar Dragon
-*Source: Boo's Astral Menagerie p. 53*  
+*Source: Boo's Astral Menagerie p. 53, Light of Xaryxis*  
 
 A solar dragon (also known as a radiant dragon or a sun dragon) is born in the heart of a star. It divides its time outside its lair between patrolling its territory and hunting for food. The dragon has a serpentine body, a pair of ventral limbs ending in long fins, nebulous wings that give off light, and gleaming, multicolored scales. It can see clearly even in blindingly bright light.
 
@@ -49,10 +49,10 @@ title: Young Solar Dragon
 
 ***Multiattack.*** The dragon makes one Bite attack and one Tail attack.
 
-***Bite.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 12 (`2d6 + 5`) piercing damage plus 7 (`2d6`) radiant damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 10 ft., one target. *Hit:* `dice: 2d6 + 5|avg` (`2d6 + 5`) piercing damage plus `dice: 2d6|avg` (`2d6`) radiant damage.
 
-***Tail.*** *Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:* 8 (`1d6 + 5`) bludgeoning damage.
+***Tail.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 15 ft., one target. *Hit:* `dice: 1d6 + 5|avg` (`1d6 + 5`) bludgeoning damage.
 
-***Photonic Breath (Recharge 5-6).*** The dragon exhales a flashing mote of radiant energy that travels to a point the dragon can see within 120 feet of itself, then blossoms into a 20-foot-radius sphere centered on that point. Each creature in the sphere must make a DC 17 Constitution saving throw, taking 44 (`8d10`) radiant damage on a failed save, or half as much damage on a successful one.
+***Photonic Breath (Recharge 5-6).*** The dragon exhales a flashing mote of radiant energy that travels to a point the dragon can see within 120 feet of itself, then blossoms into a 20-foot-radius sphere centered on that point. Each creature in the sphere must make a DC 17 Constitution saving throw, taking `dice: 8d10|avg` (`8d10`) radiant damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock

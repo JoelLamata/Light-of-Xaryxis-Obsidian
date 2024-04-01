@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/size/small
-- monster/type/construct
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/size/small
+- ttrpg-cli/monster/type/construct
 aliases: ["Flying Sword"]
 ---
 # Flying Sword
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 20, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Flying Sword
@@ -33,12 +33,12 @@ title: Flying Sword
 
 ## Traits
 
-***Antimagic Susceptibility.*** The sword is [incapacitated](rules/conditions.md#incapacitated) while in the area of an [antimagic field](compendium/spells/antimagic-field.md). If targeted by [dispel magic](compendium/spells/dispel-magic.md), the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall [unconscious](rules/conditions.md#unconscious) for 1 minute.
+***Antimagic Susceptibility.*** The sword is [incapacitated](/compendium/rules/conditions.md#incapacitated) while in the area of an [antimagic field](compendium/spells/antimagic-field.md). If targeted by [dispel magic](compendium/spells/dispel-magic.md), the sword must succeed on a Constitution saving throw against the caster's spell save DC or fall [unconscious](/compendium/rules/conditions.md#unconscious) for 1 minute.
 
 ***False Appearance.*** While the sword remains motionless and isn't flying, it is indistinguishable from a normal sword.
 
 ## Actions
 
-***Longsword.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (`1d8 + 1`) slashing damage.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 1|avg` (`1d8 + 1`) slashing damage.
 ```
 ^statblock

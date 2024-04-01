@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Guild Artisan (Guild Merchant) (Variant)"]
 ---
 # Guild Artisan (Guild Merchant) (Variant)
 *Source: Player's Handbook p. 133*  
 
-- **Skill Proficiencies.** [Insight](rules/skills.md#Insight), [Persuasion](rules/skills.md#Persuasion)  
+- **Skill Proficiencies.** [Insight](/compendium/rules/skills.md#Insight), [Persuasion](/compendium/rules/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of artisan's tools, or [navigator's tools](compendium/items/navigators-tools.md), or an additional language  
 - **Languages.** One of your choice  
 - **Equipment.** A set of artisan's tools (one of your choice) or a [mule](compendium/items/mule.md) and [cart](compendium/items/cart.md), a letter of introduction from your guild, a set of [traveler's clothes](compendium/items/travelers-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 15 gp  

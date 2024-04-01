@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/phb
-- race/human/variant
+- ttrpg-cli/race/human/variant
 aliases: ["Human (Variant)"]
 ---
 # Human (Variant)

@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Noble (Retainers) (Variant)"]
 ---
 # Noble (Retainers) (Variant)
 *Source: Player's Handbook p. 136*  
 
-- **Skill Proficiencies.** [History](rules/skills.md#History), [Persuasion](rules/skills.md#Persuasion)  
+- **Skill Proficiencies.** [History](/compendium/rules/skills.md#History), [Persuasion](/compendium/rules/skills.md#Persuasion)  
 - **Tool Proficiencies.** One type of gaming set  
 - **Languages.** One of your choice  
 - **Equipment.** A set of [fine clothes](compendium/items/fine-clothes.md), a [signet ring](compendium/items/signet-ring.md), a scroll of pedigree, and a purse containing 25 gp  

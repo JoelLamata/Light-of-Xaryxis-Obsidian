@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/property/versatile
-- item/rarity/rare
-- item/tier/major
-- item/wondrous/staff
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/property/versatile
+- ttrpg-cli/item/rarity/rare
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/staff
 aliases: 
 - "Staff of Swarming Insects"
 ---
@@ -17,10 +17,10 @@ aliases:
 - **Damage**:
   - One-handed: 1d6 B
   - Two-handed: 1d8 B
-- **Properties**: [Versatile](rules/item-properties.md#Versatile)
+- **Properties**: [Versatile](/compendium/rules/item-properties.md#Versatile)
 - **Weight**: 4.0 lbs.
 
-This staff has 10 charges and regains `1d6 + 4` expended charges daily at dawn. If you expend the last charge, roll a `d20`. On a 1, a swarm of insects consumes and destroys the staff, then disperses.
+This staff has 10 charges and regains `dice: 1d6 + 4|avg` (`1d6 + 4`) expended charges daily at dawn. If you expend the last charge, roll a `dice: d20|avg` (`d20`). On a 1, a [swarm of insects](compendium/bestiary/beast/swarm-of-insects.md) consumes and destroys the staff, then disperses.
 
 ## Spells
 

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/scag
-- item/armor/medium
-- item/rarity/unknown
+- ttrpg-cli/item/armor/medium
+- ttrpg-cli/item/rarity/unknown
 aliases: 
 - "Spiked Armor"
 ---

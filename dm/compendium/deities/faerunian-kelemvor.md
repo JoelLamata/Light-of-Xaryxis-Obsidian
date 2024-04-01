@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/death
-- domain/grave
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/grave
 aliases: ["Kelemvor", "The Lord of the Dead", "The Judge of the Damned"]
 ---
 # Kelemvor

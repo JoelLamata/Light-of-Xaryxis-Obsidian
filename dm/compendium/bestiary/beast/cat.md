@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/desert
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/urban
-- monster/size/tiny
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/desert
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/beast
 aliases: ["Cat"]
 ---
 # Cat
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 320, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Cat
@@ -37,11 +37,11 @@ title: Cat
 
 ## Traits
 
-***Keen Smell.*** The cat has advantage on Wisdom ([Perception](rules/skills.md#Perception)) checks that rely on smell.
+***Keen Smell.*** The cat has advantage on Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks that rely on smell.
 
 ## Actions
 
-***Claws.*** *Melee Weapon Attack:* +0 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+0` (+0 to hit), reach 5 ft., one target. *Hit:* 1 slashing damage.
 ```
 ^statblock
 

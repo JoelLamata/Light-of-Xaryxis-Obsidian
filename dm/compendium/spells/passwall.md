@@ -3,10 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/druid/circle-of-the-land
-- spell/class/wizard
-- spell/level/5
-- spell/school/transmutation
+- ttrpg-cli/spell/class/artificer/armorer
+- ttrpg-cli/spell/class/druid/circle-of-the-land
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/5
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Passwall"]
 ---
 # Passwall
@@ -21,6 +22,6 @@ A passage appears at a point of your choice that you can see on a wooden, plaste
 
 When the opening disappears, any creatures or objects still in the passage created by the spell are safely ejected to an unoccupied space nearest to the surface on which you cast the spell.
 
-**Classes**: [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Artificer (Armorer)](compendium/classes/artificer-armorer-tce.md), [Druid (Circle of the Land)](compendium/classes/druid-circle-of-the-land.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 264. Available in the SRD and the Basic Rules.*

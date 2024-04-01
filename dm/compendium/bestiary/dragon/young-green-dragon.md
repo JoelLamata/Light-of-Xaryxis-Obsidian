@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/8
-- monster/environment/forest
-- monster/size/large
-- monster/type/dragon
+- ttrpg-cli/monster/cr/8
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/dragon
 aliases: ["Young Green Dragon"]
 ---
 # Young Green Dragon
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 94, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Young Green Dragon
@@ -40,11 +40,11 @@ title: Young Green Dragon
 
 ***Multiattack.*** The dragon makes three attacks: one with its bite and two with its claws.
 
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (`2d10 + 4`) piercing damage plus 7 (`2d6`) poison damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 4|avg` (`2d10 + 4`) piercing damage plus `dice: 2d6|avg` (`2d6`) poison damage.
 
-***Claw.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (`2d6 + 4`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) slashing damage.
 
-***Poison Breath (Recharge 5-6).*** The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (`12d6`) poison damage on a failed save, or half as much damage on a successful one.
+***Poison Breath (Recharge 5-6).*** The dragon exhales poisonous gas in a 30-foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking `dice: 12d6|avg` (`12d6`) poison damage on a failed save, or half as much damage on a successful one.
 ```
 ^statblock
 

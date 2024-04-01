@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/7
-- monster/environment/forest
-- monster/environment/urban
-- monster/size/large
-- monster/type/giant
+- ttrpg-cli/monster/cr/7
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/giant
 aliases: ["Oni"]
 ---
 # Oni
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 239, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Oni
@@ -49,9 +49,9 @@ title: Oni
 
 ***Multiattack.*** The oni makes two attacks, either with its claws or its glaive.
 
-***Claw (Oni Form Only).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) slashing damage.
+***Claw (Oni Form Only).*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) slashing damage.
 
-***Glaive.*** *Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (`2d10 + 4`) slashing damage, or 9 (`1d10 + 4`) slashing damage in Small or Medium form.
+***Glaive.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 4|avg` (`2d10 + 4`) slashing damage, or `dice: 1d10 + 4|avg` (`1d10 + 4`) slashing damage in Small or Medium form.
 
 ***Change Shape.*** The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.
 ```

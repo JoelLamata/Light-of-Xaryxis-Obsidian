@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-reward
 tags:
 - compendium/src/5e/bam
-- reward/charm
+- ttrpg-cli/reward/charm
 aliases: ["Charm of Instant Tools"]
 ---
 # Charm of Instant Tools

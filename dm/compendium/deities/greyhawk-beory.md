@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greyhawk
-- domain/nature
+- ttrpg-cli/deity/greyhawk
+- ttrpg-cli/domain/nature
 aliases: ["Beory"]
 ---
 # Beory

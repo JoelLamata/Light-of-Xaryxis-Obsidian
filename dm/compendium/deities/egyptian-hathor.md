@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/egyptian
-- domain/life
-- domain/light
+- ttrpg-cli/deity/egyptian
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/light
 aliases: ["Hathor"]
 ---
 # Hathor

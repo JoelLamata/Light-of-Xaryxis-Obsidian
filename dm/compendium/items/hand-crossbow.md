@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/ammunition
-- item/property/light
-- item/property/loading
-- item/property/martial
-- item/weapon/martial/ranged
+- ttrpg-cli/item/property/ammunition
+- ttrpg-cli/item/property/light
+- ttrpg-cli/item/property/loading
+- ttrpg-cli/item/property/martial
+- ttrpg-cli/item/weapon/martial/ranged
 aliases: 
 - "Hand Crossbow"
 ---
@@ -16,7 +16,7 @@ aliases:
 
 - **Damage**: 1d6 P
 - **Range**: 30/120
-- **Properties**: [Ammunition](rules/item-properties.md#Ammunition), [Light](rules/item-properties.md#Light), [Loading](rules/item-properties.md#Loading), Martial
+- **Properties**: [Ammunition](/compendium/rules/item-properties.md#Ammunition), [Light](/compendium/rules/item-properties.md#Light), [Loading](/compendium/rules/item-properties.md#Loading), Martial
 - **Cost**: 75 gp
 - **Weight**: 3.0 lbs.
 

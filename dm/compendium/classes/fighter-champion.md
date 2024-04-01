@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/fighter/champion
+- ttrpg-cli/subclass/fighter/champion
 aliases: ["Champion"]
 ---
 # Champion

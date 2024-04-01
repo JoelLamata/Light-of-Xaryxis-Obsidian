@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/rarity/varies
-- item/wondrous
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/varies
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Belt of Giant Strength"
 ---

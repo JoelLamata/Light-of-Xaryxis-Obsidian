@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/dmg
-- monster/cr/
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Giant Fly (DMG)"]
 ---
 # Giant Fly (DMG)

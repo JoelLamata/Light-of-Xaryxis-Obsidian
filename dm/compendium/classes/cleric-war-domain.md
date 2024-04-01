@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- domain/war
-- subclass/cleric/war
+- ttrpg-cli/domain/war
+- ttrpg-cli/subclass/cleric/war
 aliases: ["War Domain"]
 ---
 # War Domain
@@ -37,7 +37,7 @@ At 1st level, you gain proficiency with martial weapons and heavy armor.
 
 ### War Priest (Level 1)
 
-From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the [Attack](rules/actions.md#Attack) action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
+From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the [Attack](/compendium/rules/actions.md#Attack) action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
 ### Channel Divinity: Guided Strike (Level 2)
 
@@ -49,7 +49,14 @@ At 6th level, when a creature within 30 feet of you makes an attack roll, you ca
 
 ### Divine Strike (Level 8)
 
-At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `1d8` damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to `2d8`.
+At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra `dice: 1d8|avg` (`1d8`) damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to `dice: 2d8|avg` (`2d8`).
+
+### Blessed Strikes (Level 8)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*8th-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Divine Strike feature*
+
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `dice: 1d8|avg` (`1d8`) radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Avatar of Battle (Level 17)
 

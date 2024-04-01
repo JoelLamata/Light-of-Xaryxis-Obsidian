@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/12
-- monster/size/medium
-- monster/type/fiend/devil
+- ttrpg-cli/monster/cr/12
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/fiend/devil
 aliases: ["Erinyes"]
 ---
 # Erinyes
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 73, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Erinyes
@@ -33,7 +33,7 @@ title: Erinyes
 
 ## Traits
 
-***Hellish Weapons.*** The erinyes's weapon attacks are magical and deal an extra 13 (`3d8`) poison damage on a hit (included in the attacks).
+***Hellish Weapons.*** The erinyes's weapon attacks are magical and deal an extra `dice: 3d8|avg` (`3d8`) poison damage on a hit (included in the attacks).
 
 ***Magic Resistance.*** The erinyes has advantage on saving throws against spells and other magical effects.
 
@@ -41,9 +41,9 @@ title: Erinyes
 
 ***Multiattack.*** The erinyes makes three attacks.
 
-***Longsword.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8 (`1d8 + 4`) slashing damage, or 9 (`1d10 + 4`) slashing damage if used with two hands, plus 13 (`3d8`) poison damage.
+***Longsword.*** *Melee Weapon Attack:* `dice: d20+8` (+8 to hit), reach 5 ft., one target. *Hit:* `dice: 1d8 + 4|avg` (`1d8 + 4`) slashing damage, or `dice: 1d10 + 4|avg` (`1d10 + 4`) slashing damage if used with two hands, plus `dice: 3d8|avg` (`3d8`) poison damage.
 
-***Longbow.*** *Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:* 7 (`1d8 + 3`) piercing damage plus 13 (`3d8`) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be [poisoned](rules/conditions.md#poisoned). The poison lasts until it is removed by the [lesser restoration](compendium/spells/lesser-restoration.md) spell or similar magic.
+***Longbow.*** *Ranged Weapon Attack:* `dice: d20+7` (+7 to hit), range 150/600 ft., one target. *Hit:* `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage plus `dice: 3d8|avg` (`3d8`) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be [poisoned](/compendium/rules/conditions.md#poisoned). The poison lasts until it is removed by the [lesser restoration](compendium/spells/lesser-restoration.md) spell or similar magic.
 
 ## Reactions
 

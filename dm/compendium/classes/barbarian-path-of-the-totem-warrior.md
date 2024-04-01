@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/barbarian/totem-warrior
+- ttrpg-cli/subclass/barbarian/totem-warrior
 aliases: ["Path of the Totem Warrior"]
 ---
 # Path of the Totem Warrior
@@ -35,7 +35,7 @@ Your totem animal might be an animal related to those listed here but more appro
 
 - **Eagle**  
 
-    While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the [Dash](rules/actions.md#Dash) action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.  
+    While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the [Dash](/compendium/rules/actions.md#Dash) action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease.  
 
 - **Elk**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
@@ -61,17 +61,17 @@ At 6th level, you gain a magical benefit based on the totem animal of your choic
 
 - **Eagle**  
 
-    You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom ([Perception](rules/skills.md#Perception)) checks.  
+    You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom ([Perception](/compendium/rules/skills.md#Perception)) checks.  
 
 - **Elk**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
 
-    Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not [incapacitated](rules/conditions.md#incapacitated). The elk spirit helps you roam far and fast.  
+    Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not [incapacitated](/compendium/rules/conditions.md#incapacitated). The elk spirit helps you roam far and fast.  
 
 - **Tiger**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
 
-    You gain proficiency in two skills from the following list: [Athletics](rules/skills.md#Athletics), [Acrobatics](rules/skills.md#Acrobatics), [Stealth](rules/skills.md#Stealth), and [Survival](rules/skills.md#Survival). The cat spirit hones your survival instincts.  
+    You gain proficiency in two skills from the following list: [Athletics](/compendium/rules/skills.md#Athletics), [Acrobatics](/compendium/rules/skills.md#Acrobatics), [Stealth](/compendium/rules/skills.md#Stealth), and [Survival](/compendium/rules/skills.md#Survival). The cat spirit hones your survival instincts.  
 
 - **Wolf**  
 
@@ -87,7 +87,7 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 
 - **Bear**  
 
-    While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be [frightened](rules/conditions.md#frightened).  
+    While you're raging, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be [frightened](/compendium/rules/conditions.md#frightened).  
 
 - **Eagle**  
 
@@ -96,7 +96,7 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 - **Elk**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
 
-    While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked [prone](rules/conditions.md#prone) and take bludgeoning damage equal to `1d12` + your Strength modifier.  
+    While raging, you can use a bonus action during your move to pass through the space of a Large or smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked [prone](/compendium/rules/conditions.md#prone) and take bludgeoning damage equal to `dice: 1d12|avg` (`1d12`) + your Strength modifier.  
 
 - **Tiger**  
     _Source: Sword Coast Adventurer's Guide p. 122_  
@@ -105,4 +105,4 @@ At 14th level, you gain a magical benefit based on a totem animal of your choice
 
 - **Wolf**  
 
-    While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature [prone](rules/conditions.md#prone) when you hit it with melee weapon attack.
+    While you're raging, you can use a bonus action on your turn to knock a Large or smaller creature [prone](/compendium/rules/conditions.md#prone) when you hit it with melee weapon attack.

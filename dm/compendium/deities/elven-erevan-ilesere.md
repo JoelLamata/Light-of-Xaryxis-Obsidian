@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/elven
-- domain/trickery
+- ttrpg-cli/deity/elven
+- ttrpg-cli/domain/trickery
 aliases: ["Erevan Ilesere"]
 ---
 # Erevan Ilesere

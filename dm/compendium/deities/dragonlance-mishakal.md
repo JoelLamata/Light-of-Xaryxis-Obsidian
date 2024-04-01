@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/dragonlance
-- domain/knowledge
-- domain/life
-- domain/twilight
+- ttrpg-cli/deity/dragonlance
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/twilight
 aliases: ["Mishakal"]
 ---
 # Mishakal

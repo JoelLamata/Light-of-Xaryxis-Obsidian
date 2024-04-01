@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/lox
-- monster/cr/8
-- monster/size/medium
-- monster/type/humanoid/wizard
+- ttrpg-cli/monster/cr/8
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/wizard
 aliases: ["Prince Xeleth"]
 ---
 # Prince Xeleth
@@ -16,7 +16,7 @@ title: Prince Xeleth
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/LoX/Prince%20Xeleth.webp#token)
 *Medium humanoid (wizard), Chaotic Evil*
 
-- **Armor Class** 16  (elven chain)
+- **Armor Class** 16  ([elven chain](compendium/items/elven-chain.md))
 - **Hit Points** 103 (`23d8`)
 - **Speed** 30 ft.
 
@@ -33,23 +33,23 @@ title: Prince Xeleth
 
 ## Traits
 
-***Fey Ancestry.*** Xeleth has advantage on saving throws it makes to avoid or end the charmed condition on itself, and magic can't put it to sleep.
+***Fey Ancestry.*** Xeleth has advantage on saving throws it makes to avoid or end the [charmed](/compendium/rules/conditions.md#charmed) condition on itself, and magic can't put it to sleep.
 
-***Special Equipment.*** Xeleth wears a suit of elven chain.
+***Special Equipment.*** Xeleth wears a suit of [elven chain](compendium/items/elven-chain.md).
 
 ***Unusual Nature.*** Xeleth doesn't require sleep.
 
 ***Spellcasting.*** Xeleth casts one of the following spells, using Intelligence as the spellcasting ability:
 
-**1/day each**: fly, mislead, sending
+**1/day each**: [fly](compendium/spells/fly.md), [mislead](compendium/spells/mislead.md), [sending](compendium/spells/sending.md)
 
 ## Actions
 
 ***Multiattack.*** Xeleth makes two Scimitar attacks and uses Radiant Beam (if available).
 
-***Scimitar.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) slashing damage plus 10 (`3d6`) radiant damage.
+***Scimitar.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) slashing damage plus `dice: 3d6|avg` (`3d6`) radiant damage.
 
-***Radiant Beam (3/Day).*** A magical beam of radiance flashes out from Xeleth's hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a DC 16 Constitution saving throw, taking 18 (`4d8`) radiant damage on a failed save, or half as much damage on a successful one.
+***Radiant Beam (3/Day).*** A magical beam of radiance flashes out from Xeleth's hand in a 5-foot-wide, 60-foot-long line. Each creature in the line must make a DC 16 Constitution saving throw, taking `dice: 4d8|avg` (`4d8`) radiant damage on a failed save, or half as much damage on a successful one.
 
 ## Bonus Actions
 

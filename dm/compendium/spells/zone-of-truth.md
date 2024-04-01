@@ -3,13 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric
-- spell/class/paladin
-- spell/class/paladin/oath-of-devotion
-- spell/class/paladin/oath-of-the-crown
-- spell/level/2
-- spell/school/enchantment
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/order-domain
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/paladin/oath-of-devotion
+- ttrpg-cli/spell/class/paladin/oath-of-the-crown
+- ttrpg-cli/spell/class/ranger/monster-slayer
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/enchantment
 aliases: ["Zone of Truth"]
 ---
 # Zone of Truth
@@ -24,6 +27,6 @@ You create a magical zone that guards against deception in a 15-foot-radius sphe
 
 An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Cleric](compendium/classes/cleric.md), [Paladin (Oath of Devotion)](compendium/classes/paladin-oath-of-devotion.md), [Paladin (Oath of the Crown)](compendium/classes/paladin-oath-of-the-crown-scag.md), [Paladin](compendium/classes/paladin.md)
+**Classes**: [Bard](compendium/classes/bard.md), [Cleric (Order Domain)](compendium/classes/cleric-order-domain-tce.md), [Cleric](compendium/classes/cleric.md), [Paladin (Oath of Devotion)](compendium/classes/paladin-oath-of-devotion.md), [Paladin (Oath of the Crown)](compendium/classes/paladin-oath-of-the-crown-scag.md), [Paladin](compendium/classes/paladin.md), [Ranger (Monster Slayer)](compendium/classes/ranger-monster-slayer-xge.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 289. Available in the SRD.*

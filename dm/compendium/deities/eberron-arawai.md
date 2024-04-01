@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/life
-- domain/nature
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/nature
 aliases: ["Arawai"]
 ---
 # Arawai

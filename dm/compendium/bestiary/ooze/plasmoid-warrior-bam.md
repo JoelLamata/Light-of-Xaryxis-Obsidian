@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/3
-- monster/size/medium
-- monster/type/ooze
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/ooze
 aliases: ["Plasmoid Warrior"]
 ---
 # Plasmoid Warrior
@@ -18,7 +18,7 @@ title: Plasmoid Warrior
 ![](https://raw.githubusercontent.com/5etools-mirror-2/5etools-img/main/bestiary/tokens/BAM/Plasmoid%20Warrior.webp#token)
 *Medium ooze, Any alignment*
 
-- **Armor Class** 16  (natural armor, shield)
+- **Armor Class** 16  (natural armor, [shield](compendium/items/shield.md))
 - **Hit Points** 71 (`11d8 + 22`)
 - **Speed** 30 ft.
 
@@ -43,10 +43,10 @@ title: Plasmoid Warrior
 
 ***Multiattack.*** The plasmoid makes three Pseudopod attacks. It can replace one of those attacks with a Spear or Pistol attack.
 
-***Pseudopod.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) bludgeoning damage.
+***Pseudopod.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) bludgeoning damage.
 
-***Spear.*** *Melee or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (`1d6 + 3`) piercing damage, or 7 (`1d8 + 3`) piercing damage when used with two hands to make a melee attack.
+***Spear.*** *Melee or Ranged Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft. or range 20/60 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) piercing damage, or `dice: 1d8 + 3|avg` (`1d8 + 3`) piercing damage when used with two hands to make a melee attack.
 
-***Pistol.*** *Ranged Weapon Attack:* +4 to hit, range 30/90 ft., one target. *Hit:* 7 (`1d10 + 2`) piercing damage.
+***Pistol.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 30/90 ft., one target. *Hit:* `dice: 1d10 + 2|avg` (`1d10 + 2`) piercing damage.
 ```
 ^statblock

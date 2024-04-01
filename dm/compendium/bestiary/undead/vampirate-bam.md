@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/2
-- monster/size/medium
-- monster/type/undead
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/undead
 aliases: ["Vampirate"]
 ---
 # Vampirate
-*Source: Boo's Astral Menagerie p. 62*  
+*Source: Boo's Astral Menagerie p. 62, Light of Xaryxis*  
 
 Vampirates are the walking, talking husks of dead pirates who refused to go quietly into the afterlife. They ply the void in their ships, plundering unsuspecting vessels and feeding on the life energy of those unlucky enough to cross their path.
 
@@ -41,7 +41,7 @@ title: Vampirate
 
 ## Traits
 
-***Explode.*** When the vampirate is reduced to 0 hit points, it explodes in a cloud of ash. Any creature within 5 feet of it must succeed on a DC 14 Constitution saving throw or take 5 (`1d10`) necrotic damage.
+***Explode.*** When the vampirate is reduced to 0 hit points, it explodes in a cloud of ash. Any creature within 5 feet of it must succeed on a DC 14 Constitution saving throw or take `dice: 1d10|avg` (`1d10`) necrotic damage.
 
 ***Spider Climb.*** The vampirate can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
 
@@ -49,8 +49,8 @@ title: Vampirate
 
 ## Actions
 
-***Energy Drain.*** *Melee or Ranged Spell Attack:* +4 to hit, reach 5 ft. or range 30 ft., one creature. *Hit:* 11 (`2d10`) necrotic damage. A Humanoid reduced to 0 hit points by this attack dies and instantly transforms into a free-willed shadow under the DM's control.
+***Energy Drain.*** *Melee or Ranged Spell Attack:* `dice: d20+4` (+4 to hit), reach 5 ft. or range 30 ft., one creature. *Hit:* `dice: 2d10|avg` (`2d10`) necrotic damage. A Humanoid reduced to 0 hit points by this attack dies and instantly transforms into a free-willed shadow under the DM's control.
 
-***Light Crossbow.*** *Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 11 (`2d8 + 2`) piercing damage.
+***Light Crossbow.*** *Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), range 80/320 ft., one target. *Hit:* `dice: 2d8 + 2|avg` (`2d8 + 2`) piercing damage.
 ```
 ^statblock

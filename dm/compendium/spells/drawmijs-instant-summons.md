@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/wizard
-- spell/level/6
-- spell/ritual
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/6
+- ttrpg-cli/spell/ritual
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Drawmij's Instant Summons"]
 ---
 # Drawmij's Instant Summons

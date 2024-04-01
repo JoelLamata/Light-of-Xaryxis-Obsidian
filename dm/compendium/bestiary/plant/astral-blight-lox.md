@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/lox
-- monster/cr/1
-- monster/size/medium
-- monster/type/plant
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/plant
 aliases: ["Astral Blight"]
 ---
 # Astral Blight
@@ -41,6 +41,6 @@ title: Astral Blight
 
 ***Multiattack.*** The blight makes two Heat-Draining Vine attacks.
 
-***Heat-Draining Vine.*** *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 6 (`1d6 + 3`) radiant damage, and if the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target takes 3 (`1d6`) cold damage at the start of each of its turns. The blight has two vines, each of which can grapple one creature.
+***Heat-Draining Vine.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 10 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) radiant damage, and if the target is a Large or smaller creature, it is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 13). Until this grapple ends, the target takes `dice: 1d6|avg` (`1d6`) cold damage at the start of each of its turns. The blight has two vines, each of which can grapple one creature.
 ```
 ^statblock

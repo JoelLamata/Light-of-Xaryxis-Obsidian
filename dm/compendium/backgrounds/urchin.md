@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Urchin"]
 ---
 # Urchin
 *Source: Player's Handbook p. 141*  
 
-- **Skill Proficiencies.** [Sleight of Hand](rules/skills.md#Sleight%20of%20Hand), [Stealth](rules/skills.md#Stealth)  
+- **Skill Proficiencies.** [Sleight of Hand](/compendium/rules/skills.md#Sleight%20of%20Hand), [Stealth](/compendium/rules/skills.md#Stealth)  
 - **Tool Proficiencies.** [Disguise kit](compendium/items/disguise-kit.md), [Thieves' tools](compendium/items/thieves-tools.md)  
 - **Equipment.** A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of [common clothes](compendium/items/common-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 10 gp  
 

@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/forgotten-realms
-- domain/life
-- domain/nature
-- domain/peace
+- ttrpg-cli/deity/forgotten-realms
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/peace
 aliases: ["Eldath"]
 ---
 # Eldath

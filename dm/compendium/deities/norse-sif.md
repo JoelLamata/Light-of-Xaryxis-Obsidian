@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/norse
-- domain/war
+- ttrpg-cli/deity/norse
+- ttrpg-cli/domain/war
 aliases: ["Sif"]
 ---
 # Sif

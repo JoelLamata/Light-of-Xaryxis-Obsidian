@@ -3,11 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/war-domain
-- spell/class/paladin
-- spell/level/1
-- spell/school/abjuration
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/war-domain
+- ttrpg-cli/spell/class/paladin
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/school/abjuration
 aliases: ["Shield of Faith"]
 ---
 # Shield of Faith
@@ -20,6 +21,6 @@ aliases: ["Shield of Faith"]
 
 A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration.
 
-**Classes**: [Cleric (War Domain)](compendium/classes/cleric-war-domain.md), [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md)
+**Classes**: [Cleric (War Domain)](compendium/classes/cleric-war-domain.md), [Cleric](compendium/classes/cleric.md), [Paladin](compendium/classes/paladin.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 275. Available in the SRD and the Basic Rules.*

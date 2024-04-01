@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1
-- monster/environment/forest
-- monster/environment/grassland
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/humanoid/goblinoid
+- ttrpg-cli/monster/cr/1
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/goblinoid
 aliases: ["Bugbear"]
 ---
 # Bugbear
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 33, Lost Mine of Phandelver, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Bugbear
@@ -38,13 +38,13 @@ title: Bugbear
 
 ***Brute.*** A melee weapon deals one extra die of its damage when the bugbear hits with it (included in the attack).
 
-***Surprise Attack.*** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (`2d6`) damage from the attack.
+***Surprise Attack.*** If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra `dice: 2d6|avg` (`2d6`) damage from the attack.
 
 ## Actions
 
-***Morningstar.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11 (`2d8 + 2`) piercing damage.
+***Morningstar.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 2|avg` (`2d8 + 2`) piercing damage.
 
-***Javelin.*** *Melee or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 9 (`2d6 + 2`) piercing damage in melee or 5 (`1d6 + 2`) piercing damage at range.
+***Javelin.*** *Melee or Ranged Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft. or range 30/120 ft., one target. *Hit:* `dice: 2d6 + 2|avg` (`2d6 + 2`) piercing damage in melee or `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage at range.
 ```
 ^statblock
 

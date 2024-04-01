@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/forest
-- monster/environment/hill
-- monster/environment/swamp
-- monster/environment/urban
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Swarm of Ravens"]
 ---
 # Swarm of Ravens
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 339, Tasha's Cauldron of Everything. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Swarm of Ravens
@@ -41,7 +41,7 @@ title: Swarm of Ravens
 
 ## Actions
 
-***Beaks.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target in the swarm's space. *Hit:* 7 (`2d6`) piercing damage, or 3 (`1d6`) piercing damage if the swarm has half of its hit points or fewer.
+***Beaks.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target in the swarm's space. *Hit:* `dice: 2d6|avg` (`2d6`) piercing damage, or `dice: 1d6|avg` (`1d6`) piercing damage if the swarm has half of its hit points or fewer.
 ```
 ^statblock
 

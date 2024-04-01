@@ -3,12 +3,12 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/nature-domain
-- spell/class/druid
-- spell/class/druid/circle-of-the-land
-- spell/class/ranger
-- spell/level/2
-- spell/school/transmutation
+- ttrpg-cli/spell/class/cleric/nature-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/druid/circle-of-the-land
+- ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/level/2
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Barkskin"]
 ---
 # Barkskin

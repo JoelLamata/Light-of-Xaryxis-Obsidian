@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/underdark
-- monster/size/medium
-- monster/type/humanoid/quaggoth
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/humanoid/quaggoth
 aliases: ["Quaggoth"]
 ---
 # Quaggoth
@@ -34,13 +34,13 @@ title: Quaggoth
 
 ## Traits
 
-***Wounded Fury.*** While it has 10 hit points or fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra 7 (`2d6`) damage to any target it hits with a melee attack.
+***Wounded Fury.*** While it has 10 hit points or fewer, the quaggoth has advantage on attack rolls. In addition, it deals an extra `dice: 2d6|avg` (`2d6`) damage to any target it hits with a melee attack.
 
 ## Actions
 
 ***Multiattack.*** The quaggoth makes two claw attacks.
 
-***Claw.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (`1d6 + 3`) slashing damage.
+***Claw.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 3|avg` (`1d6 + 3`) slashing damage.
 ```
 ^statblock
 

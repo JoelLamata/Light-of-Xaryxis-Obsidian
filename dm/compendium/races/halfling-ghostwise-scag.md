@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/scag
-- race/halfling/ghostwise
+- ttrpg-cli/race/halfling/ghostwise
 aliases: ["Halfling (Ghostwise)"]
 ---
 # Halfling (Ghostwise)
@@ -29,7 +29,7 @@ When you roll a 1 on an attack roll, ability check, or saving throw, you can rer
 
 ### Brave
 
-You have advantage on saving throws against being [frightened](rules/conditions.md#frightened).
+You have advantage on saving throws against being [frightened](/compendium/rules/conditions.md#frightened).
 
 ### Halfling Nimbleness
 

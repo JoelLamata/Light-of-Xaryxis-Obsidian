@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/nature
-- domain/tempest
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/nature
+- ttrpg-cli/domain/tempest
 aliases: ["Melora"]
 ---
 # Melora

@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- domain/knowledge
-- subclass/cleric/knowledge
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/subclass/cleric/knowledge
 aliases: ["Knowledge Domain"]
 ---
 # Knowledge Domain
@@ -33,7 +33,7 @@ At each indicated cleric level, you add the listed spells to your spells prepare
 
 ### Blessings of Knowledge (Level 1)
 
-At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: [Arcana](rules/skills.md#Arcana), [History](rules/skills.md#History), [Nature](rules/skills.md#Nature), or [Religion](rules/skills.md#Religion).
+At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: [Arcana](/compendium/rules/skills.md#Arcana), [History](/compendium/rules/skills.md#History), [Nature](/compendium/rules/skills.md#Nature), or [Religion](/compendium/rules/skills.md#Religion).
 
 Your proficiency bonus is doubled for any ability check you make that uses either of those skills.
 
@@ -55,9 +55,16 @@ During that time, you can use your action to end this effect and cast the [sugge
 
 Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
 
+### Blessed Strikes (Level 8)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*8th-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
+
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `dice: 1d8|avg` (`1d8`) radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
+
 ### Visions of the Past (Level 17)
 
-Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain [concentration](rules/conditions.md#concentration) during that time, as if you were casting a spell.
+Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain [concentration](/compendium/rules/conditions.md#concentration) during that time, as if you were casting a spell.
 
 Once you use this feature, you can't use it again until you finish a short or long rest.
 

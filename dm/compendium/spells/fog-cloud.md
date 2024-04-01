@@ -3,15 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/tempest-domain
-- spell/class/druid
-- spell/class/fighter/eldritch-knight
-- spell/class/ranger
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/1
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric/tempest-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock/the-genie
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/1
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Fog Cloud"]
 ---
 # Fog Cloud
@@ -26,6 +27,6 @@ You create a 20-foot-radius sphere of fog centered on a point within range. The 
 
 **At Higher Levels.** When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st.
 
-**Classes**: [Cleric (Tempest Domain)](compendium/classes/cleric-tempest-domain.md), [Druid](compendium/classes/druid.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Ranger](compendium/classes/ranger.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Cleric (Tempest Domain)](compendium/classes/cleric-tempest-domain.md), [Druid](compendium/classes/druid.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Ranger](compendium/classes/ranger.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Genie)](compendium/classes/warlock-the-genie-tce.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 243. Available in the SRD.*

@@ -3,9 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/level/9
-- spell/school/evocation
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/level/9
+- ttrpg-cli/spell/school/evocation
 aliases: ["Power Word Heal"]
 ---
 # Power Word Heal
@@ -16,8 +17,8 @@ aliases: ["Power Word Heal"]
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is [charmed](rules/conditions.md#charmed), [frightened](rules/conditions.md#frightened), [paralyzed](rules/conditions.md#paralyzed), or [stunned](rules/conditions.md#stunned), the condition ends. If the creature is [prone](rules/conditions.md#prone), it can use its reaction to stand up. This spell has no effect on undead or constructs.
+A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is [charmed](/compendium/rules/conditions.md#charmed), [frightened](/compendium/rules/conditions.md#frightened), [paralyzed](/compendium/rules/conditions.md#paralyzed), or [stunned](/compendium/rules/conditions.md#stunned), the condition ends. If the creature is [prone](/compendium/rules/conditions.md#prone), it can use its reaction to stand up. This spell has no effect on undead or constructs.
 
-**Classes**: [Bard](compendium/classes/bard.md)
+**Classes**: [Bard](compendium/classes/bard.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md)
 
 *Source: Player's Handbook p. 266*

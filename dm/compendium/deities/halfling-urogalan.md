@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/halfling
-- domain/death
-- domain/knowledge
+- ttrpg-cli/deity/halfling
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/knowledge
 aliases: ["Urogalan"]
 ---
 # Urogalan

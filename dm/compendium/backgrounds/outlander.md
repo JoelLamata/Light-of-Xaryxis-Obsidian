@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Outlander"]
 ---
 # Outlander
 *Source: Player's Handbook p. 136*  
 
-- **Skill Proficiencies.** [Athletics](rules/skills.md#Athletics), [Survival](rules/skills.md#Survival)  
+- **Skill Proficiencies.** [Athletics](/compendium/rules/skills.md#Athletics), [Survival](/compendium/rules/skills.md#Survival)  
 - **Tool Proficiencies.** One type of musical instrument  
 - **Languages.** One of your choice  
 - **Equipment.** A [staff](compendium/items/staff.md), a [hunting trap](compendium/items/hunting-trap.md), a trophy from an animal you killed, a set of [traveler's clothes](compendium/items/travelers-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 10 gp  

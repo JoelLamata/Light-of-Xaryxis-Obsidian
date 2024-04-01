@@ -3,13 +3,13 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/9
-- monster/size/large
-- monster/type/fiend/demon
+- ttrpg-cli/monster/cr/9
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/fiend/demon
 aliases: ["Glabrezu"]
 ---
 # Glabrezu
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 58, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD.*  
 
 ```ad-statblock
 title: Glabrezu
@@ -45,8 +45,8 @@ title: Glabrezu
 
 ***Multiattack.*** The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell.
 
-***Pincer.*** *Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (`2d10 + 5`) bludgeoning damage. If the target is a Medium or smaller creature, it is [grappled](rules/conditions.md#grappled) (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.
+***Pincer.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 10 ft., one target. *Hit:* `dice: 2d10 + 5|avg` (`2d10 + 5`) bludgeoning damage. If the target is a Medium or smaller creature, it is [grappled](/compendium/rules/conditions.md#grappled) (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.
 
-***Fist.*** *Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 7 (`2d4 + 2`) bludgeoning damage.
+***Fist.*** *Melee Weapon Attack:* `dice: d20+9` (+9 to hit), reach 5 ft., one target. *Hit:* `dice: 2d4 + 2|avg` (`2d4 + 2`) bludgeoning damage.
 ```
 ^statblock

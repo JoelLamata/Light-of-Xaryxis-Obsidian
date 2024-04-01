@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/knowledge
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/knowledge
 aliases: ["Oghma", "The Binder", "The Lord of Knowledge"]
 ---
 # Oghma

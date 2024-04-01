@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/weapon/simple/melee
+- ttrpg-cli/item/weapon/simple/melee
 aliases: 
 - "Mace"
 ---

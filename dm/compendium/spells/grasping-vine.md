@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/nature-domain
-- spell/class/druid
-- spell/class/ranger
-- spell/level/4
-- spell/school/conjuration
+- ttrpg-cli/spell/class/cleric/nature-domain
+- ttrpg-cli/spell/class/druid
+- ttrpg-cli/spell/class/ranger
+- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Grasping Vine"]
 ---
 # Grasping Vine

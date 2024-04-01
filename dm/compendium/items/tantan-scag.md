@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/scag
-- item/gear/instrument
+- ttrpg-cli/item/gear/instrument
 aliases: 
 - "Tantan"
 ---

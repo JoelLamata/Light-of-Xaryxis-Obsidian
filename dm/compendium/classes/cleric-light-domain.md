@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- domain/light
-- subclass/cleric/light
+- ttrpg-cli/domain/light
+- ttrpg-cli/subclass/cleric/light
 aliases: ["Light Domain"]
 ---
 # Light Domain
@@ -37,7 +37,7 @@ When you choose this domain at 1st level, you gain the [light](compendium/spells
 
 ### Warding Flare (Level 1)
 
-Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be [blinded](rules/conditions.md#blinded) is immune to this feature.
+Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be [blinded](/compendium/rules/conditions.md#blinded) is immune to this feature.
 
 You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.
 
@@ -45,7 +45,7 @@ You can use this feature a number of times equal to your Wisdom modifier (a mini
 
 Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.
 
-As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to `2d10` + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.
+As an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to `dice: 2d10|avg` (`2d10`) + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.
 
 ### Improved Flare (Level 6)
 
@@ -54,6 +54,13 @@ Starting at 6th level, you can also use your Warding Flare feature when a creatu
 ### Potent Spellcasting (Level 8)
 
 Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip.
+
+### Blessed Strikes (Level 8)
+_Source: Tasha's Cauldron of Everything p. 30_
+
+*8th-level cleric [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md), which replaces the Potent Spellcasting feature*
+
+You are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal `dice: 1d8|avg` (`1d8`) radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn.
 
 ### Corona of Light (Level 17)
 

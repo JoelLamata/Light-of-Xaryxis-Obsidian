@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/warlock
-- spell/level/8
-- spell/school/transmutation
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/level/8
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Glibness"]
 ---
 # Glibness

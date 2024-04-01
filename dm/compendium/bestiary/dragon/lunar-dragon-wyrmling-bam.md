@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/2
-- monster/size/medium
-- monster/type/dragon
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/dragon
 aliases: ["Lunar Dragon Wyrmling"]
 ---
 # Lunar Dragon Wyrmling
@@ -47,12 +47,12 @@ title: Lunar Dragon Wyrmling
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (`1d6 + 2`) piercing damage plus 3 (`1d6`) cold damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 1d6 + 2|avg` (`1d6 + 2`) piercing damage plus `dice: 1d6|avg` (`1d6`) cold damage.
 
-***Cold Breath (Recharge 5-6).*** The dragon exhales a blast of frost in a 15-foot cone. Each creature in the cone must make a DC 13 Constitution saving throw. On a failed save, the creature takes 13 (`3d8`) cold damage, and its speed is halved until the end of its next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.
+***Cold Breath (Recharge 5-6).*** The dragon exhales a blast of frost in a 15-foot cone. Each creature in the cone must make a DC 13 Constitution saving throw. On a failed save, the creature takes `dice: 3d8|avg` (`3d8`) cold damage, and its speed is halved until the end of its next turn. On a successful save, the creature takes half as much damage, and its speed isn't reduced.
 
 ## Bonus Actions
 
-***Phase (2/Day).*** The dragon becomes partially incorporeal for as long as it maintains concentration on the effect (as if concentrating on a spell). While partially incorporeal, the dragon has resistance to bludgeoning, piercing, and slashing damage.
+***Phase (2/Day).*** The dragon becomes partially incorporeal for as long as it maintains [concentration](/compendium/rules/conditions.md#concentration) on the effect (as if concentrating on a spell). While partially incorporeal, the dragon has resistance to bludgeoning, piercing, and slashing damage.
 ```
 ^statblock

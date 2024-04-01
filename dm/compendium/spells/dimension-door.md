@@ -3,16 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric/trickery-domain
-- spell/class/fighter/eldritch-knight
-- spell/class/paladin/oath-of-vengeance
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/warlock
-- spell/class/wizard
-- spell/level/4
-- spell/school/conjuration
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric/trickery-domain
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/paladin/oath-of-vengeance
+- ttrpg-cli/spell/class/ranger/fey-wanderer
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/warlock
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/4
+- ttrpg-cli/spell/school/conjuration
 aliases: ["Dimension Door"]
 ---
 # Dimension Door
@@ -27,8 +28,8 @@ You teleport yourself from your current location to any other spot within range.
 
 You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell.
 
-If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take `4d6` force damage, and the spell fails to teleport you.
+If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take `dice: 4d6|avg` (`4d6`) force damage, and the spell fails to teleport you.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Cleric (Trickery Domain)](compendium/classes/cleric-trickery-domain.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Paladin (Oath of Vengeance)](compendium/classes/paladin-oath-of-vengeance.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Bard](compendium/classes/bard.md), [Cleric (Trickery Domain)](compendium/classes/cleric-trickery-domain.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Paladin (Oath of Vengeance)](compendium/classes/paladin-oath-of-vengeance.md), [Ranger (Fey Wanderer)](compendium/classes/ranger-fey-wanderer-tce.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock](compendium/classes/warlock.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 233. Available in the SRD and the Basic Rules.*

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/orc
-- domain/life
-- domain/nature
+- ttrpg-cli/deity/orc
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/nature
 aliases: ["Luthic"]
 ---
 # Luthic

@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/wizard/conjuration
+- ttrpg-cli/subclass/wizard/conjuration
 aliases: ["School of Conjuration"]
 ---
 # School of Conjuration
@@ -35,7 +35,7 @@ Once you use this feature, you can't use it again until you finish a long rest o
 
 ### Focused Conjuration (Level 10)
 
-Beginning at 10th level, while you are concentrating on a conjuration spell, your [concentration](rules/conditions.md#concentration) can't be broken as a result of taking damage.
+Beginning at 10th level, while you are concentrating on a conjuration spell, your [concentration](/compendium/rules/conditions.md#concentration) can't be broken as a result of taking damage.
 
 ### Durable Summons (Level 14)
 

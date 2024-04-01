@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/phb
-- item/property/finesse
-- item/property/thrown
-- item/weapon/simple/ranged
+- ttrpg-cli/item/property/finesse
+- ttrpg-cli/item/property/thrown
+- ttrpg-cli/item/weapon/simple/ranged
 aliases: 
 - "Dart"
 ---
@@ -14,7 +14,7 @@ aliases:
 
 - **Damage**: 1d4 P
 - **Range**: 20/60
-- **Properties**: [Finesse](rules/item-properties.md#Finesse), [Thrown](rules/item-properties.md#Thrown)
+- **Properties**: [Finesse](/compendium/rules/item-properties.md#Finesse), [Thrown](/compendium/rules/item-properties.md#Thrown)
 - **Cost**: 5 cp
 - **Weight**: 0.25 lbs.
 

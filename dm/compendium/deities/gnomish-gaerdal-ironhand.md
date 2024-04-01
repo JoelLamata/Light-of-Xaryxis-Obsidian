@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/gnomish
-- domain/peace
-- domain/war
+- ttrpg-cli/deity/gnomish
+- ttrpg-cli/domain/peace
+- ttrpg-cli/domain/war
 aliases: ["Gaerdal Ironhand"]
 ---
 # Gaerdal Ironhand

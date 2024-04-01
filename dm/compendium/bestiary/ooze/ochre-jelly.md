@@ -3,14 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/underdark
-- monster/size/large
-- monster/type/ooze
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/underdark
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/ooze
 aliases: ["Ochre Jelly"]
 ---
 # Ochre Jelly
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 243, Lost Mine of Phandelver, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Ochre Jelly
@@ -40,7 +40,7 @@ title: Ochre Jelly
 
 ## Actions
 
-***Pseudopod.*** *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (`2d6 + 2`) bludgeoning damage plus 3 (`1d6`) acid damage.
+***Pseudopod.*** *Melee Weapon Attack:* `dice: d20+4` (+4 to hit), reach 5 ft., one target. *Hit:* `dice: 2d6 + 2|avg` (`2d6 + 2`) bludgeoning damage plus `dice: 1d6|avg` (`1d6`) acid damage.
 
 ## Reactions
 

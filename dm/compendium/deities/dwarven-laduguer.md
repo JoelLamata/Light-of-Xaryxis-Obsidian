@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/dwarven
-- domain/arcana
-- domain/death
+- ttrpg-cli/deity/dwarven
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/death
 aliases: ["Laduguer"]
 ---
 # Laduguer

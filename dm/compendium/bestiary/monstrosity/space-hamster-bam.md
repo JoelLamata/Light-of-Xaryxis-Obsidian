@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/1-4
-- monster/size/tiny
-- monster/type/monstrosity
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/size/tiny
+- ttrpg-cli/monster/type/monstrosity
 aliases: ["Space Hamster"]
 ---
 # Space Hamster
@@ -37,9 +37,9 @@ title: Space Hamster
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one target. *Hit:* 1 piercing damage.
 
-***Go for the Eyes (Recharge 6).*** *Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 8 (`1d6 + 5`) piercing damage, and the target must succeed on a DC 15 Dexterity saving throw or be blinded until the start of the hamster's next turn.
+***Go for the Eyes (Recharge 6).*** *Melee Weapon Attack:* `dice: d20+7` (+7 to hit), reach 5 ft., one creature. *Hit:* `dice: 1d6 + 5|avg` (`1d6 + 5`) piercing damage, and the target must succeed on a DC 15 Dexterity saving throw or be [blinded](/compendium/rules/conditions.md#blinded) until the start of the hamster's next turn.
 
 ## Bonus Actions
 

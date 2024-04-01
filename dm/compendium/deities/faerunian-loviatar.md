@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/death
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/death
 aliases: ["Loviatar", "The Maiden of Pain", "The Scourge Mistress", "The Willing Whip"]
 ---
 # Loviatar

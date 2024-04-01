@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/9
-- spell/school/evocation
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/9
+- ttrpg-cli/spell/school/evocation
 aliases: ["Meteor Swarm"]
 ---
 # Meteor Swarm
@@ -18,7 +18,7 @@ aliases: ["Meteor Swarm"]
 - **Components:** V, S
 - **Duration:** Instantaneous
 
-Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes `20d6` fire damage and `20d6` bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
+Blazing orbs of fire plummet to the ground at four different points you can see within range. Each creature in a 40-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. The sphere spreads around corners. A creature takes `dice: 20d6|avg` (`20d6`) fire damage and `dice: 20d6|avg` (`20d6`) bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst is affected only once.
 
 The spell damages objects in the area and ignites flammable objects that aren't being worn or carried.
 

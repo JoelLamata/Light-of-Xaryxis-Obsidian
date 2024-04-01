@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/attunement/required
-- item/rarity/uncommon
-- item/tier/major
-- item/wondrous/wand
+- ttrpg-cli/item/attunement/required
+- ttrpg-cli/item/rarity/uncommon
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous/wand
 aliases: 
 - "+1 Wand of the War Mage"
 ---

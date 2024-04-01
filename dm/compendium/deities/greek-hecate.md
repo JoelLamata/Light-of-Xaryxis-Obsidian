@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greek
-- domain/arcana
-- domain/knowledge
-- domain/trickery
+- ttrpg-cli/deity/greek
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/trickery
 aliases: ["Hecate"]
 ---
 # Hecate

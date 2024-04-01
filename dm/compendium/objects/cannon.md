@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-object
 tags:
 - compendium/src/5e/dmg
-- object/size/large
-- object/type/siege-weapon
+- ttrpg-cli/object/size/large
+- ttrpg-cli/object/type/siege-weapon
 aliases: ["Cannon"]
 ---
 # Cannon
@@ -30,6 +30,6 @@ title: Cannon
 
 ## Actions
 
-***Cannon Ball.*** *Ranged Weapon Attack:* +6 to hit, range 600/2,400 ft., one target. *Hit:* 44 (`8d10`) bludgeoning damage.
+***Cannon Ball.*** *Ranged Weapon Attack:* +6 to hit, range 600/2,400 ft., one target. *Hit:* 44 (`dice: 8d10|avg` (`8d10`)) bludgeoning damage.
 ```
 ^statblock

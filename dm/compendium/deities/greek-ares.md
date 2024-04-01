@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greek
-- domain/war
+- ttrpg-cli/deity/greek
+- ttrpg-cli/domain/war
 aliases: ["Ares"]
 ---
 # Ares

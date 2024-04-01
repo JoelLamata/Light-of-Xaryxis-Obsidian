@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/aag
-- race/plasmoid
+- ttrpg-cli/race/plasmoid
 aliases: ["Plasmoid"]
 ---
 # Plasmoid
@@ -38,7 +38,7 @@ You can hold your breath for 1 hour.
 
 ### Natural Resilience
 
-You have resistance to acid and poison damage, and you have advantage on saving throws against being poisoned.
+You have resistance to acid and poison damage, and you have advantage on saving throws against being [poisoned](/compendium/rules/conditions.md#poisoned).
 
 ### Shape Self
 

@@ -14,5 +14,7 @@ aliases: ["Metamagic"]
 - [Extended Spell](compendium/optional-features/extended-spell.md)
 - [Heightened Spell](compendium/optional-features/heightened-spell.md)
 - [Quickened Spell](compendium/optional-features/quickened-spell.md)
+- [Seeking Spell](compendium/optional-features/seeking-spell-tce.md)
 - [Subtle Spell](compendium/optional-features/subtle-spell.md)
+- [Transmuted Spell](compendium/optional-features/transmuted-spell-tce.md)
 - [Twinned Spell](compendium/optional-features/twinned-spell.md)

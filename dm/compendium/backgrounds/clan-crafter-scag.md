@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/scag
+- ttrpg-cli/background
 aliases: ["Clan Crafter"]
 ---
 # Clan Crafter
 *Source: Sword Coast Adventurer's Guide p. 145*  
 
-- **Skill Proficiencies.** [History](rules/skills.md#History), [Insight](rules/skills.md#Insight)  
+- **Skill Proficiencies.** [History](/compendium/rules/skills.md#History), [Insight](/compendium/rules/skills.md#Insight)  
 - **Tool Proficiencies.** One type of artisan's tools  
 - **Languages.** Dwarvish or one of your choice if you already speak Dwarvish  
 - **Equipment.** A set of artisan's tools with which you are proficient, a maker's mark chisel used to mark your handiwork with the symbol of the clan of crafters you learned your skill from, a set of [traveler's clothes](compendium/items/travelers-clothes.md), and a [pouch](compendium/items/pouch.md) containing 5 gp and a gem worth 10 gp  

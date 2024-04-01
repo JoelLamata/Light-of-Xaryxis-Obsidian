@@ -3,11 +3,11 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/sorcerer
-- spell/class/wizard
-- spell/level/6
-- spell/school/transmutation
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/6
+- ttrpg-cli/spell/school/transmutation
 aliases: ["Disintegrate"]
 ---
 # Disintegrate
@@ -20,7 +20,7 @@ aliases: ["Disintegrate"]
 
 A thin green ray springs from your pointing finger to a target that you can see within range. The target can be a creature, an object, or a creation of magical force, such as the wall created by [wall of force](compendium/spells/wall-of-force.md).
 
-A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes `10d6 + 40` force damage. The target is disintegrated if this damage leaves it with 0 hit points.
+A creature targeted by this spell must make a Dexterity saving throw. On a failed save, the target takes `dice: 10d6 + 40|avg` (`10d6 + 40`) force damage. The target is disintegrated if this damage leaves it with 0 hit points.
 
 A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. The creature can be restored to life only by means of a [true resurrection](compendium/spells/true-resurrection.md) or a [wish](compendium/spells/wish.md) spell.
 

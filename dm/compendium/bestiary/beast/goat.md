@@ -3,17 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/0
-- monster/environment/grassland
-- monster/environment/hill
-- monster/environment/mountain
-- monster/environment/urban
-- monster/size/medium
-- monster/type/beast
+- ttrpg-cli/monster/cr/0
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/mountain
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/beast
 aliases: ["Goat"]
 ---
 # Goat
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 330, Ghosts of Saltmarsh, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Goat
@@ -37,13 +37,13 @@ title: Goat
 
 ## Traits
 
-***Charge.*** If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra 2 (`1d4`) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked [prone](rules/conditions.md#prone).
+***Charge.*** If the goat moves at least 20 feet straight toward a target and then hits it with a ram attack on the same turn, the target takes an extra `dice: 1d4|avg` (`1d4`) bludgeoning damage. If the target is a creature, it must succeed on a DC 10 Strength saving throw or be knocked [prone](/compendium/rules/conditions.md#prone).
 
-***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it [prone](rules/conditions.md#prone).
+***Sure-Footed.*** The goat has advantage on Strength and Dexterity saving throws made against effects that would knock it [prone](/compendium/rules/conditions.md#prone).
 
 ## Actions
 
-***Ram.*** *Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (`1d4 + 1`) bludgeoning damage.
+***Ram.*** *Melee Weapon Attack:* `dice: d20+3` (+3 to hit), reach 5 ft., one target. *Hit:* `dice: 1d4 + 1|avg` (`1d4 + 1`) bludgeoning damage.
 ```
 ^statblock
 

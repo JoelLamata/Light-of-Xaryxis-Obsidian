@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/scag
-- deity/faerunian
-- domain/war
+- ttrpg-cli/deity/faerunian
+- ttrpg-cli/domain/war
 aliases: ["The Red Knight", "The Lady of Strategy", "The Crimson General", "The Grandmaster of the Lanceboard"]
 ---
 # The Red Knight

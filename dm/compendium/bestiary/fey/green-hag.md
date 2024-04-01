@@ -3,16 +3,16 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/3
-- monster/environment/forest
-- monster/environment/hill
-- monster/environment/swamp
-- monster/size/medium
-- monster/type/fey
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/environment/forest
+- ttrpg-cli/monster/environment/hill
+- ttrpg-cli/monster/environment/swamp
+- ttrpg-cli/monster/size/medium
+- ttrpg-cli/monster/type/fey
 aliases: ["Green Hag"]
 ---
 # Green Hag
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 177, Ghosts of Saltmarsh, Tasha's Cauldron of Everything. Available in the SRD.*  
 
 ```ad-statblock
 title: Green Hag
@@ -38,7 +38,7 @@ title: Green Hag
 
 ***Amphibious.*** The hag can breathe air and water.
 
-***Mimicry.*** The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom ([Insight](rules/skills.md#Insight)) check.
+***Mimicry.*** The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom ([Insight](/compendium/rules/skills.md#Insight)) check.
 
 ***Innate Spellcasting.*** The hag's innate spellcasting ability is Charisma (spell save DC 12). She can innately cast the following spells, requiring no material components:
 
@@ -46,13 +46,13 @@ title: Green Hag
 
 ## Actions
 
-***Claws.*** *Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (`2d8 + 4`) slashing damage.
+***Claws.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 5 ft., one target. *Hit:* `dice: 2d8 + 4|avg` (`2d8 + 4`) slashing damage.
 
 ***Illusory Appearance.*** The hag covers herself and anything she is wearing or carrying with a magical illusion that makes her look like another creature of her general size and humanoid shape. The illusion ends if the hag takes a bonus action to end it or if she dies.
 
-The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence ([Investigation](rules/skills.md#Investigation)) check to discern that the hag is disguised.
+The changes wrought by this effect fail to hold up to physical inspection. For example, the hag could appear to have smooth skin, but someone touching her would feel her rough flesh. Otherwise, a creature must take an action to visually inspect the illusion and succeed on a DC 20 Intelligence ([Investigation](/compendium/rules/skills.md#Investigation)) check to discern that the hag is disguised.
 
-***Invisible Passage.*** The hag magically turns [invisible](rules/conditions.md#invisible) until she attacks or casts a spell, or until her [concentration](rules/conditions.md#concentration) ends (as if concentrating on a spell). While [invisible](rules/conditions.md#invisible), she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is [invisible](rules/conditions.md#invisible) with her.
+***Invisible Passage.*** The hag magically turns [invisible](/compendium/rules/conditions.md#invisible) until she attacks or casts a spell, or until her [concentration](/compendium/rules/conditions.md#concentration) ends (as if concentrating on a spell). While [invisible](/compendium/rules/conditions.md#invisible), she leaves no physical evidence of her passage, so she can be tracked only by magic. Any equipment she wears or carries is [invisible](/compendium/rules/conditions.md#invisible) with her.
 ```
 ^statblock
 

@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-race
 tags:
 - compendium/src/5e/phb
-- race/half-orc
+- ttrpg-cli/race/half-orc
 aliases: ["Half-Orc"]
 ---
 # Half-Orc
@@ -29,7 +29,7 @@ Thanks to your orc blood, you have superior vision in dark and dim conditions. Y
 
 ### Menacing
 
-You gain proficiency in the [Intimidation](rules/skills.md#Intimidation) skill.
+You gain proficiency in the [Intimidation](/compendium/rules/skills.md#Intimidation) skill.
 
 ### Relentless Endurance
 

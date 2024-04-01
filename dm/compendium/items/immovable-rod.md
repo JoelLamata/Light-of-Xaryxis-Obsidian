@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/uncommon
-- item/tier/minor
-- item/wondrous/rod
+- ttrpg-cli/item/rarity/uncommon
+- ttrpg-cli/item/tier/minor
+- ttrpg-cli/item/wondrous/rod
 aliases: 
 - "Immovable Rod"
 ---

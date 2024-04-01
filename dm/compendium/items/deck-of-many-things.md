@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-item
 tags:
 - compendium/src/5e/dmg
-- item/rarity/legendary
-- item/tier/major
-- item/wondrous
+- ttrpg-cli/item/rarity/legendary
+- ttrpg-cli/item/tier/major
+- ttrpg-cli/item/wondrous
 aliases: 
 - "Deck of Many Things"
 ---
@@ -65,7 +65,7 @@ You gain 50,000 XP, and a wondrous item (which the DM determines randomly) appea
 
 ## Moon
 
-You are granted the ability to cast the [wish](compendium/spells/wish.md) spell `1d3` times.
+You are granted the ability to cast the [wish](compendium/spells/wish.md) spell `dice: 1d3|avg` (`1d3`) times.
 
 ## Star
 
@@ -81,7 +81,7 @@ Reality's fabric unravels and spins anew, allowing you to avoid or erase one eve
 
 ## Throne
 
-You gain proficiency in the [Persuasion](rules/skills.md#Persuasion) skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.
+You gain proficiency in the [Persuasion](/compendium/rules/skills.md#Persuasion) skill, and you double your proficiency bonus on checks made with that skill. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently in the hands of monsters, which you must clear out before you can claim the keep as yours.
 
 ## Key
 
@@ -101,7 +101,7 @@ Every magic item you wear or carry disintegrates. Artifacts in your possession a
 
 ## The Void
 
-This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](rules/conditions.md#incapacitated). A [wish](compendium/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
+This black card spells disaster. Your soul is drawn from your body and contained in an object in a place of the DM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is [incapacitated](/compendium/rules/conditions.md#incapacitated). A [wish](compendium/spells/wish.md) spell can't restore your soul, but the spell reveals the location of the object that holds it. You draw no more cards.
 
 ## Flames
 
@@ -113,7 +113,7 @@ You summon an [avatar of death](compendium/bestiary/undead/avatar-of-death-dmg.m
 
 ## Idiot
 
-Permanently reduce your Intelligence by `1d4 + 1` (to a minimum score of 1). You can draw one additional card beyond your declared draws.
+Permanently reduce your Intelligence by `dice: 1d4 + 1|avg` (`1d4 + 1`) (to a minimum score of 1). You can draw one additional card beyond your declared draws.
 
 ## Donjon
 
@@ -125,7 +125,7 @@ All forms of wealth that you carry or own, other than magic items, are lost to y
 
 ## Euryale
 
-The card's medusa-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](compendium/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
+The card's [medusa](compendium/bestiary/monstrosity/medusa.md)-like visage curses you. You take a −2 penalty on saving throws while cursed in this way. Only a god or the magic of [The Fates](compendium/decks/deck-of-many-things.md#The%20Fates) card can end this curse.
 
 ## Rogue
 

@@ -2,8 +2,8 @@
 obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
-- class/druid
 - compendium/src/5e/phb
+- ttrpg-cli/class/druid
 aliases: ["Druid"]
 ---
 # Druid
@@ -14,9 +14,9 @@ aliases: ["Druid"]
 > | Level | PB | Features |
 > |-------|----|----------|
 > | 1st | +2 | [Druidic](#Druidic%20(Level%201)), [Spellcasting](#Spellcasting%20(Level%201)) |
-> | 2nd | +2 | [Wild Shape](#Wild%20Shape%20(Level%202)), [Druid Circle](#Druid%20Circle%20(Level%202)) |
+> | 2nd | +2 | [Wild Shape](#Wild%20Shape%20(Level%202)), [Wild Companion](#Wild%20Companion%20(Level%202)), [Druid Circle](#Druid%20Circle%20(Level%202)) |
 > | 3rd | +2 | ⏤ |
-> | 4th | +2 | [Wild Shape Improvement](#Wild%20Shape%20Improvement%20(Level%204)), [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)) |
+> | 4th | +2 | [Wild Shape Improvement](#Wild%20Shape%20Improvement%20(Level%204)), [Ability Score Improvement](#Ability%20Score%20Improvement%20(Level%204)), [Cantrip Versatility](#Cantrip%20Versatility%20(Level%204)) |
 > | 5th | +3 | ⏤ |
 > | 6th | +3 | [Druid Circle feature](#Druid%20Circle%20feature%20(Level%206)) |
 > | 7th | +3 | ⏤ |
@@ -241,9 +241,9 @@ _Source: Xanathar's Guide to Everything_
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
 | 0 | Owl | Fly |
-| 1/8 | Blood hawk | Fly |
+| 1/8 | [Blood hawk](compendium/bestiary/beast/blood-hawk.md) | Fly |
 | 1/4 | Giant owl | Fly |
-| 1 | Brown bear | — |
+| 1 | [Brown bear](compendium/bestiary/beast/brown-bear.md) | — |
 | 2 | Polar bear | Swim |
 | 2 | Saber-toothed tiger | — |
 | 6 | Mammoth | — |
@@ -253,45 +253,45 @@ _Source: Xanathar's Guide to Everything_
 
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
-| 0 | Crab | Swim |
+| 0 | [Crab](compendium/bestiary/beast/crab.md) | Swim |
 | 0 | Eagle | Fly |
-| 1/8 | Blood hawk | Fly |
-| 1/8 | Giant crab | Swim |
-| 1/8 | Poisonous snake | Swim |
-| 1/8 | Stirge | Fly |
-| 1/4 | Giant lizard | — |
-| 1/4 | Giant wolf spider | — |
-| 1/4 | Pteranodon | Fly |
-| 1 | Giant eagle | Fly |
-| 1 | Giant toad | Swim |
-| 2 | Plesiosaurus | Swim |
+| 1/8 | [Blood hawk](compendium/bestiary/beast/blood-hawk.md) | Fly |
+| 1/8 | [Giant crab](compendium/bestiary/beast/giant-crab.md) | Swim |
+| 1/8 | [Poisonous snake](compendium/bestiary/beast/poisonous-snake.md) | Swim |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
+| 1/4 | [Giant lizard](compendium/bestiary/beast/giant-lizard.md) | — |
+| 1/4 | [Giant wolf spider](compendium/bestiary/beast/giant-wolf-spider.md) | — |
+| 1/4 | [Pteranodon](compendium/bestiary/beast/pteranodon.md) | Fly |
+| 1 | [Giant eagle](compendium/bestiary/beast/giant-eagle.md) | Fly |
+| 1 | [Giant toad](compendium/bestiary/beast/giant-toad.md) | Swim |
+| 2 | [Plesiosaurus](compendium/bestiary/beast/plesiosaurus.md) | Swim |
 ^coast
 
 **Desert**
 
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
-| 0 | Cat | — |
+| 0 | [Cat](compendium/bestiary/beast/cat.md) | — |
 | 0 | Hyena | — |
-| 0 | Jackal | — |
+| 0 | [Jackal](compendium/bestiary/beast/jackal.md) | — |
 | 0 | Scorpion | — |
-| 0 | Vulture | Fly |
-| 1/8 | Camel | — |
+| 0 | [Vulture](compendium/bestiary/beast/vulture.md) | Fly |
+| 1/8 | [Camel](compendium/bestiary/beast/camel.md) | — |
 | 1/8 | Flying snake | Fly |
-| 1/8 | Mule | — |
-| 1/8 | Poisonous snake | Swim |
-| 1/8 | Stirge | Fly |
+| 1/8 | [Mule](compendium/bestiary/beast/mule.md) | — |
+| 1/8 | [Poisonous snake](compendium/bestiary/beast/poisonous-snake.md) | Swim |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
 | 1/4 | Constrictor snake | Swim |
-| 1/4 | Giant lizard | — |
-| 1/4 | Giant poisonous snake | Swim |
-| 1/4 | Giant wolf spider | — |
-| 1 | Giant hyena | — |
-| 1 | Giant spider | — |
-| 1 | Giant toad | Swim |
+| 1/4 | [Giant lizard](compendium/bestiary/beast/giant-lizard.md) | — |
+| 1/4 | [Giant poisonous snake](compendium/bestiary/beast/giant-poisonous-snake.md) | Swim |
+| 1/4 | [Giant wolf spider](compendium/bestiary/beast/giant-wolf-spider.md) | — |
+| 1 | [Giant hyena](compendium/bestiary/beast/giant-hyena.md) | — |
+| 1 | [Giant spider](compendium/bestiary/beast/giant-spider.md) | — |
+| 1 | [Giant toad](compendium/bestiary/beast/giant-toad.md) | Swim |
 | 1 | Giant vulture | Fly |
 | 1 | Lion | — |
-| 2 | Giant constrictor snake | Swim |
-| 3 | Giant scorpion | — |
+| 2 | [Giant constrictor snake](compendium/bestiary/beast/giant-constrictor-snake.md) | Swim |
+| 3 | [Giant scorpion](compendium/bestiary/beast/giant-scorpion.md) | — |
 ^desert
 
 **Forest**
@@ -300,40 +300,40 @@ _Source: Xanathar's Guide to Everything_
 |----|-------|----------|
 | 0 | Baboon | — |
 | 0 | Badger | — |
-| 0 | Cat | — |
+| 0 | [Cat](compendium/bestiary/beast/cat.md) | — |
 | 0 | Deer | — |
 | 0 | Hyena | — |
 | 0 | Owl | Fly |
-| 1/8 | Blood hawk | Fly |
+| 1/8 | [Blood hawk](compendium/bestiary/beast/blood-hawk.md) | Fly |
 | 1/8 | Flying snake | Fly |
-| 1/8 | Giant rat | — |
-| 1/8 | Giant weasel | — |
-| 1/8 | Poisonous snake | Swim |
-| 1/8 | Mastiff | — |
-| 1/8 | Stirge | Fly |
+| 1/8 | [Giant rat](compendium/bestiary/beast/giant-rat.md) | — |
+| 1/8 | [Giant weasel](compendium/bestiary/beast/giant-weasel.md) | — |
+| 1/8 | [Poisonous snake](compendium/bestiary/beast/poisonous-snake.md) | Swim |
+| 1/8 | [Mastiff](compendium/bestiary/beast/mastiff.md) | — |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
 | 1/4 | Boar | — |
 | 1/4 | Constrictor snake | Swim |
 | 1/4 | Elk | — |
 | 1/4 | Giant badger | — |
-| 1/4 | Giant bat | Fly |
-| 1/4 | Giant frog | Swim |
-| 1/4 | Giant lizard | — |
+| 1/4 | [Giant bat](compendium/bestiary/beast/giant-bat.md) | Fly |
+| 1/4 | [Giant frog](compendium/bestiary/beast/giant-frog.md) | Swim |
+| 1/4 | [Giant lizard](compendium/bestiary/beast/giant-lizard.md) | — |
 | 1/4 | Giant owl | Fly |
-| 1/4 | Giant poisonous snake | Swim |
-| 1/4 | Giant wolf spider | — |
+| 1/4 | [Giant poisonous snake](compendium/bestiary/beast/giant-poisonous-snake.md) | Swim |
+| 1/4 | [Giant wolf spider](compendium/bestiary/beast/giant-wolf-spider.md) | — |
 | 1/4 | Panther | — |
-| 1/4 | Wolf | — |
-| 1/2 | Ape | — |
-| 1/2 | Black bear | — |
-| 1/2 | Giant wasp | Fly |
-| 1 | Brown bear | — |
-| 1 | Dire wolf | — |
-| 1 | Giant hyena | — |
-| 1 | Giant spider | — |
-| 1 | Giant toad | Swim |
-| 1 | Tiger | — |
-| 2 | Giant boar | — |
-| 2 | Giant constrictor snake | Swim |
+| 1/4 | [Wolf](compendium/bestiary/beast/wolf.md) | — |
+| 1/2 | [Ape](compendium/bestiary/beast/ape.md) | — |
+| 1/2 | [Black bear](compendium/bestiary/beast/black-bear.md) | — |
+| 1/2 | [Giant wasp](compendium/bestiary/beast/giant-wasp.md) | Fly |
+| 1 | [Brown bear](compendium/bestiary/beast/brown-bear.md) | — |
+| 1 | [Dire wolf](compendium/bestiary/beast/dire-wolf.md) | — |
+| 1 | [Giant hyena](compendium/bestiary/beast/giant-hyena.md) | — |
+| 1 | [Giant spider](compendium/bestiary/beast/giant-spider.md) | — |
+| 1 | [Giant toad](compendium/bestiary/beast/giant-toad.md) | Swim |
+| 1 | [Tiger](compendium/bestiary/beast/tiger.md) | — |
+| 2 | [Giant boar](compendium/bestiary/beast/giant-boar.md) | — |
+| 2 | [Giant constrictor snake](compendium/bestiary/beast/giant-constrictor-snake.md) | Swim |
 | 2 | Giant elk | — |
 ^forest
 
@@ -341,36 +341,36 @@ _Source: Xanathar's Guide to Everything_
 
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
-| 0 | Cat | — |
+| 0 | [Cat](compendium/bestiary/beast/cat.md) | — |
 | 0 | Deer | — |
 | 0 | Eagle | Fly |
-| 0 | Goat | — |
+| 0 | [Goat](compendium/bestiary/beast/goat.md) | — |
 | 0 | Hyena | — |
-| 0 | Jackal | — |
-| 0 | Vulture | Fly |
-| 1/8 | Blood hawk | Fly |
+| 0 | [Jackal](compendium/bestiary/beast/jackal.md) | — |
+| 0 | [Vulture](compendium/bestiary/beast/vulture.md) | Fly |
+| 1/8 | [Blood hawk](compendium/bestiary/beast/blood-hawk.md) | Fly |
 | 1/8 | Flying snake | Fly |
-| 1/8 | Giant weasel | — |
-| 1/8 | Poisonous snake | Swim |
-| 1/8 | Stirge | Fly |
-| 1/4 | Axe beak | — |
+| 1/8 | [Giant weasel](compendium/bestiary/beast/giant-weasel.md) | — |
+| 1/8 | [Poisonous snake](compendium/bestiary/beast/poisonous-snake.md) | Swim |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
+| 1/4 | [Axe beak](compendium/bestiary/beast/axe-beak.md) | — |
 | 1/4 | Boar | — |
 | 1/4 | Elk | — |
-| 1/4 | Giant poisonous snake | Swim |
-| 1/4 | Giant wolf spider | — |
+| 1/4 | [Giant poisonous snake](compendium/bestiary/beast/giant-poisonous-snake.md) | Swim |
+| 1/4 | [Giant wolf spider](compendium/bestiary/beast/giant-wolf-spider.md) | — |
 | 1/4 | Panther (leopard) | — |
-| 1/4 | Pteranodon | Fly |
-| 1/4 | Riding horse | — |
-| 1/4 | Wolf | — |
+| 1/4 | [Pteranodon](compendium/bestiary/beast/pteranodon.md) | Fly |
+| 1/4 | [Riding horse](compendium/bestiary/beast/riding-horse.md) | — |
+| 1/4 | [Wolf](compendium/bestiary/beast/wolf.md) | — |
 | 1/2 | Giant goat | — |
-| 1/2 | Giant wasp | Fly |
-| 1 | Giant eagle | Fly |
-| 1 | Giant hyena | — |
+| 1/2 | [Giant wasp](compendium/bestiary/beast/giant-wasp.md) | Fly |
+| 1 | [Giant eagle](compendium/bestiary/beast/giant-eagle.md) | Fly |
+| 1 | [Giant hyena](compendium/bestiary/beast/giant-hyena.md) | — |
 | 1 | Giant vulture | Fly |
 | 1 | Lion | — |
-| 1 | Tiger | — |
+| 1 | [Tiger](compendium/bestiary/beast/tiger.md) | — |
 | 2 | Allosaurus | — |
-| 2 | Giant boar | — |
+| 2 | [Giant boar](compendium/bestiary/beast/giant-boar.md) | — |
 | 2 | Giant elk | — |
 | 2 | Rhinoceros | — |
 | 3 | Ankylosaurus | — |
@@ -384,30 +384,30 @@ _Source: Xanathar's Guide to Everything_
 |----|-------|----------|
 | 0 | Baboon | — |
 | 0 | Eagle | Fly |
-| 0 | Goat | — |
+| 0 | [Goat](compendium/bestiary/beast/goat.md) | — |
 | 0 | Hyena | — |
 | 0 | Raven | Fly |
-| 0 | Vulture | Fly |
-| 1/8 | Blood hawk | Fly |
-| 1/8 | Giant weasel | — |
-| 1/8 | Mastiff | — |
-| 1/8 | Mule | — |
-| 1/8 | Poisonous snake | Swim |
-| 1/8 | Stirge | Fly |
-| 1/4 | Axe beak | — |
+| 0 | [Vulture](compendium/bestiary/beast/vulture.md) | Fly |
+| 1/8 | [Blood hawk](compendium/bestiary/beast/blood-hawk.md) | Fly |
+| 1/8 | [Giant weasel](compendium/bestiary/beast/giant-weasel.md) | — |
+| 1/8 | [Mastiff](compendium/bestiary/beast/mastiff.md) | — |
+| 1/8 | [Mule](compendium/bestiary/beast/mule.md) | — |
+| 1/8 | [Poisonous snake](compendium/bestiary/beast/poisonous-snake.md) | Swim |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
+| 1/4 | [Axe beak](compendium/bestiary/beast/axe-beak.md) | — |
 | 1/4 | Boar | — |
 | 1/4 | Elk | — |
 | 1/4 | Giant owl | Fly |
-| 1/4 | Giant wolf spider | — |
+| 1/4 | [Giant wolf spider](compendium/bestiary/beast/giant-wolf-spider.md) | — |
 | 1/4 | Panther (cougar) | — |
-| 1/4 | Wolf | — |
+| 1/4 | [Wolf](compendium/bestiary/beast/wolf.md) | — |
 | 1/2 | Giant goat | — |
-| 1 | Brown bear | — |
-| 1 | Dire wolf | — |
-| 1 | Giant eagle | Fly |
-| 1 | Giant hyena | — |
+| 1 | [Brown bear](compendium/bestiary/beast/brown-bear.md) | — |
+| 1 | [Dire wolf](compendium/bestiary/beast/dire-wolf.md) | — |
+| 1 | [Giant eagle](compendium/bestiary/beast/giant-eagle.md) | Fly |
+| 1 | [Giant hyena](compendium/bestiary/beast/giant-hyena.md) | — |
 | 1 | Lion | — |
-| 2 | Giant boar | — |
+| 2 | [Giant boar](compendium/bestiary/beast/giant-boar.md) | — |
 | 2 | Giant elk | — |
 ^hill
 
@@ -416,12 +416,12 @@ _Source: Xanathar's Guide to Everything_
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
 | 0 | Eagle | Fly |
-| 0 | Goat | — |
-| 1/8 | Blood hawk | Fly |
-| 1/8 | Stirge | Fly |
-| 1/4 | Pteranodon | Fly |
+| 0 | [Goat](compendium/bestiary/beast/goat.md) | — |
+| 1/8 | [Blood hawk](compendium/bestiary/beast/blood-hawk.md) | Fly |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
+| 1/4 | [Pteranodon](compendium/bestiary/beast/pteranodon.md) | Fly |
 | 1/2 | Giant goat | — |
-| 1 | Giant eagle | Fly |
+| 1 | [Giant eagle](compendium/bestiary/beast/giant-eagle.md) | Fly |
 | 1 | Lion | — |
 | 2 | Giant elk | — |
 | 2 | Saber-toothed tiger | — |
@@ -431,19 +431,19 @@ _Source: Xanathar's Guide to Everything_
 
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
-| 0 | Rat | — |
+| 0 | [Rat](compendium/bestiary/beast/rat.md) | — |
 | 0 | Raven | Fly |
-| 1/8 | Giant rat | — |
-| 1/8 | Poisonous snake | Swim |
-| 1/8 | Stirge | Fly |
+| 1/8 | [Giant rat](compendium/bestiary/beast/giant-rat.md) | — |
+| 1/8 | [Poisonous snake](compendium/bestiary/beast/poisonous-snake.md) | Swim |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
 | 1/4 | Constrictor snake | Swim |
-| 1/4 | Giant frog | Swim |
-| 1/4 | Giant lizard | — |
-| 1/4 | Giant poisonous snake | Swim |
-| 1/2 | Crocodile | Swim |
-| 1 | Giant spider | — |
-| 1 | Giant toad | Swim |
-| 2 | Giant constrictor snake | Swim |
+| 1/4 | [Giant frog](compendium/bestiary/beast/giant-frog.md) | Swim |
+| 1/4 | [Giant lizard](compendium/bestiary/beast/giant-lizard.md) | — |
+| 1/4 | [Giant poisonous snake](compendium/bestiary/beast/giant-poisonous-snake.md) | Swim |
+| 1/2 | [Crocodile](compendium/bestiary/beast/crocodile.md) | Swim |
+| 1 | [Giant spider](compendium/bestiary/beast/giant-spider.md) | — |
+| 1 | [Giant toad](compendium/bestiary/beast/giant-toad.md) | Swim |
+| 2 | [Giant constrictor snake](compendium/bestiary/beast/giant-constrictor-snake.md) | Swim |
 | 5 | Giant crocodile | Swim |
 ^swamp
 
@@ -452,15 +452,15 @@ _Source: Xanathar's Guide to Everything_
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
 | 0 | Giant fire beetle | — |
-| 1/8 | Giant rat | — |
-| 1/8 | Stirge | Fly |
-| 1/4 | Giant bat | Fly |
-| 1/4 | Giant centipede | — |
-| 1/4 | Giant lizard | — |
-| 1/4 | Giant poisonous snake | Swim |
-| 1 | Giant spider | — |
-| 1 | Giant toad | Swim |
-| 2 | Giant constrictor snake | Swim |
+| 1/8 | [Giant rat](compendium/bestiary/beast/giant-rat.md) | — |
+| 1/8 | [Stirge](compendium/bestiary/beast/stirge.md) | Fly |
+| 1/4 | [Giant bat](compendium/bestiary/beast/giant-bat.md) | Fly |
+| 1/4 | [Giant centipede](compendium/bestiary/beast/giant-centipede.md) | — |
+| 1/4 | [Giant lizard](compendium/bestiary/beast/giant-lizard.md) | — |
+| 1/4 | [Giant poisonous snake](compendium/bestiary/beast/giant-poisonous-snake.md) | Swim |
+| 1 | [Giant spider](compendium/bestiary/beast/giant-spider.md) | — |
+| 1 | [Giant toad](compendium/bestiary/beast/giant-toad.md) | Swim |
+| 2 | [Giant constrictor snake](compendium/bestiary/beast/giant-constrictor-snake.md) | Swim |
 | 2 | Polar bear (cave bear) | Swim |
 ^underdark
 
@@ -468,23 +468,23 @@ _Source: Xanathar's Guide to Everything_
 
 | CR | Beast | Fly/Swim |
 |----|-------|----------|
-| 0 | Quipper | Swim |
+| 0 | [Quipper](compendium/bestiary/beast/quipper.md) | Swim |
 | 1/4 | Constrictor snake | Swim |
-| 1/2 | Giant sea horse | Swim |
-| 1/2 | Reef shark | Swim |
-| 1 | Giant octopus | Swim |
-| 2 | Giant constrictor snake | Swim |
-| 2 | Hunter shark | Swim |
-| 2 | Plesiosaurus | Swim |
-| 3 | Killer whale | Swim |
-| 5 | Giant shark | Swim |
+| 1/2 | [Giant sea horse](compendium/bestiary/beast/giant-sea-horse.md) | Swim |
+| 1/2 | [Reef shark](compendium/bestiary/beast/reef-shark.md) | Swim |
+| 1 | [Giant octopus](compendium/bestiary/beast/giant-octopus.md) | Swim |
+| 2 | [Giant constrictor snake](compendium/bestiary/beast/giant-constrictor-snake.md) | Swim |
+| 2 | [Hunter shark](compendium/bestiary/beast/hunter-shark.md) | Swim |
+| 2 | [Plesiosaurus](compendium/bestiary/beast/plesiosaurus.md) | Swim |
+| 3 | [Killer whale](compendium/bestiary/beast/killer-whale.md) | Swim |
+| 5 | [Giant shark](compendium/bestiary/beast/giant-shark.md) | Swim |
 ^underwater
 
 ## Class Features
 
 ### Druidic (Level 1)
 
-You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom ([Perception](rules/skills.md#Perception)) check but can't decipher it without magic.
+You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom ([Perception](/compendium/rules/skills.md#Perception)) check but can't decipher it without magic.
 
 ### Spellcasting (Level 1)
 
@@ -535,15 +535,24 @@ Your druid level determines the beasts you can transform into, as shown in the B
 | 8th | 1 | — | Giant eagle |
 ^beast-shapes
 
-You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall [unconscious](rules/conditions.md#unconscious), drop to 0 hit points, or die.
+You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall [unconscious](/compendium/rules/conditions.md#unconscious), drop to 0 hit points, or die.
 
 While you are transformed, the following rules apply:
 
 - Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.  
-- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked [unconscious](rules/conditions.md#unconscious).  
-- You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your [concentration](rules/conditions.md#concentration) on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as [call lightning](compendium/spells/call-lightning.md), that you've already cast.  
-- You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as [darkvision](rules/senses.md#darkvision), unless your new form also has that sense.  
+- When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked [unconscious](/compendium/rules/conditions.md#unconscious).  
+- You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your [concentration](/compendium/rules/conditions.md#concentration) on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as [call lightning](compendium/spells/call-lightning.md), that you've already cast.  
+- You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as [darkvision](/compendium/rules/senses.md#darkvision), unless your new form also has that sense.  
 - You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.  
+
+### Wild Companion (Level 2)
+_Source: Tasha's Cauldron of Everything p. 35_
+
+*2nd-level druid [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+You gain the ability to summon a spirit that assumes an animal form: as an action, you can expend a use of your Wild Shape feature to cast the [find familiar](compendium/spells/find-familiar.md) spell, without material components.
+
+When you cast the spell in this way, the familiar is a fey instead of a beast, and the familiar disappears after a number of hours equal to half your druid level.
 
 ### Druid Circle (Level 2)
 
@@ -558,6 +567,13 @@ At 4th level, your Wild Shape improves as shown on the Beast Shapes table.
 When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.
 
 If your DM allows the use of feats, you may instead take a feat.
+
+### Cantrip Versatility (Level 4)
+_Source: Tasha's Cauldron of Everything p. 35_
+
+*4th-level druid [optional class features](/compendium/rules/variant-rules/optional-class-features-tce.md)*
+
+Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can replace one cantrip you learned from this class's Spellcasting feature with another cantrip from the druid spell list.
 
 ### Druid Circle feature (Level 6)
 

@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/celtic
-- domain/order
-- domain/war
+- ttrpg-cli/deity/celtic
+- ttrpg-cli/domain/order
+- ttrpg-cli/domain/war
 aliases: ["Nuada"]
 ---
 # Nuada

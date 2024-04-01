@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/dmg
-- deity/dawn-war
-- domain/arcana
-- domain/death
-- domain/knowledge
+- ttrpg-cli/deity/dawn-war
+- ttrpg-cli/domain/arcana
+- ttrpg-cli/domain/death
+- ttrpg-cli/domain/knowledge
 aliases: ["Vecna"]
 ---
 # Vecna

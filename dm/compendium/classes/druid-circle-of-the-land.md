@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/druid/land
+- ttrpg-cli/subclass/druid/land
 aliases: ["Circle of the Land"]
 ---
 # Circle of the Land
@@ -121,7 +121,7 @@ In addition, you have advantage on saving throws against plants that are magical
 
 ### Nature's Ward (Level 10)
 
-When you reach 10th level, you can't be [charmed](rules/conditions.md#charmed) or [frightened](rules/conditions.md#frightened) by elementals or fey, and you are immune to poison and disease.
+When you reach 10th level, you can't be [charmed](/compendium/rules/conditions.md#charmed) or [frightened](/compendium/rules/conditions.md#frightened) by elementals or fey, and you are immune to poison and disease.
 
 ### Nature's Sanctuary (Level 14)
 

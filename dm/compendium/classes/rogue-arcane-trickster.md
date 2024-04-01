@@ -3,7 +3,7 @@ obsidianUIMode: preview
 cssclasses: json5e-class
 tags:
 - compendium/src/5e/phb
-- subclass/rogue/arcane-trickster
+- ttrpg-cli/subclass/rogue/arcane-trickster
 aliases: ["Arcane Trickster"]
 ---
 # Arcane Trickster
@@ -79,13 +79,13 @@ Intelligence is your spellcasting ability for your wizard spells, since you lear
 
 ### Mage Hand Legerdemain (Level 3)
 
-Starting at 3rd level, when you cast [mage hand](compendium/spells/mage-hand.md), you can make the spectral hand [invisible](rules/conditions.md#invisible), and you can perform the following additional tasks with it:
+Starting at 3rd level, when you cast [mage hand](compendium/spells/mage-hand.md), you can make the spectral hand [invisible](/compendium/rules/conditions.md#invisible), and you can perform the following additional tasks with it:
 
 - You can stow one object the hand is holding in a container worn or carried by another creature.  
 - You can retrieve an object in a container worn or carried by another creature.  
 - You can use [thieves' tools](compendium/items/thieves-tools.md) to pick locks and disarm traps at range.  
 
-You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ([Sleight of Hand](rules/skills.md#Sleight%20of%20Hand)) check contested by the creature's Wisdom ([Perception](rules/skills.md#Perception)) check.
+You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ([Sleight of Hand](/compendium/rules/skills.md#Sleight%20of%20Hand)) check contested by the creature's Wisdom ([Perception](/compendium/rules/skills.md#Perception)) check.
 
 In addition, you can use the bonus action granted by your Cunning Action to control the hand.
 

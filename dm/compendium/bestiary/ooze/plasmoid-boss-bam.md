@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/4
-- monster/size/large
-- monster/type/ooze
+- ttrpg-cli/monster/cr/4
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/ooze
 aliases: ["Plasmoid Boss"]
 ---
 # Plasmoid Boss
@@ -43,7 +43,7 @@ title: Plasmoid Boss
 
 ***Multiattack.*** The plasmoid makes three Pseudopod attacks.
 
-***Pseudopod.*** *Melee Weapon Attack:* +6 to hit (with advantage if the plasmoid has one or more allies within 10 feet of itself), reach 10 ft., one target. *Hit:* 11 (`2d6 + 4`) bludgeoning damage.
+***Pseudopod.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit) (with advantage if the plasmoid has one or more allies within 10 feet of itself), reach 10 ft., one target. *Hit:* `dice: 2d6 + 4|avg` (`2d6 + 4`) bludgeoning damage.
 
 ## Reactions
 

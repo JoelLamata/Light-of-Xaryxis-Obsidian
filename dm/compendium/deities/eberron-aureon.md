@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/eberron
-- domain/knowledge
-- domain/order
+- ttrpg-cli/deity/eberron
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/order
 aliases: ["Aureon"]
 ---
 # Aureon

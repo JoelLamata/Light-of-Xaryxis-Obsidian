@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-object
 tags:
 - compendium/src/5e/dmg
-- object/size/large
-- object/type/siege-weapon
+- ttrpg-cli/object/size/large
+- ttrpg-cli/object/type/siege-weapon
 aliases: ["Ram"]
 ---
 # Ram
@@ -32,6 +32,6 @@ title: Ram
 
 ## Actions
 
-***Ram.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one object. *Hit:* 16 (`3d10`) bludgeoning damage.
+***Ram.*** *Melee Weapon Attack:* +8 to hit, reach 5 ft., one object. *Hit:* 16 (`dice: 3d10|avg` (`3d10`)) bludgeoning damage.
 ```
 ^statblock

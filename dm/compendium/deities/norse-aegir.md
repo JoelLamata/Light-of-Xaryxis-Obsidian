@@ -3,8 +3,8 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/norse
-- domain/tempest
+- ttrpg-cli/deity/norse
+- ttrpg-cli/domain/tempest
 aliases: ["Aegir"]
 ---
 # Aegir

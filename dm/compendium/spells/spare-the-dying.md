@@ -3,11 +3,14 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric
-- spell/class/cleric/death-domain
-- spell/class/warlock/the-undying
-- spell/level/cantrip
-- spell/school/necromancy
+- ttrpg-cli/spell/class/artificer
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/cleric/death-domain
+- ttrpg-cli/spell/class/cleric/grave-domain
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock/the-undying
+- ttrpg-cli/spell/level/cantrip
+- ttrpg-cli/spell/school/necromancy
 aliases: ["Spare the Dying"]
 ---
 # Spare the Dying
@@ -20,6 +23,6 @@ aliases: ["Spare the Dying"]
 
 You touch a living creature that has 0 hit points. The creature becomes stable. This spell has no effect on undead or constructs.
 
-**Classes**: [Cleric (Death Domain)](compendium/classes/cleric-death-domain.md), [Cleric](compendium/classes/cleric.md), [Warlock (The Undying)](compendium/classes/warlock-the-undying-scag.md)
+**Classes**: [Artificer](compendium/classes/artificer-tce.md), [Cleric (Death Domain)](compendium/classes/cleric-death-domain.md), [Cleric (Grave Domain)](compendium/classes/cleric-grave-domain-xge.md), [Cleric](compendium/classes/cleric.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Warlock (The Undying)](compendium/classes/warlock-the-undying-scag.md)
 
 *Source: Player's Handbook p. 277. Available in the SRD and the Basic Rules.*

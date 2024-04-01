@@ -2,14 +2,14 @@
 obsidianUIMode: preview
 cssclasses: json5e-background
 tags:
-- background
 - compendium/src/5e/phb
+- ttrpg-cli/background
 aliases: ["Folk Hero"]
 ---
 # Folk Hero
 *Source: Player's Handbook p. 131. Available in the Basic Rules.*  
 
-- **Skill Proficiencies.** [Animal Handling](rules/skills.md#Animal%20Handling), [Survival](rules/skills.md#Survival)  
+- **Skill Proficiencies.** [Animal Handling](/compendium/rules/skills.md#Animal%20Handling), [Survival](/compendium/rules/skills.md#Survival)  
 - **Tool Proficiencies.** One type of artisan's tools, vehicles (land)  
 - **Equipment.** A set of artisan's tools (one of your choice), a [shovel](compendium/items/shovel.md), an [iron pot](compendium/items/iron-pot.md), a set of [common clothes](compendium/items/common-clothes.md), and a belt [pouch](compendium/items/pouch.md) containing 10 gp  
 

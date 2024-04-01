@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/1-4
-- monster/environment/grassland
-- monster/environment/urban
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/1-4
+- ttrpg-cli/monster/environment/grassland
+- ttrpg-cli/monster/environment/urban
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Riding Horse"]
 ---
 # Riding Horse
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 336, Baldur's Gate: Descent Into Avernus. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Riding Horse
@@ -35,7 +35,7 @@ title: Riding Horse
 
 ## Actions
 
-***Hooves.*** *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (`2d4 + 3`) bludgeoning damage.
+***Hooves.*** *Melee Weapon Attack:* `dice: d20+5` (+5 to hit), reach 5 ft., one target. *Hit:* `dice: 2d4 + 3|avg` (`2d4 + 3`) bludgeoning damage.
 ```
 ^statblock
 

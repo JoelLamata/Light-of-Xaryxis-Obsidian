@@ -3,15 +3,15 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/mm
-- monster/cr/2
-- monster/environment/coastal
-- monster/environment/underwater
-- monster/size/large
-- monster/type/beast
+- ttrpg-cli/monster/cr/2
+- ttrpg-cli/monster/environment/coastal
+- ttrpg-cli/monster/environment/underwater
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/beast
 aliases: ["Plesiosaurus"]
 ---
 # Plesiosaurus
-*Source: SRD / Basic Rules*  
+*Source: Monster Manual p. 80, Ghosts of Saltmarsh. Available in the SRD and the Basic Rules.*  
 
 ```ad-statblock
 title: Plesiosaurus
@@ -39,7 +39,7 @@ title: Plesiosaurus
 
 ## Actions
 
-***Bite.*** *Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 14 (`3d6 + 4`) piercing damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+6` (+6 to hit), reach 10 ft., one target. *Hit:* `dice: 3d6 + 4|avg` (`3d6 + 4`) piercing damage.
 ```
 ^statblock
 

@@ -3,15 +3,17 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/bard
-- spell/class/cleric
-- spell/class/fighter/eldritch-knight
-- spell/class/rogue/arcane-trickster
-- spell/class/sorcerer
-- spell/class/warlock/the-great-old-one
-- spell/class/wizard
-- spell/level/3
-- spell/school/divination
+- ttrpg-cli/spell/class/barbarian/path-of-the-ancestral-guardian
+- ttrpg-cli/spell/class/bard
+- ttrpg-cli/spell/class/cleric
+- ttrpg-cli/spell/class/fighter/eldritch-knight
+- ttrpg-cli/spell/class/rogue/arcane-trickster
+- ttrpg-cli/spell/class/sorcerer
+- ttrpg-cli/spell/class/sorcerer/divine-soul
+- ttrpg-cli/spell/class/warlock/the-great-old-one
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/3
+- ttrpg-cli/spell/school/divination
 aliases: ["Clairvoyance"]
 ---
 # Clairvoyance
@@ -26,8 +28,8 @@ You create an invisible sensor within range in a location familiar to you (a pla
 
 When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing.
 
-A creature that can see the sensor (such as a creature benefiting from [see invisibility](compendium/spells/see-invisibility.md) or [truesight](rules/senses.md#truesight)) sees a luminous, intangible orb about the size of your fist.
+A creature that can see the sensor (such as a creature benefiting from [see invisibility](compendium/spells/see-invisibility.md) or [truesight](/compendium/rules/senses.md#truesight)) sees a luminous, intangible orb about the size of your fist.
 
-**Classes**: [Bard](compendium/classes/bard.md), [Cleric](compendium/classes/cleric.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Great Old One)](compendium/classes/warlock-the-great-old-one.md), [Wizard](compendium/classes/wizard.md)
+**Classes**: [Barbarian (Path of the Ancestral Guardian)](compendium/classes/barbarian-path-of-the-ancestral-guardian-xge.md), [Bard](compendium/classes/bard.md), [Cleric](compendium/classes/cleric.md), [Fighter (Eldritch Knight)](compendium/classes/fighter-eldritch-knight.md), [Rogue (Arcane Trickster)](compendium/classes/rogue-arcane-trickster.md), [Sorcerer (Divine Soul)](compendium/classes/sorcerer-divine-soul-xge.md), [Sorcerer](compendium/classes/sorcerer.md), [Warlock (The Great Old One)](compendium/classes/warlock-the-great-old-one.md), [Wizard](compendium/classes/wizard.md)
 
 *Source: Player's Handbook p. 222. Available in the SRD.*

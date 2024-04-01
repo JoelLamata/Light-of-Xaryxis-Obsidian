@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-spell
 tags:
 - compendium/src/5e/phb
-- spell/class/cleric/arcana-domain
-- spell/class/wizard
-- spell/level/6
-- spell/school/evocation
+- ttrpg-cli/spell/class/cleric/arcana-domain
+- ttrpg-cli/spell/class/wizard
+- ttrpg-cli/spell/level/6
+- ttrpg-cli/spell/school/evocation
 aliases: ["Otiluke's Freezing Sphere"]
 ---
 # Otiluke's Freezing Sphere
@@ -17,7 +17,7 @@ aliases: ["Otiluke's Freezing Sphere"]
 - **Components:** V, S, a small crystal sphere
 - **Duration:** Instantaneous
 
-A frigid globe of cold energy streaks from your fingertips to a point of your choice within range, where it explodes in a 60-foot-radius sphere. Each creature within the area must make a Constitution saving throw. On a failed save, a creature takes `10d6` cold damage. On a successful save, it takes half as much damage.
+A frigid globe of cold energy streaks from your fingertips to a point of your choice within range, where it explodes in a 60-foot-radius sphere. Each creature within the area must make a Constitution saving throw. On a failed save, a creature takes `dice: 10d6|avg` (`10d6`) cold damage. On a successful save, it takes half as much damage.
 
 If the globe strikes a body of water or a liquid that is principally water (not including water-based creatures), it freezes the liquid to a depth of 6 inches over an area 30 feet square. This ice lasts for 1 minute. Creatures that were swimming on the surface of frozen water are trapped in the ice. A trapped creature can use an action to make a Strength check against your spell save DC to break free.
 

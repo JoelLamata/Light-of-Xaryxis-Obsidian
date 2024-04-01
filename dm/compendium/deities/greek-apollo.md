@@ -3,10 +3,10 @@ obsidianUIMode: preview
 cssclasses: json5e-deity
 tags:
 - compendium/src/5e/phb
-- deity/greek
-- domain/knowledge
-- domain/life
-- domain/light
+- ttrpg-cli/deity/greek
+- ttrpg-cli/domain/knowledge
+- ttrpg-cli/domain/life
+- ttrpg-cli/domain/light
 aliases: ["Apollo"]
 ---
 # Apollo

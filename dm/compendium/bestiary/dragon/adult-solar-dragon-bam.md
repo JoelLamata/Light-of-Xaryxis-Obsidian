@@ -3,9 +3,9 @@ obsidianUIMode: preview
 cssclasses: json5e-monster
 tags:
 - compendium/src/5e/bam
-- monster/cr/14
-- monster/size/huge
-- monster/type/dragon
+- ttrpg-cli/monster/cr/14
+- ttrpg-cli/monster/size/huge
+- ttrpg-cli/monster/type/dragon
 aliases: ["Adult Solar Dragon"]
 ---
 # Adult Solar Dragon
@@ -55,17 +55,17 @@ title: Adult Solar Dragon
 
 ***Multiattack.*** The dragon makes one Bite attack and one Tail attack.
 
-***Bite.*** *Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:* 14 (`2d6 + 7`) piercing damage plus 7 (`2d6`) radiant damage.
+***Bite.*** *Melee Weapon Attack:* `dice: d20+12` (+12 to hit), reach 15 ft., one target. *Hit:* `dice: 2d6 + 7|avg` (`2d6 + 7`) piercing damage plus `dice: 2d6|avg` (`2d6`) radiant damage.
 
-***Tail.*** *Melee Weapon Attack:* +12 to hit, reach 20 ft., one target. *Hit:* 10 (`1d6 + 7`) bludgeoning damage.
+***Tail.*** *Melee Weapon Attack:* `dice: d20+12` (+12 to hit), reach 20 ft., one target. *Hit:* `dice: 1d6 + 7|avg` (`1d6 + 7`) bludgeoning damage.
 
-***Photonic Breath (Recharge 5-6).*** The dragon exhales a flashing mote of radiant energy that travels to a point the dragon can see within 180 feet of itself, then blossoms into a 30-foot-radius sphere centered on that point. Each creature in the sphere must make a DC 19 Constitution saving throw, taking 55 (`10d10`) radiant damage on a failed save, or half as much damage on a successful one.
+***Photonic Breath (Recharge 5-6).*** The dragon exhales a flashing mote of radiant energy that travels to a point the dragon can see within 180 feet of itself, then blossoms into a 30-foot-radius sphere centered on that point. Each creature in the sphere must make a DC 19 Constitution saving throw, taking `dice: 10d10|avg` (`10d10`) radiant damage on a failed save, or half as much damage on a successful one.
 
 ## Legendary Actions
 
 ***Tail Attack.*** The dragon makes one Tail attack.
 
-***Burst of Light (Costs 2 Actions).*** The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a DC 23 Wisdom saving throw or be blinded until the end of its next turn.
+***Burst of Light (Costs 2 Actions).*** The dragon emits magical light in a 30-foot-radius sphere centered on itself. Each creature in this area must succeed on a DC 23 Wisdom saving throw or be [blinded](/compendium/rules/conditions.md#blinded) until the end of its next turn.
 
 ![Solar Dragon](compendium/bestiary/legendary-group/solar-dragon-bam.md)
 ```
