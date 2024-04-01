@@ -2,9 +2,13 @@
   "obsidian-5e-statblocks",
   "obsidian-leaflet-plugin",
   "obsidian-style-settings",
+<<<<<<< HEAD
   "obsidian-git",
   "initiative-tracker",
   "obsidian-admonition",
   "obsidian-view-mode-by-frontmatter",
   "obsidian-dice-roller"
+=======
+  "obsidian-git"
+>>>>>>> b46df496ba7981b0bb6bcd8fe95826558e46554b
 ]

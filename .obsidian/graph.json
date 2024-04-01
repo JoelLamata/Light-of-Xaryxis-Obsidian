@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "collapse-filter": false,
   "search": "path:\"1. Almanaque del mundo\"  ",
+=======
+  "collapse-filter": true,
+  "search": "",
+>>>>>>> b46df496ba7981b0bb6bcd8fe95826558e46554b
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -17,6 +22,10 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
+<<<<<<< HEAD
   "scale": 0.48361878413726933,
+=======
+  "scale": 1.0000000000000007,
+>>>>>>> b46df496ba7981b0bb6bcd8fe95826558e46554b
   "close": true
 }

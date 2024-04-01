@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## Personajes
+=======
+## Characters
+>>>>>>> b46df496ba7981b0bb6bcd8fe95826558e46554b
 
 **Name.** Description.
 

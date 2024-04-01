@@ -1,7 +1,11 @@
 {
   "accentColor": "",
+<<<<<<< HEAD
   "cssTheme": "ITS Theme",
   "enabledCssSnippets": [
     "dnd5e-compendium"
   ]
+=======
+  "cssTheme": "ITS Theme"
+>>>>>>> b46df496ba7981b0bb6bcd8fe95826558e46554b
 }
